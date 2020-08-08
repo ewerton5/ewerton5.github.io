@@ -12,8 +12,8 @@ dentinho:
 	git add *
 	git commit -m "dentinho update"
 	git push origin master
-	# cd ../app-dentinho/ && expo build:ios -t simulator --public-url https://ewerton5.github.io/app-dentinho/ios-index.json
-	# cd ../app-dentinho/ && expo build:android -t apk --public-url https://ewerton5.github.io/app-dentinho/android-index.json
+	expo build:ios -t simulator --public-url https://ewerton5.github.io/app-dentinho/ios-index.json
+	expo build:android -t apk --public-url https://ewerton5.github.io/app-dentinho/android-index.json
 
 carlex-externo:
 	cd ../app-carlex-externo/ && expo publish
@@ -23,8 +23,8 @@ carlex-externo:
 	git add *
 	git commit -m "carlex-externo update"
 	git push origin master
-	# cd ../app-carlex-externo/ && expo build:ios -t simulator --public-url https://ewerton5.github.io/app-carlex-externo/ios-index.json
-	# cd ../app-carlex-externo/ && expo build:android -t apk --public-url https://ewerton5.github.io/app-carlex-externo/android-index.json
+	expo build:ios -t simulator --public-url https://ewerton5.github.io/app-carlex-externo/ios-index.json
+	expo build:android -t apk --public-url https://ewerton5.github.io/app-carlex-externo/android-index.json
 
 carlex-interno:
 	cd ../app-carlex-interno/ && expo publish
@@ -34,5 +34,5 @@ carlex-interno:
 	git add *
 	git commit -m "carlex-interno update"
 	git push origin master
-	# cd ../app-carlex-interno/ && expo build:ios -t simulator --public-url https://ewerton5.github.io/app-carlex-interno/ios-index.json
-	# cd ../app-carlex-interno/ && expo build:android -t apk --public-url https://ewerton5.github.io/app-carlex-interno/android-index.json
+	expo build:ios -t simulator --public-url https://ewerton5.github.io/app-carlex-interno/ios-index.json
+	expo build:android -t apk --public-url https://ewerton5.github.io/app-carlex-interno/android-index.json
