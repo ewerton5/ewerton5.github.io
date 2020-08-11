@@ -6,7 +6,7 @@ all: $(ALL)
 
 dentinho:
 	cd ../app-dentinho/ && expo publish
-	cd ../app-dentinho/ && expo export --public-url https://ewerton5.github.io/app-dentinho
+	cd ../app-dentinho/ && expo export --public-url https://ewerton5.github.io/apps/app-dentinho
 	rm -rf apps/app-dentinho/
 	mv ../app-dentinho/dist/ apps/app-dentinho
 	git add *
@@ -17,7 +17,7 @@ dentinho:
 
 carlex-externo:
 	cd ../app-carlex-externo/ && expo publish
-	cd ../app-carlex-externo/ && expo export --public-url https://ewerton5.github.io/app-carlex-externo
+	cd ../app-carlex-externo/ && expo export --public-url https://ewerton5.github.io/apps/app-carlex-externo
 	rm -rf apps/app-carlex-externo/
 	mv ../app-carlex-externo/dist/ apps/app-carlex-externo
 	git add *
@@ -28,7 +28,7 @@ carlex-externo:
 
 carlex-interno:
 	cd ../app-carlex-interno/ && expo publish
-	cd ../app-carlex-interno/ && expo export --public-url https://ewerton5.github.io/app-carlex-interno
+	cd ../app-carlex-interno/ && expo export --public-url https://ewerton5.github.io/apps/app-carlex-interno
 	rm -rf apps/app-carlex-interno/
 	mv ../app-carlex-interno/dist/ apps/app-carlex-interno
 	git add *
