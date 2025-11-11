@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Projeto 1: Sistema de Gerenciamento",
+        "description": "Um sistema web completo para gerenciamento de clientes, construído com React, Node.js e TypeScript. Focado em alta performance e escalabilidade.",
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Projeto+1",
+        "repoUrl": "https://github.com/seu-usuario/projeto-1",
+        "deployUrl": ""
+    },
+    {
+        "id": 2,
+        "title": "Projeto 2: Aplicativo Mobile",
+        "description": "Aplicativo de delivery desenvolvido em React Native, com integração a API de pagamentos e geolocalização em tempo real.",
+        "imageUrl": "https://placehold.co/600x400/003F73/FFFFFF?text=Projeto+2",
+        "repoUrl": "https://github.com/seu-usuario/projeto-2",
+        "deployUrl": ""
+    },
+    {
+        "id": 3,
+        "title": "Projeto 3: Website Institucional",
+        "description": "Website estático para a empresa XYZ, focado em SEO e design responsivo, utilizando React e Styled Components.",
+        "imageUrl": "https://placehold.co/600x400/9CA3AF/FFFFFF?text=Projeto+3",
+        "repoUrl": "https://github.com/seu-usuario/projeto-3",
+        "deployUrl": "https://seu-usuario.github.io/projeto-3"
+    }
+]

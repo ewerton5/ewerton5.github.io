@@ -1,0 +1,91 @@
+{
+    "name": "Ewerton Vieira",
+    "title": "Engenheiro de Software",
+    "about": "Meu propósito é tornar a tecnologia mais acessível e simples para o mundo. Para isso, aplico toda a disciplina adquirida ao longo da minha trajetória acadêmica e profissional, aliando compromisso com a verdade, honestidade, justiça e lealdade.\n\nCom mais de seis anos de experiência no desenvolvimento de aplicativos Android, iOS e sistemas web, busco constantemente soluções eficientes para os desafios que enfrento, utilizando minha capacidade de aprendizado rápido e adaptabilidade como principais ferramentas. Acredito que tecnologia de verdade é aquela que resolve problemas de forma clara, prática e humana.",
+    "email": "ewerton.exemplo@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/ewerton-vieira-ab8b111ab",
+    "githubUrl": "https://github.com/ewerton5",
+    "profilePicture": "https://github.com/ewerton5.png",
+    "experience": [
+        {
+            "id": 1,
+            "title": "Líder técnico",
+            "company": "SmartLy Fabricação de Dispositivos Inteligentes Ltda.",
+            "period": "mar de 2025 - o momento",
+            "location": "Curitiba, Paraná, Brasil · Remota",
+            "skills": "React Native, AWS CodeCommit e mais 4 competências"
+        },
+        {
+            "id": 2,
+            "title": "Desenvolvedor full stack",
+            "company": "Lead Up",
+            "period": "ago de 2020 - fev de 2025 · 4 anos 7 meses",
+            "location": "Rio de Janeiro, Brasil",
+            "skills": "GitHub, Express.js e mais 26 competências"
+        },
+        {
+            "id": 3,
+            "title": "Consultor de projetos",
+            "company": "Fluxo Consultoria",
+            "period": "jun de 2019 - set de 2020 · 1 ano 4 meses",
+            "location": "Rio de Janeiro, Rio de Janeiro, Brasil",
+            "skills": "GitHub, Liderança de equipe e mais 17 competências"
+        },
+        {
+            "id": 4,
+            "title": "Cadete Aviador",
+            "company": "Força Aérea Brasileira - FAB",
+            "period": "jan de 2017 - mar de 2018 · 1 ano 3 meses",
+            "location": "Pirassununga, São Paulo, Brasil",
+            "skills": "Liderança de equipe"
+        },
+        {
+            "id": 5,
+            "title": "Aluno",
+            "company": "Força Aérea Brasileira - FAB",
+            "period": "jan de 2014 - dez de 2016 · 3 anos",
+            "location": "Barbacena, Minas Gerais, Brasil",
+            "skills": "Liderança de equipe e Algoritmos"
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "institution": "UFRJ - Universidade Federal do Rio de Janeiro",
+            "course": "Bacharelado em Engenharia, Engenharia Eletrônica e de Computação",
+            "period": "2019 - 2023",
+            "skills": "Estruturas de dados, Realização de testes e mais 19 competências"
+        },
+        {
+            "id": 2,
+            "institution": "Academia da Força Aérea - AFA",
+            "course": "Bacharelado em Administração, Administração Pública e Ciências Aeronáuticas",
+            "period": "2017 - 2018",
+            "skills": "Nota: Curso abandonado. Liderança de equipe e Aviação militar"
+        }
+    ],
+    "skills": [
+        "React Native",
+        "React.js",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "Git",
+        "AWS",
+        "Express.js",
+        "Sistemas de controle",
+        "Ciência da computação"
+    ],
+    "extracurricular": [
+        {
+            "id": 1,
+            "title": "Voluntariado",
+            "description": "Descrição da sua atividade de voluntariado."
+        },
+        {
+            "id": 2,
+            "title": "Hackathon",
+            "description": "Participação no Hackathon XYZ, focado em soluções de IoT."
+        }
+    ]
+}

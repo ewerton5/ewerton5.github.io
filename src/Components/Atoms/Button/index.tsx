@@ -1,0 +1,46 @@
+import React from "react";
+import { VscLoading } from "react-icons/vsc";
+
+import * as S from "./styles";
+import type { ButtonProps } from "./types";
+
+const Button: React.FC<ButtonProps> = ({
+    children,
+    outline,
+    width,
+    height,
+    loading,
+    marginHorizontal,
+    marginVertical,
+    size,
+    color,
+    rounded,
+    disabled,
+    hierarchy = "primary",
+    ...rest
+}) => (
+    <S.Container
+        type="button"
+        outline={outline || hierarchy === "secondary"}
+        width={width}
+        height={height}
+        marginHorizontal={marginHorizontal}
+        marginVertical={marginVertical}
+        size={size}
+        color={color}
+        rounded={rounded}
+        disabled={disabled}
+        hierarchy={hierarchy}
+        {...rest}
+    >
+        {loading ? (
+            <S.WrapperLoadgin>
+                <VscLoading size={30} />
+            </S.WrapperLoadgin>
+        ) : (
+            children
+        )}
+    </S.Container>
+);
+
+export default Button;
