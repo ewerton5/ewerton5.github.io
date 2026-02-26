@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "year": "2025 - Presente",
+        "title": "Tech Lead na SmartLy",
+        "description": "Liderança técnica da equipe mobile e full-stack. Responsável pela arquitetura, deploy nas lojas (App Store e Play Store), code review e mentoria contínua do time de desenvolvimento."
+    },
+    {
+        "id": 2,
+        "year": "2020 - 2025",
+        "title": "Desenvolvedor Full Stack na Lead Up",
+        "description": "Desenvolvimento de soluções web e mobile. Forte atuação com React, Node.js e integrações complexas. Transição definitiva para o desenvolvimento de software profissional."
+    },
+    {
+        "id": 3,
+        "year": "2019 - 2023",
+        "title": "Engenharia Eletrônica e de Computação (UFRJ)",
+        "description": "Aprofundamento em estruturas de dados, algoritmos, sistemas de controle e ciência da computação, construindo uma base analítica sólida."
+    },
+    {
+        "id": 4,
+        "year": "2017 - 2018",
+        "title": "Cadete Aviador (AFA - Força Aérea Brasileira)",
+        "description": "Período de intensa formação militar e aeronáutica. Onde consolidei valores inegociáveis como disciplina, liderança de equipe, honestidade e resiliência sob pressão."
+    }
+]
