@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { VscLoading } from "react-icons/vsc";
 
@@ -21,16 +23,16 @@ const Button: React.FC<ButtonProps> = ({
 }) => (
     <S.Container
         type="button"
-        outline={outline || hierarchy === "secondary"}
-        width={width}
-        height={height}
-        marginHorizontal={marginHorizontal}
-        marginVertical={marginVertical}
-        size={size}
-        color={color}
-        rounded={rounded}
+        $outline={outline || hierarchy === "secondary"}
+        $width={width}
+        $height={height}
+        $marginHorizontal={marginHorizontal}
+        $marginVertical={marginVertical}
+        $size={size}
+        $color={color}
+        $rounded={rounded}
         disabled={disabled}
-        hierarchy={hierarchy}
+        $hierarchy={hierarchy}
         {...rest}
     >
         {loading ? (

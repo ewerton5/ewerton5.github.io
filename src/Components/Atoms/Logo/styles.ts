@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Image = styled.img<{
-    margin?: boolean;
+    $margin?: boolean;
 }>`
     width: 4rem;
     object-fit: cover;

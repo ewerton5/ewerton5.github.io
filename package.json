@@ -4,16 +4,15 @@
     "private": true,
     "homepage": ".",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
         "lint": "eslint .",
         "type-check": "tsc --noEmit",
         "prepare": "husky",
         "lint-staged": "lint-staged",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d out"
     },
     "dependencies": {
         "@codemirror/lang-html": "^6.4.9",
@@ -54,7 +53,6 @@
         "react-paginate": "^8.3.0",
         "react-phone-input-2": "^2.15.1",
         "react-query": "^3.39.3",
-        "react-router-dom": "^7.4.0",
         "react-select": "^5.10.1",
         "react-table": "^7.8.0",
         "react-tabs": "^6.1.0",
@@ -109,16 +107,11 @@
         "lint-staged": "^16.2.6",
         "miragejs": "^0.1.48",
         "prettier": "^3.5.3",
-        "react-scripts": "^5.0.1",
+        "eslint-config-next": "^15.0.0",
+        "next": "^15.0.0",
         "typescript": "^5.8.2",
         "typescript-eslint": "^8.28.0",
         "yarn": "^1.22.22"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
     },
     "browserslist": {
         "production": [

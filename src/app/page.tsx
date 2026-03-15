@@ -1,5 +1,7 @@
+"use client";
+
+import { useRouter } from "next/navigation";
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 import Button from "Components/Atoms/Button";
 import MainLayout from "Components/Templates/MainLayout";
@@ -16,7 +18,8 @@ import {
 } from "./styles";
 
 const Home: React.FC = () => {
-    const navigate = useNavigate();
+    const router = useRouter();
+
     return (
         <MainLayout>
             <Container>
@@ -30,7 +33,7 @@ const Home: React.FC = () => {
                             <Button
                                 size="LARGE"
                                 rounded
-                                onClick={() => navigate("/portfolio")}
+                                onClick={() => router.push("/portfolio")}
                             >
                                 Ver Projetos
                             </Button>
@@ -38,7 +41,7 @@ const Home: React.FC = () => {
                                 size="LARGE"
                                 rounded
                                 hierarchy="secondary"
-                                onClick={() => navigate("/contato")}
+                                onClick={() => router.push("/contato")}
                             >
                                 Entrar em Contato
                             </Button>

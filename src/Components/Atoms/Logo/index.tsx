@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 
 import profile from "data/profile.json";
@@ -12,7 +14,7 @@ const Logo: React.FC<LogoProps> = (LogoProps) => {
     return (
         <Image
             src={profile.profilePicture}
-            margin={!LogoProps.margin}
+            $margin={!LogoProps.margin}
             alt="Ewerton Vieira"
         />
     );

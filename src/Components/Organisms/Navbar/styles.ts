@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 import styled, { css } from "styled-components";
 import media from "styled-media-query";
 
@@ -25,7 +25,7 @@ export const NavContainer = styled.div`
     padding: 0 ${({ theme }) => theme.spacings.small};
 `;
 
-export const NavLogoContainer = styled(NavLink)`
+export const NavLogoContainer = styled(Link)`
     display: flex;
     align-items: center;
     gap: ${({ theme }) => theme.spacings.xsmall};
@@ -33,6 +33,7 @@ export const NavLogoContainer = styled(NavLink)`
     font-size: ${({ theme }) => theme.fonts.size.medium};
     font-weight: ${({ theme }) => theme.fonts.weight.bold};
     cursor: pointer;
+    text-decoration: none;
 
     img {
         height: 40px;
@@ -85,9 +86,9 @@ export const NavItem = styled.li`
     `}
 `;
 
-export const NavLinkStyled = styled(NavLink)`
-    ${({ theme }) => css`
-        color: ${theme.colors.textSecondary};
+export const NavLinkStyled = styled(Link)<{ $active?: boolean }>`
+    ${({ theme, $active }) => css`
+        color: ${$active ? theme.colors.primary : theme.colors.textSecondary};
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -101,15 +102,19 @@ export const NavLinkStyled = styled(NavLink)`
             color: ${theme.colors.primary};
         }
 
-        &.active {
+        ${$active &&
+        css`
             color: ${theme.colors.primary};
             border-bottom: 3px solid ${theme.colors.primary};
-        }
+        `}
 
         ${media.lessThan("medium")`
-            &.active {
-                border-bottom: none;
-                font-weight: ${theme.fonts.weight.bold};
+            ${
+                $active &&
+                css`
+                    border-bottom: none;
+                    font-weight: ${theme.fonts.weight.bold};
+                `
             }
         `}
     `}

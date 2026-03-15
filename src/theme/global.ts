@@ -17,6 +17,9 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.fonts.family.primary};
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
   body, input, button, textarea, select {
@@ -54,11 +57,5 @@ export default createGlobalStyle`
 
   ul {
     list-style: none;
-  }
-
-  #root {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
   }
 `;

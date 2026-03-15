@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { FaLaptopCode, FaServer, FaApple } from "react-icons/fa";
 
@@ -24,7 +26,6 @@ const About: React.FC = () => {
             <AboutContainer>
                 <PageTitle>Sobre Mim</PageTitle>
 
-                {/* Seção 1: Auto Biografia */}
                 <BioSection>
                     <BioText>
                         <p>
@@ -59,7 +60,6 @@ const About: React.FC = () => {
                     </BioText>
                 </BioSection>
 
-                {/* Seção 2: Minha Jornada (Timeline) */}
                 <TimelineSection>
                     <h2>Minha Jornada</h2>
                     {timelineData.map((item) => (
@@ -73,7 +73,6 @@ const About: React.FC = () => {
                     ))}
                 </TimelineSection>
 
-                {/* Seção 3: Meu Setup */}
                 <SetupSection>
                     <h2>Meu Setup & Ferramentas</h2>
                     <SetupGrid>

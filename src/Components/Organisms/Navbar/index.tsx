@@ -1,3 +1,6 @@
+"use client";
+
+import { usePathname } from "next/navigation";
 import React from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -18,6 +21,7 @@ import {
 } from "./styles";
 
 const Navbar: React.FC = () => {
+    const pathname = usePathname();
     const { isMobileMenuOpen, toggleMobileMenu, closeMobileMenu } =
         useUIStore();
 
@@ -38,7 +42,7 @@ const Navbar: React.FC = () => {
     return (
         <Nav>
             <NavContainer>
-                <NavLogoContainer to="/" onClick={handleLinkClick}>
+                <NavLogoContainer href="/" onClick={handleLinkClick}>
                     <Logo />
                     <span>Ewerton Vieira</span>
                 </NavLogoContainer>
@@ -51,11 +55,8 @@ const Navbar: React.FC = () => {
                     {navLinks.map((link) => (
                         <NavItem key={link.to}>
                             <NavLinkStyled
-                                to={link.to}
-                                // NavLink da v6 usa className como função
-                                className={({ isActive }) =>
-                                    isActive ? "active" : ""
-                                }
+                                href={link.to}
+                                $active={pathname === link.to}
                                 onClick={handleLinkClick}
                             >
                                 {link.label}
@@ -66,6 +67,7 @@ const Navbar: React.FC = () => {
                         <SocialIconLink
                             href={profile.githubUrl}
                             target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="GitHub"
                         >
                             <FaGithub />
@@ -73,6 +75,7 @@ const Navbar: React.FC = () => {
                         <SocialIconLink
                             href={profile.linkedinUrl}
                             target="_blank"
+                            rel="noopener noreferrer"
                             aria-label="LinkedIn"
                         >
                             <FaLinkedin />
@@ -84,6 +87,7 @@ const Navbar: React.FC = () => {
                     <SocialIconLink
                         href={profile.githubUrl}
                         target="_blank"
+                        rel="noopener noreferrer"
                         aria-label="GitHub"
                     >
                         <FaGithub />
@@ -91,6 +95,7 @@ const Navbar: React.FC = () => {
                     <SocialIconLink
                         href={profile.linkedinUrl}
                         target="_blank"
+                        rel="noopener noreferrer"
                         aria-label="LinkedIn"
                     >
                         <FaLinkedin />
