@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Fulano de Tal",
+        "role": "Desenvolvedor Mobile",
+        "text": "O Ewerton é um líder técnico excepcional. A disciplina que ele traz para o time e a forma clara como arquiteta as soluções mobile elevaram o nível de toda a equipe. É um privilégio trabalhar ao seu lado.",
+        "avatarUrl": "https://placehold.co/100x100/0A74DA/FFFFFF?text=CS"
+    },
+    {
+        "id": 2,
+        "name": "Beltrano de Tal",
+        "role": "Desenvolvedora Frontend",
+        "text": "A capacidade analítica e o domínio técnico do Ewerton são impressionantes. Ele consegue simplificar problemas complexos de frontend e backend, garantindo entregas sempre impecáveis e no prazo.",
+        "avatarUrl": "https://placehold.co/100x100/003F73/FFFFFF?text=NS"
+    },
+    {
+        "id": 3,
+        "name": "Ciclano de Tal",
+        "role": "Lead Up",
+        "text": "Durante os anos que esteve conosco, Ewerton demonstrou não apenas maestria técnica em React e Node.js, mas uma postura profissional, leal e focada na resolução de problemas reais do negócio.",
+        "avatarUrl": "https://placehold.co/100x100/9CA3AF/FFFFFF?text=GP"
+    }
+]
