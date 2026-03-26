@@ -108,7 +108,7 @@
         "miragejs": "^0.1.48",
         "prettier": "^3.5.3",
         "eslint-config-next": "^15.0.0",
-        "next": "^15.0.0",
+        "next": "^15.5.14",
         "typescript": "^5.8.2",
         "typescript-eslint": "^8.28.0",
         "yarn": "^1.22.22"
