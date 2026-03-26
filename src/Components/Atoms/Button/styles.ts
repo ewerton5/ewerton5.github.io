@@ -13,8 +13,20 @@ const rotateInfinite = keyframes`
   }
 `;
 
-const SolidButton = css<ContainerProps>`
-    background: ${({ theme, color }) => color ?? theme.colors.primary};
+type StyledContainerProps = {
+    $outline?: boolean;
+    $width?: string;
+    $height?: string;
+    $marginHorizontal?: string;
+    $marginVertical?: string;
+    $size?: ContainerProps["size"];
+    $color?: string;
+    $rounded?: boolean;
+    $hierarchy?: ContainerProps["hierarchy"];
+} & Pick<ContainerProps, "disabled">;
+
+const SolidButton = css<StyledContainerProps>`
+    background: ${({ theme, $color }) => $color ?? theme.colors.primary};
     color: ${({ theme }) => theme.colors.white};
     border: none;
 
@@ -23,8 +35,8 @@ const SolidButton = css<ContainerProps>`
     }
 
     &:hover {
-        background: ${({ theme, color }) =>
-            color ? shade(0.2, color) : shade(0.2, theme.colors.primary)};
+        background: ${({ theme, $color }) =>
+            $color ? shade(0.2, $color) : shade(0.2, theme.colors.primary)};
     }
 
     ${({ disabled, theme }) =>
@@ -40,20 +52,20 @@ const SolidButton = css<ContainerProps>`
         `}
 `;
 
-const OutlineButton = css<ContainerProps>`
-    border: ${({ theme, color }) =>
-        color ? `2px solid ${color}` : `2px solid ${theme.colors.primary}`};
-    color: ${({ theme, color }) => color ?? theme.colors.primary};
+const OutlineButton = css<StyledContainerProps>`
+    border: ${({ theme, $color }) =>
+        $color ? `2px solid ${$color}` : `2px solid ${theme.colors.primary}`};
+    color: ${({ theme, $color }) => $color ?? theme.colors.primary};
     background: transparent;
 
     svg {
-        color: ${({ theme, color }) => color ?? theme.colors.primary};
+        color: ${({ theme, $color }) => $color ?? theme.colors.primary};
     }
 
     &:hover {
-        background: ${({ theme, color }) =>
-            color
-                ? transparentize(0.9, color)
+        background: ${({ theme, $color }) =>
+            $color
+                ? transparentize(0.9, $color)
                 : transparentize(0.9, theme.colors.primary)};
     }
 
@@ -80,22 +92,19 @@ export const WrapperLoadgin = styled.div`
     }
 `;
 
-export const Container = styled.button<ContainerProps>`
-    ${({ outline }) => (outline ? OutlineButton : SolidButton)};
+export const Container = styled.button<StyledContainerProps>`
+    ${({ $outline }) => ($outline ? OutlineButton : SolidButton)};
     display: flex;
     align-items: center;
-    justify-content: center; /* Alterado para center */
-    gap: ${({ theme }) => theme.spacings.xsmall}; /* Adicionado gap */
-    /* Default height */
-    height: ${({ height }) => height ?? "4.4rem"};
-    width: ${({ width }) => width ?? "100%"};
-    border-radius: ${({ rounded }) =>
-        rounded ? "50px" : "8px"}; /* Ajustado */
+    justify-content: center;
+    gap: ${({ theme }) => theme.spacings.xsmall};
+    height: ${({ $height }) => $height ?? "4.4rem"};
+    width: ${({ $width }) => $width ?? "100%"};
+    border-radius: ${({ $rounded }) => ($rounded ? "50px" : "8px")};
     font-weight: ${({ theme }) => theme.fonts.weight.medium};
 
-    /* Lógica de 'size' atualizada para usar strings */
-    font-size: ${({ theme, size }) => {
-        switch (size ?? "MEDIUM") {
+    font-size: ${({ theme, $size }) => {
+        switch ($size ?? "MEDIUM") {
             case "SMALL":
                 return theme.fonts.size.xsmall;
             case "MEDIUM":
@@ -108,10 +117,10 @@ export const Container = styled.button<ContainerProps>`
     }};
     outline: none;
     padding: 0 ${({ theme }) => theme.spacings.small};
-    margin-top: ${({ marginVertical }) => marginVertical ?? "0"};
-    margin-bottom: ${({ marginVertical }) => marginVertical ?? "0"};
-    margin-left: ${({ marginHorizontal }) => marginHorizontal ?? "0"};
-    margin-right: ${({ marginHorizontal }) => marginHorizontal ?? "0"};
+    margin-top: ${({ $marginVertical }) => $marginVertical ?? "0"};
+    margin-bottom: ${({ $marginVertical }) => $marginVertical ?? "0"};
+    margin-left: ${({ $marginHorizontal }) => $marginHorizontal ?? "0"};
+    margin-right: ${({ $marginHorizontal }) => $marginHorizontal ?? "0"};
     transition: all 0.2s;
 
     &:disabled {

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "icon": "leadership",
+        "title": "Liderança Técnica & Arquitetura",
+        "description": "Mentoria de desenvolvedores, code reviews rigorosos, definição de arquitetura de software escalável e gestão de ciclo de vida de aplicações."
+    },
+    {
+        "id": 2,
+        "icon": "mobile",
+        "title": "Desenvolvimento Mobile",
+        "description": "Criação de aplicativos nativos e multiplataforma com React Native. Gestão completa de builds, CI/CD e publicações na App Store e Google Play."
+    },
+    {
+        "id": 3,
+        "icon": "web",
+        "title": "Engenharia Full Stack",
+        "description": "Desenvolvimento de sistemas web robustos utilizando React.js, Node.js e TypeScript. Foco em performance, SEO e interfaces de alta conversão."
+    }
+]

@@ -22,7 +22,6 @@ export const PageTitle = styled.h1`
     margin-bottom: ${({ theme }) => theme.spacings.large};
 `;
 
-/* --- Bio Section --- */
 export const BioSection = styled.section`
     margin-bottom: ${({ theme }) => theme.spacings.xxlarge};
 `;
@@ -49,7 +48,6 @@ export const BioText = styled.div`
     }
 `;
 
-/* --- Timeline Section --- */
 export const TimelineSection = styled.section`
     margin-bottom: ${({ theme }) => theme.spacings.xxlarge};
 
@@ -106,7 +104,6 @@ export const TimelineContent = styled.div`
     }
 `;
 
-/* --- Setup Section --- */
 export const SetupSection = styled.section`
     margin-bottom: ${({ theme }) => theme.spacings.large};
 

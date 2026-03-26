@@ -11,7 +11,7 @@ export default [
     { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
     { languageOptions: { globals: globals.browser } },
     {
-        ignores: ["node_modules", "build", "**/*.d.ts", "*.config.*"]
+        ignores: ["node_modules", "build", "out", ".next", "**/*.d.ts", "*.config.*"]
     },
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
