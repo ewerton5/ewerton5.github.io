@@ -14,7 +14,7 @@ interface RootLayoutProps {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
-        <html lang="pt-br">
+        <html lang="pt-br" suppressHydrationWarning>
             <head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
@@ -35,7 +35,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                     rel="stylesheet"
                 />
             </head>
-            <body>
+            <body suppressHydrationWarning>
                 <StyledComponentsRegistry>
                     <Providers>{children}</Providers>
                 </StyledComponentsRegistry>

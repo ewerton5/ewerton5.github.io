@@ -38,8 +38,8 @@ export const SectionTitle = styled.h2`
         }
 
         ${media.lessThan("medium")`
-        font-size: ${theme.fonts.size.large};
-    `}
+            font-size: ${theme.fonts.size.large};
+        `}
     `}
 `;
 
@@ -54,11 +54,11 @@ export const HeroSection = styled.section`
         padding-bottom: ${theme.spacings.xxlarge};
 
         ${media.lessThan("medium")`
-        flex-direction: column-reverse;
-        text-align: center;
-        min-height: auto;
-        padding-top: ${theme.spacings.large};
-    `}
+            flex-direction: column-reverse;
+            text-align: center;
+            min-height: auto;
+            padding-top: ${theme.spacings.large};
+        `}
     `}
 `;
 
@@ -78,12 +78,12 @@ export const HeroTitle = styled.h1`
         }
 
         ${media.lessThan("large")`
-         font-size: 3.6rem;
-    `}
+            font-size: 3.6rem;
+        `}
 
         ${media.lessThan("medium")`
-         font-size: ${theme.fonts.size.xlarge};
-    `}
+            font-size: ${theme.fonts.size.xlarge};
+        `}
     `}
 `;
 
@@ -124,15 +124,15 @@ export const HeroImage = styled.img`
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 
         ${media.lessThan("large")`
-        width: 300px;
-        height: 300px;
-    `}
+            width: 300px;
+            height: 300px;
+        `}
 
         ${media.lessThan("medium")`
-        width: 250px;
-        height: 250px;
-        margin-bottom: ${theme.spacings.medium};
-    `}
+            width: 250px;
+            height: 250px;
+            margin-bottom: ${theme.spacings.medium};
+        `}
     `}
 `;
 

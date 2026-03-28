@@ -83,9 +83,9 @@ export const TimelineYear = styled.div`
         font-size: ${theme.fonts.size.medium};
 
         ${media.lessThan("large")`
-        width: 100%;
-        padding: ${theme.spacings.small};
-    `}
+            width: 100%;
+            padding: ${theme.spacings.small};
+        `}
     `}
 `;
 
