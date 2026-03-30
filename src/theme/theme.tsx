@@ -1,34 +1,11 @@
 "use client";
 
-import React, { ReactNode } from "react";
+import React, { ReactNode, useEffect, useMemo, useState } from "react";
 import { ThemeProvider } from "styled-components";
 
-// Paleta de cores profissional sugerida
-const theme = {
-    colors: {
-        primary: "#0A74DA", // Azul principal (confiança, profissionalismo)
-        secondary: "#003F73", // Azul escuro (para texto, cabeçalhos)
-        background: "#F4F7FA", // Fundo claro (clean)
-        white: "#FFFFFF",
-        cardBackground: "#FFFFFF",
-        text: "#333333", // Texto principal
-        textSecondary: "#555555", // Texto secundário
-        gray: {
-            "50": "#F9FAFB",
-            "100": "#F3F4F6",
-            "200": "#E5E7EB",
-            "300": "#D1D5DB",
-            "400": "#9CA3AF",
-            "500": "#6B7280",
-            "600": "#4B5563",
-            "700": "#374151",
-            "800": "#1F2937",
-            "900": "#111827"
-        },
-        danger: "#E11D48",
-        success: "#16A34A",
-        warning: "#F59E0B"
-    },
+import { ResolvedTheme, useThemeStore } from "store";
+
+const baseTheme = {
     fonts: {
         family: {
             primary: "'Inter', sans-serif"
@@ -68,12 +45,132 @@ const theme = {
     }
 };
 
+const lightColors = {
+    colors: {
+        primary: "#0A74DA",
+        secondary: "#003F73",
+        background: "#F4F7FA",
+        white: "#FFFFFF",
+        cardBackground: "#FFFFFF",
+        text: "#333333",
+        textSecondary: "#555555",
+        gray: {
+            50: "#F9FAFB",
+            100: "#F3F4F6",
+            200: "#E5E7EB",
+            300: "#D1D5DB",
+            400: "#9CA3AF",
+            500: "#6B7280",
+            600: "#4B5563",
+            700: "#374151",
+            800: "#1F2937",
+            900: "#111827"
+        },
+        danger: "#E11D48",
+        success: "#16A34A",
+        warning: "#F59E0B"
+    }
+};
+
+const darkColors = {
+    colors: {
+        primary: "#5EA9FF",
+        secondary: "#E5EEFF",
+        background: "#0F172A",
+        white: "#111827",
+        cardBackground: "#1F2937",
+        text: "#E5E7EB",
+        textSecondary: "#9CA3AF",
+        gray: {
+            50: "#111827",
+            100: "#0B1220",
+            200: "#243041",
+            300: "#334155",
+            400: "#475569",
+            500: "#6B7280",
+            600: "#94A3B8",
+            700: "#C7D2FE",
+            800: "#E0E7FF",
+            900: "#F8FAFC"
+        },
+        danger: "#FB7185",
+        success: "#4ADE80",
+        warning: "#FBBF24"
+    }
+};
+
+const lightTheme = {
+    ...baseTheme,
+    ...lightColors
+};
+
+const darkTheme = {
+    ...baseTheme,
+    ...darkColors
+};
+
+const themeByMode: Record<ResolvedTheme, typeof lightTheme> = {
+    light: lightTheme,
+    dark: darkTheme
+};
+
 type ThemeProps = {
     children: ReactNode;
 };
 
-const Theme: React.FC<ThemeProps> = ({ children }) => (
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
-);
+const Theme: React.FC<ThemeProps> = ({ children }) => {
+    const { mode, resolvedTheme, setResolvedTheme } = useThemeStore();
+    const [isHydrated, setIsHydrated] = useState(false);
 
-export { Theme, theme };
+    useEffect(() => {
+        const hasHydrated = useThemeStore.persist.hasHydrated();
+
+        if (hasHydrated) {
+            setIsHydrated(true);
+            return;
+        }
+
+        const unsubscribe = useThemeStore.persist.onFinishHydration(() => {
+            setIsHydrated(true);
+        });
+
+        return () => unsubscribe();
+    }, []);
+
+    useEffect(() => {
+        if (!isHydrated || typeof window === "undefined") return;
+
+        const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+        const applyTheme = (prefersDark: boolean) => {
+            const nextTheme =
+                mode === "system" ? (prefersDark ? "dark" : "light") : mode;
+            setResolvedTheme(nextTheme);
+        };
+
+        applyTheme(mediaQuery.matches);
+
+        const handleChange = (event: MediaQueryListEvent) => {
+            applyTheme(event.matches);
+        };
+
+        mediaQuery.addEventListener("change", handleChange);
+        return () => mediaQuery.removeEventListener("change", handleChange);
+    }, [isHydrated, mode, setResolvedTheme]);
+
+    useEffect(() => {
+        if (!isHydrated || typeof document === "undefined") return;
+        document.documentElement.setAttribute("data-theme", resolvedTheme);
+    }, [isHydrated, resolvedTheme]);
+
+    const selectedTheme = useMemo(
+        () => themeByMode[resolvedTheme] ?? lightTheme,
+        [resolvedTheme]
+    );
+
+    if (!isHydrated) return null;
+
+    return <ThemeProvider theme={selectedTheme}>{children}</ThemeProvider>;
+};
+
+export { Theme, lightTheme as theme };

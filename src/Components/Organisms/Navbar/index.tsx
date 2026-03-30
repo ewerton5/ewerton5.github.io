@@ -2,11 +2,18 @@
 
 import { usePathname } from "next/navigation";
 import React from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+    FaBars,
+    FaTimes,
+    FaGithub,
+    FaLinkedin,
+    FaMoon,
+    FaSun
+} from "react-icons/fa";
 
 import Logo from "Components/Atoms/Logo";
 import profile from "data/profile.json";
-import { useUIStore } from "store";
+import { useThemeStore, useUIStore } from "store";
 
 import {
     Nav,
@@ -17,13 +24,15 @@ import {
     NavLinkStyled,
     NavSocial,
     MobileIcon,
-    SocialIconLink
+    SocialIconLink,
+    ThemeToggleButton
 } from "./styles";
 
 const Navbar: React.FC = () => {
     const pathname = usePathname();
     const { isMobileMenuOpen, toggleMobileMenu, closeMobileMenu } =
         useUIStore();
+    const { resolvedTheme, toggleTheme } = useThemeStore();
 
     const navLinks = [
         { to: "/", label: "Home" },
@@ -64,6 +73,14 @@ const Navbar: React.FC = () => {
                         </NavItem>
                     ))}
                     <NavSocial $isMobile>
+                        <ThemeToggleButton
+                            type="button"
+                            onClick={toggleTheme}
+                            aria-label="Alternar tema"
+                            title="Alternar tema"
+                        >
+                            {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
+                        </ThemeToggleButton>
                         <SocialIconLink
                             href={profile.githubUrl}
                             target="_blank"
@@ -84,6 +101,14 @@ const Navbar: React.FC = () => {
                 </NavMenu>
 
                 <NavSocial $isMobile={false}>
+                    <ThemeToggleButton
+                        type="button"
+                        onClick={toggleTheme}
+                        aria-label="Alternar tema"
+                        title="Alternar tema"
+                    >
+                        {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
+                    </ThemeToggleButton>
                     <SocialIconLink
                         href={profile.githubUrl}
                         target="_blank"

@@ -141,3 +141,16 @@ export const SocialIconLink = styled.a`
         color: ${({ theme }) => theme.colors.primary};
     }
 `;
+
+export const ThemeToggleButton = styled.button`
+    color: ${({ theme }) => theme.colors.secondary};
+    font-size: 2.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+        color: ${({ theme }) => theme.colors.primary};
+    }
+`;

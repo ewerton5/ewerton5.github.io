@@ -3,6 +3,7 @@
 import React from "react";
 import { ToastContainer } from "react-toastify";
 
+import { useThemeStore } from "store";
 import GlobalStyles from "theme/global";
 import { Theme } from "theme/theme";
 
@@ -14,6 +15,8 @@ interface ProvidersProps {
 }
 
 const Providers: React.FC<ProvidersProps> = ({ children }) => {
+    const toastTheme = useThemeStore((state) => state.resolvedTheme);
+
     return (
         <Theme>
             <GlobalStyles />
@@ -28,7 +31,7 @@ const Providers: React.FC<ProvidersProps> = ({ children }) => {
                 pauseOnFocusLoss
                 draggable
                 pauseOnHover
-                theme="light"
+                theme={toastTheme}
             />
         </Theme>
     );
