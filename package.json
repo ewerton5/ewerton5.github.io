@@ -12,7 +12,7 @@
         "prepare": "husky",
         "lint-staged": "lint-staged",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d out"
+        "deploy": "gh-pages -d out -t"
     },
     "dependencies": {
         "@codemirror/lang-html": "^6.4.9",
