@@ -164,13 +164,26 @@ const Theme: React.FC<ThemeProps> = ({ children }) => {
     }, [isHydrated, resolvedTheme]);
 
     const selectedTheme = useMemo(
-        () => themeByMode[resolvedTheme] ?? lightTheme,
-        [resolvedTheme]
+        () =>
+            isHydrated
+                ? (themeByMode[resolvedTheme] ?? lightTheme)
+                : lightTheme,
+        [resolvedTheme, isHydrated]
     );
 
-    if (!isHydrated) return null;
-
-    return <ThemeProvider theme={selectedTheme}>{children}</ThemeProvider>;
+    return (
+        <ThemeProvider theme={selectedTheme}>
+            <div
+                style={{
+                    visibility: isHydrated ? "visible" : "hidden",
+                    width: "100%",
+                    height: "100%"
+                }}
+            >
+                {children}
+            </div>
+        </ThemeProvider>
+    );
 };
 
 export { Theme, lightTheme as theme };
