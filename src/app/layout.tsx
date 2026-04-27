@@ -1,44 +1,41 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import { Inter } from "next/font/google";
+import { type ReactNode } from "react";
 
 import Providers from "./Providers";
-import StyledComponentsRegistry from "./StyledComponentsRegistry";
+import "./globals.css";
+
+const inter = Inter({
+    subsets: ["latin"],
+    weight: ["400", "500", "700"],
+    variable: "--font-inter"
+});
 
 export const metadata: Metadata = {
     title: "Ewerton Vieira",
-    description: "Site Pessoal de Ewerton Vieira"
+    description: "Software Engineer & Tech Lead",
+    icons: {
+        icon: "/favicon.ico",
+        apple: "/logo192.png"
+    },
+    manifest: "/manifest.json"
+};
+
+export const viewport: Viewport = {
+    width: "device-width",
+    initialScale: 1,
+    themeColor: "#0a74da"
 };
 
 interface RootLayoutProps {
-    children: React.ReactNode;
+    children: ReactNode;
 }
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+const RootLayout = ({ children }: RootLayoutProps) => {
     return (
-        <html lang="pt-br" suppressHydrationWarning>
-            <head>
-                <link rel="icon" href="/favicon.ico" />
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1"
-                />
-                <meta name="theme-color" content="#000000" />
-                <link rel="apple-touch-icon" href="/logo192.png" />
-                <link rel="manifest" href="/manifest.json" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link
-                    rel="preconnect"
-                    href="https://fonts.gstatic.com"
-                    crossOrigin=""
-                />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-                    rel="stylesheet"
-                />
-            </head>
-            <body suppressHydrationWarning>
-                <StyledComponentsRegistry>
-                    <Providers>{children}</Providers>
-                </StyledComponentsRegistry>
+        <html lang="pt-br" className={inter.variable} suppressHydrationWarning>
+            <body className={inter.className} suppressHydrationWarning>
+                <Providers>{children}</Providers>
             </body>
         </html>
     );

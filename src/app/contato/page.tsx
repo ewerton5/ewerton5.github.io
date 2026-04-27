@@ -1,20 +1,14 @@
-"use client";
-
-import React from "react";
-
 import ContactConversationSection from "Components/Organisms/ContactConversationSection";
 import SocialNetworksSection from "Components/Organisms/SocialNetworksSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-import { Container } from "./styles";
-
-const Contact: React.FC = () => {
+const Contact = () => {
     return (
         <MainLayout>
-            <Container>
+            <div className="w-full max-w-[900px] mx-auto animate-fade-in-up">
                 <ContactConversationSection />
                 <SocialNetworksSection />
-            </Container>
+            </div>
         </MainLayout>
     );
 };

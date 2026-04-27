@@ -1,15 +1,13 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
+import type { ReactNode } from "react";
 
 type HeroActionsProps = {
-    children: React.ReactNode;
+    children: ReactNode;
 };
 
-const HeroActions: React.FC<HeroActionsProps> = ({ children }) => (
-    <S.Wrapper>{children}</S.Wrapper>
+const HeroActions = ({ children }: HeroActionsProps) => (
+    <div className="flex gap-medium mt-large max-tablet:flex-col max-tablet:items-center max-tablet:[&_button]:w-full max-tablet:[&_button]:max-w-[300px]">
+        {children}
+    </div>
 );
 
 export default HeroActions;

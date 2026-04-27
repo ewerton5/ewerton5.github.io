@@ -1,22 +1,16 @@
-"use client";
-
-import React from "react";
-
 import HeroSection from "Components/Organisms/HeroSection";
 import ServicesSection from "Components/Organisms/ServicesSection";
 import TestimonialsSection from "Components/Organisms/TestimonialsSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-import { HomeContainer } from "./styles";
-
-const Home: React.FC = () => {
+const Home = () => {
     return (
         <MainLayout>
-            <HomeContainer>
+            <div className="w-full animate-fade-in-up">
                 <HeroSection />
                 <ServicesSection />
                 <TestimonialsSection />
-            </HomeContainer>
+            </div>
         </MainLayout>
     );
 };

@@ -1,14 +1,8 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
-
-const HeroTitle: React.FC = () => (
-    <S.Title>
+const HeroTitle = () => (
+    <h1 className="text-xxlarge leading-tight text-secondary mb-medium [&_span]:text-primary max-laptop:text-[36px] max-tablet:text-xlarge">
         Transformando disciplina militar em <br />
         <span>excelência técnica.</span>
-    </S.Title>
+    </h1>
 );
 
 export default HeroTitle;

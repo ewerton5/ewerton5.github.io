@@ -1,9 +1,3 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
-
 type AcademicCardProps = {
     degree: string;
     institution: string;
@@ -11,18 +5,24 @@ type AcademicCardProps = {
     description: string;
 };
 
-const AcademicCard: React.FC<AcademicCardProps> = ({
+const AcademicCard = ({
     degree,
     institution,
     period,
     description
-}) => (
-    <S.Card>
-        <h3>{degree}</h3>
-        <h4>{institution}</h4>
-        <span>{period}</span>
-        <p>{description}</p>
-    </S.Card>
+}: AcademicCardProps) => (
+    <div className="bg-white border-l-4 border-primary p-large rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.05)]">
+        <h3 className="text-medium text-secondary mb-xxsmall">{degree}</h3>
+        <h4 className="text-small text-text font-medium mb-xsmall">
+            {institution}
+        </h4>
+        <span className="inline-block bg-gray-100 text-gray-600 px-[12px] py-[4px] rounded-[16px] text-xxsmall mb-small font-bold">
+            {period}
+        </span>
+        <p className="text-text-secondary leading-relaxed text-small">
+            {description}
+        </p>
+    </div>
 );
 
 export default AcademicCard;

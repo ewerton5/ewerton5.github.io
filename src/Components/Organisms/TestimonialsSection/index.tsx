@@ -1,17 +1,11 @@
-"use client";
-
-import React from "react";
-
 import SectionTitle from "Components/Atoms/SectionTitle";
 import TestimonialCard from "Components/Molecules/TestimonialCard";
 import testimonials from "data/testimonials.json";
 
-import * as S from "./styles";
-
-const TestimonialsSection: React.FC = () => (
-    <S.Section>
+const TestimonialsSection = () => (
+    <section className="py-xxlarge">
         <SectionTitle>O que dizem sobre mim</SectionTitle>
-        <S.Grid>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-large">
             {testimonials.map((testimonial) => (
                 <TestimonialCard
                     key={testimonial.id}
@@ -21,8 +15,8 @@ const TestimonialsSection: React.FC = () => (
                     avatarUrl={testimonial.avatarUrl}
                 />
             ))}
-        </S.Grid>
-    </S.Section>
+        </div>
+    </section>
 );
 
 export default TestimonialsSection;

@@ -1,13 +1,8 @@
-"use client";
-
-import React from "react";
 import { FaMobileAlt, FaLaptopCode, FaUsersCog } from "react-icons/fa";
 
 import SectionTitle from "Components/Atoms/SectionTitle";
 import ServiceCard from "Components/Molecules/ServiceCard";
 import services from "data/services.json";
-
-import * as S from "./styles";
 
 const renderServiceIcon = (iconName: string) => {
     switch (iconName) {
@@ -22,10 +17,10 @@ const renderServiceIcon = (iconName: string) => {
     }
 };
 
-const ServicesSection: React.FC = () => (
-    <S.Section>
+const ServicesSection = () => (
+    <section className="py-xxlarge">
         <SectionTitle>Minhas Especialidades</SectionTitle>
-        <S.Grid>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-large">
             {services.map((service) => (
                 <ServiceCard
                     key={service.id}
@@ -34,8 +29,8 @@ const ServicesSection: React.FC = () => (
                     description={service.description}
                 />
             ))}
-        </S.Grid>
-    </S.Section>
+        </div>
+    </section>
 );
 
 export default ServicesSection;

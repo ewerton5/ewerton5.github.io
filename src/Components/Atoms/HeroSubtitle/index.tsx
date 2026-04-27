@@ -1,20 +1,14 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
-
 type HeroSubtitleProps = {
     name: string;
     title: string;
 };
 
-const HeroSubtitle: React.FC<HeroSubtitleProps> = ({ name, title }) => (
-    <S.Subtitle>
+const HeroSubtitle = ({ name, title }: HeroSubtitleProps) => (
+    <h2 className="text-medium text-text-secondary font-normal leading-relaxed [&_strong]:text-text">
         Olá, eu sou <strong>{name}</strong>, {title}. Construo aplicações web e
         mobile de alta performance e lidero equipes de desenvolvimento focadas
         em resultados.
-    </S.Subtitle>
+    </h2>
 );
 
 export default HeroSubtitle;

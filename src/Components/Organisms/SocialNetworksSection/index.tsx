@@ -1,16 +1,11 @@
-"use client";
-
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import SocialButton from "Components/Atoms/SocialButton";
 
-import * as S from "./styles";
-
-const SocialNetworksSection: React.FC = () => (
-    <S.Section>
-        <h2>Minhas Redes</h2>
-        <S.Links>
+const SocialNetworksSection = () => (
+    <section className="text-center border-t border-gray-200 pt-large">
+        <h2 className="text-secondary mb-large">Minhas Redes</h2>
+        <div className="flex justify-center gap-medium max-tablet:flex-col max-tablet:px-medium">
             <SocialButton
                 href="https://www.linkedin.com/in/ewerton-vieira-ab8b111ab"
                 target="_blank"
@@ -27,8 +22,8 @@ const SocialNetworksSection: React.FC = () => (
                 <FaGithub size={24} />
                 GitHub
             </SocialButton>
-        </S.Links>
-    </S.Section>
+        </div>
+    </section>
 );
 
 export default SocialNetworksSection;

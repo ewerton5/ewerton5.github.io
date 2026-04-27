@@ -1,13 +1,7 @@
-"use client";
-
-import React from "react";
-
 import BioPanel from "Components/Molecules/BioPanel";
 
-import * as S from "./styles";
-
-const BioSection: React.FC = () => (
-    <S.Section>
+const BioSection = () => (
+    <section className="mb-xxlarge">
         <BioPanel>
             <p>
                 Meu propósito é tornar a tecnologia mais acessível e simples
@@ -32,7 +26,7 @@ const BioSection: React.FC = () => (
                 de forma clara, prática e humana.
             </p>
         </BioPanel>
-    </S.Section>
+    </section>
 );
 
 export default BioSection;

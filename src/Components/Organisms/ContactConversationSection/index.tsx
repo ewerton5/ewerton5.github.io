@@ -1,27 +1,24 @@
-"use client";
-
-import React from "react";
 import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 import ContactCard from "Components/Molecules/ContactCard";
-
-import * as S from "./styles";
 
 const WHATSAPP_MESSAGE = encodeURIComponent(
     "Olá Ewerton, vi seu portfólio e gostaria de conversar!"
 );
 
-const ContactConversationSection: React.FC = () => (
+const ContactConversationSection = () => (
     <section>
-        <S.Title>Vamos Conversar?</S.Title>
-        <S.Intro>
+        <h1 className="text-center mb-medium text-secondary">
+            Vamos Conversar?
+        </h1>
+        <p className="text-center text-textSecondary text-medium leading-[1.6] mb-xxlarge px-large max-tablet:px-0 max-tablet:text-small">
             Estou sempre aberto a discutir novos projetos, desafios
             arquiteturais ou oportunidades de liderança e desenvolvimento.
             Sinta-se à vontade para entrar em contato através de um dos canais
             abaixo.
-        </S.Intro>
+        </p>
 
-        <S.Grid>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-large mb-xxlarge">
             <ContactCard
                 href={`https://wa.me/5521998910884?text=${WHATSAPP_MESSAGE}`}
                 target="_blank"
@@ -49,7 +46,7 @@ const ContactConversationSection: React.FC = () => (
                 primaryLabel="Belford Roxo - RJ, Brasil"
                 secondaryLabel="Disponível para atuação Remota"
             />
-        </S.Grid>
+        </div>
     </section>
 );
 

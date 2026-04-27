@@ -1,17 +1,17 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
+import type { ReactNode } from "react";
 
 type ContactIconCircleProps = {
     color: string;
-    children: React.ReactNode;
+    children: ReactNode;
 };
 
-const ContactIconCircle: React.FC<ContactIconCircleProps> = ({
-    color,
-    children
-}) => <S.Circle $color={color}>{children}</S.Circle>;
+const ContactIconCircle = ({ color, children }: ContactIconCircleProps) => (
+    <div
+        className="w-16 h-16 rounded-full flex items-center justify-center text-[32px] mb-medium"
+        style={{ background: `${color}15`, color }}
+    >
+        {children}
+    </div>
+);
 
 export default ContactIconCircle;

@@ -1,16 +1,16 @@
-"use client";
+import type { AnchorHTMLAttributes, ReactNode } from "react";
 
-import React from "react";
-
-import * as S from "./styles";
-
-type SocialButtonProps = React.AnchorHTMLAttributes<HTMLAnchorElement> & {
-    children: React.ReactNode;
+type SocialButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
+    children: ReactNode;
 };
 
-const SocialButton: React.FC<SocialButtonProps> = ({
-    children,
-    ...anchorProps
-}) => <S.Link {...anchorProps}>{children}</S.Link>;
+const SocialButton = ({ children, ...anchorProps }: SocialButtonProps) => (
+    <a
+        className="flex items-center justify-center gap-small bg-gray-50 text-secondary px-large py-small rounded-[8px] font-medium no-underline transition-[background,color] duration-200 border border-gray-200 hover:bg-primary hover:text-white hover:border-primary max-tablet:w-full"
+        {...anchorProps}
+    >
+        {children}
+    </a>
+);
 
 export default SocialButton;

@@ -1,21 +1,16 @@
-"use client";
-
-import React from "react";
 import { FaCertificate } from "react-icons/fa";
 
 import CertificationCard from "Components/Molecules/CertificationCard";
 import EducationSectionHeader from "Components/Molecules/EducationSectionHeader";
 import educationData from "data/education.json";
 
-import * as S from "./styles";
-
-const CertificationsFormationSection: React.FC = () => (
-    <S.Section>
+const CertificationsFormationSection = () => (
+    <section className="mb-xxlarge">
         <EducationSectionHeader
             icon={<FaCertificate />}
             title="Cursos & Certificações"
         />
-        <S.Grid>
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-medium">
             {educationData.certifications.map((cert) => (
                 <CertificationCard
                     key={cert.id}
@@ -24,8 +19,8 @@ const CertificationsFormationSection: React.FC = () => (
                     year={cert.year}
                 />
             ))}
-        </S.Grid>
-    </S.Section>
+        </div>
+    </section>
 );
 
 export default CertificationsFormationSection;

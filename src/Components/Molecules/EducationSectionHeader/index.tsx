@@ -1,22 +1,18 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
+import type { ReactNode } from "react";
 
 type EducationSectionHeaderProps = {
-    icon: React.ReactNode;
+    icon: ReactNode;
     title: string;
 };
 
-const EducationSectionHeader: React.FC<EducationSectionHeaderProps> = ({
+const EducationSectionHeader = ({
     icon,
     title
-}) => (
-    <S.Header>
+}: EducationSectionHeaderProps) => (
+    <div className="flex items-center gap-small mb-large border-b-2 border-gray-200 pb-xsmall [&_h2]:text-large [&_h2]:text-secondary [&_svg]:text-large [&_svg]:text-primary">
         {icon}
         <h2>{title}</h2>
-    </S.Header>
+    </div>
 );
 
 export default EducationSectionHeader;

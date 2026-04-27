@@ -1,21 +1,16 @@
-"use client";
-
-import React from "react";
 import { FaUniversity } from "react-icons/fa";
 
 import AcademicCard from "Components/Molecules/AcademicCard";
 import EducationSectionHeader from "Components/Molecules/EducationSectionHeader";
 import educationData from "data/education.json";
 
-import * as S from "./styles";
-
-const AcademicFormationSection: React.FC = () => (
-    <S.Section>
+const AcademicFormationSection = () => (
+    <section className="mb-xxlarge">
         <EducationSectionHeader
             icon={<FaUniversity />}
             title="Formação Acadêmica"
         />
-        <S.Grid>
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-large">
             {educationData.academic.map((item) => (
                 <AcademicCard
                     key={item.id}
@@ -25,8 +20,8 @@ const AcademicFormationSection: React.FC = () => (
                     description={item.description}
                 />
             ))}
-        </S.Grid>
-    </S.Section>
+        </div>
+    </section>
 );
 
 export default AcademicFormationSection;

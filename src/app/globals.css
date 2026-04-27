@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+/* Dark mode variant: applies when an ancestor has .dark class (set by ThemeManager on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ─── Design Tokens: Light Mode ─── */
+:root {
+    --ui-primary: #0a74da;
+    --ui-secondary: #003f73;
+    --ui-background: #f4f7fa;
+    --ui-white: #ffffff;
+    --ui-card-bg: #ffffff;
+    --ui-text: #333333;
+    --ui-text-secondary: #555555;
+    --ui-gray-50: #f9fafb;
+    --ui-gray-100: #f3f4f6;
+    --ui-gray-200: #e5e7eb;
+    --ui-gray-300: #d1d5db;
+    --ui-gray-400: #9ca3af;
+    --ui-gray-500: #6b7280;
+    --ui-gray-600: #4b5563;
+    --ui-gray-700: #374151;
+    --ui-gray-800: #1f2937;
+    --ui-gray-900: #111827;
+    --ui-danger: #e11d48;
+    --ui-success: #16a34a;
+    --ui-warning: #f59e0b;
+}
+
+/* ─── Design Tokens: Dark Mode ─── */
+.dark {
+    --ui-primary: #5ea9ff;
+    --ui-secondary: #e5eeff;
+    --ui-background: #0f172a;
+    --ui-white: #111827;
+    --ui-card-bg: #1f2937;
+    --ui-text: #e5e7eb;
+    --ui-text-secondary: #9ca3af;
+    --ui-gray-50: #111827;
+    --ui-gray-100: #0b1220;
+    --ui-gray-200: #243041;
+    --ui-gray-300: #334155;
+    --ui-gray-400: #475569;
+    --ui-gray-500: #6b7280;
+    --ui-gray-600: #94a3b8;
+    --ui-gray-700: #c7d2fe;
+    --ui-gray-800: #e0e7ff;
+    --ui-gray-900: #f8fafc;
+    --ui-danger: #fb7185;
+    --ui-success: #4ade80;
+    --ui-warning: #fbbf24;
+}
+
+/* ─── Tailwind v4 Theme (CSS-first) ─── */
+@theme {
+    /* Semantic colors — reference the switchable CSS vars above */
+    --color-primary: var(--ui-primary);
+    --color-secondary: var(--ui-secondary);
+    --color-background: var(--ui-background);
+    --color-white: var(--ui-white);
+    --color-card-bg: var(--ui-card-bg);
+    --color-text: var(--ui-text);
+    --color-text-secondary: var(--ui-text-secondary);
+    --color-gray-50: var(--ui-gray-50);
+    --color-gray-100: var(--ui-gray-100);
+    --color-gray-200: var(--ui-gray-200);
+    --color-gray-300: var(--ui-gray-300);
+    --color-gray-400: var(--ui-gray-400);
+    --color-gray-500: var(--ui-gray-500);
+    --color-gray-600: var(--ui-gray-600);
+    --color-gray-700: var(--ui-gray-700);
+    --color-gray-800: var(--ui-gray-800);
+    --color-gray-900: var(--ui-gray-900);
+    --color-danger: var(--ui-danger);
+    --color-success: var(--ui-success);
+    --color-warning: var(--ui-warning);
+
+    /* Custom breakpoints (matches original theme.breakpoints) */
+    --breakpoint-mobile-s: 320px;
+    --breakpoint-mobile-m: 375px;
+    --breakpoint-mobile-l: 425px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 1024px;
+    --breakpoint-laptop-l: 1440px;
+    --breakpoint-desktop: 2560px;
+
+    /* Custom spacing tokens (px — independent of font-size base) */
+    --spacing-xxsmall: 4px;
+    --spacing-xsmall: 8px;
+    --spacing-small: 16px;
+    --spacing-medium: 24px;
+    --spacing-large: 32px;
+    --spacing-xlarge: 40px;
+    --spacing-xxlarge: 48px;
+
+    /* Custom font sizes */
+    --text-xxsmall: 12px;
+    --text-xsmall: 14px;
+    --text-small: 16px;
+    --text-medium: 18px;
+    --text-large: 24px;
+    --text-xlarge: 32px;
+    --text-xxlarge: 40px;
+
+    /* Font family */
+    --font-inter: "Inter", sans-serif;
+
+    /* Custom animations */
+    --animate-fade-in-up: fade-in-up 0.6s ease-in-out;
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ─── Global Base Styles (migrated from theme/global.ts) ─── */
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        background-color: var(--ui-background);
+        color: var(--ui-text);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        font-size: 16px;
+    }
+
+    body,
+    input,
+    button,
+    textarea,
+    select {
+        font: 400 16px "Inter", sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 700;
+        color: var(--ui-secondary);
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+
+    a {
+        color: var(--ui-primary);
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: var(--ui-secondary);
+    }
+
+    ul {
+        list-style: none;
+    }
+}

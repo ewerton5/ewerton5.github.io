@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import React from "react";
 
 import Button from "Components/Atoms/Button";
 import HeroActions from "Components/Atoms/HeroActions";
@@ -10,16 +9,14 @@ import HeroSubtitle from "Components/Atoms/HeroSubtitle";
 import HeroTitle from "Components/Atoms/HeroTitle";
 import profile from "data/profile.json";
 
-import * as S from "./styles";
-
-const HeroSection: React.FC = () => {
+const HeroSection = () => {
     const router = useRouter();
     const imageSrc =
         profile.profilePicture || "https://github.com/ewerton5.png";
 
     return (
-        <S.Section>
-            <S.Content>
+        <section className="flex items-center justify-between min-h-[80vh] gap-large pb-xxlarge max-tablet:flex-col-reverse max-tablet:text-center max-tablet:min-h-auto max-tablet:pt-large">
+            <div className="flex-1">
                 <HeroTitle />
                 <HeroSubtitle name={profile.name} title={profile.title} />
                 <HeroActions>
@@ -40,9 +37,9 @@ const HeroSection: React.FC = () => {
                         Entrar em Contato
                     </Button>
                 </HeroActions>
-            </S.Content>
+            </div>
             <HeroImage src={imageSrc} alt={profile.name} />
-        </S.Section>
+        </section>
     );
 };
 

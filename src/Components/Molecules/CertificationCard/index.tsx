@@ -1,25 +1,19 @@
-"use client";
-
-import React from "react";
-
-import * as S from "./styles";
-
 type CertificationCardProps = {
     title: string;
     platform: string;
     year: string;
 };
 
-const CertificationCard: React.FC<CertificationCardProps> = ({
+const CertificationCard = ({
     title,
     platform,
     year
-}) => (
-    <S.Card>
-        <h4>{title}</h4>
-        <p>{platform}</p>
-        <span>{year}</span>
-    </S.Card>
+}: CertificationCardProps) => (
+    <div className="bg-white p-medium rounded-lg border border-gray-200 transition-all duration-300 ease-in-out hover:-translate-y-1 hover:border-primary">
+        <h4 className="text-small text-secondary mb-xxsmall">{title}</h4>
+        <p className="text-xsmall text-text-secondary mb-xsmall">{platform}</p>
+        <span className="text-xxsmall text-primary font-bold">{year}</span>
+    </div>
 );
 
 export default CertificationCard;

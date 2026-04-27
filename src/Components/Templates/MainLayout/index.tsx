@@ -1,23 +1,21 @@
-"use client";
-
-import React, { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 import Footer from "Components/Organisms/Footer";
 import Navbar from "Components/Organisms/Navbar";
-
-import { Container, Main } from "./styles";
 
 interface MainLayoutProps {
     children: ReactNode;
 }
 
-const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
+const MainLayout = ({ children }: MainLayoutProps) => {
     return (
-        <Container>
+        <div className="flex flex-col min-h-screen">
             <Navbar />
-            <Main>{children}</Main>
+            <main className="flex-1 w-full max-w-[1120px] mx-auto py-large px-small">
+                {children}
+            </main>
             <Footer />
-        </Container>
+        </div>
     );
 };
 

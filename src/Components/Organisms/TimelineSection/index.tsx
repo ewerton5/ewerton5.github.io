@@ -1,15 +1,9 @@
-"use client";
-
-import React from "react";
-
 import TimelineCard from "Components/Molecules/TimelineCard";
 import timelineData from "data/timeline.json";
 
-import * as S from "./styles";
-
-const TimelineSection: React.FC = () => (
-    <S.Section>
-        <h2>Minha Jornada</h2>
+const TimelineSection = () => (
+    <section className="mb-xxlarge">
+        <h2 className="text-center mb-large">Minha Jornada</h2>
         {timelineData.map((item) => (
             <TimelineCard
                 key={item.id}
@@ -18,7 +12,7 @@ const TimelineSection: React.FC = () => (
                 description={item.description}
             />
         ))}
-    </S.Section>
+    </section>
 );
 
 export default TimelineSection;
