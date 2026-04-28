@@ -1,26 +1,55 @@
 [
     {
         "id": 1,
-        "title": "Projeto 1: Sistema de Gerenciamento",
-        "description": "Um sistema web completo para gerenciamento de clientes, construído com React, Node.js e TypeScript. Focado em alta performance e escalabilidade.",
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Projeto+1",
-        "repoUrl": "https://github.com/seu-usuario/projeto-1",
-        "deployUrl": ""
+        "title": "Tô na Pista (Mobilidade Urbana)",
+        "description": "Plataforma complexa de ride-sharing. Arquitetura de Back-end robusta gerenciando WebSockets para compartilhamento de localização em tempo real, cálculo dinâmico de rotas alternando entre Google Maps/Mapbox/OpenRouteService, e cálculo de distâncias com Reverse GeoCode via PostgreSQL.",
+        "tags": [
+            "Node.js",
+            "WebSockets",
+            "React Native",
+            "PostgreSQL",
+            "Geolocalização"
+        ],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=To+na+Pista"
     },
     {
         "id": 2,
-        "title": "Projeto 2: Aplicativo Mobile",
-        "description": "Aplicativo de delivery desenvolvido em React Native, com integração a API de pagamentos e geolocalização em tempo real.",
-        "imageUrl": "https://placehold.co/600x400/003F73/FFFFFF?text=Projeto+2",
-        "repoUrl": "https://github.com/seu-usuario/projeto-2",
-        "deployUrl": ""
+        "title": "Rio Vistorias",
+        "description": "Aplicativo de alta demanda projetado para processar milhares de fotos por vistoria (suportando até 40.000 imagens). Reescrito em React Native com implementação pesada de arquitetura Offline-First via WatermelonDB para sincronização assíncrona com API legada.",
+        "tags": [
+            "React Native",
+            "WatermelonDB",
+            "Offline-First",
+            "Performance"
+        ],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Rio+Vistorias"
     },
     {
         "id": 3,
-        "title": "Projeto 3: Website Institucional",
-        "description": "Website estático para a empresa XYZ, focado em SEO e design responsivo, utilizando React e Styled Components.",
-        "imageUrl": "https://placehold.co/600x400/9CA3AF/FFFFFF?text=Projeto+3",
-        "repoUrl": "https://github.com/seu-usuario/projeto-3",
-        "deployUrl": "https://seu-usuario.github.io/projeto-3"
+        "title": "PAA Advogados",
+        "description": "Sistema de gestão jurídica (App, Web e Back-end) abrangendo perfis desde sócios a calculistas. Controle de fluxo processual através de máquina de estados e visualização em board Kanban (Drag and Drop), suportado inteiramente por Firebase (Firestore/Cloud Functions).",
+        "tags": ["React Native", "Firebase", "Kanban", "Cloud Functions"],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=PAA+Advogados"
+    },
+    {
+        "id": 4,
+        "title": "Ecossistema Smartly (IoT)",
+        "description": "Liderança técnica e manutenção de ecossistema de automação residencial. Refatoração de app mobile substituindo Redux por Zustand/React Query. Integração via MQTT para painéis de controle, termostatos, e Hot Closets.",
+        "tags": ["IoT", "Zustand", "React Native", "Refatoração de Código"],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Smartly+IoT"
+    },
+    {
+        "id": 5,
+        "title": "Sky's the Limit",
+        "description": "Rede social para empreendedores operando em React Native Web (Multiplataforma). Funcionalidades avançadas incluindo WebSockets para chat, videochamadas integradas e testagem automatizada com Cypress e Detox.",
+        "tags": ["React Native Web", "Cypress", "Detox", "WebRTC/Video"],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Skys+The+Limit"
+    },
+    {
+        "id": 6,
+        "title": "Megapark",
+        "description": "Sistema de gestão de pátio de estacionamentos embarcado nativamente em Smart POS (Stone). Integração local de câmera OCR para leitura instantânea de placas e sincronização com banco de dados MySQL legados via Node.js.",
+        "tags": ["Smart POS/Stone", "Node.js", "OCR / Visão Computacional"],
+        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Megapark"
     }
 ]

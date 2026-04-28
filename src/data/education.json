@@ -4,34 +4,41 @@
             "id": 1,
             "institution": "UFRJ - Universidade Federal do Rio de Janeiro",
             "degree": "Engenharia Eletrônica e de Computação",
-            "period": "2019 - 2023",
-            "description": "Foco em estruturas de dados, algoritmos, sistemas de controle e ciência da computação. Base sólida para resolução de problemas complexos de software e hardware."
+            "period": "2019 - 2025",
+            "description": "Formação densa em engenharia de software e hardware. Destaque em disciplinas de Algoritmos e Estruturas de Dados, Inteligência Artificial, Banco de Dados, Processamento de Sinais, Sistemas Operacionais, Comunicações e Controle Multivariável."
         },
         {
             "id": 2,
             "institution": "Academia da Força Aérea (AFA)",
-            "degree": "Administração, Administração Pública e Ciências Aeronáuticas",
+            "degree": "Administração Pública e Ciências Aeronáuticas",
             "period": "2017 - 2018",
-            "description": "Formação de Oficiais Aviadores. Desenvolvimento intenso de liderança de equipe, resiliência sob pressão, planejamento estratégico e disciplina."
+            "description": "Período de formação militar de excelência. Estudos aprofundados em Liderança Organizacional, Direito, Cálculo Diferencial, Propulsão, Navegação Aérea e Segurança de Voo. Desenvolvimento prático de resiliência e tomada de decisão."
+        },
+        {
+            "id": 3,
+            "institution": "Escola Preparatória de Cadetes do Ar (EPCAR)",
+            "degree": "Ensino Médio e Formação Militar",
+            "period": "2014 - 2016",
+            "description": "Admissão mediante concurso público de alta concorrência. Formação de base sólida em exatas e condicionamento físico/militar."
         }
     ],
     "certifications": [
         {
             "id": 1,
-            "title": "Arquitetura de Software e Clean Code",
-            "platform": "Alura / Coursera",
-            "year": "2023"
+            "title": "Arquitetura e Clean Code",
+            "platform": "Cursos Diversos e Prática de Mercado",
+            "year": "Contínuo"
         },
         {
             "id": 2,
-            "title": "React Native Avançado & Deploy",
-            "platform": "Rocketseat",
-            "year": "2022"
+            "title": "Estruturas Offline-First",
+            "platform": "WatermelonDB & SQLite Implementation",
+            "year": "2023"
         },
         {
             "id": 3,
-            "title": "AWS Cloud Practitioner",
-            "platform": "Amazon Web Services",
+            "title": "Desenvolvimento Multi-Cloud & Integrações",
+            "platform": "AWS, Firebase, Supabase, Google Maps, Twilio",
             "year": "2024"
         }
     ],
@@ -39,7 +46,7 @@
         {
             "id": 1,
             "language": "Inglês",
-            "level": "Avançado / Técnico"
+            "level": "Avançado / Técnico (Comunicação Diária de Engenharia)"
         },
         {
             "id": 2,

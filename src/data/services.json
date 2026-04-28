@@ -2,19 +2,19 @@
     {
         "id": 1,
         "icon": "leadership",
-        "title": "Liderança Técnica & Arquitetura",
-        "description": "Mentoria de desenvolvedores, code reviews rigorosos, definição de arquitetura de software escalável e gestão de ciclo de vida de aplicações."
+        "title": "Liderança Técnica & Mentoria",
+        "description": "Experiência atuando como Tech Lead. Foco em refatoração e otimização agressiva de arquiteturas (migração para Zustand, React Query), code review de excelência, organização de sprints e condução de daily meetings técnicas em inglês."
     },
     {
         "id": 2,
         "icon": "mobile",
-        "title": "Desenvolvimento Mobile",
-        "description": "Criação de aplicativos nativos e multiplataforma com React Native. Gestão completa de builds, CI/CD e publicações na App Store e Google Play."
+        "title": "Arquitetura Mobile & Offline-First",
+        "description": "Domínio absoluto em React Native. Especialista na criação de apps performáticos que exigem alta persistência de dados local (WatermelonDB/SQLite) e sincronização assíncrona para operação 100% offline."
     },
     {
         "id": 3,
         "icon": "web",
-        "title": "Engenharia Full Stack",
-        "description": "Desenvolvimento de sistemas web robustos utilizando React.js, Node.js e TypeScript. Foco em performance, SEO e interfaces de alta conversão."
+        "title": "Engenharia Full Stack & Real-Time",
+        "description": "Construção de aplicações modernas em Next.js e React com Server Components. Desenvolvimento de APIs em Node.js com alta carga de WebSockets para chats e rastreamento geoespacial multissalas."
     }
 ]

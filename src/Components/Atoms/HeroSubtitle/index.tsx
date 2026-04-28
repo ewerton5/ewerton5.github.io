@@ -1,14 +1,13 @@
-type HeroSubtitleProps = {
-    name: string;
-    title: string;
-};
+import profile from "data/profile.json";
 
-const HeroSubtitle = ({ name, title }: HeroSubtitleProps) => (
-    <h2 className="text-medium text-text-secondary font-normal leading-relaxed [&_strong]:text-text">
-        Olá, eu sou <strong>{name}</strong>, {title}. Construo aplicações web e
-        mobile de alta performance e lidero equipes de desenvolvimento focadas
-        em resultados.
-    </h2>
-);
+const HeroSubtitle = () => {
+    const { name, title, heroSubtitle } = profile;
+    return (
+        <h2 className="text-medium text-text-secondary font-normal leading-relaxed [&_strong]:text-text">
+            {heroSubtitle.prefix} <strong>{name}</strong>, {title}
+            {heroSubtitle.suffix}
+        </h2>
+    );
+};
 
 export default HeroSubtitle;

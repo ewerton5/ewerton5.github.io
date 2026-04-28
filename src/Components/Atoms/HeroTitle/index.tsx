@@ -1,7 +1,6 @@
 const HeroTitle = () => (
     <h1 className="text-xxlarge leading-tight text-secondary mb-medium [&_span]:text-primary max-laptop:text-[36px] max-tablet:text-xlarge">
-        Transformando disciplina militar em <br />
-        <span>excelência técnica.</span>
+        Transformando disciplina militar em <span>excelência técnica.</span>
     </h1>
 );
 

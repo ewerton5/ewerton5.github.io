@@ -1,91 +1,89 @@
 {
-    "name": "Ewerton Vieira",
-    "title": "Engenheiro de Software",
-    "about": "Meu propósito é tornar a tecnologia mais acessível e simples para o mundo. Para isso, aplico toda a disciplina adquirida ao longo da minha trajetória acadêmica e profissional, aliando compromisso com a verdade, honestidade, justiça e lealdade.\n\nCom mais de seis anos de experiência no desenvolvimento de aplicativos Android, iOS e sistemas web, busco constantemente soluções eficientes para os desafios que enfrento, utilizando minha capacidade de aprendizado rápido e adaptabilidade como principais ferramentas. Acredito que tecnologia de verdade é aquela que resolve problemas de forma clara, prática e humana.",
-    "email": "ewerton.exemplo@gmail.com",
+    "name": "Ewerton Vieira de Silles",
+    "title": "Tech Lead | Senior Full Stack Developer",
+    "heroSubtitle": {
+        "prefix": "Olá, eu sou",
+        "suffix": ". Com um histórico de mais de 40 projetos entregues, construo ecossistemas web e mobile de alta complexidade e lidero equipes de desenvolvimento focadas em performance."
+    },
+    "bio": [
+        [
+            { "text": "A minha jornada é moldada pela disciplina. Minha base foi forjada na " },
+            { "text": "Escola Preparatória de Cadetes do Ar (EPCAR)", "bold": true },
+            { "text": " e na " },
+            { "text": "Academia da Força Aérea (AFA)", "bold": true },
+            { "text": ", onde aprendi desde cedo sobre resiliência, liderança e tomada de decisão sob pressão. Posteriormente, direcionei essa mesma dedicação para a Engenharia Eletrônica e de Computação na UFRJ." }
+        ],
+        [
+            { "text": "Nos últimos 6 anos, participei do desenvolvimento e arquitetura de mais de 40 projetos passando por empresas como Fluxo Consultoria, Lead Up / Coders Squad e Smartly. Construí desde plataformas de mobilidade urbana com rastreamento em tempo real via WebSockets e ecossistemas IoT residenciais, até aplicativos com processamento massivo de dados em arquiteturas 100% Offline-First." }
+        ],
+        [
+            { "text": "Hoje atuo como " },
+            { "text": "Tech Lead", "bold": true },
+            { "text": " e Senior Full Stack Developer. O meu propósito é utilizar minha capacidade analítica para modernizar códigos legados, arquitetar soluções escaláveis e liderar equipes na entrega de tecnologias que resolvam problemas reais de forma simples, eficiente e humana." }
+        ]
+    ],
+    "about": "Com uma trajetória que une a disciplina e resiliência forjadas na Força Aérea Brasileira (AFA) ao rigor analítico da Engenharia Eletrônica e de Computação (UFRJ), atuo há mais de 6 anos construindo soluções de software de alto impacto. Lidero equipes técnicas e defino arquiteturas escaláveis, com expertise em React, React Native, Node.js, arquiteturas Offline-First e sistemas em tempo real via WebSockets. Tenho em meu portfólio mais de 40 projetos entregues, englobando desde apps de mobilidade urbana e ecossistemas IoT até sistemas jurídicos e fintechs. Meu propósito é simplificar a tecnologia, resolvendo problemas complexos com código limpo, performance e máxima eficiência.",
+    "email": "ewerton.v50@gmail.com",
     "linkedinUrl": "https://www.linkedin.com/in/ewerton-vieira-ab8b111ab",
     "githubUrl": "https://github.com/ewerton5",
     "profilePicture": "https://github.com/ewerton5.png",
+    "location": "Belford Roxo - RJ, Brasil (Atuação Remota)",
     "experience": [
         {
             "id": 1,
-            "title": "Líder técnico",
-            "company": "SmartLy Fabricação de Dispositivos Inteligentes Ltda.",
-            "period": "mar de 2025 - o momento",
-            "location": "Curitiba, Paraná, Brasil · Remota",
-            "skills": "React Native, AWS CodeCommit e mais 4 competências"
+            "title": "Tech Lead",
+            "company": "Smartly Fabricação de Dispositivos Inteligentes",
+            "period": "2025 - Presente",
+            "location": "Curitiba, Paraná, Brasil (Remoto)",
+            "description": "Liderança técnica de equipes multidisciplinares (front-end, back-end e firmware). Responsável pela eliminação de débito técnico, refatoração profunda de código legado e migração de arquitetura de estados (Redux para Zustand/React Query). Gerenciamento de rotinas IoT via MQTT (termostatos, Hot Closets, iluminação) e gestão de publicação nas lojas (App Store / Play Store). Implementação de cultura de dailies em inglês para o time de engenharia."
         },
         {
             "id": 2,
-            "title": "Desenvolvedor full stack",
-            "company": "Lead Up",
-            "period": "ago de 2020 - fev de 2025 · 4 anos 7 meses",
+            "title": "Desenvolvedor Full Stack Sênior",
+            "company": "Coders Squad / Lead Up",
+            "period": "ago de 2020 - fev de 2025",
             "location": "Rio de Janeiro, Brasil",
-            "skills": "GitHub, Express.js e mais 26 competências"
+            "description": "Desenvolvimento de dezenas de aplicações escaláveis englobando mobile (React Native) e web (React, Next.js). Criação de arquiteturas complexas como WebSockets para aplicativos de mobilidade urbana (Ride-sharing), integração massiva de APIs de mapas e pagamentos, bancos de dados relacionais e NoSQL, além de otimizações de aplicações robustas com suporte a Offline-First (WatermelonDB e SQLite)."
         },
         {
             "id": 3,
-            "title": "Consultor de projetos",
-            "company": "Fluxo Consultoria",
-            "period": "jun de 2019 - set de 2020 · 1 ano 4 meses",
-            "location": "Rio de Janeiro, Rio de Janeiro, Brasil",
-            "skills": "GitHub, Liderança de equipe e mais 17 competências"
+            "title": "Consultor de Projetos",
+            "company": "Fluxo Consultoria (UFRJ)",
+            "period": "jun de 2019 - set de 2020",
+            "location": "Rio de Janeiro, Brasil",
+            "description": "Desenvolvimento dos primeiros aplicativos Android e iOS para clientes reais, levantamento de requisitos e prototipagem. Vencedor do 4º lugar no Hack Rio (maior hackathon da América Latina) com o app Learn Sharing, resultando na participação em programa de aceleração de startups."
         },
         {
             "id": 4,
             "title": "Cadete Aviador",
-            "company": "Força Aérea Brasileira - FAB",
-            "period": "jan de 2017 - mar de 2018 · 1 ano 3 meses",
+            "company": "Força Aérea Brasileira (AFA)",
+            "period": "jan de 2017 - mar de 2018",
             "location": "Pirassununga, São Paulo, Brasil",
-            "skills": "Liderança de equipe"
+            "description": "Formação de Oficiais Aviadores. Intenso treinamento em liderança de equipes, gestão sob pressão, segurança de voo, navegação aérea e aerodinâmica."
         },
         {
             "id": 5,
             "title": "Aluno",
-            "company": "Força Aérea Brasileira - FAB",
-            "period": "jan de 2014 - dez de 2016 · 3 anos",
+            "company": "Força Aérea Brasileira (EPCAR)",
+            "period": "jan de 2014 - dez de 2016",
             "location": "Barbacena, Minas Gerais, Brasil",
-            "skills": "Liderança de equipe e Algoritmos"
-        }
-    ],
-    "education": [
-        {
-            "id": 1,
-            "institution": "UFRJ - Universidade Federal do Rio de Janeiro",
-            "course": "Bacharelado em Engenharia, Engenharia Eletrônica e de Computação",
-            "period": "2019 - 2023",
-            "skills": "Estruturas de dados, Realização de testes e mais 19 competências"
-        },
-        {
-            "id": 2,
-            "institution": "Academia da Força Aérea - AFA",
-            "course": "Bacharelado em Administração, Administração Pública e Ciências Aeronáuticas",
-            "period": "2017 - 2018",
-            "skills": "Nota: Curso abandonado. Liderança de equipe e Aviação militar"
+            "description": "Ensino médio integrado à formação militar, com destaque em competições esportivas (salto em altura/atletismo) e disciplina estratégica."
         }
     ],
     "skills": [
         "React Native",
         "React.js",
-        "Node.js",
+        "Next.js",
         "TypeScript",
-        "JavaScript",
-        "Git",
-        "AWS",
-        "Express.js",
-        "Sistemas de controle",
-        "Ciência da computação"
-    ],
-    "extracurricular": [
-        {
-            "id": 1,
-            "title": "Voluntariado",
-            "description": "Descrição da sua atividade de voluntariado."
-        },
-        {
-            "id": 2,
-            "title": "Hackathon",
-            "description": "Participação no Hackathon XYZ, focado em soluções de IoT."
-        }
+        "Tailwind CSS v4",
+        "Zustand / React Query",
+        "Node.js",
+        "Express",
+        "WebSockets",
+        "PostgreSQL",
+        "Firebase / Supabase",
+        "Offline-first (WatermelonDB)",
+        "IoT (MQTT / Smart Home)",
+        "Geolocalização (Maps / OCR)"
     ]
 }

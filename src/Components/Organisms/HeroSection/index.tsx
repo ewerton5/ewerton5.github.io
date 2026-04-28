@@ -18,7 +18,7 @@ const HeroSection = () => {
         <section className="flex items-center justify-between min-h-[80vh] gap-large pb-xxlarge max-tablet:flex-col-reverse max-tablet:text-center max-tablet:min-h-auto max-tablet:pt-large">
             <div className="flex-1">
                 <HeroTitle />
-                <HeroSubtitle name={profile.name} title={profile.title} />
+                <HeroSubtitle />
                 <HeroActions>
                     <Button
                         size="LARGE"

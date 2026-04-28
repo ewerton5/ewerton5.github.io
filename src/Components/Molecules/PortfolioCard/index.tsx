@@ -5,8 +5,8 @@ interface Project {
     title: string;
     description: string;
     imageUrl: string;
-    repoUrl: string;
-    deployUrl: string;
+    repoUrl?: string;
+    deployUrl?: string;
 }
 
 interface PortfolioCardProps {
