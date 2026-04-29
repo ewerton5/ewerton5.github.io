@@ -7,19 +7,44 @@
     },
     "bio": [
         [
-            { "text": "A minha jornada é moldada pela disciplina. Minha base foi forjada na " },
-            { "text": "Escola Preparatória de Cadetes do Ar (EPCAR)", "bold": true },
+            {
+                "text": "A minha jornada é moldada pela disciplina. Minha base foi forjada na "
+            },
+            {
+                "text": "Escola Preparatória de Cadetes do Ar (EPCAR)",
+                "bold": true
+            },
             { "text": " e na " },
             { "text": "Academia da Força Aérea (AFA)", "bold": true },
-            { "text": ", onde aprendi desde cedo sobre resiliência, liderança e tomada de decisão sob pressão. Posteriormente, direcionei essa mesma dedicação para a Engenharia Eletrônica e de Computação na UFRJ." }
+            {
+                "text": ", onde aprendi desde cedo sobre resiliência, liderança e tomada de decisão sob pressão. Posteriormente, direcionei essa mesma dedicação para a "
+            },
+            {
+                "text": "Engenharia Eletrônica e de Computação na UFRJ",
+                "bold": true
+            },
+            {
+                "text": "."
+            }
         ],
         [
-            { "text": "Nos últimos 6 anos, participei do desenvolvimento e arquitetura de mais de 40 projetos passando por empresas como Fluxo Consultoria, Lead Up / Coders Squad e Smartly. Construí desde plataformas de mobilidade urbana com rastreamento em tempo real via WebSockets e ecossistemas IoT residenciais, até aplicativos com processamento massivo de dados em arquiteturas 100% Offline-First." }
+            { "text": "Nos últimos 7 anos", "bold": true },
+            {
+                "text": ", participei do desenvolvimento e arquitetura de "
+            },
+            { "text": "mais de 40 projetos", "bold": true },
+            {
+                "text": " passando por empresas como Fluxo Consultoria, Lead Up / Coders Squad e Smartly. Construí desde plataformas de mobilidade urbana com rastreamento em tempo real via WebSockets e ecossistemas IoT residenciais, até aplicativos com processamento massivo de dados em arquiteturas 100% Offline-First."
+            }
         ],
         [
             { "text": "Hoje atuo como " },
             { "text": "Tech Lead", "bold": true },
-            { "text": " e Senior Full Stack Developer. O meu propósito é utilizar minha capacidade analítica para modernizar códigos legados, arquitetar soluções escaláveis e liderar equipes na entrega de tecnologias que resolvam problemas reais de forma simples, eficiente e humana." }
+            { "text": " e " },
+            { "text": "Senior Full Stack Developer", "bold": true },
+            {
+                "text": ". O meu propósito é utilizar minha capacidade analítica para modernizar códigos legados, arquitetar soluções escaláveis e liderar equipes na entrega de tecnologias que resolvam problemas reais de forma simples, eficiente e humana."
+            }
         ]
     ],
     "about": "Com uma trajetória que une a disciplina e resiliência forjadas na Força Aérea Brasileira (AFA) ao rigor analítico da Engenharia Eletrônica e de Computação (UFRJ), atuo há mais de 6 anos construindo soluções de software de alto impacto. Lidero equipes técnicas e defino arquiteturas escaláveis, com expertise em React, React Native, Node.js, arquiteturas Offline-First e sistemas em tempo real via WebSockets. Tenho em meu portfólio mais de 40 projetos entregues, englobando desde apps de mobilidade urbana e ecossistemas IoT até sistemas jurídicos e fintechs. Meu propósito é simplificar a tecnologia, resolvendo problemas complexos com código limpo, performance e máxima eficiência.",
