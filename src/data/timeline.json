@@ -1,24 +1,24 @@
 [
     {
-        "id": 1,
+        "id": "3d395ce3-2cb1-4711-b566-381d24b8b9c0",
         "year": "2025 - Presente",
         "title": "Liderança Técnica na Smartly (IoT)",
         "description": "Atuando como Tech Lead em sistemas de automação residencial. Foco em eliminar débitos técnicos profundos, refatorar código ligado a hardwares de IoT e melhorar padrões de desenvolvimento de toda a equipe (front, back e firmware)."
     },
     {
-        "id": 2,
+        "id": "72537377-6d54-47a4-9606-02d73cafc0f6",
         "year": "2025",
         "title": "Bacharel em Engenharia Eletrônica e Computação",
         "description": "Conclusão do curso na UFRJ. Base analítica sólida que me apoia diariamente na otimização de matrizes matemáticas, processamento de sinais de software e gestão de memória."
     },
     {
-        "id": 3,
+        "id": "5a70f418-892d-48e4-be76-0ce647983099",
         "year": "2020 - 2025",
         "title": "A Jornada dos +40 Projetos (Coders Squad/Lead Up)",
         "description": "Período de intensa entrega profissional. Desenvolvi e arquitetei mais de quatro dezenas de sistemas abrangendo fintechs, ride-sharing, vistorias complexas, e-commerces e redes sociais multiplataforma."
     },
     {
-        "id": 4,
+        "id": "47b83fff-0d11-4310-b638-c450029d710f",
         "year": "2019 - 2020",
         "title": "Início Comercial (Fluxo Consultoria)",
         "description": "Mergulho prático na engenharia de software na UFRJ. Entrega dos primeiros projetos como Odonto Guardians, além do alcance da 4ª colocação geral no Hack Rio com um projeto voltado para a educação."

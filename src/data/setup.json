@@ -1,18 +1,18 @@
 [
     {
-        "id": 1,
+        "id": "2bf0ce53-8fc7-4e20-8158-4e859ee5dda2",
         "iconName": "apple",
         "title": "Hardware Principal",
         "description": "Mac mini M4 (16GB RAM, 256GB SSD) atuando como estação de trabalho primária e central de desenvolvimento para o ecossistema Apple."
     },
     {
-        "id": 2,
+        "id": "cd3baf00-746a-4b3b-92ed-4e1e7d1de8c7",
         "iconName": "server",
         "title": "Laboratório / Hackintosh",
         "description": "Dell G3 3500 (Intel Core i7 10ª Gen, 16GB RAM, 1.5TB SSD, GTX 1660Ti). Máquina robusta rodando Hackintosh para testes pesados, paralelismo e experimentações de arquitetura."
     },
     {
-        "id": 3,
+        "id": "5d3b352f-de9d-41be-b1a1-903c96ac8195",
         "iconName": "laptopCode",
         "title": "Software Stack",
         "description": "VS Code, Xcode, Android Studio. Postman para APIs, Figma para UI/UX e terminal zsh com Oh My Zsh."

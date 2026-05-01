@@ -55,7 +55,7 @@
     "location": "Belford Roxo - RJ, Brasil (Atuação Remota)",
     "experience": [
         {
-            "id": 1,
+            "id": "bc610db8-18b5-405f-be02-e56e8a2faa1a",
             "title": "Tech Lead",
             "company": "Smartly Fabricação de Dispositivos Inteligentes",
             "period": "2025 - Presente",
@@ -63,7 +63,7 @@
             "description": "Liderança técnica de equipes multidisciplinares (front-end, back-end e firmware). Responsável pela eliminação de débito técnico, refatoração profunda de código legado e migração de arquitetura de estados (Redux para Zustand/React Query). Gerenciamento de rotinas IoT via MQTT (termostatos, Hot Closets, iluminação) e gestão de publicação nas lojas (App Store / Play Store). Implementação de cultura de dailies em inglês para o time de engenharia."
         },
         {
-            "id": 2,
+            "id": "a6fde5bf-6bad-4a81-953d-3a2ac1ad7f4d",
             "title": "Desenvolvedor Full Stack Sênior",
             "company": "Coders Squad / Lead Up",
             "period": "ago de 2020 - fev de 2025",
@@ -71,7 +71,7 @@
             "description": "Desenvolvimento de dezenas de aplicações escaláveis englobando mobile (React Native) e web (React, Next.js). Criação de arquiteturas complexas como WebSockets para aplicativos de mobilidade urbana (Ride-sharing), integração massiva de APIs de mapas e pagamentos, bancos de dados relacionais e NoSQL, além de otimizações de aplicações robustas com suporte a Offline-First (WatermelonDB e SQLite)."
         },
         {
-            "id": 3,
+            "id": "95b09ed0-a07d-43e3-8e66-7630232a9dec",
             "title": "Consultor de Projetos",
             "company": "Fluxo Consultoria (UFRJ)",
             "period": "jun de 2019 - set de 2020",
@@ -79,7 +79,7 @@
             "description": "Desenvolvimento dos primeiros aplicativos Android e iOS para clientes reais, levantamento de requisitos e prototipagem. Vencedor do 4º lugar no Hack Rio (maior hackathon da América Latina) com o app Learn Sharing, resultando na participação em programa de aceleração de startups."
         },
         {
-            "id": 4,
+            "id": "2f37b4ad-7d1f-4fa4-ab6c-22470547cb72",
             "title": "Cadete Aviador",
             "company": "Força Aérea Brasileira (AFA)",
             "period": "jan de 2017 - mar de 2018",
@@ -87,7 +87,7 @@
             "description": "Formação de Oficiais Aviadores. Intenso treinamento em liderança de equipes, gestão sob pressão, segurança de voo, navegação aérea e aerodinâmica."
         },
         {
-            "id": 5,
+            "id": "14803ee3-a9b0-4853-a59c-f6aa10d0e212",
             "title": "Aluno",
             "company": "Força Aérea Brasileira (EPCAR)",
             "period": "jan de 2014 - dez de 2016",

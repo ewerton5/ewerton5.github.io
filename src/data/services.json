@@ -1,20 +1,44 @@
 [
     {
-        "id": 1,
-        "icon": "leadership",
-        "title": "Liderança Técnica & Mentoria",
-        "description": "Experiência atuando como Tech Lead. Foco em refatoração e otimização agressiva de arquiteturas (migração para Zustand, React Query), code review de excelência, organização de sprints e condução de daily meetings técnicas em inglês."
-    },
-    {
-        "id": 2,
+        "id": "1aba31c8-f9a1-44ed-a853-14982c1849ec",
         "icon": "mobile",
-        "title": "Arquitetura Mobile & Offline-First",
-        "description": "Domínio absoluto em React Native. Especialista na criação de apps performáticos que exigem alta persistência de dados local (WatermelonDB/SQLite) e sincronização assíncrona para operação 100% offline."
+        "title": "Desenvolvimento Mobile",
+        "description": "Especialista em React Native e Expo. Mais de 25 aplicativos publicados (Android/iOS), englobando geolocalização nativa, integrações complexas de câmera (OCR) e refatoração de apps em low-code (FlutterFlow/Bubble) para código nativo performático."
     },
     {
-        "id": 3,
+        "id": "dcde33c3-41be-4d59-8fd9-8e8246951b38",
         "icon": "web",
-        "title": "Engenharia Full Stack & Real-Time",
-        "description": "Construção de aplicações modernas em Next.js e React com Server Components. Desenvolvimento de APIs em Node.js com alta carga de WebSockets para chats e rastreamento geoespacial multissalas."
+        "title": "Engenharia Web & Front-end",
+        "description": "Construção de sistemas administrativos, CRM e e-commerces utilizando React, Next.js e Tailwind CSS. Foco em arquiteturas robustas, migração de estados complexos (Redux para Zustand/React Query) e Server Components."
+    },
+    {
+        "id": "9e18d57a-92ea-4638-9666-625d14b8ea52",
+        "icon": "server",
+        "title": "Back-end & Cloud",
+        "description": "Criação de APIs RESTful estruturadas em Node.js (Express, Nest.js), além de forte atuação com BaaS como Firebase (Firestore, Cloud Functions) e Supabase. Integrações sólidas com PostgreSQL e bancos relacionais legados."
+    },
+    {
+        "id": "a4930140-1d57-423e-94aa-add1f9895323",
+        "icon": "database",
+        "title": "Arquitetura Offline-First",
+        "description": "Implementação de persistência de dados local avançada (WatermelonDB, SQLite) para aplicativos que operam offline e sincronizam processamento em lote (ex: envio de milhares de imagens em vistorias) sem travamento da UI."
+    },
+    {
+        "id": "2caba8bd-850c-4a49-8126-bfa230c956d0",
+        "icon": "realtime",
+        "title": "Sistemas em Tempo Real (WebSockets)",
+        "description": "Desenvolvimento de lógicas de alta complexidade em tempo real, incluindo o gerenciamento de múltiplas salas Socket dinâmicas simultâneas para apps de ride-sharing (motorista/passageiro) e chats peer-to-peer."
+    },
+    {
+        "id": "46183851-5444-4600-8915-db8e91947ffb",
+        "icon": "iot",
+        "title": "Automação e IoT",
+        "description": "Desenvolvimento e integração de softwares com firmwares e hardwares (termostatos, smart panels, iluminação) via protocolos MQTT, unindo o mundo digital ao controle de dispositivos físicos."
+    },
+    {
+        "id": "4aacd34c-43e2-4e25-9d90-d7b07bd992d8",
+        "icon": "leadership",
+        "title": "Liderança Técnica (Tech Lead)",
+        "description": "Coordenação de equipes de desenvolvimento, levantamento de requisitos arquiteturais, revisão de código (Clean Code) e resgate de projetos com alto débito técnico ou legados problemáticos."
     }
 ]

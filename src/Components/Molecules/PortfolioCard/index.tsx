@@ -1,7 +1,7 @@
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 interface Project {
-    id: number;
+    id: string;
     title: string;
     description: string;
     imageUrl: string;
