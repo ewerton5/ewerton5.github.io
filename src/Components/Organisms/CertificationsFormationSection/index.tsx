@@ -11,16 +11,17 @@ export default function CertificationsFormationSection() {
                 icon={<FaCertificate />}
                 title="Cursos & Certificações"
             />
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-medium">
+            <ul className="divide-y divide-gray-100">
                 {educationData.certifications.map((cert) => (
                     <CertificationCard
                         key={cert.id}
                         title={cert.title}
                         platform={cert.platform}
                         year={cert.year}
+                        credentialUrl={cert.credentialUrl}
                     />
                 ))}
-            </div>
+            </ul>
         </section>
     );
 }

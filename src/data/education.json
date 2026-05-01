@@ -59,97 +59,113 @@
             "id": "f047a9c2-a559-45d7-b0b8-36cd3e0ec2d9",
             "title": "Curso de Lógica de Programação",
             "platform": "Softblue",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Softblue.pdf"
         },
         {
             "id": "3094cae1-6ca0-48bb-97d6-fdbe7093e6fe",
             "title": "Curso de Algoritmo",
             "platform": "Curso em Vídeo",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Algorítimo Curso em Vídeo.pdf"
         },
         {
             "id": "d671ceb6-0528-45c0-9fa0-80b47879a0a4",
             "title": "Curso de HTML5",
             "platform": "Curso em Vídeo",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Html5 Curso em Vídeo.pdf"
         },
         {
             "id": "11406f88-908f-4be1-a9ec-f791036e3369",
             "title": "Curso de Introdução ao PHP",
             "platform": "iPED",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado PHP iPED.pdf"
         },
         {
             "id": "9a29e0ec-7797-4b77-91a0-e8e9215e1058",
             "title": "Curso de PHP",
             "platform": "Curso em Vídeo",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado PHP Curso em Vídeo.pdf"
         },
         {
             "id": "228ee039-f49d-4cf0-9edc-679c4d471602",
             "title": "Curso de Introdução ao Python Básico",
             "platform": "iPED",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Python iPED.pdf"
         },
         {
             "id": "822bf782-956c-4775-a1f6-8b6816ee8b2d",
             "title": "Curso de Python 3",
             "platform": "Curso em Vídeo",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Python Curso em Vídeo.pdf"
         },
         {
             "id": "026d1433-9a68-4718-847b-1892afd2fcbd",
             "title": "Curso de Java: Vetores",
             "platform": "iPED",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado Java iPED.pdf"
         },
         {
             "id": "20627c21-5dc1-4388-8045-4f933fe66a69",
             "title": "Curso de MySQL: Introdução ao Banco de Dados",
             "platform": "iPED",
-            "year": "2018"
+            "year": "2018",
+            "credentialUrl": "/certificados/Certificado MySQL iPED.pdf"
         },
         {
             "id": "0c7e6783-a57e-4d4a-88cb-6f4eb864ade7",
             "title": "Curso de Java",
             "platform": "Curso em Vídeo",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado Java Curso em Vídeo.pdf"
         },
         {
             "id": "d0f7c074-ce15-4ade-bd09-514a77d5522f",
             "title": "Curso de Programação Orientada a Objeto em Java",
             "platform": "Curso em Vídeo",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado POO Java Curso em Vídeo.pdf"
         },
         {
             "id": "3db78f7a-c664-4fda-92fa-40e7a7ddd1ec",
             "title": "Curso de Programação Orientada a Objeto em PHP",
             "platform": "Curso em Vídeo",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado POO PHP Curso em Vídeo.pdf"
         },
         {
             "id": "4c44d1a4-f07c-4d8d-9e59-7df3ebfc89d7",
             "title": "Curso de MySQL",
             "platform": "Curso em Vídeo",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado MySQL Curso em Vídeo.pdf"
         },
         {
             "id": "7188e062-2c0b-41a5-8888-62967e5b212e",
             "title": "Curso de Dreamweaver CS6: Introdução",
             "platform": "iPED",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado Dreamweaver CS6 introdução iPED.pdf"
         },
         {
             "id": "ef88627e-061e-4078-be34-381dbe06455a",
             "title": "Curso de Introdução ao Dreamweaver com PHP e MySQL",
             "platform": "iPED",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado Introdução ao Dreamweaver CS6 com PHP e MySQL iPED.pdf"
         },
         {
             "id": "3db5292c-3da2-4c16-819f-892254edfc25",
             "title": "Curso de Desenvolvimento de Games para Android - Básico: Personagens",
             "platform": "iPED",
-            "year": "2019"
+            "year": "2019",
+            "credentialUrl": "/certificados/Certificado Desenvolvimento de Games para Android iPED.pdf"
         }
     ],
     "languages": [
