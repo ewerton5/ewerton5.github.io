@@ -12,15 +12,16 @@ export default function AcademicCard({
     description
 }: AcademicCardProps) {
     return (
-        <div className="bg-white border-l-4 border-primary p-large rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.05)]">
-            <h3 className="text-medium text-secondary mb-xxsmall">{degree}</h3>
-            <h4 className="text-small text-text font-medium mb-xsmall">
-                {institution}
-            </h4>
-            <span className="inline-block bg-gray-100 text-gray-600 px-[12px] py-[4px] rounded-[16px] text-xxsmall mb-small font-bold">
+        <div className="mb-large ml-6 relative last:mb-0">
+            <span className="absolute -left-[1.95rem] top-1.5 w-3 h-3 bg-primary rounded-full ring-4 ring-white" />
+            <span className="inline-block px-3 py-1 mb-2 text-xs font-semibold tracking-wider text-primary bg-primary/10 rounded-full">
                 {period}
             </span>
-            <p className="text-text-secondary leading-relaxed text-small">
+            <h3 className="text-xl font-bold text-gray-900 mb-1">{degree}</h3>
+            <p className="text-medium font-medium text-text-secondary mb-2">
+                {institution}
+            </p>
+            <p className="text-sm text-text-secondary leading-relaxed">
                 {description}
             </p>
         </div>

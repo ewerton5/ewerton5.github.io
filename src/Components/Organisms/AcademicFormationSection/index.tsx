@@ -11,7 +11,7 @@ export default function AcademicFormationSection() {
                 icon={<FaUniversity />}
                 title="Formação Acadêmica"
             />
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-large">
+            <div className="relative border-l border-gray-200 ml-3 mt-medium">
                 {educationData.academic.map((item) => (
                     <AcademicCard
                         key={item.id}
