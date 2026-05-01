@@ -5,20 +5,22 @@ type LangBadgeProps = {
     level: string;
 };
 
-const LangBadge = ({ language, level }: LangBadgeProps) => (
-    <div className="bg-gray-50 border border-gray-200 px-medium py-small rounded-[50px] text-small text-text [&_strong]:text-secondary">
-        <strong>{language}:</strong> {level}
-    </div>
-);
+export default function LangBadge({ language, level }: LangBadgeProps) {
+    return (
+        <div className="bg-gray-50 border border-gray-200 px-medium py-small rounded-[50px] text-small text-text [&_strong]:text-secondary">
+            <strong>{language}:</strong> {level}
+        </div>
+    );
+}
 
 type LangBadgeListProps = {
     children: ReactNode;
 };
 
-export const LangBadgeList = ({ children }: LangBadgeListProps) => (
-    <div className="flex flex-wrap gap-medium max-tablet:flex-col">
-        {children}
-    </div>
-);
-
-export default LangBadge;
+export function LangBadgeList({ children }: LangBadgeListProps) {
+    return (
+        <div className="flex flex-wrap gap-medium max-tablet:flex-col">
+            {children}
+        </div>
+    );
+}

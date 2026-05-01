@@ -35,23 +35,21 @@ type BodyProps = Pick<
     "title" | "primaryLabel" | "secondaryLabel"
 >;
 
-const ContactCardBody = ({
-    title,
-    primaryLabel,
-    secondaryLabel
-}: BodyProps) => (
-    <div>
-        <h3 className="text-medium text-secondary mb-xsmall">{title}</h3>
-        <p className="text-text font-medium text-small mb-xxsmall">
-            {primaryLabel}
-        </p>
-        <span className="text-text-secondary text-xxsmall">
-            {secondaryLabel}
-        </span>
-    </div>
-);
+function ContactCardBody({ title, primaryLabel, secondaryLabel }: BodyProps) {
+    return (
+        <div>
+            <h3 className="text-medium text-secondary mb-xsmall">{title}</h3>
+            <p className="text-text font-medium text-small mb-xxsmall">
+                {primaryLabel}
+            </p>
+            <span className="text-text-secondary text-xxsmall">
+                {secondaryLabel}
+            </span>
+        </div>
+    );
+}
 
-const ContactCard = (props: ContactCardProps) => {
+export default function ContactCard(props: ContactCardProps) {
     const { icon, iconColor, title, primaryLabel, secondaryLabel } = props;
 
     const body = (
@@ -96,6 +94,4 @@ const ContactCard = (props: ContactCardProps) => {
             {body}
         </a>
     );
-};
-
-export default ContactCard;
+}

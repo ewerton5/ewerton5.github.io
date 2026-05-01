@@ -24,7 +24,7 @@ const appearanceVariants = {
         "border-2 bg-transparent hover:bg-black/10 disabled:bg-gray-100 disabled:text-gray-400"
 } as const;
 
-const Button = ({
+export default function Button({
     children,
     outline,
     width,
@@ -39,7 +39,7 @@ const Button = ({
     hierarchy = "primary",
     style,
     ...rest
-}: ButtonProps) => {
+}: ButtonProps) {
     const isOutline = outline || hierarchy === "secondary";
     const appearance =
         `${isOutline ? "outline" : "solid"}-${color ? "custom" : "default"}` as keyof typeof appearanceVariants;
@@ -82,6 +82,4 @@ const Button = ({
             )}
         </button>
     );
-};
-
-export default Button;
+}

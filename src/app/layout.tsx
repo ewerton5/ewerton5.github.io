@@ -31,7 +31,7 @@ interface RootLayoutProps {
     children: ReactNode;
 }
 
-const RootLayout = ({ children }: RootLayoutProps) => {
+export default function RootLayout({ children }: RootLayoutProps) {
     return (
         <html lang="pt-br" className={inter.variable} suppressHydrationWarning>
             <body className={inter.className} suppressHydrationWarning>
@@ -39,6 +39,4 @@ const RootLayout = ({ children }: RootLayoutProps) => {
             </body>
         </html>
     );
-};
-
-export default RootLayout;
+}

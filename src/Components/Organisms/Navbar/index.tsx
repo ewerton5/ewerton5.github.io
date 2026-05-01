@@ -24,7 +24,7 @@ const navLinks = [
     { to: "/contato", label: "Contato" }
 ];
 
-const Navbar = () => {
+export default function Navbar() {
     const pathname = usePathname();
     const { isMobileMenuOpen, toggleMobileMenu, closeMobileMenu } =
         useUIStore();
@@ -131,6 +131,4 @@ const Navbar = () => {
             </div>
         </nav>
     );
-};
-
-export default Navbar;
+}

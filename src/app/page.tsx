@@ -3,7 +3,7 @@ import ServicesSection from "Components/Organisms/ServicesSection";
 import TestimonialsSection from "Components/Organisms/TestimonialsSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-const Home = () => {
+export default function Home() {
     return (
         <MainLayout>
             <div className="w-full animate-fade-in-up">
@@ -13,6 +13,4 @@ const Home = () => {
             </div>
         </MainLayout>
     );
-};
-
-export default Home;
+}

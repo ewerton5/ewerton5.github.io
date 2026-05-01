@@ -3,7 +3,7 @@ import CertificationsFormationSection from "Components/Organisms/CertificationsF
 import LanguagesFormationSection from "Components/Organisms/LanguagesFormationSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-const Graduation = () => {
+export default function Graduation() {
     return (
         <MainLayout>
             <div className="w-full animate-fade-in-up">
@@ -17,6 +17,4 @@ const Graduation = () => {
             </div>
         </MainLayout>
     );
-};
-
-export default Graduation;
+}

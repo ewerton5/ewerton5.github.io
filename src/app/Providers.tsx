@@ -8,8 +8,6 @@ interface ProvidersProps {
     children: ReactNode;
 }
 
-const Providers = ({ children }: ProvidersProps) => {
+export default function Providers({ children }: ProvidersProps) {
     return <ThemeManager>{children}</ThemeManager>;
-};
-
-export default Providers;
+}

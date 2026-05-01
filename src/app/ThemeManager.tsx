@@ -8,7 +8,7 @@ interface ThemeManagerProps {
     children: ReactNode;
 }
 
-const ThemeManager = ({ children }: ThemeManagerProps) => {
+export default function ThemeManager({ children }: ThemeManagerProps) {
     const { mode, resolvedTheme, setResolvedTheme } = useThemeStore();
     const [isHydrated, setIsHydrated] = useState(false);
 
@@ -63,6 +63,4 @@ const ThemeManager = ({ children }: ThemeManagerProps) => {
             {children}
         </div>
     );
-};
-
-export default ThemeManager;
+}

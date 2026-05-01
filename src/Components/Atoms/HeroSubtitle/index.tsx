@@ -1,6 +1,6 @@
 import profile from "data/profile.json";
 
-const HeroSubtitle = () => {
+export default function HeroSubtitle() {
     const { name, title, heroSubtitle } = profile;
     return (
         <h2 className="text-medium text-text-secondary font-normal leading-relaxed [&_strong]:text-text">
@@ -8,6 +8,4 @@ const HeroSubtitle = () => {
             {heroSubtitle.suffix}
         </h2>
     );
-};
-
-export default HeroSubtitle;
+}

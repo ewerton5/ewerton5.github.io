@@ -9,7 +9,7 @@ import HeroSubtitle from "Components/Atoms/HeroSubtitle";
 import HeroTitle from "Components/Atoms/HeroTitle";
 import profile from "data/profile.json";
 
-const HeroSection = () => {
+export default function HeroSection() {
     const router = useRouter();
     const imageSrc =
         profile.profilePicture || "https://github.com/ewerton5.png";
@@ -41,6 +41,4 @@ const HeroSection = () => {
             <HeroImage src={imageSrc} alt={profile.name} />
         </section>
     );
-};
-
-export default HeroSection;
+}

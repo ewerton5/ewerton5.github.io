@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import profile from "data/profile.json";
 
-const Footer = () => {
+export default function Footer() {
     return (
         <footer className="bg-white border-t border-gray-200 py-large">
             <div className="flex flex-col justify-center items-center max-w-[1120px] mx-auto px-small">
@@ -37,6 +37,4 @@ const Footer = () => {
             </div>
         </footer>
     );
-};
-
-export default Footer;
+}

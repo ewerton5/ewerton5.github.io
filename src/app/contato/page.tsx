@@ -2,7 +2,7 @@ import ContactConversationSection from "Components/Organisms/ContactConversation
 import SocialNetworksSection from "Components/Organisms/SocialNetworksSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-const Contact = () => {
+export default function Contact() {
     return (
         <MainLayout>
             <div className="w-full max-w-[900px] mx-auto animate-fade-in-up">
@@ -11,6 +11,4 @@ const Contact = () => {
             </div>
         </MainLayout>
     );
-};
-
-export default Contact;
+}

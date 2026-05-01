@@ -33,24 +33,24 @@ const renderServiceIcon = (iconName: string) => {
     }
 };
 
-const ServicesSection = () => (
-    <section className="py-xxlarge">
-        <SectionTitle>Minhas Especialidades</SectionTitle>
-        <div className="flex items-stretch w-full overflow-x-auto snap-x snap-mandatory gap-medium pb-medium hide-scrollbar laptop:grid laptop:grid-cols-3 laptop:overflow-visible">
-            {services.map((service) => (
-                <div
-                    key={service.id}
-                    className="flex snap-start shrink-0 w-[85%] tablet:w-[45%] laptop:w-auto last:laptop:col-span-3 last:laptop:w-full"
-                >
-                    <ServiceCard
-                        icon={renderServiceIcon(service.icon)}
-                        title={service.title}
-                        description={service.description}
-                    />
-                </div>
-            ))}
-        </div>
-    </section>
-);
-
-export default ServicesSection;
+export default function ServicesSection() {
+    return (
+        <section className="py-xxlarge">
+            <SectionTitle>Minhas Especialidades</SectionTitle>
+            <div className="flex items-stretch w-full overflow-x-auto snap-x snap-mandatory gap-medium pb-medium hide-scrollbar laptop:grid laptop:grid-cols-3 laptop:overflow-visible">
+                {services.map((service) => (
+                    <div
+                        key={service.id}
+                        className="flex snap-start shrink-0 w-[85%] tablet:w-[45%] laptop:w-auto last:laptop:col-span-3 last:laptop:w-full"
+                    >
+                        <ServiceCard
+                            icon={renderServiceIcon(service.icon)}
+                            title={service.title}
+                            description={service.description}
+                        />
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+}

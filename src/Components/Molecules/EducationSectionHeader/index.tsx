@@ -5,14 +5,14 @@ type EducationSectionHeaderProps = {
     title: string;
 };
 
-const EducationSectionHeader = ({
+export default function EducationSectionHeader({
     icon,
     title
-}: EducationSectionHeaderProps) => (
-    <div className="flex items-center gap-small mb-large border-b-2 border-gray-200 pb-xsmall [&_h2]:text-large [&_h2]:text-secondary [&_svg]:text-large [&_svg]:text-primary">
-        {icon}
-        <h2>{title}</h2>
-    </div>
-);
-
-export default EducationSectionHeader;
+}: EducationSectionHeaderProps) {
+    return (
+        <div className="flex items-center gap-small mb-large border-b-2 border-gray-200 pb-xsmall [&_h2]:text-large [&_h2]:text-secondary [&_svg]:text-large [&_svg]:text-primary">
+            {icon}
+            <h2>{title}</h2>
+        </div>
+    );
+}

@@ -3,7 +3,7 @@ import SetupSection from "Components/Organisms/SetupSection";
 import TimelineSection from "Components/Organisms/TimelineSection";
 import MainLayout from "Components/Templates/MainLayout";
 
-const About = () => {
+export default function About() {
     return (
         <MainLayout>
             <div className="w-full animate-fade-in-up">
@@ -15,6 +15,4 @@ const About = () => {
             </div>
         </MainLayout>
     );
-};
-
-export default About;
+}

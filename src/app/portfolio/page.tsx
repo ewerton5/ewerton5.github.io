@@ -2,7 +2,7 @@ import PortfolioCard from "Components/Molecules/PortfolioCard";
 import MainLayout from "Components/Templates/MainLayout";
 import projects from "data/projects.json";
 
-const Portfolio = () => {
+export default function Portfolio() {
     return (
         <MainLayout>
             <div className="w-full">
@@ -15,6 +15,4 @@ const Portfolio = () => {
             </div>
         </MainLayout>
     );
-};
-
-export default Portfolio;
+}

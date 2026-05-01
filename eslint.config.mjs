@@ -11,7 +11,14 @@ export default [
     { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
     { languageOptions: { globals: globals.browser } },
     {
-        ignores: ["node_modules", "build", "out", ".next", "**/*.d.ts", "*.config.*"]
+        ignores: [
+            "node_modules",
+            "build",
+            "out",
+            ".next",
+            "**/*.d.ts",
+            "*.config.*"
+        ]
     },
     pluginJs.configs.recommended,
     ...tseslint.configs.recommended,
@@ -112,7 +119,10 @@ export default [
             "no-underscore-dangle": "off",
             "react/function-component-definition": [
                 "warn",
-                { namedComponents: "arrow-function" }
+                {
+                    namedComponents: "function-declaration",
+                    unnamedComponents: "arrow-function"
+                }
             ],
             "object-shorthand": "warn"
         }
