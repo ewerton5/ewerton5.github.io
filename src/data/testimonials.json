@@ -1,23 +1,9 @@
 [
     {
-        "id": 1,
-        "name": "Fulano de Tal",
-        "role": "Desenvolvedor Mobile",
-        "text": "O Ewerton é um líder técnico excepcional. A disciplina que ele traz para o time e a forma clara como arquiteta as soluções mobile elevaram o nível de toda a equipe. É um privilégio trabalhar ao seu lado.",
-        "avatarUrl": "https://placehold.co/100x100/0A74DA/FFFFFF?text=CS"
-    },
-    {
-        "id": 2,
-        "name": "Beltrano de Tal",
-        "role": "Desenvolvedora Frontend",
-        "text": "A capacidade analítica e o domínio técnico do Ewerton são impressionantes. Ele consegue simplificar problemas complexos de frontend e backend, garantindo entregas sempre impecáveis e no prazo.",
-        "avatarUrl": "https://placehold.co/100x100/003F73/FFFFFF?text=NS"
-    },
-    {
-        "id": 3,
-        "name": "Ciclano de Tal",
-        "role": "Lead Up",
-        "text": "Durante os anos que esteve conosco, Ewerton demonstrou não apenas maestria técnica em React e Node.js, mas uma postura profissional, leal e focada na resolução de problemas reais do negócio.",
-        "avatarUrl": "https://placehold.co/100x100/9CA3AF/FFFFFF?text=GP"
+        "id": "4578a31d-6fa7-4ff7-8944-6080a8a6bd56",
+        "name": "Andre Moura",
+        "role": "Desenvolvedor Front-end | React • React Native • Next.js | TypeScript",
+        "text": "Tive a oportunidade de trabalhar com o Ewerton na Smartly e posso dizer que é um excelente Tech Lead, com forte domínio técnico e grande capacidade de orientar o time. Sempre esteve disponível para apoiar decisões técnicas, promover boas práticas e incentivar a evolução contínua da equipe.",
+        "avatarUrl": "https://media.licdn.com/dms/image/v2/D4D03AQEcIc-3FUY6HA/profile-displayphoto-scale_400_400/B4DZwodGt4GQAg-/0/1770205246943?e=1779321600&v=beta&t=kmAaNb_HhrWlpowXQ3e0mp7F7Glnmk8XTrc_wWkIN94"
     }
 ]
