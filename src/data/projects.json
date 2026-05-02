@@ -10,7 +10,7 @@
             "PostgreSQL",
             "Geolocalização"
         ],
-        "imageUrl": "/projetos/toNaPista/thumb.png",
+        "imageUrl": "/projetos/to-na-pista/thumb.png",
         "backgroundColor": "#FFFFFF"
     },
     {
@@ -23,7 +23,7 @@
             "Offline-First",
             "Performance"
         ],
-        "imageUrl": "/projetos/rioVistorias/thumb.png",
+        "imageUrl": "/projetos/rio-vistorias/thumb.png",
         "backgroundColor": "#FFFFFF"
     },
     {
@@ -31,7 +31,7 @@
         "title": "PAA Advogados",
         "description": "Sistema de gestão jurídica multiplataforma (App, Web e Back-end). Controle de fluxo processual através de uma máquina de estados complexa e visualização em board Kanban (Drag and Drop) para múltiplos perfis (de sócios a calculistas). Arquitetura suportada inteiramente por Firebase (Firestore e Cloud Functions).",
         "tags": ["React Native", "Firebase", "Kanban", "Cloud Functions"],
-        "imageUrl": "/projetos/paa/thumb.png",
+        "imageUrl": "/projetos/paa-advogados/thumb.png",
         "backgroundColor": "#FFFFFF"
     },
     {
@@ -55,7 +55,7 @@
         "title": "Sky's The Limit",
         "description": "Rede social multiplataforma para empreendedores desenvolvida em React Native Web. Conta com funcionalidades avançadas como vídeo-chamadas (Twilio), chat em tempo real via WebSockets e testagem automatizada rigorosa utilizando Cypress (Web) e Detox (Mobile).",
         "tags": ["React Native Web", "Twilio / WebRTC", "Cypress", "Detox"],
-        "imageUrl": "/projetos/skysTheLimit/thumb.png",
+        "imageUrl": "/projetos/skys-the-limit/thumb.png",
         "backgroundColor": "#181815"
     },
     {
@@ -79,77 +79,88 @@
         "title": "Omni",
         "description": "CRM e gerenciador de tickets Web + Back-end (Node). Plataforma de atendimento a clientes integrando fluxogramas visuais drag-and-drop de automação pré-IA e múltiplos canais de comunicação.",
         "tags": ["React", "Node.js", "CRM", "Drag and Drop"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Omni"
+        "imageUrl": "https://placehold.co/600x400/0B57F5/FFFFFF?text=OMNI",
+        "backgroundColor": "#0B57F5"
     },
     {
         "id": "923b7dfb-d8c8-4907-84ce-de6836b600b2",
         "title": "Odonto Guardians",
         "description": "App de emergência para área odontológica com mapa e cálculo de dosagem. Foi meu primeiro grande app em produção. Incluiu Landing Page, Firebase Auth e Firestore Back-end.",
         "tags": ["React Native", "Firebase", "Web"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Odonto Guardians"
+        "imageUrl": "/projetos/odonto-guardians/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "3be92f10-b949-4374-83e3-5ecc3f6ddca9",
         "title": "Desbank",
         "description": "App para banco digital/Fintech com integrações simulando rotinas bancárias do Itaú (pagamentos com cartão, PIX, e saldos).",
         "tags": ["React Native", "Fintech", "Pagamentos"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Desbank"
+        "imageUrl": "/projetos/desbank/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
         "title": "Cofarja (Motorista, Fornecedor, Admin)",
         "description": "Ecossistema (2 apps e 1 SW) para coleta de sucata com rastreamento GPS de frota em tempo real via React Native Maps.",
         "tags": ["React Native", "Web", "Mapas/GPS"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Cofarja"
+        "imageUrl": "/projetos/cofarja/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
         "title": "Livecom Intelbras",
         "description": "App de configuração 100% offline para centrais de alarme da Intelbras com leitura e escrita profunda de arquivos JSON via conexão USB local no celular.",
         "tags": ["React Native", "Offline", "File System (FS)"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Livecom Intelbras"
+        "imageUrl": "/projetos/livecom-intelbras/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "6bf93320-1300-4eed-93f3-537809703003",
         "title": "Mami",
         "description": "Rede social focada em comunidade de mães com chat nativo em WebSockets (grupos e privado).",
         "tags": ["React Native", "WebSockets"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Mami"
+        "imageUrl": "/projetos/mami/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "d26961af-0c99-4931-bfb8-e4c27b05059e",
-        "title": "Movepay & Digipay",
-        "description": "Aplicações App e Web focadas em carteira digital e pagamentos peer-to-peer integrando diversos métodos de checkout.",
+        "title": "Movepay",
+        "description": "Aplicação App e Web focadas em carteira digital e pagamentos peer-to-peer integrando diversos métodos de checkout.",
         "tags": ["React Native", "React", "Fintech"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Movepay & Digipay"
+        "imageUrl": "/projetos/movepay/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "9550b0ac-a9d5-4c2f-8146-8df8e54a7873",
         "title": "Offstore",
         "description": "Migração completa de e-commerce responsivo para aplicativo mobile nativo utilizando API de clientes.",
         "tags": ["React Native", "E-commerce"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Offstore"
+        "imageUrl": "/projetos/offstore/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "ec970f79-f078-4e96-a149-72b35593558b",
         "title": "App Fluxo",
         "description": "App interno de gestão empresarial desenvolvido durante o tempo na Fluxo Consultoria.",
         "tags": ["React Native", "JWT Auth"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=App Fluxo"
+        "imageUrl": "/projetos/app-fluxo/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "71115e10-8469-4bcc-83f5-de9d2bb6b1b9",
         "title": "Learn Sharing",
         "description": "App acadêmico tipo rede social focado em educação. Projeto vencedor (4º lugar) do Hack Rio.",
         "tags": ["React Native", "Hackathon"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Learn Sharing"
+        "imageUrl": "/projetos/learn-sharing/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "7e194b8d-733f-4561-a583-822378d14284",
         "title": "Poli Vagas",
         "description": "Sistema web da UFRJ projetado para agregar automaticamente oportunidades de estágio e emprego aos estudantes.",
         "tags": ["Web", "Integração"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Poli Vagas"
+        "imageUrl": "/projetos/poli-vagas/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "c4b533bc-71f4-400a-96ed-a96de576b0f7",

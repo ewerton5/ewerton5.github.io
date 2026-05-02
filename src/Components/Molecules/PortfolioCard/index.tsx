@@ -23,14 +23,18 @@ const linkClasses =
 export default function PortfolioCard({ project }: PortfolioCardProps) {
     return (
         <div className={cardClasses}>
-            <img
-                src={project.imageUrl}
-                alt={project.title}
-                className="w-full h-[200px] object-contain"
+            <div
+                className="w-full h-[200px]"
                 style={{
-                    backgroundColor: project.backgroundColor ?? "#0A74DA"
+                    backgroundColor: project.backgroundColor
                 }}
-            />
+            >
+                <img
+                    src={project.imageUrl}
+                    alt={project.title}
+                    className="w-full h-full object-contain p-10"
+                />
+            </div>
             <div className="p-small flex flex-col flex-1">
                 <h3 className="text-medium text-secondary mb-xsmall">
                     {project.title}
