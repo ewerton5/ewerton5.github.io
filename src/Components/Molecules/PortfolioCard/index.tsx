@@ -1,70 +1,77 @@
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
-interface Project {
-    id: string;
-    title: string;
-    description: string;
-    imageUrl: string;
-    backgroundColor?: string;
-    repoUrl?: string;
-    deployUrl?: string;
+import type { Project } from "types/project";
+
+const MONTHS = [
+    "Jan",
+    "Fev",
+    "Mar",
+    "Abr",
+    "Mai",
+    "Jun",
+    "Jul",
+    "Ago",
+    "Set",
+    "Out",
+    "Nov",
+    "Dez"
+];
+
+function formatStartDate(date: string) {
+    const [year, month] = date.split("-");
+    return `${MONTHS[parseInt(month) - 1]} ${year}`;
 }
 
-interface PortfolioCardProps {
+type PortfolioCardProps = {
     project: Project;
-}
-
-const cardClasses =
-    "bg-card-bg rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.08)] overflow-hidden flex flex-col transition-all duration-300 ease-in-out hover:-translate-y-[5px] hover:shadow-[0_6px_16px_rgba(0,0,0,0.12)]";
-
-const linkClasses =
-    "flex items-center gap-xxsmall text-primary font-medium text-xsmall hover:underline";
+};
 
 export default function PortfolioCard({ project }: PortfolioCardProps) {
+    const { title, shortDescription, technologies, images, startDate } =
+        project;
+
     return (
-        <div className={cardClasses}>
+        <Link
+            href={`/portfolio/`}
+            className="group flex flex-col bg-card-bg rounded-2xl overflow-hidden border border-gray-200 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
+        >
             <div
-                className="w-full h-[200px]"
+                className="relative w-full h-[200px] overflow-hidden bg-gray-100"
                 style={{
                     backgroundColor: project.backgroundColor
                 }}
             >
                 <img
-                    src={project.imageUrl}
-                    alt={project.title}
-                    className="w-full h-full object-contain p-10"
+                    src={images.thumbnail}
+                    alt={title}
+                    className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500 p-10"
                 />
             </div>
-            <div className="p-small flex flex-col flex-1">
-                <h3 className="text-medium text-secondary mb-xsmall">
-                    {project.title}
-                </h3>
-                <p className="text-small text-text-secondary leading-[1.5] flex-1 mb-small">
-                    {project.description}
-                </p>
-                <div className="flex gap-small mt-auto">
-                    {project.repoUrl && (
-                        <a
-                            href={project.repoUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={linkClasses}
-                        >
-                            <FaGithub /> Repositório
-                        </a>
-                    )}
-                    {project.deployUrl && (
-                        <a
-                            href={project.deployUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className={linkClasses}
-                        >
-                            <FaExternalLinkAlt /> Ver Deploy
-                        </a>
-                    )}
+
+            <div className="p-medium flex flex-col gap-xsmall flex-1">
+                <div className="flex items-start justify-between gap-xsmall">
+                    <h3 className="text-small font-semibold text-secondary leading-snug">
+                        {title}
+                    </h3>
+                    <span className="text-xxsmall text-text-secondary whitespace-nowrap mt-[2px] shrink-0">
+                        {formatStartDate(startDate)}
+                    </span>
                 </div>
+                <p className="text-xsmall text-text-secondary leading-relaxed line-clamp-3 flex-1">
+                    {shortDescription}
+                </p>
             </div>
-        </div>
+
+            <div className="px-medium pb-medium flex flex-wrap gap-[6px]">
+                {technologies.map((tech) => (
+                    <span
+                        key={tech}
+                        className="px-xsmall py-[3px] rounded-md text-xxsmall font-medium bg-gray-100 text-text-secondary"
+                    >
+                        {tech}
+                    </span>
+                ))}
+            </div>
+        </Link>
     );
 }
