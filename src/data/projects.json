@@ -10,7 +10,8 @@
             "PostgreSQL",
             "Geolocalização"
         ],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=To+na+Pista"
+        "imageUrl": "/projetos/toNaPista/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "738d950f-f37f-4b11-b705-a53953b448eb",
@@ -22,49 +23,56 @@
             "Offline-First",
             "Performance"
         ],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Rio+Vistorias"
+        "imageUrl": "/projetos/rioVistorias/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "70941e9e-529e-42e2-8a73-69d28b6fabc3",
         "title": "PAA Advogados",
         "description": "Sistema de gestão jurídica multiplataforma (App, Web e Back-end). Controle de fluxo processual através de uma máquina de estados complexa e visualização em board Kanban (Drag and Drop) para múltiplos perfis (de sócios a calculistas). Arquitetura suportada inteiramente por Firebase (Firestore e Cloud Functions).",
         "tags": ["React Native", "Firebase", "Kanban", "Cloud Functions"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=PAA+Advogados"
+        "imageUrl": "/projetos/paa/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "9972327f-1055-456f-bf48-886340999237",
         "title": "Smartly",
         "description": "Ecossistema de automação residencial e IoT (Smartly). Aplicativo construído do zero com arquitetura escalável e código limpo, utilizando Redux para o gerenciamento de estado global. Integração direta com firmwares via protocolo MQTT para o controle completo de ambientes, abrangendo termostatos, iluminação, persianas, áudio e painéis de controle.",
         "tags": ["IoT", "MQTT", "ESP-Touch", "React Native"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Smartly"
+        "imageUrl": "/projetos/smartly/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "ce64c18a-a016-465d-9d14-e41f06a02551",
         "title": "Hotfloor",
         "description": "Aplicativo de automação térmica e IoT (Hotfloor). Liderança técnica no resgate e modernização de um projeto legado de alto débito técnico. Refatoração estrutural profunda substituindo lógicas engessadas por Zustand e React Query, além da implementação de validações robustas com Zod e React Hook Form. Comunicação via MQTT com foco em termostatos e Hot Closets.",
         "tags": ["IoT", "MQTT", "ESP-Touch", "React Native"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Hotfloor"
+        "imageUrl": "/projetos/hotfloor/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "d3dc1d85-b8b6-40b9-970c-5d589188e42b",
         "title": "Sky's The Limit",
         "description": "Rede social multiplataforma para empreendedores desenvolvida em React Native Web. Conta com funcionalidades avançadas como vídeo-chamadas (Twilio), chat em tempo real via WebSockets e testagem automatizada rigorosa utilizando Cypress (Web) e Detox (Mobile).",
         "tags": ["React Native Web", "Twilio / WebRTC", "Cypress", "Detox"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Sky's+The+Limit"
+        "imageUrl": "/projetos/skysTheLimit/thumb.png",
+        "backgroundColor": "#181815"
     },
     {
         "id": "7cda879e-4cad-4ace-bb8b-023680e6e2f2",
         "title": "Megapark",
         "description": "Sistema de gestão de pátio embarcado nativamente em Smart POS (Stone). Apresenta leitura instantânea de placas via câmera (OCR), impressão térmica e integração direta de pagamentos. A arquitetura contempla a sincronização robusta com um banco de dados MySQL legado através de um back-end estruturado em Node.js.",
         "tags": ["Smart POS", "OCR", "Node.js", "Integração Stone"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Megapark"
+        "imageUrl": "/projetos/megapark/thumb.png",
+        "backgroundColor": "#0264D9"
     },
     {
         "id": "9a256dd8-080f-4829-9308-770cf4f9cd07",
         "title": "Vistomobi",
         "description": "App de vistoria dinâmica com formulários gerados através da API e funcionamento Offline-First desenvolvido nativamente sem uso de libs globais externas, além do Vistomobi Vistoriador (Web).",
         "tags": ["React Native", "Offline-First", "Web"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Vistomobi"
+        "imageUrl": "/projetos/vistomobi/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "d8b89163-4394-482b-81e9-100382087012",
@@ -148,20 +156,23 @@
         "title": "Procac",
         "description": "Rede social especializada em FlutterFlow com chat real-time integrado ao Firebase.",
         "tags": ["FlutterFlow", "Firebase", "Rede Social"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Procac"
+        "imageUrl": "/projetos/procac/thumb.png",
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "de6832dc-a141-4a14-84b8-cfe1e5a11fd1",
         "title": "Vibra",
         "description": "Aplicativo de vistoria executado em prazo recorde (24h) com integração Back-end via Supabase e arquitetura local via SQLite.",
         "tags": ["React Native", "SQLite", "Supabase"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Vibra"
+        "imageUrl": "/projetos/vibra/thumb.png",
+        "backgroundColor": "#0B411F"
     },
     {
         "id": "ade914df-79f1-4d40-aa4f-1e87e6511b3e",
         "title": "Miruna",
         "description": "App utilitário embarcado em etiquetadora portátil, usando bridge textual (gambiarra técnica funcional) para se comunicar sem SDK.",
         "tags": ["FlutterFlow", "Hardware Integration"],
-        "imageUrl": "https://placehold.co/600x400/0A74DA/FFFFFF?text=Miruna"
+        "imageUrl": "/projetos/miruna/thumb.png",
+        "backgroundColor": "#FFFFFF"
     }
 ]

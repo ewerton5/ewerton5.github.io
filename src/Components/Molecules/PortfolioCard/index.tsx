@@ -5,6 +5,7 @@ interface Project {
     title: string;
     description: string;
     imageUrl: string;
+    backgroundColor?: string;
     repoUrl?: string;
     deployUrl?: string;
 }
@@ -25,7 +26,10 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
             <img
                 src={project.imageUrl}
                 alt={project.title}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[200px] object-contain"
+                style={{
+                    backgroundColor: project.backgroundColor ?? "#0A74DA"
+                }}
             />
             <div className="p-small flex flex-col flex-1">
                 <h3 className="text-medium text-secondary mb-xsmall">
