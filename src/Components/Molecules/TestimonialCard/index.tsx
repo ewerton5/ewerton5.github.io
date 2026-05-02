@@ -16,7 +16,7 @@ export default function TestimonialCard({
     return (
         <div className="w-full bg-white rounded-2xl p-large shadow-[0_4px_20px_rgba(0,0,0,0.04)] relative flex flex-col justify-between">
             <FaQuoteLeft className="absolute top-6 right-6 text-[32px] text-gray-200 opacity-50" />
-            <p className="text-small text-text-secondary italic leading-[1.7] mb-large relative z-10">
+            <p className="text-small text-text-secondary italic leading-[1.7] mb-large relative">
                 {`"${text}"`}
             </p>
             <div className="flex items-center gap-small">
