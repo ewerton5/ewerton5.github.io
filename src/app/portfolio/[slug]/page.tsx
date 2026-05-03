@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { FiTool } from "react-icons/fi";
 
@@ -5,6 +6,52 @@ import ProjectDetailsClient from "Components/Organisms/ProjectDetailsClient";
 import MainLayout from "Components/Templates/MainLayout";
 import projects from "data/projects.json";
 import type { Project } from "types/project";
+
+type Props = {
+    params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const resolvedParams = await params;
+    const project = projects.find((p) => p.slug === resolvedParams.slug);
+
+    if (!project) {
+        return {
+            title: "Projeto não encontrado | Ewerton Vieira"
+        };
+    }
+
+    const title = `Veja ${project.title} | Portfólio de Ewerton Vieira`;
+    const description = project.shortDescription;
+    const baseUrl = "https://ewerton5.github.io";
+
+    return {
+        title,
+        description,
+        openGraph: {
+            title,
+            description,
+            url: `${baseUrl}/portfolio/${resolvedParams.slug}`,
+            siteName: "Ewerton Vieira - Portfólio",
+            images: [
+                {
+                    url: project.images.thumbnail,
+                    width: 1200,
+                    height: 630,
+                    alt: `Capa do projeto ${project.title}`
+                }
+            ],
+            locale: "pt_BR",
+            type: "website"
+        },
+        twitter: {
+            card: "summary_large_image",
+            title,
+            description,
+            images: [project.images.thumbnail]
+        }
+    };
+}
 
 type UnderConstructionProps = {
     projectTitle: string;
