@@ -1,10 +1,23 @@
 [
     {
+        "id": "ce64c18a-a016-465d-9d14-e41f06a02551",
+        "slug": "hotfloor",
+        "title": "Hotfloor",
+        "categories": ["Mobile"],
+        "startDate": "2025-06-03",
+        "shortDescription": "Aplicativo de automação térmica e IoT (Hotfloor). Liderança técnica no resgate e modernização de um projeto legado de alto débito técnico. Refatoração estrutural profunda substituindo lógicas engessadas por Zustand e React Query, além da implementação de validações robustas com Zod e React Hook Form. Comunicação via MQTT com foco em termostatos e Hot Closets.",
+        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
+        "images": {
+            "thumbnail": "/projetos/hotfloor/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
         "id": "05627a29-1d39-496e-b1b2-06038aed4964",
         "slug": "to-na-pista",
         "title": "To na pista",
         "categories": ["Mobile", "Backend"],
-        "startDate": "2023-11",
+        "startDate": "2024-11-12",
         "shortDescription": "Aplicativo de mobilidade urbana (ride-sharing). Arquitetura de back-end robusta com WebSockets gerenciando múltiplas salas dinâmicas para rastreamento de motoristas e passageiros em tempo real. Implementação de roteamento dinâmico (Google Maps/Mapbox/OpenRouteService) e cálculo de distâncias com Reverse GeoCode via PostgreSQL.",
         "technologies": [
             "Node.js",
@@ -23,7 +36,7 @@
         "slug": "rio-vistorias",
         "title": "Rio Vistorias",
         "categories": ["Mobile"],
-        "startDate": "2023-01",
+        "startDate": "2024-06-11",
         "shortDescription": "Aplicativo de vistoria de alta demanda projetado para processar e armazenar até 40.000 fotos por sessão. Reescrito do zero em React Native com implementação avançada de arquitetura Offline-First via WatermelonDB, garantindo alta performance e sincronização assíncrona com API legada.",
         "technologies": [
             "React Native",
@@ -37,11 +50,24 @@
         "backgroundColor": "#FFFFFF"
     },
     {
+        "id": "de6832dc-a141-4a14-84b8-cfe1e5a11fd1",
+        "slug": "vibra",
+        "title": "Vibra",
+        "categories": ["Mobile", "Backend"],
+        "startDate": "2024-05-30",
+        "shortDescription": "Aplicativo de vistoria executado em prazo recorde (24h) com integração Back-end via Supabase e arquitetura local via SQLite.",
+        "technologies": ["FlutterFlow", "SQLite", "Supabase"],
+        "images": {
+            "thumbnail": "/projetos/vibra/thumb.png"
+        },
+        "backgroundColor": "#0B411F"
+    },
+    {
         "id": "70941e9e-529e-42e2-8a73-69d28b6fabc3",
         "slug": "paa-advogados",
         "title": "PAA Advogados",
         "categories": ["Mobile", "Web", "Backend"],
-        "startDate": "2023-08",
+        "startDate": "2024-04-08",
         "shortDescription": "Sistema de gestão jurídica multiplataforma (App, Web e Back-end). Controle de fluxo processual através de uma máquina de estados complexa e visualização em board Kanban (Drag and Drop) para múltiplos perfis (de sócios a calculistas). Arquitetura suportada inteiramente por Firebase (Firestore e Cloud Functions).",
         "technologies": [
             "React Native",
@@ -55,81 +81,11 @@
         "backgroundColor": "#FFFFFF"
     },
     {
-        "id": "9972327f-1055-456f-bf48-886340999237",
-        "slug": "smartly",
-        "title": "Smartly",
-        "categories": ["Mobile"],
-        "startDate": "2024-09",
-        "shortDescription": "Ecossistema de automação residencial e IoT (Smartly). Aplicativo construído do zero com arquitetura escalável e código limpo, utilizando Redux para o gerenciamento de estado global. Integração direta com firmwares via protocolo MQTT para o controle completo de ambientes, abrangendo termostatos, iluminação, persianas, áudio e painéis de controle.",
-        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
-        "images": {
-            "thumbnail": "/projetos/smartly/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "ce64c18a-a016-465d-9d14-e41f06a02551",
-        "slug": "hotfloor",
-        "title": "Hotfloor",
-        "categories": ["Mobile"],
-        "startDate": "2024-06",
-        "shortDescription": "Aplicativo de automação térmica e IoT (Hotfloor). Liderança técnica no resgate e modernização de um projeto legado de alto débito técnico. Refatoração estrutural profunda substituindo lógicas engessadas por Zustand e React Query, além da implementação de validações robustas com Zod e React Hook Form. Comunicação via MQTT com foco em termostatos e Hot Closets.",
-        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
-        "images": {
-            "thumbnail": "/projetos/hotfloor/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "d3dc1d85-b8b6-40b9-970c-5d589188e42b",
-        "slug": "skys-the-limit",
-        "title": "Sky's The Limit",
-        "categories": ["Mobile", "Web"],
-        "startDate": "2023-04",
-        "shortDescription": "Rede social multiplataforma para empreendedores desenvolvida em React Native Web. Conta com funcionalidades avançadas como vídeo-chamadas (Twilio), chat em tempo real via WebSockets e testagem automatizada rigorosa utilizando Cypress (Web) e Detox (Mobile).",
-        "technologies": [
-            "React Native Web",
-            "Twilio / WebRTC",
-            "Cypress",
-            "Detox"
-        ],
-        "images": {
-            "thumbnail": "/projetos/skys-the-limit/thumb.png"
-        },
-        "backgroundColor": "#181815"
-    },
-    {
-        "id": "7cda879e-4cad-4ace-bb8b-023680e6e2f2",
-        "slug": "megapark",
-        "title": "Megapark",
-        "categories": ["Mobile", "Backend"],
-        "startDate": "2022-04",
-        "shortDescription": "Sistema de gestão de pátio embarcado nativamente em Smart POS (Stone). Apresenta leitura instantânea de placas via câmera (OCR), impressão térmica e integração direta de pagamentos. A arquitetura contempla a sincronização robusta com um banco de dados MySQL legado através de um back-end estruturado em Node.js.",
-        "technologies": ["Smart POS", "OCR", "Node.js", "Integração Stone"],
-        "images": {
-            "thumbnail": "/projetos/megapark/thumb.png"
-        },
-        "backgroundColor": "#0264D9"
-    },
-    {
-        "id": "9a256dd8-080f-4829-9308-770cf4f9cd07",
-        "slug": "vistomobi",
-        "title": "Vistomobi",
-        "categories": ["Mobile", "Web"],
-        "startDate": "2022-07",
-        "shortDescription": "App de vistoria dinâmica com formulários gerados através da API e funcionamento Offline-First desenvolvido nativamente sem uso de libs globais externas, além do Vistomobi Vistoriador (Web).",
-        "technologies": ["React Native", "Offline-First", "Web"],
-        "images": {
-            "thumbnail": "/projetos/vistomobi/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
         "id": "d8b89163-4394-482b-81e9-100382087012",
         "slug": "omni",
         "title": "Omni",
         "categories": ["Web", "Backend"],
-        "startDate": "2022-10",
+        "startDate": "2024-03-14",
         "shortDescription": "CRM e gerenciador de tickets Web + Back-end (Node). Plataforma de atendimento a clientes integrando fluxogramas visuais drag-and-drop de automação pré-IA e múltiplos canais de comunicação.",
         "technologies": ["React", "Node.js", "CRM", "Drag and Drop"],
         "images": {
@@ -138,119 +94,28 @@
         "backgroundColor": "#0B57F5"
     },
     {
-        "id": "923b7dfb-d8c8-4907-84ce-de6836b600b2",
-        "slug": "odonto-guardians",
-        "title": "Odonto Guardians",
+        "id": "ade914df-79f1-4d40-aa4f-1e87e6511b3e",
+        "slug": "miruna",
+        "title": "Miruna",
+        "categories": ["Mobile"],
+        "startDate": "2024-02-26",
+        "shortDescription": "App utilitário embarcado em etiquetadora portátil, usando bridge textual (gambiarra técnica funcional) para se comunicar sem SDK.",
+        "technologies": ["FlutterFlow", "Hardware Integration"],
+        "images": {
+            "thumbnail": "/projetos/miruna/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "c4b533bc-71f4-400a-96ed-a96de576b0f7",
+        "slug": "procac",
+        "title": "Procac",
         "categories": ["Mobile", "Web", "Backend"],
-        "startDate": "2020-03",
-        "shortDescription": "App de emergência para área odontológica com mapa e cálculo de dosagem. Foi meu primeiro grande app em produção. Incluiu Landing Page, Firebase Auth e Firestore Back-end.",
-        "technologies": ["React Native", "Firebase", "Web"],
+        "startDate": "2024-02-11",
+        "shortDescription": "Rede social especializada em FlutterFlow com chat real-time integrado ao Firebase.",
+        "technologies": ["FlutterFlow", "Firebase", "Rede Social"],
         "images": {
-            "thumbnail": "/projetos/odonto-guardians/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "3be92f10-b949-4374-83e3-5ecc3f6ddca9",
-        "slug": "desbank",
-        "title": "Desbank",
-        "categories": ["Mobile"],
-        "startDate": "2022-01",
-        "shortDescription": "App para banco digital/Fintech com integrações simulando rotinas bancárias do Itaú (pagamentos com cartão, PIX, e saldos).",
-        "technologies": ["React Native", "Fintech", "Pagamentos"],
-        "images": {
-            "thumbnail": "/projetos/desbank/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
-        "slug": "cofarja",
-        "title": "Cofarja (Motorista, Fornecedor, Admin)",
-        "categories": ["Mobile", "Web"],
-        "startDate": "2021-06",
-        "shortDescription": "Ecossistema (2 apps e 1 SW) para coleta de sucata com rastreamento GPS de frota em tempo real via React Native Maps.",
-        "technologies": ["React Native", "Web", "Mapas/GPS"],
-        "images": {
-            "thumbnail": "/projetos/cofarja/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
-        "slug": "livecom-intelbras",
-        "title": "Livecom Intelbras",
-        "categories": ["Mobile"],
-        "startDate": "2024-02",
-        "shortDescription": "App de configuração 100% offline para centrais de alarme da Intelbras com leitura e escrita profunda de arquivos JSON via conexão USB local no celular.",
-        "technologies": ["React Native", "Offline", "File System (FS)"],
-        "images": {
-            "thumbnail": "/projetos/livecom-intelbras/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "6bf93320-1300-4eed-93f3-537809703003",
-        "slug": "mami",
-        "title": "Mami",
-        "categories": ["Mobile"],
-        "startDate": "2021-09",
-        "shortDescription": "Rede social focada em comunidade de mães com chat nativo em WebSockets (grupos e privado).",
-        "technologies": ["React Native", "WebSockets"],
-        "images": {
-            "thumbnail": "/projetos/mami/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "d26961af-0c99-4931-bfb8-e4c27b05059e",
-        "slug": "movepay",
-        "title": "Movepay",
-        "categories": ["Mobile", "Web"],
-        "startDate": "2021-11",
-        "shortDescription": "Aplicação App e Web focadas em carteira digital e pagamentos peer-to-peer integrando diversos métodos de checkout.",
-        "technologies": ["React Native", "React", "Fintech"],
-        "images": {
-            "thumbnail": "/projetos/movepay/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "9550b0ac-a9d5-4c2f-8146-8df8e54a7873",
-        "slug": "offstore",
-        "title": "Offstore",
-        "categories": ["Mobile"],
-        "startDate": "2021-09",
-        "shortDescription": "Migração completa de e-commerce responsivo para aplicativo mobile nativo utilizando API de clientes.",
-        "technologies": ["React Native", "E-commerce"],
-        "images": {
-            "thumbnail": "/projetos/offstore/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "ec970f79-f078-4e96-a149-72b35593558b",
-        "slug": "app-fluxo",
-        "title": "App Fluxo",
-        "categories": ["Mobile"],
-        "startDate": "2021-02",
-        "shortDescription": "App interno de gestão empresarial desenvolvido durante o tempo na Fluxo Consultoria.",
-        "technologies": ["React Native", "JWT Auth"],
-        "images": {
-            "thumbnail": "/projetos/app-fluxo/thumb.png"
-        },
-        "backgroundColor": "#FFFFFF"
-    },
-    {
-        "id": "71115e10-8469-4bcc-83f5-de9d2bb6b1b9",
-        "slug": "learn-sharing",
-        "title": "Learn Sharing",
-        "categories": ["Mobile"],
-        "startDate": "2019-10",
-        "shortDescription": "App acadêmico tipo rede social focado em educação. Projeto vencedor (4º lugar) do Hack Rio.",
-        "technologies": ["React Native", "Hackathon"],
-        "images": {
-            "thumbnail": "/projetos/learn-sharing/thumb.png"
+            "thumbnail": "/projetos/procac/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -268,41 +133,176 @@
         "backgroundColor": "#FFFFFF"
     },
     {
-        "id": "c4b533bc-71f4-400a-96ed-a96de576b0f7",
-        "slug": "procac",
-        "title": "Procac",
-        "categories": ["Mobile", "Web", "Backend"],
-        "startDate": "2021-06",
-        "shortDescription": "Rede social especializada em FlutterFlow com chat real-time integrado ao Firebase.",
-        "technologies": ["FlutterFlow", "Firebase", "Rede Social"],
+        "id": "d3dc1d85-b8b6-40b9-970c-5d589188e42b",
+        "slug": "skys-the-limit",
+        "title": "Sky's The Limit",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2023-02-13",
+        "shortDescription": "Rede social multiplataforma para empreendedores desenvolvida em React Native Web. Conta com funcionalidades avançadas como vídeo-chamadas (Twilio), chat em tempo real via WebSockets e testagem automatizada rigorosa utilizando Cypress (Web) e Detox (Mobile).",
+        "technologies": [
+            "React Native Web",
+            "Twilio / WebRTC",
+            "Cypress",
+            "Detox"
+        ],
         "images": {
-            "thumbnail": "/projetos/procac/thumb.png"
+            "thumbnail": "/projetos/skys-the-limit/thumb.png"
+        },
+        "backgroundColor": "#181815"
+    },
+    {
+        "id": "7cda879e-4cad-4ace-bb8b-023680e6e2f2",
+        "slug": "megapark",
+        "title": "Megapark",
+        "categories": ["Mobile", "Backend"],
+        "startDate": "2022-11-17",
+        "shortDescription": "Sistema de gestão de pátio embarcado nativamente em Smart POS (Stone). Apresenta leitura instantânea de placas via câmera (OCR), impressão térmica e integração direta de pagamentos. A arquitetura contempla a sincronização robusta com um banco de dados MySQL legado através de um back-end estruturado em Node.js.",
+        "technologies": ["Smart POS", "OCR", "Node.js", "Integração Stone"],
+        "images": {
+            "thumbnail": "/projetos/megapark/thumb.png"
+        },
+        "backgroundColor": "#0264D9"
+    },
+    {
+        "id": "9550b0ac-a9d5-4c2f-8146-8df8e54a7873",
+        "slug": "offstore",
+        "title": "Offstore",
+        "categories": ["Mobile"],
+        "startDate": "2022-05-13",
+        "shortDescription": "Migração completa de e-commerce responsivo para aplicativo mobile nativo utilizando API de clientes.",
+        "technologies": ["React Native", "E-commerce"],
+        "images": {
+            "thumbnail": "/projetos/offstore/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
     {
-        "id": "de6832dc-a141-4a14-84b8-cfe1e5a11fd1",
-        "slug": "vibra",
-        "title": "Vibra",
-        "categories": ["Mobile", "Backend"],
-        "startDate": "2025-01",
-        "shortDescription": "Aplicativo de vistoria executado em prazo recorde (24h) com integração Back-end via Supabase e arquitetura local via SQLite.",
-        "technologies": ["FlutterFlow", "SQLite", "Supabase"],
+        "id": "9972327f-1055-456f-bf48-886340999237",
+        "slug": "smartly",
+        "title": "Smartly",
+        "categories": ["Mobile"],
+        "startDate": "2022-02-07",
+        "shortDescription": "Ecossistema de automação residencial e IoT (Smartly). Aplicativo construído do zero com arquitetura escalável e código limpo, utilizando Redux para o gerenciamento de estado global. Integração direta com firmwares via protocolo MQTT para o controle completo de ambientes, abrangendo termostatos, iluminação, persianas, áudio e painéis de controle.",
+        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
         "images": {
-            "thumbnail": "/projetos/vibra/thumb.png"
+            "thumbnail": "/projetos/smartly/thumb.png"
         },
-        "backgroundColor": "#0B411F"
+        "backgroundColor": "#FFFFFF"
     },
     {
-        "id": "ade914df-79f1-4d40-aa4f-1e87e6511b3e",
-        "slug": "miruna",
-        "title": "Miruna",
+        "id": "6bf93320-1300-4eed-93f3-537809703003",
+        "slug": "mami",
+        "title": "Mami",
         "categories": ["Mobile"],
-        "startDate": "2024-04",
-        "shortDescription": "App utilitário embarcado em etiquetadora portátil, usando bridge textual (gambiarra técnica funcional) para se comunicar sem SDK.",
-        "technologies": ["FlutterFlow", "Hardware Integration"],
+        "startDate": "2021-10-15",
+        "shortDescription": "Rede social focada em comunidade de mães com chat nativo em WebSockets (grupos e privado).",
+        "technologies": ["React Native", "WebSockets"],
         "images": {
-            "thumbnail": "/projetos/miruna/thumb.png"
+            "thumbnail": "/projetos/mami/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9a256dd8-080f-4829-9308-770cf4f9cd07",
+        "slug": "vistomobi",
+        "title": "Vistomobi",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2021-09-15",
+        "shortDescription": "App de vistoria dinâmica com formulários gerados através da API e funcionamento Offline-First desenvolvido nativamente sem uso de libs globais externas, além do Vistomobi Vistoriador (Web).",
+        "technologies": ["React Native", "Offline-First", "Web"],
+        "images": {
+            "thumbnail": "/projetos/vistomobi/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
+        "slug": "livecom-intelbras",
+        "title": "Livecom Intelbras",
+        "categories": ["Mobile"],
+        "startDate": "2021-07-16",
+        "shortDescription": "App de configuração 100% offline para centrais de alarme da Intelbras com leitura e escrita profunda de arquivos JSON via conexão USB local no celular.",
+        "technologies": ["React Native", "Offline", "File System (FS)"],
+        "images": {
+            "thumbnail": "/projetos/livecom-intelbras/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "3be92f10-b949-4374-83e3-5ecc3f6ddca9",
+        "slug": "desbank",
+        "title": "Desbank",
+        "categories": ["Mobile"],
+        "startDate": "2021-06-09",
+        "shortDescription": "App para banco digital/Fintech com integrações simulando rotinas bancárias do Itaú (pagamentos com cartão, PIX, e saldos).",
+        "technologies": ["React Native", "Fintech", "Pagamentos"],
+        "images": {
+            "thumbnail": "/projetos/desbank/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d26961af-0c99-4931-bfb8-e4c27b05059e",
+        "slug": "movepay",
+        "title": "Movepay",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2021-05-04",
+        "shortDescription": "Aplicação App e Web focadas em carteira digital e pagamentos peer-to-peer integrando diversos métodos de checkout.",
+        "technologies": ["React Native", "React", "Fintech"],
+        "images": {
+            "thumbnail": "/projetos/movepay/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
+        "slug": "cofarja",
+        "title": "Cofarja (Motorista, Fornecedor, Admin)",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2020-08-18",
+        "shortDescription": "Ecossistema (2 apps e 1 SW) para coleta de sucata com rastreamento GPS de frota em tempo real via React Native Maps.",
+        "technologies": ["React Native", "Web", "Mapas/GPS"],
+        "images": {
+            "thumbnail": "/projetos/cofarja/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "71115e10-8469-4bcc-83f5-de9d2bb6b1b9",
+        "slug": "learn-sharing",
+        "title": "Learn Sharing",
+        "categories": ["Mobile"],
+        "startDate": "2020-05-24",
+        "shortDescription": "App acadêmico tipo rede social focado em educação. Projeto vencedor (4º lugar) do Hack Rio.",
+        "technologies": ["React Native", "Hackathon"],
+        "images": {
+            "thumbnail": "/projetos/learn-sharing/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "923b7dfb-d8c8-4907-84ce-de6836b600b2",
+        "slug": "odonto-guardians",
+        "title": "Odonto Guardians",
+        "categories": ["Mobile", "Web", "Backend"],
+        "startDate": "2020-02-05",
+        "shortDescription": "App de emergência para área odontológica com mapa e cálculo de dosagem. Foi meu primeiro grande app em produção. Incluiu Landing Page, Firebase Auth e Firestore Back-end.",
+        "technologies": ["React Native", "Firebase", "Web"],
+        "images": {
+            "thumbnail": "/projetos/odonto-guardians/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "ec970f79-f078-4e96-a149-72b35593558b",
+        "slug": "app-fluxo",
+        "title": "App Fluxo",
+        "categories": ["Mobile"],
+        "startDate": "2019-05-27",
+        "shortDescription": "App interno de gestão empresarial desenvolvido durante o tempo na Fluxo Consultoria.",
+        "technologies": ["React Native", "JWT Auth"],
+        "images": {
+            "thumbnail": "/projetos/app-fluxo/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     }
