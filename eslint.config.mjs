@@ -124,7 +124,8 @@ export default [
                     unnamedComponents: "arrow-function"
                 }
             ],
-            "object-shorthand": "warn"
+            "object-shorthand": "warn",
+            "react/no-unknown-property": ["error", { ignore: ["tw"] }]
         }
     }
 ];

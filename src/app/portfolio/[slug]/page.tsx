@@ -4,6 +4,7 @@ import { FiTool } from "react-icons/fi";
 
 import ProjectDetailsClient from "Components/Organisms/ProjectDetailsClient";
 import MainLayout from "Components/Templates/MainLayout";
+import { baseUrl } from "constants/url";
 import projects from "data/projects.json";
 import type { Project } from "types/project";
 
@@ -23,7 +24,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     const title = `Veja ${project.title} | Portfólio de Ewerton Vieira`;
     const description = project.shortDescription;
-    const baseUrl = "https://ewerton5.github.io";
 
     return {
         title,
