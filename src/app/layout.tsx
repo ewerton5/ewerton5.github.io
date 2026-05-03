@@ -2,7 +2,10 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import { type ReactNode } from "react";
 
+import { baseUrl } from "constants/url";
+
 import Providers from "./Providers";
+
 import "./globals.css";
 
 const inter = Inter({
@@ -12,6 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL(baseUrl),
     title: "Ewerton Vieira",
     description: "Software Engineer & Tech Lead",
     icons: {
