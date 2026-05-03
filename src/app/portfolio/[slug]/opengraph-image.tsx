@@ -37,7 +37,7 @@ export default async function Image({
             <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-20">
                 <div tw="flex flex-col items-center justify-center border-4 border-slate-700 rounded-3xl w-full h-full p-10 bg-slate-800">
                     <img
-                        src={`${baseUrl}}${project.images.thumbnail}`}
+                        src={`${baseUrl}${project.images.thumbnail}`}
                         tw="w-64 h-64 mb-8"
                         style={{ objectFit: "contain" }}
                     />
