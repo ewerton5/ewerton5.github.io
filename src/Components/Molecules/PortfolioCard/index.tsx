@@ -38,7 +38,7 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
                         {formatDate(startDate)}
                     </span>
                 </div>
-                <p className="text-xsmall text-text-secondary leading-relaxed line-clamp-3 flex-1">
+                <p className="text-xsmall text-text-secondary leading-relaxed line-clamp-5 flex-1">
                     {shortDescription}
                 </p>
             </div>

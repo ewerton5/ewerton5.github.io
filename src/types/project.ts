@@ -2,7 +2,7 @@ export type PlatformDetail = {
     name: string;
     detailedDescription: string;
     learnings: string[];
-    images: string[];
+    images: { url: string; orientation: "portrait" | "landscape" }[];
 };
 
 export type Project = {

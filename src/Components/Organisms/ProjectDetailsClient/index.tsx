@@ -1,8 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
-import { FiArrowLeft, FiGlobe } from "react-icons/fi";
+import { useState, useRef, useEffect, useCallback } from "react";
+import {
+    FiArrowLeft,
+    FiGlobe,
+    FiChevronLeft,
+    FiChevronRight,
+    FiX
+} from "react-icons/fi";
 import { SiGithub, SiGoogleplay, SiApple } from "react-icons/si";
 
 import TechBadge from "Components/Molecules/TechBadge";
@@ -17,10 +23,45 @@ export default function ProjectDetailsClient({
     project
 }: ProjectDetailsClientProps) {
     const [activePlatformIndex, setActivePlatformIndex] = useState(0);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(true);
+    const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
+    const carouselRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (!fullscreenImage) return;
+        function onKeyDown(e: KeyboardEvent) {
+            if (e.key === "Escape") setFullscreenImage(null);
+        }
+        window.addEventListener("keydown", onKeyDown);
+        return () => window.removeEventListener("keydown", onKeyDown);
+    }, [fullscreenImage]);
 
     const { title, categories, startDate, technologies, links, platforms } =
         project;
     const activePlatform = platforms![activePlatformIndex];
+
+    const updateScrollState = useCallback(() => {
+        const el = carouselRef.current;
+        if (!el) return;
+        setCanScrollLeft(el.scrollLeft > 0);
+        setCanScrollRight(el.scrollLeft < el.scrollWidth - el.clientWidth - 1);
+    }, []);
+
+    useEffect(() => {
+        const el = carouselRef.current;
+        if (!el) return;
+        el.scrollLeft = 0;
+        updateScrollState();
+    }, [activePlatformIndex, updateScrollState]);
+
+    function scrollLeft() {
+        carouselRef.current?.scrollBy({ left: -320, behavior: "smooth" });
+    }
+
+    function scrollRight() {
+        carouselRef.current?.scrollBy({ left: 320, behavior: "smooth" });
+    }
 
     return (
         <div className="flex flex-col gap-large">
@@ -160,24 +201,78 @@ export default function ProjectDetailsClient({
                     </div>
                 )}
 
-                {/* Horizontal Image Carousel */}
+                {/* Horizontal Image Carousel — Play Store style */}
                 {activePlatform.images.length > 0 && (
-                    <div className="flex overflow-x-auto snap-x snap-mandatory gap-medium hide-scrollbar mt-small pb-xsmall">
-                        {activePlatform.images.map((src, i) => (
-                            <div
-                                key={i}
-                                className="min-w-[80%] tablet:min-w-[400px] h-[300px] snap-center overflow-hidden rounded-xl shrink-0 bg-gray-100"
+                    <div className="relative mt-small">
+                        {/* Left arrow */}
+                        {canScrollLeft && (
+                            <button
+                                onClick={scrollLeft}
+                                aria-label="Rolar para a esquerda"
+                                className="hidden tablet:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 z-10 items-center justify-center w-10 h-10 rounded-full bg-white text-secondary shadow-md hover:shadow-lg hover:scale-105 transition-all"
                             >
-                                <img
-                                    src={src}
-                                    alt={`${activePlatform.name} — screenshot ${i + 1}`}
-                                    className="w-full h-full object-cover"
-                                />
-                            </div>
-                        ))}
+                                <FiChevronLeft size={20} />
+                            </button>
+                        )}
+
+                        {/* Right arrow */}
+                        {canScrollRight && (
+                            <button
+                                onClick={scrollRight}
+                                aria-label="Rolar para a direita"
+                                className="hidden tablet:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 z-10 items-center justify-center w-10 h-10 rounded-full bg-white text-secondary shadow-md hover:shadow-lg hover:scale-105 transition-all"
+                            >
+                                <FiChevronRight size={20} />
+                            </button>
+                        )}
+
+                        {/* Scrollable track */}
+                        <div
+                            ref={carouselRef}
+                            onScroll={updateScrollState}
+                            className="flex overflow-x-auto snap-x snap-mandatory gap-medium hide-scrollbar pb-xsmall h-[400px] laptop:h-[500px]"
+                        >
+                            {activePlatform.images.map((image, i) => (
+                                <div
+                                    key={i}
+                                    className="snap-center flex-none h-full w-auto relative"
+                                >
+                                    <img
+                                        src={image.url}
+                                        alt={`${activePlatform.name} — screenshot ${i + 1}`}
+                                        onClick={() =>
+                                            setFullscreenImage(image.url)
+                                        }
+                                        className="h-full w-auto object-contain rounded-xl shadow-sm hover:shadow-md transition-shadow cursor-pointer"
+                                    />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 )}
             </div>
+
+            {/* Lightbox Modal */}
+            {fullscreenImage && (
+                <div
+                    onClick={() => setFullscreenImage(null)}
+                    className="fixed inset-0 z-[100] bg-black/90 backdrop-blur-sm flex items-center justify-center p-large"
+                >
+                    <button
+                        onClick={() => setFullscreenImage(null)}
+                        aria-label="Fechar tela cheia"
+                        className="absolute top-medium right-medium flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                    >
+                        <FiX size={22} />
+                    </button>
+                    <img
+                        src={fullscreenImage}
+                        alt="Imagem em tela cheia"
+                        onClick={(e) => e.stopPropagation()}
+                        className="max-w-full max-h-full object-contain rounded-xl"
+                    />
+                </div>
+            )}
         </div>
     );
 }

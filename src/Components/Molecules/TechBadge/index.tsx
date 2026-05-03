@@ -2,6 +2,7 @@ import { type IconType } from "react-icons";
 import { FiCode } from "react-icons/fi";
 import {
     SiReact,
+    SiExpo,
     SiNodedotjs,
     SiFirebase,
     SiPostgresql,
@@ -23,6 +24,7 @@ import {
 const ICON_MAP: Record<string, IconType> = {
     react: SiReact,
     "react native": SiReact,
+    expo: SiExpo,
     "react native web": SiReact,
     "node.js": SiNodedotjs,
     nodejs: SiNodedotjs,

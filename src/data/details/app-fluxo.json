@@ -2,16 +2,23 @@
     "platforms": [
         {
             "name": "App Mobile",
-            "detailedDescription": "O App Fluxo possui um grande valor histórico na minha trajetória: foi o meu primeiro aplicativo construído do zero e a minha porta de entrada oficial no desenvolvimento mobile. Desenvolvido para uso interno corporativo, o aplicativo operava como um dashboard executivo móvel. Ele permitia aos colaboradores acompanhar, em tempo real, os indicadores de performance da empresa, incluindo metas gerais, faturamento por coordenação e métricas de satisfação (NPS). Um dos pontos focais da arquitetura foi a autenticação customizada: em vez de um banco de dados próprio para usuários, integrei o login via OAuth diretamente com o Podio (plataforma de gestão já utilizada por toda a empresa), garantindo um fluxo de acesso seguro e sem fricção. Foi um projeto onde cada linha de código representava um novo aprendizado fundamental.",
+            "detailedDescription": "O App Fluxo possui um grande valor histórico na minha trajetória: foi o meu primeiro aplicativo construído do zero e a minha porta de entrada oficial no desenvolvimento mobile. Desenvolvido para uso interno corporativo, ele operava como um dashboard executivo e hub de operações (mini-ERP). Além de permitir o acompanhamento de KPIs em tempo real por coordenação (NPS, faturamento, contratos), o app resolvia problemas físicos do escritório: gerenciava o agendamento de reuniões no mezanino e controlava o plantão dos membros via leitura de QR Code. A arquitetura de autenticação foi um desafio à parte, integrando o login via OAuth diretamente com o Podio (plataforma de gestão da empresa) como Provedor de Identidade, garantindo acesso seguro sem a necessidade de um banco de dados próprio para credenciais.",
             "learnings": [
-                "Introdução prática ao ecossistema mobile utilizando React Native e Expo (SDK 39), compreendendo o build process e as APIs nativas.",
-                "Implementação de arquitetura baseada em React Class Components, dominando o ciclo de vida (componentDidMount, etc.) antes da padronização dos Hooks.",
-                "Integração de autenticação de terceiros (Podio) atuando como Provedor de Identidade (IdP) para controle de acesso interno.",
-                "Gerenciamento de estado global e requisições assíncronas utilizando Redux em conjunto com Redux Thunk.",
-                "Adaptação a quebras de paradigma arquitetural de bibliotecas, vivenciando a grande migração do React Navigation da versão 4 para a estrutura de componentes da versão 5.",
-                "Construção de interfaces e visualização de dados (Dashboards) consumindo bibliotecas legadas como NativeBase e react-native-progress-wheel."
+                "Introdução prática ao ecossistema mobile com React Native e Expo (SDK 39), utilizando arquitetura baseada em React Class Components (dominando ciclos de vida como componentDidMount antes da era dos Hooks).",
+                "Integração de hardware e lógica condicional: uso do expo-barcode-scanner onde a ação do QR Code (Abrir/Fechar plantão) era definida inteligentemente pelo estado atual mapeado no Redux, sem necessidade de códigos físicos distintos.",
+                "Gestão de estado global complexa com Redux e Redux Thunk para orquestrar dados assíncronos, métricas financeiras e o status operacional da equipe em tempo real.",
+                "Forte foco em UX e micro-interações: validações de Regex em tempo real no login, auto-focus estratégico via teclado nativo e algoritmos de cores condicionais para métricas de saúde da equipe.",
+                "Implementação de componentes complexos de UI, como o react-native-calendars para gestão de conflitos de horários do mezanino, utilizando date-pickers nativos e formatação de datas manuais.",
+                "Criação de um sistema de tratamento de erros global (ShowError) padronizado para falhas de API ou falta de permissões de hardware, além do uso rigoroso de constantes de layout para responsividade fluida em diferentes tamanhos de tela."
             ],
-            "images": ["/projetos/app-fluxo/thumb.png"]
+            "images": [
+                { "url": "/projetos/app-fluxo/screen-1.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-2.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-3.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-4.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-5.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-6.png", "orientation": "portrait" }
+            ]
         }
     ]
 }

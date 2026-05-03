@@ -299,8 +299,8 @@
         "title": "App Fluxo",
         "categories": ["Mobile"],
         "startDate": "2019-05-27",
-        "shortDescription": "App interno de gestão empresarial desenvolvido durante o tempo na Fluxo Consultoria.",
-        "technologies": ["React Native", "JWT Auth"],
+        "shortDescription": "Dashboard executivo e hub operacional (mini-ERP) corporativo. Centraliza KPIs em tempo real (NPS e faturamento), gestão de agendas e controle físico de acesso via leitura inteligente de QR Code.",
+        "technologies": ["React Native", "Expo", "Redux", "OAuth", "UX/UI"],
         "images": {
             "thumbnail": "/projetos/app-fluxo/thumb.png"
         },
