@@ -34,25 +34,33 @@ export default async function Image({
 
     return new ImageResponse(
         (
-            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-20">
-                <div tw="flex flex-col items-center justify-center border-4 border-slate-700 rounded-3xl w-full h-full p-10 bg-slate-800">
-                    <img
-                        src={`${baseUrl}${project.images.thumbnail}`}
-                        width={256}
-                        height={256}
-                        tw="w-64 h-64 mb-8"
-                        style={{ objectFit: "contain" }}
-                    />
+            <div
+                style={{
+                    backgroundColor: project.backgroundColor || "#FFFFFF"
+                }}
+                tw="flex w-full h-full items-center justify-center p-20"
+            >
+                <div tw="flex flex-col items-center justify-center border border-white/20 rounded-3xl w-full h-full p-10 bg-black/60 shadow-2xl">
+                    <div tw="flex items-center justify-center p-8 bg-white/10 rounded-3xl mb-6 shadow-lg">
+                        <img
+                            src={`${baseUrl}${project.images.thumbnail}`}
+                            width={220}
+                            height={220}
+                            tw="w-56 h-56"
+                            style={{ objectFit: "contain" }}
+                        />
+                    </div>
+
                     <h1 tw="text-white text-7xl font-bold tracking-tight text-center">
                         {project.title}
                     </h1>
-                    <p tw="text-slate-300 text-3xl mt-4 text-center">
+                    <p tw="text-slate-200 text-3xl mt-4 text-center">
                         Portfólio de Ewerton Vieira
                     </p>
                     <div tw="flex mt-8">
                         {project.technologies.slice(0, 3).map((tech) => (
                             <span
-                                tw="px-4 py-2 bg-blue-600 text-white text-2xl rounded-full mx-2"
+                                tw="px-5 py-2 bg-blue-600/80 border border-blue-400/50 text-white text-2xl rounded-full mx-2"
                                 key={tech}
                             >
                                 {tech}
