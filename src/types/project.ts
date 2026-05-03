@@ -1,3 +1,10 @@
+export type PlatformDetail = {
+    name: string;
+    detailedDescription: string;
+    learnings: string[];
+    images: string[];
+};
+
 export type Project = {
     id: string;
     slug: string;
@@ -10,4 +17,11 @@ export type Project = {
         thumbnail: string;
     };
     backgroundColor: string;
+    links?: {
+        web?: string;
+        github?: string;
+        android?: string;
+        ios?: string;
+    };
+    platforms?: PlatformDetail[];
 };

@@ -1,0 +1,17 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O App Fluxo possui um grande valor histórico na minha trajetória: foi o meu primeiro aplicativo construído do zero e a minha porta de entrada oficial no desenvolvimento mobile. Desenvolvido para uso interno corporativo, o aplicativo operava como um dashboard executivo móvel. Ele permitia aos colaboradores acompanhar, em tempo real, os indicadores de performance da empresa, incluindo metas gerais, faturamento por coordenação e métricas de satisfação (NPS). Um dos pontos focais da arquitetura foi a autenticação customizada: em vez de um banco de dados próprio para usuários, integrei o login via OAuth diretamente com o Podio (plataforma de gestão já utilizada por toda a empresa), garantindo um fluxo de acesso seguro e sem fricção. Foi um projeto onde cada linha de código representava um novo aprendizado fundamental.",
+            "learnings": [
+                "Introdução prática ao ecossistema mobile utilizando React Native e Expo (SDK 39), compreendendo o build process e as APIs nativas.",
+                "Implementação de arquitetura baseada em React Class Components, dominando o ciclo de vida (componentDidMount, etc.) antes da padronização dos Hooks.",
+                "Integração de autenticação de terceiros (Podio) atuando como Provedor de Identidade (IdP) para controle de acesso interno.",
+                "Gerenciamento de estado global e requisições assíncronas utilizando Redux em conjunto com Redux Thunk.",
+                "Adaptação a quebras de paradigma arquitetural de bibliotecas, vivenciando a grande migração do React Navigation da versão 4 para a estrutura de componentes da versão 5.",
+                "Construção de interfaces e visualização de dados (Dashboards) consumindo bibliotecas legadas como NativeBase e react-native-progress-wheel."
+            ],
+            "images": ["/projetos/app-fluxo/thumb.png"]
+        }
+    ]
+}

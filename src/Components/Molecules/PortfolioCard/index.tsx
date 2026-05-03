@@ -1,38 +1,19 @@
 import Link from "next/link";
 
 import type { Project } from "types/project";
-
-const MONTHS = [
-    "Jan",
-    "Fev",
-    "Mar",
-    "Abr",
-    "Mai",
-    "Jun",
-    "Jul",
-    "Ago",
-    "Set",
-    "Out",
-    "Nov",
-    "Dez"
-];
-
-function formatStartDate(date: string) {
-    const [year, month] = date.split("-");
-    return `${MONTHS[parseInt(month) - 1]} ${year}`;
-}
+import { formatDate } from "utils/date";
 
 type PortfolioCardProps = {
     project: Project;
 };
 
 export default function PortfolioCard({ project }: PortfolioCardProps) {
-    const { title, shortDescription, technologies, images, startDate } =
+    const { slug, title, shortDescription, technologies, images, startDate } =
         project;
 
     return (
         <Link
-            href={`/portfolio/`}
+            href={`/portfolio/${slug}`}
             className="group flex flex-col bg-card-bg rounded-2xl overflow-hidden border border-gray-200 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
         >
             <div
@@ -54,7 +35,7 @@ export default function PortfolioCard({ project }: PortfolioCardProps) {
                         {title}
                     </h3>
                     <span className="text-xxsmall text-text-secondary whitespace-nowrap mt-[2px] shrink-0">
-                        {formatStartDate(startDate)}
+                        {formatDate(startDate)}
                     </span>
                 </div>
                 <p className="text-xsmall text-text-secondary leading-relaxed line-clamp-3 flex-1">
