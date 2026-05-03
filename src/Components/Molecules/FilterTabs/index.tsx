@@ -15,7 +15,7 @@ export default function FilterTabs({
                 <button
                     key={category}
                     onClick={() => onChange(category)}
-                    className={`px-medium py-xsmall rounded-full text-xsmall font-medium transition-all duration-200 ${
+                    className={`px-small py-xsmall rounded-full text-xsmall font-medium transition-all duration-200 ${
                         active === category
                             ? "bg-primary text-white shadow-[0_2px_8px_rgba(10,116,218,0.3)]"
                             : "bg-gray-100 text-text-secondary border border-gray-200 hover:border-primary hover:text-primary"
