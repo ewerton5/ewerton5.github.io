@@ -75,12 +75,11 @@ export default async function Image({
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
-                            width={280}
-                            height={280}
+                            width={260}
+                            height={260}
                             style={{
-                                width: "280px",
-                                height: "280px",
-                                borderRadius: "20px",
+                                width: "260px",
+                                height: "260px",
                                 objectFit: "contain"
                             }}
                         />
