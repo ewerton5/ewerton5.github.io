@@ -2,6 +2,8 @@ import { ImageResponse } from "next/og";
 
 import profile from "data/profile.json";
 
+export const dynamic = "force-static";
+
 export const alt =
     "Portfólio de Ewerton Vieira - Tech Lead & Software Engineer";
 export const size = { width: 1200, height: 630 };
