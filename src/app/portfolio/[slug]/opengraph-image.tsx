@@ -42,14 +42,14 @@ export default async function Image({
                             backgroundColor:
                                 project.backgroundColor || "#FFFFFF"
                         }}
-                        tw="flex items-center justify-center p-8 bg-white/10 rounded-3xl mb-6 shadow-lg"
+                        tw="flex items-center justify-center p-4 bg-white/10 rounded-3xl mb-6 shadow-lg"
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
                             width={200}
                             height={200}
-                            tw="w-48 h-48 mb-4 shadow-xl"
-                            style={{ objectFit: "cover" }}
+                            tw="w-48 h-48"
+                            style={{ objectFit: "contain" }}
                         />
                     </div>
 
