@@ -49,7 +49,7 @@ export default async function Image({
         (
             <div
                 tw="bg-slate-900 w-full h-full"
-                style={{ display: "flex", padding: "24px" }}
+                style={{ display: "flex", padding: "32px" }}
             >
                 <div
                     tw="bg-slate-800 border-slate-700 w-full h-full"
@@ -60,7 +60,7 @@ export default async function Image({
                         alignItems: "center",
                         borderRadius: "24px",
                         borderWidth: "4px",
-                        padding: "24px"
+                        padding: "32px"
                     }}
                 >
                     <div
@@ -68,18 +68,18 @@ export default async function Image({
                             display: "flex",
                             backgroundColor:
                                 project.backgroundColor || "#FFFFFF",
-                            padding: "8px",
+                            padding: "10px",
                             borderRadius: "24px",
                             boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.5)"
                         }}
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
-                            width={300}
-                            height={300}
+                            width={280}
+                            height={280}
                             style={{
-                                width: "300px",
-                                height: "300px",
+                                width: "280px",
+                                height: "280px",
                                 borderRadius: "20px",
                                 objectFit: "contain"
                             }}

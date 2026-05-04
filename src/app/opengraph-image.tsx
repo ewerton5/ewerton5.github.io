@@ -13,7 +13,7 @@ export default async function Image() {
         (
             <div
                 tw="bg-slate-900 w-full h-full"
-                style={{ display: "flex", padding: "24px" }}
+                style={{ display: "flex", padding: "32px" }}
             >
                 <div
                     tw="bg-slate-800 border-slate-700 w-full h-full"
@@ -24,7 +24,7 @@ export default async function Image() {
                         alignItems: "center",
                         borderRadius: "24px",
                         borderWidth: "4px",
-                        padding: "24px"
+                        padding: "32px"
                     }}
                 >
                     <div style={{ display: "flex" }}>
