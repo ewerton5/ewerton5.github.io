@@ -36,28 +36,25 @@ export default async function Image({
     return new ImageResponse(
         (
             <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-10">
-                <div tw="flex flex-col items-center justify-center border-4 border-slate-700 rounded-3xl w-full h-full p-10 bg-slate-800 shadow-2xl">
+                <div tw="flex flex-col rounded-3xl bg-card-bg p-10 shadow-md border-4 border-slate-700 items-center gap-xsmall">
                     <div
                         style={{
                             backgroundColor:
                                 project.backgroundColor || "#FFFFFF"
                         }}
-                        tw="flex items-center justify-center p-4 bg-white/10 rounded-3xl mb-6 shadow-lg"
+                        tw="p-4 bg-white/10 rounded-3xl shadow-lg"
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
-                            width={200}
-                            height={200}
-                            tw="w-48 h-48"
-                            style={{ objectFit: "contain" }}
+                            width={160}
+                            height={160}
+                            tw="w-40 h-40 rounded-full object-contain"
                         />
                     </div>
 
-                    <div tw="flex flex-col items-center gap-6">
-                        <h1 tw="text-white text-7xl font-bold tracking-tight text-center m-0">
-                            {project.title}
-                        </h1>
-                        <p tw="text-blue-400 text-4xl text-center font-semibold m-0">
+                    <div tw="flex-1 flex-col items-center gap-xsmall">
+                        <h1 tw="text-xxlarge">{project.title}</h1>
+                        <p tw="text-large font-semibold text-primary">
                             Portfólio de {profile.shortName}
                         </p>
                         <div tw="flex">
