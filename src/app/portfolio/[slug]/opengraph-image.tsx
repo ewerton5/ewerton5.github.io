@@ -52,21 +52,23 @@ export default async function Image({
                         />
                     </div>
 
-                    <h1 tw="text-white text-7xl font-bold tracking-tight text-center">
-                        {project.title}
-                    </h1>
-                    <p tw="text-slate-200 text-3xl mt-4 text-center">
-                        Portfólio de {profile.shortName}
-                    </p>
-                    <div tw="flex mt-8">
-                        {project.technologies.slice(0, 3).map((tech) => (
-                            <span
-                                tw="px-5 py-2 bg-blue-600/80 border border-blue-400/50 text-white text-2xl rounded-full mx-2"
-                                key={tech}
-                            >
-                                {tech}
-                            </span>
-                        ))}
+                    <div tw="flex flex-col items-center gap-6">
+                        <h1 tw="text-white text-7xl font-bold tracking-tight text-center m-0">
+                            {project.title}
+                        </h1>
+                        <p tw="text-slate-200 text-3xl text-center m-0">
+                            Portfólio de {profile.shortName}
+                        </p>
+                        <div tw="flex">
+                            {project.technologies.slice(0, 3).map((tech) => (
+                                <span
+                                    tw="px-5 py-2 bg-blue-600/80 border border-blue-400/50 text-white text-2xl rounded-full mx-2"
+                                    key={tech}
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

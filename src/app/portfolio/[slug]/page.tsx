@@ -34,22 +34,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             description,
             url: `${baseUrl}/portfolio/${resolvedParams.slug}`,
             siteName: `${profile.shortName} - Portfólio`,
-            images: [
-                {
-                    url: project.images.thumbnail,
-                    width: 1200,
-                    height: 630,
-                    alt: `Capa do projeto ${project.title}`
-                }
-            ],
             locale: "pt_BR",
             type: "website"
         },
         twitter: {
             card: "summary_large_image",
             title,
-            description,
-            images: [project.images.thumbnail]
+            description
         }
     };
 }
