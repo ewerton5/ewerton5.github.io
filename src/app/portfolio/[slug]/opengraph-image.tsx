@@ -25,8 +25,20 @@ export default async function Image({
     if (!project) {
         return new ImageResponse(
             (
-                <div tw="flex w-full h-full bg-gray-900 items-center justify-center">
-                    <h1 tw="text-white text-6xl m-0">Projeto não encontrado</h1>
+                <div
+                    tw="bg-slate-900 w-full h-full"
+                    style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center"
+                    }}
+                >
+                    <div
+                        tw="text-white"
+                        style={{ display: "flex", margin: 0, fontSize: "60px" }}
+                    >
+                        Projeto não encontrado
+                    </div>
                 </div>
             ),
             { ...size }
@@ -35,39 +47,96 @@ export default async function Image({
 
     return new ImageResponse(
         (
-            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-10">
-                <div tw="flex flex-col rounded-3xl bg-slate-800 p-10 shadow-md border-4 border-slate-700 items-center gap-6">
+            <div
+                tw="bg-slate-900 w-full h-full"
+                style={{ display: "flex", padding: "10px" }}
+            >
+                <div
+                    tw="bg-slate-800 border-slate-700 w-full h-full"
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderRadius: "24px",
+                        borderWidth: "4px",
+                        padding: "10px"
+                    }}
+                >
                     <div
                         style={{
+                            display: "flex",
                             backgroundColor:
-                                project.backgroundColor || "#FFFFFF"
+                                project.backgroundColor || "#FFFFFF",
+                            padding: "4px",
+                            borderRadius: "24px",
+                            boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.5)"
                         }}
-                        tw="flex p-6 rounded-3xl shadow-lg items-center justify-center"
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
                             width={160}
                             height={160}
-                            tw="w-40 h-40 rounded-full"
-                            style={{ objectFit: "contain" }}
+                            style={{
+                                width: "160px",
+                                height: "160px",
+                                borderRadius: "20px",
+                                objectFit: "contain"
+                            }}
                         />
                     </div>
 
-                    <div tw="flex flex-col items-center gap-4">
-                        <h1 tw="text-6xl text-white m-0 text-center tracking-tight">
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            gap: "6px"
+                        }}
+                    >
+                        <div
+                            tw="text-white font-bold"
+                            style={{
+                                display: "flex",
+                                margin: 0,
+                                fontSize: "60px",
+                                letterSpacing: "-0.02em"
+                            }}
+                        >
                             {project.title}
-                        </h1>
-                        <p tw="text-3xl font-semibold text-blue-400 m-0 text-center">
+                        </div>
+                        <div
+                            tw="text-blue-400 font-semibold"
+                            style={{
+                                display: "flex",
+                                margin: 0,
+                                fontSize: "30px"
+                            }}
+                        >
                             Portfólio de {profile.shortName}
-                        </p>
-                        <div tw="flex mt-4">
+                        </div>
+
+                        <div
+                            style={{
+                                display: "flex",
+                                gap: "8px",
+                                marginTop: "4px"
+                            }}
+                        >
                             {project.technologies.slice(0, 3).map((tech) => (
-                                <span
-                                    tw="px-5 py-2 bg-blue-600 border border-blue-400 text-white text-2xl rounded-full mx-2"
+                                <div
                                     key={tech}
+                                    tw="bg-blue-600 border-blue-400 text-white"
+                                    style={{
+                                        display: "flex",
+                                        padding: "6px 20px",
+                                        borderWidth: "1px",
+                                        fontSize: "24px",
+                                        borderRadius: "9999px"
+                                    }}
                                 >
                                     {tech}
-                                </span>
+                                </div>
                             ))}
                         </div>
                     </div>

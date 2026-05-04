@@ -11,28 +11,78 @@ export const contentType = "image/png";
 export default async function Image() {
     return new ImageResponse(
         (
-            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-10">
-                <div tw="flex flex-col rounded-3xl bg-slate-800 p-10 shadow-md border-4 border-slate-700 items-center gap-6">
-                    <img
-                        src={profile.profilePicture}
-                        width={160}
-                        height={160}
-                        alt={profile.shortName}
-                        tw="w-40 h-40 rounded-full border-4 border-blue-500"
-                        style={{ objectFit: "cover" }}
-                    />
+            <div
+                tw="bg-slate-900 w-full h-full"
+                style={{ display: "flex", padding: "10px" }}
+            >
+                <div
+                    tw="bg-slate-800 border-slate-700 w-full h-full"
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        justifyContent: "space-between",
+                        alignItems: "center",
+                        borderRadius: "24px",
+                        borderWidth: "4px",
+                        padding: "10px"
+                    }}
+                >
+                    <div style={{ display: "flex" }}>
+                        <img
+                            src={profile.profilePicture}
+                            width={160}
+                            height={160}
+                            tw="border-blue-500"
+                            style={{
+                                width: "160px",
+                                height: "160px",
+                                borderRadius: "9999px",
+                                borderWidth: "4px",
+                                objectFit: "cover"
+                            }}
+                        />
+                    </div>
 
-                    <div tw="flex flex-col items-center gap-4">
-                        <h1 tw="text-6xl text-white m-0 tracking-tight">
+                    <div
+                        style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            gap: "6px"
+                        }}
+                    >
+                        <div
+                            tw="text-white font-bold"
+                            style={{
+                                display: "flex",
+                                margin: 0,
+                                fontSize: "60px",
+                                letterSpacing: "-0.02em"
+                            }}
+                        >
                             {profile.shortName}
-                        </h1>
-                        <p tw="text-3xl font-semibold text-blue-400 m-0">
+                        </div>
+                        <div
+                            tw="text-blue-400 font-semibold"
+                            style={{
+                                display: "flex",
+                                margin: 0,
+                                fontSize: "30px"
+                            }}
+                        >
                             {profile.title}
-                        </p>
-                        <p tw="text-2xl text-slate-300 max-w-2xl mt-2 m-0 text-center">
+                        </div>
+                        <div
+                            tw="text-slate-300"
+                            style={{
+                                display: "flex",
+                                margin: 0,
+                                fontSize: "24px"
+                            }}
+                        >
                             Especialista em React, React Native, Node.js e
                             arquitetura AWS.
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
