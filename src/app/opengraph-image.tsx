@@ -13,7 +13,7 @@ export default async function Image() {
         (
             <div
                 tw="bg-slate-900 w-full h-full"
-                style={{ display: "flex", padding: "10px" }}
+                style={{ display: "flex", padding: "24px" }}
             >
                 <div
                     tw="bg-slate-800 border-slate-700 w-full h-full"
@@ -24,18 +24,18 @@ export default async function Image() {
                         alignItems: "center",
                         borderRadius: "24px",
                         borderWidth: "4px",
-                        padding: "10px"
+                        padding: "24px"
                     }}
                 >
                     <div style={{ display: "flex" }}>
                         <img
                             src={profile.profilePicture}
-                            width={160}
-                            height={160}
+                            width={300}
+                            height={300}
                             tw="border-blue-500"
                             style={{
-                                width: "160px",
-                                height: "160px",
+                                width: "300px",
+                                height: "300px",
                                 borderRadius: "9999px",
                                 borderWidth: "4px",
                                 objectFit: "cover"
