@@ -4,8 +4,7 @@ import profile from "data/profile.json";
 
 export const dynamic = "force-static";
 
-export const alt =
-    "Portfólio de Ewerton Vieira - Tech Lead & Software Engineer";
+export const alt = `Portfólio de ${profile.shortName} - ${profile.title}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -22,16 +21,18 @@ export default async function Image() {
                         style={{ objectFit: "cover" }}
                     />
 
-                    <h1 tw="text-white text-7xl font-bold tracking-tight text-center">
-                        Ewerton Vieira
-                    </h1>
-                    <p tw="text-blue-400 text-4xl mt-4 text-center font-semibold">
-                        Tech Lead & Software Engineer
-                    </p>
-                    <p tw="text-slate-300 text-2xl mt-8 text-center max-w-2xl">
+                    <div tw="text-white text-7xl font-bold tracking-tight text-center m-0 flex">
+                        {profile.shortName}
+                    </div>
+
+                    <div tw="text-blue-400 text-4xl mt-6 text-center font-semibold m-0 flex">
+                        {profile.title}
+                    </div>
+
+                    <div tw="text-slate-300 text-2xl mt-8 text-center max-w-2xl m-0 flex">
                         Especialista em React, React Native, Node.js e
                         arquitetura AWS.
-                    </p>
+                    </div>
                 </div>
             </div>
         ),

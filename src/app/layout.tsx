@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { type ReactNode } from "react";
 
 import { baseUrl } from "constants/url";
+import profile from "data/profile.json";
 
 import Providers from "./Providers";
 
@@ -16,8 +17,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     metadataBase: new URL(baseUrl),
-    title: "Ewerton Vieira",
-    description: "Software Engineer & Tech Lead",
+    title: profile.shortName,
+    description: profile.title,
     icons: {
         icon: "/favicon.ico",
         apple: "/logo192.png"

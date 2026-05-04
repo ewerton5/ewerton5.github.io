@@ -4,7 +4,7 @@ export default function Logo() {
     return (
         <img
             src={profile.profilePicture}
-            alt="Ewerton Vieira"
+            alt={profile.shortName}
             className="w-[40px] h-[40px] object-cover rounded-[20px]"
         />
     );

@@ -5,6 +5,7 @@ import { FiTool } from "react-icons/fi";
 import ProjectDetailsClient from "Components/Organisms/ProjectDetailsClient";
 import MainLayout from "Components/Templates/MainLayout";
 import { baseUrl } from "constants/url";
+import profile from "data/profile.json";
 import projects from "data/projects.json";
 import type { Project } from "types/project";
 
@@ -18,11 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!project) {
         return {
-            title: "Projeto não encontrado | Ewerton Vieira"
+            title: `Projeto não encontrado | ${profile.shortName}`
         };
     }
 
-    const title = `Veja ${project.title} | Portfólio de Ewerton Vieira`;
+    const title = `Veja ${project.title} | Portfólio de ${profile.shortName}`;
     const description = project.shortDescription;
 
     return {
@@ -32,7 +33,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title,
             description,
             url: `${baseUrl}/portfolio/${resolvedParams.slug}`,
-            siteName: "Ewerton Vieira - Portfólio",
+            siteName: `${profile.shortName} - Portfólio`,
             images: [
                 {
                     url: project.images.thumbnail,

@@ -9,8 +9,8 @@ export default function Footer() {
                 <section className="w-full">
                     <div className="flex justify-between items-center w-full max-tablet:flex-col max-tablet:gap-small">
                         <small className="text-text-secondary text-xsmall">
-                            Ewerton Vieira © {new Date().getFullYear()} Todos
-                            os direitos reservados.
+                            {profile.shortName} © {new Date().getFullYear()}{" "}
+                            Todos os direitos reservados.
                         </small>
                         <div className="flex justify-between items-center gap-small">
                             <a

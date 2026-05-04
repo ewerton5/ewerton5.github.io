@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 
 import { baseUrl } from "constants/url";
+import profile from "data/profile.json";
 import projects from "data/projects.json";
 
 export const dynamic = "force-static";
@@ -55,7 +56,7 @@ export default async function Image({
                         {project.title}
                     </h1>
                     <p tw="text-slate-200 text-3xl mt-4 text-center">
-                        Portfólio de Ewerton Vieira
+                        Portfólio de {profile.shortName}
                     </p>
                     <div tw="flex mt-8">
                         {project.technologies.slice(0, 3).map((tech) => (

@@ -75,7 +75,7 @@ export default function Navbar() {
                     className="flex items-center gap-xsmall text-secondary text-medium font-bold no-underline [&_img]:h-10"
                 >
                     <Logo />
-                    <span>Ewerton Vieira</span>
+                    <span>{profile.shortName}</span>
                 </Link>
 
                 <div
