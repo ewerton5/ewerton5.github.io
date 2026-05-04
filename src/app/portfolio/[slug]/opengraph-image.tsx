@@ -26,7 +26,7 @@ export default async function Image({
         return new ImageResponse(
             (
                 <div tw="flex w-full h-full bg-gray-900 items-center justify-center">
-                    <h1 tw="text-white text-6xl">Projeto não encontrado</h1>
+                    <h1 tw="text-white text-6xl m-0">Projeto não encontrado</h1>
                 </div>
             ),
             { ...size }
@@ -36,31 +36,34 @@ export default async function Image({
     return new ImageResponse(
         (
             <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-10">
-                <div tw="flex flex-col rounded-3xl bg-card-bg p-10 shadow-md border-4 border-slate-700 items-center gap-xsmall">
+                <div tw="flex flex-col rounded-3xl bg-slate-800 p-10 shadow-md border-4 border-slate-700 items-center gap-6">
                     <div
                         style={{
                             backgroundColor:
                                 project.backgroundColor || "#FFFFFF"
                         }}
-                        tw="p-4 bg-white/10 rounded-3xl shadow-lg"
+                        tw="flex p-6 rounded-3xl shadow-lg items-center justify-center"
                     >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
                             width={160}
                             height={160}
-                            tw="w-40 h-40 rounded-full object-contain"
+                            tw="w-40 h-40 rounded-full"
+                            style={{ objectFit: "contain" }}
                         />
                     </div>
 
-                    <div tw="flex-1 flex-col items-center gap-xsmall">
-                        <h1 tw="text-xxlarge">{project.title}</h1>
-                        <p tw="text-large font-semibold text-primary">
+                    <div tw="flex flex-col items-center gap-4">
+                        <h1 tw="text-6xl text-white m-0 text-center tracking-tight">
+                            {project.title}
+                        </h1>
+                        <p tw="text-3xl font-semibold text-blue-400 m-0 text-center">
                             Portfólio de {profile.shortName}
                         </p>
-                        <div tw="flex">
+                        <div tw="flex mt-4">
                             {project.technologies.slice(0, 3).map((tech) => (
                                 <span
-                                    tw="px-5 py-2 bg-blue-600/80 border border-blue-400/50 text-white text-2xl rounded-full mx-2"
+                                    tw="px-5 py-2 bg-blue-600 border border-blue-400 text-white text-2xl rounded-full mx-2"
                                     key={tech}
                                 >
                                     {tech}
