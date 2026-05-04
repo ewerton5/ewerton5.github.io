@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         };
     }
 
-    const title = `Veja ${project.title} | Portfólio de ${profile.shortName}`;
+    const title = `${project.title} | Portfólio de ${profile.shortName}`;
     const description = project.shortDescription;
 
     return {
