@@ -35,20 +35,21 @@ export default async function Image({
 
     return new ImageResponse(
         (
-            <div
-                style={{
-                    backgroundColor: project.backgroundColor || "#FFFFFF"
-                }}
-                tw="flex w-full h-full items-center justify-center p-20"
-            >
-                <div tw="flex flex-col items-center justify-center border border-white/20 rounded-3xl w-full h-full p-10 bg-black/60 shadow-2xl">
-                    <div tw="flex items-center justify-center p-8 bg-white/10 rounded-3xl mb-6 shadow-lg">
+            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-20">
+                <div tw="flex flex-col items-center justify-center border-4 border-slate-700 rounded-3xl w-full h-full p-10 bg-slate-800 shadow-2xl">
+                    <div
+                        style={{
+                            backgroundColor:
+                                project.backgroundColor || "#FFFFFF"
+                        }}
+                        tw="flex items-center justify-center p-8 bg-white/10 rounded-3xl mb-6 shadow-lg"
+                    >
                         <img
                             src={`${baseUrl}${project.images.thumbnail}`}
-                            width={220}
-                            height={220}
-                            tw="w-56 h-56"
-                            style={{ objectFit: "contain" }}
+                            width={200}
+                            height={200}
+                            tw="w-48 h-48 mb-4 shadow-xl"
+                            style={{ objectFit: "cover" }}
                         />
                     </div>
 
@@ -56,7 +57,7 @@ export default async function Image({
                         <h1 tw="text-white text-7xl font-bold tracking-tight text-center m-0">
                             {project.title}
                         </h1>
-                        <p tw="text-slate-200 text-3xl text-center m-0">
+                        <p tw="text-blue-400 text-4xl text-center font-semibold m-0">
                             Portfólio de {profile.shortName}
                         </p>
                         <div tw="flex">
