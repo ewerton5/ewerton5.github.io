@@ -11,7 +11,7 @@ export const contentType = "image/png";
 export default async function Image() {
     return new ImageResponse(
         (
-            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-20">
+            <div tw="flex w-full h-full bg-slate-900 items-center justify-center p-10">
                 <div tw="flex flex-col items-center justify-center border-4 border-slate-700 rounded-3xl w-full h-full p-10 bg-slate-800 shadow-2xl">
                     <img
                         src={profile.profilePicture}
