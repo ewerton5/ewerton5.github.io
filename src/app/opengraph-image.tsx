@@ -17,27 +17,23 @@ export default async function Image() {
                         src={profile.profilePicture}
                         width={200}
                         height={200}
-                        tw="w-48 h-48 rounded-full border-4 border-blue-500 shadow-xl"
+                        tw="w-48 h-48 rounded-full border-4 border-blue-500 mb-4 shadow-xl"
                         style={{ objectFit: "cover" }}
                     />
 
-                    <div tw="flex h-10" />
+                    <div tw="flex flex-col items-center gap-6">
+                        <h1 tw="text-white text-7xl font-bold tracking-tight text-center m-0">
+                            {profile.shortName}
+                        </h1>
 
-                    <div tw="flex text-white text-7xl font-bold tracking-tight text-center">
-                        {profile.shortName}
-                    </div>
+                        <p tw="text-blue-400 text-4xl text-center font-semibold m-0">
+                            {profile.title}
+                        </p>
 
-                    <div tw="flex h-6" />
-
-                    <div tw="flex text-blue-400 text-4xl text-center font-semibold">
-                        {profile.title}
-                    </div>
-
-                    <div tw="flex h-10" />
-
-                    <div tw="flex text-slate-300 text-2xl text-center max-w-2xl">
-                        Especialista em React, React Native, Node.js e
-                        arquitetura AWS.
+                        <p tw="text-slate-300 text-2xl text-center max-w-2xl m-0 mt-4">
+                            Especialista em React, React Native, Node.js e
+                            arquitetura AWS.
+                        </p>
                     </div>
                 </div>
             </div>
