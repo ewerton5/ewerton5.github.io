@@ -2,16 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-    FaBars,
-    FaTimes,
-    FaGithub,
-    FaLinkedin,
-    FaMoon,
-    FaSun
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
 
 import Logo from "Components/Atoms/Logo";
+import SocialMediaGroup from "Components/Molecules/SocialMediaGroup";
 import profile from "data/profile.json";
 import { useThemeStore, useUIStore } from "store";
 import { cn } from "utils/cn";
@@ -34,36 +28,16 @@ export default function Navbar() {
         if (isMobileMenuOpen) closeMobileMenu();
     };
 
-    const socialIcons = (
-        <>
-            <button
-                type="button"
-                onClick={toggleTheme}
-                aria-label="Alternar tema"
-                title="Alternar tema"
-                className="text-secondary text-[1.5rem] inline-flex items-center justify-center transition-colors duration-200 hover:text-primary"
-            >
-                {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
-            </button>
-            <a
-                href={profile.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="GitHub"
-                className="text-secondary text-[1.5rem] transition-colors duration-200 hover:text-primary"
-            >
-                <FaGithub />
-            </a>
-            <a
-                href={profile.linkedinUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="LinkedIn"
-                className="text-secondary text-[1.5rem] transition-colors duration-200 hover:text-primary"
-            >
-                <FaLinkedin />
-            </a>
-        </>
+    const themeToggle = (
+        <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Alternar tema"
+            title="Alternar tema"
+            className="text-secondary text-[1.5rem] inline-flex items-center justify-center transition-colors duration-200 hover:text-primary"
+        >
+            {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
+        </button>
     );
 
     return (
@@ -121,12 +95,14 @@ export default function Navbar() {
                     ))}
 
                     <div className="hidden items-center gap-small max-tablet:flex max-tablet:mt-large">
-                        {socialIcons}
+                        {themeToggle}
+                        <SocialMediaGroup />
                     </div>
                 </ul>
 
                 <div className="flex items-center gap-small max-tablet:hidden">
-                    {socialIcons}
+                    {themeToggle}
+                    <SocialMediaGroup />
                 </div>
             </div>
         </nav>
