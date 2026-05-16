@@ -1,15 +1,19 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 type AcademicCardProps = {
     degree: string;
     institution: string;
     period: string;
     description: string;
+    credentialUrl?: string;
 };
 
 export default function AcademicCard({
     degree,
     institution,
     period,
-    description
+    description,
+    credentialUrl
 }: AcademicCardProps) {
     return (
         <div className="mb-large ml-6 relative last:mb-0">
@@ -24,6 +28,17 @@ export default function AcademicCard({
             <p className="text-sm text-text-secondary leading-relaxed">
                 {description}
             </p>
+            {credentialUrl && (
+                <a
+                    href={credentialUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 mt-3 px-3 py-1 text-xs font-semibold text-primary bg-primary/10 rounded-full hover:bg-primary/20 transition-colors"
+                >
+                    <FaExternalLinkAlt className="w-2.5 h-2.5" />
+                    Ver Diploma
+                </a>
+            )}
         </div>
     );
 }

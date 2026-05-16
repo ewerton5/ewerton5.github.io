@@ -19,6 +19,7 @@ export default function AcademicFormationSection() {
                         institution={item.institution}
                         period={item.period}
                         description={item.description}
+                        credentialUrl={item.credentialUrl}
                     />
                 ))}
             </div>

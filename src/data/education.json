@@ -5,7 +5,8 @@
             "institution": "UFRJ - Universidade Federal do Rio de Janeiro",
             "degree": "Engenharia Eletrônica e de Computação",
             "period": "2019 - 2025",
-            "description": "Formação densa em engenharia de software e hardware. Destaque em disciplinas de Algoritmos e Estruturas de Dados, Inteligência Artificial, Banco de Dados, Processamento de Sinais, Sistemas Operacionais, Comunicações e Controle Multivariável."
+            "description": "Formação densa em engenharia de software e hardware. Destaque em disciplinas de Algoritmos e Estruturas de Dados, Inteligência Artificial, Banco de Dados, Processamento de Sinais, Sistemas Operacionais, Comunicações e Controle Multivariável.",
+            "credentialUrl": "/certificados/Certificado Ensino Superior UFRJ.pdf"
         },
         {
             "id": "b1adf338-c8bd-4b95-bd8e-0e481be08df3",
@@ -19,21 +20,24 @@
             "institution": "Escola Preparatória de Cadetes do Ar (EPCAR)",
             "degree": "Ensino Médio e Formação Militar",
             "period": "2014 - 2016",
-            "description": "Admissão mediante concurso público de alta concorrência. Formação de base sólida em exatas, introdução à programação e forte condicionamento físico militar."
+            "description": "Admissão mediante concurso público de alta concorrência. Formação de base sólida em exatas, introdução à programação e forte condicionamento físico militar.",
+            "credentialUrl": "/certificados/Certificado Ensino Médio Epcar.pdf"
         },
         {
             "id": "a8aecd16-0422-4226-b61c-dcdeb7567b75",
             "institution": "IFRJ - Instituto Federal do Rio de Janeiro",
             "degree": "Ensino Médio (Certificação via ENEM)",
             "period": "2016",
-            "description": "Certificação de Ensino Médio obtida através de excelente pontuação no ENEM."
+            "description": "Certificação de Ensino Médio obtida através de excelente pontuação no ENEM.",
+            "credentialUrl": "/certificados/Certificado Ensino Médio IFRJ.pdf"
         },
         {
             "id": "e8935cff-7863-4d19-b09b-d0e9c8a8ef0a",
             "institution": "Colégio Estadual Bairro Jardim América",
             "degree": "Ensino Médio",
             "period": "2011 - 2013",
-            "description": "Formação de ensino médio anterior ao ingresso na EPCAR."
+            "description": "Formação de ensino médio anterior ao ingresso na EPCAR.",
+            "credentialUrl": "/certificados/Certificado Ensino Médio CEBJA.pdf"
         }
     ],
     "certifications": [
@@ -41,19 +45,22 @@
             "id": "3b8589a4-56e3-42dd-8b2f-ef6e61c2cf5a",
             "title": "Cursos de Windows, Word, Excel, Power Point e Internet",
             "platform": "Opção Informática",
-            "year": "2007"
+            "year": "2007",
+            "credentialUrl": "/certificados/Certificado Windows Opção informática.pdf"
         },
         {
             "id": "91401897-2839-43db-9937-083082ee31ea",
             "title": "Curso de Treinamento Profissionalizante",
             "platform": "S.O.S.",
-            "year": "2009"
+            "year": "2009",
+            "credentialUrl": "/certificados/Certificado Treinamento Profissionalizante SOS.pdf"
         },
         {
             "id": "ae7ad3ee-d9e0-4e76-8333-53bd5b2489a8",
             "title": "Curso de Montagem e Manutenção de Microprocessadores",
             "platform": "Poligon",
-            "year": "2009"
+            "year": "2009",
+            "credentialUrl": "/certificados/Certificado Montagem e Manutenção de Microcomputadores Poligon.pdf"
         },
         {
             "id": "f047a9c2-a559-45d7-b0b8-36cd3e0ec2d9",
@@ -166,6 +173,13 @@
             "platform": "iPED",
             "year": "2019",
             "credentialUrl": "/certificados/Certificado Desenvolvimento de Games para Android iPED.pdf"
+        },
+        {
+            "id": "3d7a667c-6a50-4e2a-8d03-faca9414af36",
+            "title": "Informática para Educação LIpE",
+            "platform": "LIpE",
+            "year": "2022",
+            "credentialUrl": "/certificados/Certificado LIpE.pdf"
         }
     ],
     "languages": [
