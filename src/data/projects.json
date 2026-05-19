@@ -32,6 +32,32 @@
         "backgroundColor": "#FFFFFF"
     },
     {
+        "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+        "slug": "medway",
+        "title": "Medway",
+        "categories": ["Mobile", "Education"],
+        "startDate": "2024-10-03",
+        "shortDescription": "Plataforma educacional robusta construída de ponta a ponta. Conta com hierarquia complexa de usuários (professores, diretores, alunos) e gerenciamento de tarefas em tempo real.",
+        "technologies": ["FlutterFlow", "Supabase"],
+        "images": {
+            "thumbnail": "/projetos/medway/thumb.png"
+        },
+        "backgroundColor": "#18191C"
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "slug": "reatop",
+        "title": "Reatop",
+        "categories": ["Mobile", "Utility"],
+        "startDate": "2024-07-02",
+        "shortDescription": "Aplicativo para o nicho de vistorias imobiliárias. Atuação profunda em manutenção de código legado, resolução de gargalos de performance e correção de bugs críticos.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/reatop/thumb.png"
+        },
+        "backgroundColor": "#0FA0CE"
+    },
+    {
         "id": "738d950f-f37f-4b11-b705-a53953b448eb",
         "slug": "rio-vistorias",
         "title": "Rio Vistorias",
@@ -63,6 +89,32 @@
         "backgroundColor": "#0B411F"
     },
     {
+        "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+        "slug": "ozires",
+        "title": "Ozires",
+        "categories": ["Web", "Backend", "E-commerce"],
+        "startDate": "2024-05-04",
+        "shortDescription": "Plataforma robusta para pagamentos e e-commerce. Atuação como Tech Lead gerenciando times juniores e implementando integrações de APIs vitais (Reportana, UTMIFY, Notazz) no Back-end.",
+        "technologies": ["React", "Node.js", "Express"],
+        "images": {
+            "thumbnail": "/projetos/ozires/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "c4d5e6f7-a8b9-c0d1-e2f3-a4b5c6d7e8f9",
+        "slug": "spherica",
+        "title": "Spherica",
+        "categories": ["Mobile", "Health"],
+        "startDate": "2024-04-18",
+        "shortDescription": "Aplicativo B2B construído do zero para o setor de óticas, com foco no gerenciamento de produtos, controle de graus e estoque de óculos.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/spherica/thumb.png"
+        },
+        "backgroundColor": "#F6F6F6"
+    },
+    {
         "id": "70941e9e-529e-42e2-8a73-69d28b6fabc3",
         "slug": "paa-advogados",
         "title": "PAA Advogados",
@@ -77,6 +129,19 @@
         ],
         "images": {
             "thumbnail": "/projetos/paa-advogados/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+        "slug": "copyreveal",
+        "title": "Copyreveal",
+        "categories": ["Web"],
+        "startDate": "2024-03-27",
+        "shortDescription": "Aplicação web desenvolvida a partir do zero utilizando frameworks visuais. O projeto englobou as fases de fundação de arquitetura antes de ser paralisado.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/copyreveal/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -162,6 +227,32 @@
             "thumbnail": "/projetos/megapark/thumb.png"
         },
         "backgroundColor": "#0264D9"
+    },
+    {
+        "id": "b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6",
+        "slug": "mginx",
+        "title": "Mginx",
+        "categories": ["Mobile", "Streaming"],
+        "startDate": "2022-10-31",
+        "shortDescription": "Aplicativo de streaming com interface e arquitetura de navegação inspiradas na Netflix. Atuação focada em manutenção técnica e estabilidade.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/mginx/thumb.png"
+        },
+        "backgroundColor": "#000000"
+    },
+    {
+        "id": "f1e2d3c4-b5a6-9f8e-7d6c-5b4a3f2e1d0c",
+        "slug": "reckitt",
+        "title": "Reckitt",
+        "categories": ["Mobile"],
+        "startDate": "2022-07-27",
+        "shortDescription": "Aplicativo corporativo do ecossistema mobile com atuação pontual de manutenção de código e melhorias de estabilidade em React Native.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/reckitt/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
     },
     {
         "id": "9550b0ac-a9d5-4c2f-8146-8df8e54a7873",
@@ -255,6 +346,58 @@
         "backgroundColor": "#FFFFFF"
     },
     {
+        "id": "f7a8b9c0-d1e2-f3a4-b5c6-d7e8f9a0b1c2",
+        "slug": "casa-do-artesao",
+        "title": "Casa do Artesão",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2021-03-24",
+        "shortDescription": "Aplicativo mobile desenvolvido do zero e estruturado como um e-commerce para atender diretamente as necessidades do nicho de artesãos.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/casa-do-artesao/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
+        "slug": "digipay",
+        "title": "Digipay",
+        "categories": ["Web", "Fintech"],
+        "startDate": "2020-12-22",
+        "shortDescription": "Sistema focado no setor financeiro com suporte a pagamentos e integração PIX. Responsável pela integração entre Front-end e Back-end e mitigação de bugs.",
+        "technologies": ["React"],
+        "images": {
+            "thumbnail": "/projetos/digipay/thumb.png"
+        },
+        "backgroundColor": "#F0F0F0"
+    },
+    {
+        "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+        "slug": "toda-vida",
+        "title": "Toda Vida",
+        "categories": ["Web", "Health"],
+        "startDate": "2020-11-14",
+        "shortDescription": "Sistema web projetado para o segmento de saúde e corpo médico. A atuação envolveu auditoria rápida, sustentação de código e correções assertivas de bugs de UI.",
+        "technologies": ["React"],
+        "images": {
+            "thumbnail": "/projetos/toda-vida/thumb.png"
+        },
+        "backgroundColor": "#44B9B5"
+    },
+    {
+        "id": "e1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+        "slug": "ataca-pet",
+        "title": "Ataca Pet",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2020-10-08",
+        "shortDescription": "Plataforma de e-commerce white label desenvolvida do zero para o segmento pet, estruturada com funcionalidades customizáveis para diferentes franquias.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/ataca-pet/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
         "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
         "slug": "cofarja",
         "title": "Cofarja (Motorista, Fornecedor, Admin)",
@@ -292,6 +435,32 @@
             "thumbnail": "/projetos/odonto-guardians/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d1f5c6a1-3e4b-4b2a-8c9d-1e2f3a4b5c6d",
+        "slug": "the-undergrad",
+        "title": "The Undergrad",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2020-01-09",
+        "shortDescription": "Aplicativo de vendas focado em estudantes universitários. Atuei na manutenção do projeto, destacando-se a sustentação de um chat em tempo real via WebSockets.",
+        "technologies": ["React Native", "WebSockets"],
+        "images": {
+            "thumbnail": "/projetos/the-undergrad/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
+        "slug": "radio-arquibancada",
+        "title": "Radio Arquibancada",
+        "categories": ["Mobile", "Streaming"],
+        "startDate": "2019-09-11",
+        "shortDescription": "Plataforma de streaming focada no universo do samba (semelhante ao Spotify). Responsável por uma atualização crítica de versão e dependências do framework.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/radio-arquibancada/thumb.png"
+        },
+        "backgroundColor": "#2A4C62"
     },
     {
         "id": "ec970f79-f078-4e96-a149-72b35593558b",
