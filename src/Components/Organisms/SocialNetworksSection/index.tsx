@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import SocialButton from "Components/Atoms/SocialButton";
+import profile from "data/profile.json";
 
 export default function SocialNetworksSection() {
     return (
@@ -8,7 +9,7 @@ export default function SocialNetworksSection() {
             <h2 className="text-secondary mb-large">Minhas Redes</h2>
             <div className="flex justify-center gap-medium max-tablet:flex-col max-tablet:px-medium">
                 <SocialButton
-                    href="https://www.linkedin.com/in/ewerton-vieira-ab8b111ab"
+                    href={profile.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -16,7 +17,7 @@ export default function SocialNetworksSection() {
                     LinkedIn
                 </SocialButton>
                 <SocialButton
-                    href="https://github.com/ewerton5"
+                    href={profile.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
