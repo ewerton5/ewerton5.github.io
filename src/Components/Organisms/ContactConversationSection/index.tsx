@@ -1,9 +1,10 @@
 import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 import ContactCard from "Components/Molecules/ContactCard";
+import profile from "data/profile.json";
 
 const WHATSAPP_MESSAGE = encodeURIComponent(
-    "Olá Ewerton, vi seu portfólio e gostaria de conversar!"
+    `Olá ${profile.name}, vi seu portfólio e gostaria de conversar!`
 );
 
 export default function ContactConversationSection() {
@@ -27,15 +28,15 @@ export default function ContactConversationSection() {
                     icon={<FaWhatsapp />}
                     iconColor="#25D366"
                     title="WhatsApp"
-                    primaryLabel="+55 21 99891-0884"
+                    primaryLabel={profile.phone}
                     secondaryLabel="Me chame para um papo rápido"
                 />
                 <ContactCard
-                    href="mailto:ewerton.v50@gmail.com"
+                    href={`mailto:${profile.email}`}
                     icon={<FaEnvelope />}
                     iconColor="#EA4335"
                     title="E-mail"
-                    primaryLabel="ewerton.v50@gmail.com"
+                    primaryLabel={profile.email}
                     secondaryLabel="Para assuntos mais formais"
                 />
                 <ContactCard
@@ -44,7 +45,7 @@ export default function ContactConversationSection() {
                     icon={<FaMapMarkerAlt />}
                     iconColor="#0A74DA"
                     title="Localização"
-                    primaryLabel="Belford Roxo - RJ, Brasil"
+                    primaryLabel={profile.location}
                     secondaryLabel="Disponível para atuação Remota"
                 />
             </div>
