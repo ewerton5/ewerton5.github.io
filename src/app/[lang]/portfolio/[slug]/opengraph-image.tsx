@@ -1,26 +1,43 @@
 import { ImageResponse } from "next/og";
 
 import { baseUrl } from "constants/url";
-import profile from "data/profile.json";
-import projects from "data/projects.json";
+import type { Locale } from "types/dictionary";
+import type { Project } from "types/project";
+import { getDictionary } from "utils/getDictionary";
 
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export function generateStaticParams() {
-    return projects.map((project) => ({
-        slug: project.slug
-    }));
+export async function generateStaticParams() {
+    const ptProjects = await import("data/pt-BR/projects.json").then(
+        (m) => m.default
+    );
+    const enProjects = await import("data/en-US/projects.json").then(
+        (m) => m.default
+    );
+
+    const params: { lang: string; slug: string }[] = [];
+    ptProjects.forEach((p) => params.push({ lang: "pt-BR", slug: p.slug }));
+    enProjects.forEach((p) => params.push({ lang: "en-US", slug: p.slug }));
+
+    return params;
 }
 
 export default async function Image({
     params
 }: {
-    params: Promise<{ slug: string }>;
+    params: Promise<{ lang: string; slug: string }>;
 }) {
-    const resolvedParams = await params;
-    const project = projects.find((p) => p.slug === resolvedParams.slug);
+    const { lang, slug } = (await params) as { lang: Locale; slug: string };
+    const profile = await import(`data/${lang}/profile.json`).then(
+        (m) => m.default
+    );
+    const projects = (await import(`data/${lang}/projects.json`).then(
+        (m) => m.default
+    )) as unknown as Project[];
+    const dict = await getDictionary(lang);
+    const project = projects.find((p) => p.slug === slug);
 
     if (!project) {
         return new ImageResponse(
@@ -112,7 +129,10 @@ export default async function Image({
                                 fontSize: "30px"
                             }}
                         >
-                            Portfólio de {profile.shortName}
+                            {dict.portfolio.metadata.siteName.replace(
+                                "{shortName}",
+                                profile.shortName
+                            )}
                         </div>
 
                         <div

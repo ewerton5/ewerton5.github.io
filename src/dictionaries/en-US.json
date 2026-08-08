@@ -1,0 +1,135 @@
+{
+    "navbar": {
+        "links": {
+            "home": "Home",
+            "about": "About Me",
+            "portfolio": "Portfolio",
+            "education": "Education",
+            "contact": "Contact"
+        },
+        "themeToggle": {
+            "ariaLabel": "Toggle theme",
+            "title": "Toggle theme"
+        },
+        "mobileMenu": {
+            "openAriaLabel": "Open menu",
+            "closeAriaLabel": "Close menu"
+        }
+    },
+    "hero": {
+        "title": {
+            "prefix": "Turning discipline into",
+            "highlight": "technical excellence."
+        },
+        "actions": {
+            "viewProjects": "View Projects",
+            "contact": "Get in Touch"
+        }
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    },
+    "contact": {
+        "title": "Let's Talk?",
+        "description": "I'm always open to discussing new projects, architectural challenges, or leadership and development opportunities. Feel free to reach out through any of the channels below.",
+        "whatsapp": {
+            "title": "WhatsApp",
+            "secondaryLabel": "Message me for a quick chat",
+            "message": "Hello {name}, I saw your portfolio and would love to talk!"
+        },
+        "email": {
+            "title": "Email",
+            "secondaryLabel": "For more formal inquiries"
+        },
+        "location": {
+            "title": "Location",
+            "secondaryLabel": "Available for remote work"
+        }
+    },
+    "services": {
+        "title": "My Areas of Expertise"
+    },
+    "setup": {
+        "title": "My Setup & Tools"
+    },
+    "socialNetworks": {
+        "title": "My Networks",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+    },
+    "testimonials": {
+        "title": "What people say about me"
+    },
+    "timeline": {
+        "title": "My Journey"
+    },
+    "formation": {
+        "title": "Education & Expertise",
+        "academic": {
+            "title": "Academic Background"
+        },
+        "certifications": {
+            "title": "Courses & Certifications",
+            "viewCredential": "View Certificate"
+        },
+        "languages": {
+            "title": "Languages"
+        }
+    },
+    "portfolio": {
+        "title": "My Portfolio",
+        "subtitle": "Explore the projects. Filter by category or search by technology.",
+        "search": {
+            "placeholder": "Search by project or technology..."
+        },
+        "techPicker": {
+            "label": "Technologies",
+            "labelWithCount": "Technologies ({count})",
+            "searchPlaceholder": "Search technology...",
+            "noResults": "No technology found",
+            "clearSelection": "Clear selection"
+        },
+        "categories": {
+            "all": "All",
+            "mobile": "Mobile",
+            "web": "Web",
+            "backend": "Backend"
+        },
+        "emptyState": {
+            "title": "No projects found",
+            "description": "Try adjusting the filters or search term"
+        },
+        "projectHeader": {
+            "backToPortfolio": "Back to Portfolio"
+        },
+        "linksBar": {
+            "web": "Visit Website",
+            "github": "View on GitHub",
+            "android": "Google Play",
+            "ios": "App Store"
+        },
+        "imageCarousel": {
+            "scrollLeftAriaLabel": "Scroll left",
+            "scrollRightAriaLabel": "Scroll right",
+            "screenshotAlt": "{platformName} — screenshot {index}"
+        },
+        "lightbox": {
+            "closeAriaLabel": "Close fullscreen view",
+            "fullscreenAlt": "Fullscreen image"
+        },
+        "platformInfo": {
+            "highlightsTitle": "Highlights & Key Takeaways"
+        },
+        "underConstruction": {
+            "description": "The details for this project are still being put together. Check back soon for more information."
+        },
+        "metadata": {
+            "notFoundTitle": "Project not found | {shortName}",
+            "titleTemplate": "{projectTitle} | {shortName}'s Portfolio",
+            "siteName": "{shortName} - Portfolio"
+        }
+    },
+    "about": {
+        "title": "About Me"
+    }
+}

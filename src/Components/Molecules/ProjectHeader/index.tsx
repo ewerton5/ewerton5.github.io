@@ -9,22 +9,26 @@ type ProjectHeaderProps = {
     categories: string[];
     startDate: string;
     technologies: string[];
+    backHref: string;
+    backLabel: string;
 };
 
 export default function ProjectHeader({
     title,
     categories,
     startDate,
-    technologies
+    technologies,
+    backHref,
+    backLabel
 }: ProjectHeaderProps) {
     return (
         <div className="flex flex-col gap-small">
             <Link
-                href="/portfolio"
+                href={backHref}
                 className="flex items-center gap-xxsmall text-text-secondary hover:text-primary transition-colors text-xsmall w-fit mb-small"
             >
                 <FiArrowLeft />
-                Voltar ao Portfólio
+                {backLabel}
             </Link>
 
             <div className="flex flex-wrap items-center gap-xsmall">

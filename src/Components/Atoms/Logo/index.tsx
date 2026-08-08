@@ -1,6 +1,10 @@
-import profile from "data/profile.json";
+import type { Profile } from "types/data";
 
-export default function Logo() {
+type LogoProps = {
+    profile: Profile;
+};
+
+export default function Logo({ profile }: LogoProps) {
     return (
         <img
             src={profile.profilePicture}

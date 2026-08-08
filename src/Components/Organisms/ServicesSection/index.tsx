@@ -10,7 +10,13 @@ import {
 
 import SectionTitle from "Components/Atoms/SectionTitle";
 import ServiceCard from "Components/Molecules/ServiceCard";
-import services from "data/services.json";
+import type { Service } from "types/data";
+import type { Dictionary } from "types/dictionary";
+
+type ServicesSectionProps = {
+    dict: Dictionary;
+    services: Service[];
+};
 
 const renderServiceIcon = (iconName: string) => {
     switch (iconName) {
@@ -33,10 +39,13 @@ const renderServiceIcon = (iconName: string) => {
     }
 };
 
-export default function ServicesSection() {
+export default function ServicesSection({
+    dict,
+    services
+}: ServicesSectionProps) {
     return (
         <section className="py-xxlarge">
-            <SectionTitle>Minhas Especialidades</SectionTitle>
+            <SectionTitle>{dict.services.title}</SectionTitle>
             <div className="flex items-stretch w-full overflow-x-auto snap-x snap-mandatory gap-medium pb-medium hide-scrollbar laptop:grid laptop:grid-cols-3 laptop:overflow-visible">
                 {services.map((service) => (
                     <div

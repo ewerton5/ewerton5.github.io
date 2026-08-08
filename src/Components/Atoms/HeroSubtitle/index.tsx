@@ -1,6 +1,10 @@
-import profile from "data/profile.json";
+import type { Profile } from "types/data";
 
-export default function HeroSubtitle() {
+type HeroSubtitleProps = {
+    profile: Profile;
+};
+
+export default function HeroSubtitle({ profile }: HeroSubtitleProps) {
     const { name, title, heroSubtitle } = profile;
     return (
         <h2 className="text-medium text-text-secondary font-normal leading-relaxed [&_strong]:text-text">

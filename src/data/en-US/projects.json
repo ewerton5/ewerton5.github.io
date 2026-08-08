@@ -1,0 +1,478 @@
+[
+    {
+        "id": "ce64c18a-a016-465d-9d14-e41f06a02551",
+        "slug": "hotfloor",
+        "title": "Hotfloor",
+        "categories": ["Mobile"],
+        "startDate": "2025-06-03",
+        "shortDescription": "Thermal automation and IoT application (Hotfloor). Led the technical rescue and modernization of a legacy project burdened by high technical debt. Drove a deep structural refactor, replacing rigid logic with Zustand and React Query, and implemented robust validation with Zod and React Hook Form. Engineered MQTT communication focused on thermostats and Hot Closets.",
+        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
+        "images": {
+            "thumbnail": "/projetos/hotfloor/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "05627a29-1d39-496e-b1b2-06038aed4964",
+        "slug": "to-na-pista",
+        "title": "To na pista",
+        "categories": ["Mobile", "Backend"],
+        "startDate": "2024-11-12",
+        "shortDescription": "Urban mobility (ride-sharing) application. Architected a robust WebSockets back-end managing multiple dynamic rooms for real-time driver and passenger tracking. Implemented dynamic routing (Google Maps/Mapbox/OpenRouteService) and distance calculation with Reverse GeoCode via PostgreSQL.",
+        "technologies": [
+            "Node.js",
+            "WebSockets",
+            "React Native",
+            "PostgreSQL",
+            "Geolocation"
+        ],
+        "images": {
+            "thumbnail": "/projetos/to-na-pista/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e",
+        "slug": "medway",
+        "title": "Medway",
+        "categories": ["Mobile", "Education"],
+        "startDate": "2024-10-03",
+        "shortDescription": "Robust educational platform built end-to-end. Features a complex user hierarchy (teachers, principals, students) and real-time task management.",
+        "technologies": ["FlutterFlow", "Supabase"],
+        "images": {
+            "thumbnail": "/projetos/medway/thumb.png"
+        },
+        "backgroundColor": "#18191C"
+    },
+    {
+        "id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+        "slug": "reatop",
+        "title": "Reatop",
+        "categories": ["Mobile", "Utility"],
+        "startDate": "2024-07-02",
+        "shortDescription": "Application for the real estate inspection niche. Drove deep legacy code maintenance, resolved performance bottlenecks, and fixed critical bugs.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/reatop/thumb.png"
+        },
+        "backgroundColor": "#0FA0CE"
+    },
+    {
+        "id": "738d950f-f37f-4b11-b705-a53953b448eb",
+        "slug": "rio-vistorias",
+        "title": "Rio Vistorias",
+        "categories": ["Mobile"],
+        "startDate": "2024-06-11",
+        "shortDescription": "High-demand inspection application designed to process and store up to 40,000 photos per session. Rewrote it from scratch in React Native, implementing an advanced Offline-First architecture via WatermelonDB to ensure high performance and asynchronous sync with a legacy API.",
+        "technologies": [
+            "React Native",
+            "WatermelonDB",
+            "Offline-First",
+            "Performance"
+        ],
+        "images": {
+            "thumbnail": "/projetos/rio-vistorias/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "de6832dc-a141-4a14-84b8-cfe1e5a11fd1",
+        "slug": "vibra",
+        "title": "Vibra",
+        "categories": ["Mobile", "Backend"],
+        "startDate": "2024-05-30",
+        "shortDescription": "Inspection application delivered in a record 24-hour turnaround, with back-end integration via Supabase and local architecture via SQLite.",
+        "technologies": ["FlutterFlow", "SQLite", "Supabase"],
+        "images": {
+            "thumbnail": "/projetos/vibra/thumb.png"
+        },
+        "backgroundColor": "#0B411F"
+    },
+    {
+        "id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+        "slug": "ozires",
+        "title": "Ozires",
+        "categories": ["Web", "Backend", "E-commerce"],
+        "startDate": "2024-05-04",
+        "shortDescription": "Robust payments and e-commerce platform. Served as Tech Lead, managing junior teams and implementing critical back-end API integrations (Reportana, UTMIFY, Notazz).",
+        "technologies": ["React", "Node.js", "Express"],
+        "images": {
+            "thumbnail": "/projetos/ozires/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "c4d5e6f7-a8b9-c0d1-e2f3-a4b5c6d7e8f9",
+        "slug": "spherica",
+        "title": "Spherica",
+        "categories": ["Mobile", "Health"],
+        "startDate": "2024-04-18",
+        "shortDescription": "B2B application built from scratch for the optical retail sector, focused on product management, prescription tracking, and eyewear inventory control.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/spherica/thumb.png"
+        },
+        "backgroundColor": "#F6F6F6"
+    },
+    {
+        "id": "70941e9e-529e-42e2-8a73-69d28b6fabc3",
+        "slug": "paa-advogados",
+        "title": "PAA Advogados",
+        "categories": ["Mobile", "Web", "Backend"],
+        "startDate": "2024-04-08",
+        "shortDescription": "Multi-platform legal case management system (App, Web, and Back-end). Controlled case workflow through a complex state machine and a drag-and-drop Kanban board for multiple user roles (from partners to calculation specialists). Architected entirely on Firebase (Firestore and Cloud Functions).",
+        "technologies": [
+            "React Native",
+            "Firebase",
+            "Kanban",
+            "Cloud Functions"
+        ],
+        "images": {
+            "thumbnail": "/projetos/paa-advogados/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b",
+        "slug": "copyreveal",
+        "title": "Copyreveal",
+        "categories": ["Web"],
+        "startDate": "2024-03-27",
+        "shortDescription": "Web application built from scratch using visual frameworks. The project covered the architectural foundation phases before being put on hold.",
+        "technologies": ["FlutterFlow"],
+        "images": {
+            "thumbnail": "/projetos/copyreveal/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d8b89163-4394-482b-81e9-100382087012",
+        "slug": "omni",
+        "title": "Omni",
+        "categories": ["Web", "Backend"],
+        "startDate": "2024-03-14",
+        "shortDescription": "Web CRM and ticket management platform + Back-end (Node). Customer service platform integrating drag-and-drop visual flowcharts for pre-AI automation and multiple communication channels.",
+        "technologies": ["React", "Node.js", "CRM", "Drag and Drop"],
+        "images": {
+            "thumbnail": "https://placehold.co/600x400/0B57F5/FFFFFF?text=OMNI"
+        },
+        "backgroundColor": "#0B57F5"
+    },
+    {
+        "id": "ade914df-79f1-4d40-aa4f-1e87e6511b3e",
+        "slug": "miruna",
+        "title": "Miruna",
+        "categories": ["Mobile"],
+        "startDate": "2024-02-26",
+        "shortDescription": "Utility app embedded in a portable label printer, using a text-based bridge (a functional technical workaround) to communicate without an SDK.",
+        "technologies": ["FlutterFlow", "Hardware Integration"],
+        "images": {
+            "thumbnail": "/projetos/miruna/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "c4b533bc-71f4-400a-96ed-a96de576b0f7",
+        "slug": "procac",
+        "title": "Procac",
+        "categories": ["Mobile", "Web", "Backend"],
+        "startDate": "2024-02-11",
+        "shortDescription": "Niche social network built in FlutterFlow with real-time chat integrated with Firebase.",
+        "technologies": ["FlutterFlow", "Firebase", "Social Network"],
+        "images": {
+            "thumbnail": "/projetos/procac/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "7e194b8d-733f-4561-a583-822378d14284",
+        "slug": "poli-vagas",
+        "title": "Poli Vagas",
+        "categories": ["Web"],
+        "startDate": "2023-05-30",
+        "shortDescription": "UFRJ web system designed to automatically aggregate internship and job opportunities for students.",
+        "technologies": ["Web", "Integration"],
+        "images": {
+            "thumbnail": "/projetos/poli-vagas/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d3dc1d85-b8b6-40b9-970c-5d589188e42b",
+        "slug": "skys-the-limit",
+        "title": "Sky's The Limit",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2023-02-13",
+        "shortDescription": "Multi-platform social network for entrepreneurs built in React Native Web. Features advanced capabilities such as video calls (Twilio), real-time chat via WebSockets, and rigorous automated testing using Cypress (Web) and Detox (Mobile).",
+        "technologies": [
+            "React Native Web",
+            "Twilio / WebRTC",
+            "Cypress",
+            "Detox"
+        ],
+        "images": {
+            "thumbnail": "/projetos/skys-the-limit/thumb.png"
+        },
+        "backgroundColor": "#181815"
+    },
+    {
+        "id": "7cda879e-4cad-4ace-bb8b-023680e6e2f2",
+        "slug": "megapark",
+        "title": "Megapark",
+        "categories": ["Mobile", "Backend"],
+        "startDate": "2022-11-17",
+        "shortDescription": "Parking lot management system embedded natively on Smart POS devices (Stone). Features instant license plate recognition via camera (OCR), thermal printing, and direct payment integration. The architecture ensures robust synchronization with a legacy MySQL database through a Node.js back-end.",
+        "technologies": ["Smart POS", "OCR", "Node.js", "Stone Integration"],
+        "images": {
+            "thumbnail": "/projetos/megapark/thumb.png"
+        },
+        "backgroundColor": "#0264D9"
+    },
+    {
+        "id": "b1c2d3e4-f5a6-b7c8-d9e0-f1a2b3c4d5e6",
+        "slug": "mginx",
+        "title": "Mginx",
+        "categories": ["Mobile", "Streaming"],
+        "startDate": "2022-10-31",
+        "shortDescription": "Streaming application with a Netflix-inspired interface and navigation architecture. Focused on technical maintenance and stability.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/mginx/thumb.png"
+        },
+        "backgroundColor": "#000000"
+    },
+    {
+        "id": "f1e2d3c4-b5a6-9f8e-7d6c-5b4a3f2e1d0c",
+        "slug": "reckitt",
+        "title": "Reckitt",
+        "categories": ["Mobile"],
+        "startDate": "2022-07-27",
+        "shortDescription": "Corporate application within the mobile ecosystem, with targeted code maintenance and stability improvements in React Native.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/reckitt/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9550b0ac-a9d5-4c2f-8146-8df8e54a7873",
+        "slug": "offstore",
+        "title": "Offstore",
+        "categories": ["Mobile"],
+        "startDate": "2022-05-13",
+        "shortDescription": "Full migration of a responsive e-commerce site to a native mobile application using the client's existing API.",
+        "technologies": ["React Native", "E-commerce"],
+        "images": {
+            "thumbnail": "/projetos/offstore/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9972327f-1055-456f-bf48-886340999237",
+        "slug": "smartly",
+        "title": "Smartly",
+        "categories": ["Mobile"],
+        "startDate": "2022-02-07",
+        "shortDescription": "Residential automation and IoT ecosystem (Smartly). Built the application from scratch with a scalable architecture and clean code, using Redux for global state management. Engineered direct firmware integration via the MQTT protocol for complete environment control, spanning thermostats, lighting, blinds, audio, and control panels.",
+        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
+        "images": {
+            "thumbnail": "/projetos/smartly/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "6bf93320-1300-4eed-93f3-537809703003",
+        "slug": "mami",
+        "title": "Mami",
+        "categories": ["Mobile"],
+        "startDate": "2021-10-15",
+        "shortDescription": "Social network focused on a community of mothers, with native chat via WebSockets (group and private).",
+        "technologies": ["React Native", "WebSockets"],
+        "images": {
+            "thumbnail": "/projetos/mami/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9a256dd8-080f-4829-9308-770cf4f9cd07",
+        "slug": "vistomobi",
+        "title": "Vistomobi",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2021-09-15",
+        "shortDescription": "Dynamic inspection app with API-generated forms and an Offline-First architecture built natively without external global libraries, alongside the Vistomobi Vistoriador web platform.",
+        "technologies": ["React Native", "Offline-First", "Web"],
+        "images": {
+            "thumbnail": "/projetos/vistomobi/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
+        "slug": "livecom-intelbras",
+        "title": "Livecom Intelbras",
+        "categories": ["Mobile"],
+        "startDate": "2021-07-16",
+        "shortDescription": "100% offline configuration app for Intelbras alarm control panels, with deep JSON file reading and writing via a local USB connection to the phone.",
+        "technologies": ["React Native", "Offline", "File System (FS)"],
+        "images": {
+            "thumbnail": "/projetos/livecom-intelbras/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "3be92f10-b949-4374-83e3-5ecc3f6ddca9",
+        "slug": "desbank",
+        "title": "Desbank",
+        "categories": ["Mobile"],
+        "startDate": "2021-06-09",
+        "shortDescription": "Digital bank/fintech app with integrations simulating Itaú banking routines (card payments, PIX, and account balances).",
+        "technologies": ["React Native", "Fintech", "Payments"],
+        "images": {
+            "thumbnail": "/projetos/desbank/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d26961af-0c99-4931-bfb8-e4c27b05059e",
+        "slug": "movepay",
+        "title": "Movepay",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2021-05-04",
+        "shortDescription": "App and Web application focused on a digital wallet and peer-to-peer payments, integrating multiple checkout methods.",
+        "technologies": ["React Native", "React", "Fintech"],
+        "images": {
+            "thumbnail": "/projetos/movepay/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "f7a8b9c0-d1e2-f3a4-b5c6-d7e8f9a0b1c2",
+        "slug": "casa-do-artesao",
+        "title": "Casa do Artesão",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2021-03-24",
+        "shortDescription": "Mobile application built from scratch and structured as an e-commerce platform to directly serve the needs of the artisan niche.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/casa-do-artesao/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
+        "slug": "digipay",
+        "title": "Digipay",
+        "categories": ["Web", "Fintech"],
+        "startDate": "2020-12-22",
+        "shortDescription": "System focused on the financial sector with payment support and PIX integration. Owned the Front-end/Back-end integration and bug mitigation.",
+        "technologies": ["React"],
+        "images": {
+            "thumbnail": "/projetos/digipay/thumb.png"
+        },
+        "backgroundColor": "#F0F0F0"
+    },
+    {
+        "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+        "slug": "toda-vida",
+        "title": "Toda Vida",
+        "categories": ["Web", "Health"],
+        "startDate": "2020-11-14",
+        "shortDescription": "Web system designed for the healthcare and medical staff segment. Conducted a rapid audit, ongoing code support, and precise UI bug fixes.",
+        "technologies": ["React"],
+        "images": {
+            "thumbnail": "/projetos/toda-vida/thumb.png"
+        },
+        "backgroundColor": "#44B9B5"
+    },
+    {
+        "id": "e1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
+        "slug": "ataca-pet",
+        "title": "Ataca Pet",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2020-10-08",
+        "shortDescription": "White-label e-commerce platform built from scratch for the pet industry, structured with customizable features for different franchises.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/ataca-pet/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
+        "slug": "cofarja",
+        "title": "Cofarja (Motorista, Fornecedor, Admin)",
+        "categories": ["Mobile", "Web"],
+        "startDate": "2020-08-18",
+        "shortDescription": "Ecosystem (2 apps and 1 web system) for scrap metal collection, with real-time fleet GPS tracking via React Native Maps.",
+        "technologies": ["React Native", "Web", "Maps/GPS"],
+        "images": {
+            "thumbnail": "/projetos/cofarja/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "71115e10-8469-4bcc-83f5-de9d2bb6b1b9",
+        "slug": "learn-sharing",
+        "title": "Learn Sharing",
+        "categories": ["Mobile"],
+        "startDate": "2020-05-24",
+        "shortDescription": "Academic social-network-style app focused on education. Award-winning project (4th place) at Hack Rio.",
+        "technologies": ["React Native", "Hackathon"],
+        "images": {
+            "thumbnail": "/projetos/learn-sharing/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "923b7dfb-d8c8-4907-84ce-de6836b600b2",
+        "slug": "odonto-guardians",
+        "title": "Odonto Guardians",
+        "categories": ["Mobile", "Web", "Backend"],
+        "startDate": "2020-02-05",
+        "shortDescription": "Emergency app for dentistry with a map and dosage calculator. My first major app in production. Included a landing page, Firebase Auth, and a Firestore back-end.",
+        "technologies": ["React Native", "Firebase", "Web"],
+        "images": {
+            "thumbnail": "/projetos/odonto-guardians/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "d1f5c6a1-3e4b-4b2a-8c9d-1e2f3a4b5c6d",
+        "slug": "the-undergrad",
+        "title": "The Undergrad",
+        "categories": ["Mobile", "E-commerce"],
+        "startDate": "2020-01-09",
+        "shortDescription": "Sales application focused on university students. Maintained the project, with a highlight on sustaining a real-time chat via WebSockets.",
+        "technologies": ["React Native", "WebSockets"],
+        "images": {
+            "thumbnail": "/projetos/the-undergrad/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    },
+    {
+        "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
+        "slug": "radio-arquibancada",
+        "title": "Radio Arquibancada",
+        "categories": ["Mobile", "Streaming"],
+        "startDate": "2019-09-11",
+        "shortDescription": "Streaming platform focused on the world of samba (similar to Spotify). Owned a critical version upgrade and framework dependency update.",
+        "technologies": ["React Native"],
+        "images": {
+            "thumbnail": "/projetos/radio-arquibancada/thumb.png"
+        },
+        "backgroundColor": "#2A4C62"
+    },
+    {
+        "id": "ec970f79-f078-4e96-a149-72b35593558b",
+        "slug": "app-fluxo",
+        "title": "App Fluxo",
+        "categories": ["Mobile"],
+        "startDate": "2019-05-27",
+        "shortDescription": "Executive dashboard and corporate operations hub (mini-ERP). Centralized real-time KPIs (NPS and revenue), schedule management, and physical access control via smart QR code scanning.",
+        "technologies": ["React Native", "Expo", "Redux", "OAuth", "UX/UI"],
+        "images": {
+            "thumbnail": "/projetos/app-fluxo/thumb.png"
+        },
+        "backgroundColor": "#FFFFFF"
+    }
+]

@@ -1,11 +1,20 @@
 import SectionTitle from "Components/Atoms/SectionTitle";
 import TestimonialsCarousel from "Components/Molecules/TestimonialsCarousel";
-import testimonials from "data/testimonials.json";
+import type { Testimonial } from "types/data";
+import type { Dictionary } from "types/dictionary";
 
-export default function TestimonialsSection() {
+type TestimonialsSectionProps = {
+    dict: Dictionary;
+    testimonials: Testimonial[];
+};
+
+export default function TestimonialsSection({
+    dict,
+    testimonials
+}: TestimonialsSectionProps) {
     return (
         <section className="py-xxlarge">
-            <SectionTitle>O que dizem sobre mim</SectionTitle>
+            <SectionTitle>{dict.testimonials.title}</SectionTitle>
             <TestimonialsCarousel testimonials={testimonials} />
         </section>
     );

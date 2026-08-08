@@ -1,0 +1,26 @@
+[
+    {
+        "id": "3d395ce3-2cb1-4711-b566-381d24b8b9c0",
+        "year": "2025 - Present",
+        "title": "Technical Leadership at Smartly (IoT)",
+        "description": "Serving as Tech Lead for residential automation systems. Focused on eliminating deep technical debt, refactoring code tied to IoT hardware, and raising development standards across the entire team (front-end, back-end, and firmware)."
+    },
+    {
+        "id": "72537377-6d54-47a4-9606-02d73cafc0f6",
+        "year": "2025",
+        "title": "Bachelor's Degree in Electronics and Computer Engineering",
+        "description": "Graduated from UFRJ. Built a solid analytical foundation that supports my daily work in optimizing mathematical matrices, software signal processing, and memory management."
+    },
+    {
+        "id": "5a70f418-892d-48e4-be76-0ce647983099",
+        "year": "2020 - 2025",
+        "title": "The 40+ Projects Journey (Coders Squad/Lead Up)",
+        "description": "A period of intense professional delivery. Developed and architected over forty systems spanning fintechs, ride-sharing, complex inspection platforms, e-commerce, and multi-platform social networks."
+    },
+    {
+        "id": "47b83fff-0d11-4310-b638-c450029d710f",
+        "year": "2019 - 2020",
+        "title": "Commercial Beginnings (Fluxo Consultoria)",
+        "description": "Hands-on immersion in software engineering at UFRJ. Delivered first projects such as Odonto Guardians, and achieved 4th place overall at Hack Rio with an education-focused project."
+    }
+]

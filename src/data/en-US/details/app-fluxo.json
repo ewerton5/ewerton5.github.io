@@ -1,0 +1,24 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "App Fluxo holds significant historical value in my career: it was the first application I built from scratch and my official entry point into mobile development. Built for internal corporate use, it operated as an executive dashboard and operations hub (mini-ERP). Beyond enabling real-time KPI tracking by department (NPS, revenue, contracts), the app solved physical office problems: it managed mezzanine meeting-room scheduling and controlled member shift check-ins via QR code scanning. The authentication architecture was a challenge of its own, integrating OAuth login directly with Podio (the company's management platform) as the Identity Provider, ensuring secure access without the need for a dedicated credentials database.",
+            "learnings": [
+                "Gained hands-on entry into the mobile ecosystem with React Native and Expo (SDK 39), architecting with React Class Components and mastering lifecycle methods like componentDidMount before the Hooks era.",
+                "Engineered hardware integration and conditional logic: leveraged expo-barcode-scanner so the QR Code action (Open/Close shift) was intelligently derived from the current state mapped in Redux, eliminating the need for distinct physical codes.",
+                "Architected complex global state management with Redux and Redux Thunk to orchestrate asynchronous data, financial metrics, and real-time team operational status.",
+                "Prioritized UX and micro-interactions: implemented real-time Regex validation on login, strategic auto-focus via the native keyboard, and conditional color algorithms for team health metrics.",
+                "Implemented complex UI components, such as react-native-calendars for managing mezzanine scheduling conflicts, using native date-pickers and manual date formatting.",
+                "Engineered a standardized global error-handling system (ShowError) for API failures or missing hardware permissions, and enforced rigorous layout constants for fluid responsiveness across screen sizes."
+            ],
+            "images": [
+                { "url": "/projetos/app-fluxo/screen-1.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-2.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-3.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-4.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-5.png", "orientation": "portrait" },
+                { "url": "/projetos/app-fluxo/screen-6.png", "orientation": "portrait" }
+            ]
+        }
+    ]
+}

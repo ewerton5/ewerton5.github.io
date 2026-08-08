@@ -1,9 +1,13 @@
 import { Fragment } from "react";
 
 import BioPanel from "Components/Molecules/BioPanel";
-import profile from "data/profile.json";
+import type { Profile } from "types/data";
 
-export default function BioSection() {
+type BioSectionProps = {
+    profile: Profile;
+};
+
+export default function BioSection({ profile }: BioSectionProps) {
     return (
         <section className="mb-xxlarge">
             <BioPanel>

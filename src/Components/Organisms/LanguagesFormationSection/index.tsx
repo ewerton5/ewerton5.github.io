@@ -2,14 +2,26 @@ import { FaGlobe } from "react-icons/fa";
 
 import LangBadge, { LangBadgeList } from "Components/Atoms/LangBadge";
 import EducationSectionHeader from "Components/Molecules/EducationSectionHeader";
-import educationData from "data/education.json";
+import type { Education } from "types/data";
+import type { Dictionary } from "types/dictionary";
 
-export default function LanguagesFormationSection() {
+type LanguagesFormationSectionProps = {
+    dict: Dictionary;
+    education: Education;
+};
+
+export default function LanguagesFormationSection({
+    dict,
+    education
+}: LanguagesFormationSectionProps) {
     return (
         <section className="mb-xxlarge">
-            <EducationSectionHeader icon={<FaGlobe />} title="Idiomas" />
+            <EducationSectionHeader
+                icon={<FaGlobe />}
+                title={dict.formation.languages.title}
+            />
             <LangBadgeList>
-                {educationData.languages.map((lang) => (
+                {education.languages.map((lang) => (
                     <LangBadge
                         key={lang.id}
                         language={lang.language}

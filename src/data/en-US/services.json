@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1aba31c8-f9a1-44ed-a853-14982c1849ec",
+        "icon": "mobile",
+        "title": "Mobile Development",
+        "description": "React Native and Expo specialist. Shipped 25+ published applications (Android/iOS), spanning native geolocation, complex camera integrations (OCR), and refactoring low-code apps (FlutterFlow/Bubble) into high-performance native code."
+    },
+    {
+        "id": "dcde33c3-41be-4d59-8fd9-8e8246951b38",
+        "icon": "web",
+        "title": "Web & Front-end Engineering",
+        "description": "Built admin systems, CRM platforms, and e-commerce sites using React, Next.js, and Tailwind CSS. Focused on robust architectures, migrating complex state management (Redux to Zustand/React Query), and Server Components."
+    },
+    {
+        "id": "9e18d57a-92ea-4638-9666-625d14b8ea52",
+        "icon": "server",
+        "title": "Back-end & Cloud",
+        "description": "Engineered RESTful APIs in Node.js (Express, Nest.js), with strong experience in BaaS platforms like Firebase (Firestore, Cloud Functions) and Supabase. Delivered solid integrations with PostgreSQL and legacy relational databases."
+    },
+    {
+        "id": "a4930140-1d57-423e-94aa-add1f9895323",
+        "icon": "database",
+        "title": "Offline-First Architecture",
+        "description": "Implemented advanced local data persistence (WatermelonDB, SQLite) for applications that operate offline and sync batch processing (e.g., uploading thousands of inspection photos) without blocking the UI."
+    },
+    {
+        "id": "2caba8bd-850c-4a49-8126-bfa230c956d0",
+        "icon": "realtime",
+        "title": "Real-Time Systems (WebSockets)",
+        "description": "Engineered high-complexity real-time logic, including managing multiple simultaneous dynamic Socket rooms for ride-sharing apps (driver/passenger) and peer-to-peer chats."
+    },
+    {
+        "id": "46183851-5444-4600-8915-db8e91947ffb",
+        "icon": "iot",
+        "title": "Automation and IoT",
+        "description": "Developed and integrated software with firmware and hardware (thermostats, smart panels, lighting) via MQTT protocols, bridging the digital world with physical device control."
+    },
+    {
+        "id": "4aacd34c-43e2-4e25-9d90-d7b07bd992d8",
+        "icon": "leadership",
+        "title": "Technical Leadership (Tech Lead)",
+        "description": "Coordinated development teams, gathered architectural requirements, led code reviews (Clean Code), and rescued projects burdened by high technical debt or problematic legacy systems."
+    }
+]

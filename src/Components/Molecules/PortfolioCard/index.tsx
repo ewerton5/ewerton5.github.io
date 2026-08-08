@@ -1,19 +1,21 @@
 import Link from "next/link";
 
+import type { Locale } from "types/dictionary";
 import type { Project } from "types/project";
 import { formatDate } from "utils/date";
 
 type PortfolioCardProps = {
     project: Project;
+    lang: Locale;
 };
 
-export default function PortfolioCard({ project }: PortfolioCardProps) {
+export default function PortfolioCard({ project, lang }: PortfolioCardProps) {
     const { slug, title, shortDescription, technologies, images, startDate } =
         project;
 
     return (
         <Link
-            href={`/portfolio/${slug}`}
+            href={`/${lang}/portfolio/${slug}`}
             className="group flex flex-col bg-card-bg rounded-2xl overflow-hidden border border-gray-200 shadow-[0_2px_8px_rgba(0,0,0,0.06)] hover:shadow-[0_8px_24px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-300"
         >
             <div

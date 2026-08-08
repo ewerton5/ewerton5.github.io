@@ -1,0 +1,100 @@
+[
+    {
+        "id": "4578a31d-6fa7-4ff7-8944-6080a8a6bd56",
+        "name": "Andre Moura",
+        "role": "Desenvolvedor Front-end",
+        "text": "Tive a oportunidade de trabalhar com o Ewerton na Smartly e posso dizer que é um excelente Tech Lead, com forte domínio técnico e grande capacidade de orientar o time. Sempre esteve disponível para apoiar decisões técnicas, promover boas práticas e incentivar a evolução contínua da equipe.",
+        "avatarUrl": "/perfis/andre-moura.jpeg"
+    },
+    {
+        "id": "5ab15d32-8085-44e7-958f-6fedf32c0500",
+        "name": "Caroline Roldão",
+        "role": "Gerente de projetos",
+        "text": "Tive a oportunidade de trabalhar com o Ewerton na CoderSquad e sempre demonstrou comprometimento, responsabilidade e facilidade em lidar com demandas técnicas. É um desenvolvedor dedicado, proativo e com boa capacidade de resolução de problemas.",
+        "avatarUrl": "/perfis/caroline-roldao.jpeg"
+    },
+    {
+        "id": "bc235204-ac09-4fc0-b0c7-ff0ae7142815",
+        "name": "Eduardo Xavier",
+        "role": "Cientista de Dados",
+        "text": "Tive o prazer de trabalhar com o Ewerton na Fluxo. Ele é um profissional incrivelmente dedicado, que sempre foi além para entregar um trabalho de qualidade.",
+        "avatarUrl": "/perfis/eduardo-xavier.jpeg"
+    },
+    {
+        "id": "824953f3-a053-4462-a3d0-f072b7e276b2",
+        "name": "Mario Günter Simão",
+        "role": "Desenvolvedor de Software Fullstack",
+        "text": "Trabalhei com o Ewerton em um catálogo online de estágios. Recomendo fortemente seu trabalho como engenheiro de software. Ewerton se destaca na criação de interfaces intuitivas com foco em UX. Ele aplica boas práticas para escrever código sustentável e é rápido para corrigir qualquer problema que apareça no meio do projeto. Ewerton também é um excelente jogador de equipe, que assume total responsabilidade por suas tarefas, sempre garantindo entregas de alta qualidade no prazo.",
+        "avatarUrl": "/perfis/mario-simao.jpeg"
+    },
+    {
+        "id": "cf08fe73-5514-4a2b-aeb0-e635c96dead3",
+        "name": "Emanuel Ágape",
+        "role": "Líder de Product Design",
+        "text": "Tive a oportunidade de trabalhar com o Ewerton por dois anos em pelo menos oito projetos diferentes, e de acompanhar de perto sua evolução constante a cada novo desafio. Durante esse período, desenvolvemos soluções para uma ampla variedade de setores, incluindo uma plataforma de educação, redes sociais, um banco digital, e-commerce, um ERP com PDV, um sistema de gestão de cobranças e uma plataforma de agendamento de consultas. A diversidade desses projetos demonstra claramente a amplitude de sua experiência técnica. Ewerton é um profissional excepcional, capaz de entender desafios complexos e transformá-los em soluções que geram valor real para o negócio. Como exemplo de uma das muitas soluções que ele desenvolveu: Odonto Guardians (https://www.odontoguardians.com.br/).",
+        "avatarUrl": "/perfis/emanuel-agape.jpeg"
+    },
+    {
+        "id": "bebeba12-951f-47db-9931-4c27072bc656",
+        "name": "Raphael Nagao Ferreira",
+        "role": "Engenheiro de Software",
+        "text": "Ewerton é um excelente profissional. Trabalhei com ele em projetos na Fluxo Junior Enterprise e em um hackathon durante a pandemia, onde conquistamos o terceiro lugar. Ele tem ótimas habilidades em desenvolvimento front-end e sempre contribui com boas ideias.",
+        "avatarUrl": "/perfis/raphael-ferreira.jpeg"
+    },
+    {
+        "id": "1afedcc0-0cd4-42a1-9b3e-f55b1a66b521",
+        "name": "Flávio Martins da Silva",
+        "role": "Engenheiro Frontend Sênior",
+        "text": "Trabalhei com o Ewerton na Lead Up em mais de 4 projetos diferentes, e posso dizer que ele é o tipo de profissional que qualquer equipe gostaria de ter. Atuando como Full Stack Developer na construção de aplicações web e mobile com React, React Native, Node.js e TypeScript, ele sempre entregou um trabalho sólido, pensando em segurança, escalabilidade e usabilidade desde o início. O que mais se destacou para mim foi sua confiabilidade. Quando o Ewerton assumia uma tarefa, sabíamos que podíamos contar com ela. Isso, somado à forma como trabalhava bem com a equipe, fez uma diferença real no dia a dia dos projetos: ele escutava, contribuía com ideias, ajudava os colegas e mantinha um ótimo nível de sincronia em todas as etapas, seja construindo APIs RESTful ou desenvolvendo aplicações mobile robustas e de alta performance. Fico feliz em dizer que foi ótimo trabalhar com ele, e o recomendo sem hesitação como profissional.",
+        "avatarUrl": "/perfis/flavio-silva.jpeg"
+    },
+    {
+        "id": "e432a7fc-8701-43d4-836f-1e18fc65c32a",
+        "name": "Luis Otavio Longo",
+        "role": "Desenvolvedor Fullstack",
+        "text": "Trabalhei com o Ewerton na Codersquad em diversos projetos, onde ele atuou como Full Stack Developer utilizando TypeScript, React, Node.js e React Native. Ele sempre entregou um trabalho excelente e bem-cuidado, e todo projeto se beneficiou de seu alto nível de habilidade técnica e atenção aos detalhes. Além de suas contribuições técnicas, o Ewerton teve um impacto real no meu crescimento profissional. Ele sempre esteve disposto a dar conselhos, responder perguntas e me apoiar sempre que precisei, utilizando seu profundo conhecimento técnico para me ajudar a melhorar. Ele é um profissional fantástico e um colega ainda melhor para se trabalhar, e me sinto grato por ter tido a oportunidade de trabalhar ao seu lado.",
+        "avatarUrl": "/perfis/luis-longo.jpeg"
+    },
+    {
+        "id": "f3369020-74ac-417a-9054-351d7b7f098a",
+        "name": "ítalo José",
+        "role": "Engenheiro de Software Backend",
+        "text": "Tive o privilégio de trabalhar junto ao Ewerton na Lead Up. Durante esse período, desenvolvemos soluções para uma ampla variedade de setores, incluindo uma plataforma de educação, redes sociais, e-commerce e um ERP com PDV, entre outros. Nossa dinâmica de trabalho foi sempre excelente. Ewerton tem uma comunicação muito clara e objetiva, o que tornou o desenvolvimento do dia a dia e a integração de sistemas incrivelmente fluidos. Tecnicamente, é um profissional excepcional, com forte domínio em React, React Native, Node.js e TypeScript. É meticuloso quanto à qualidade do código, sempre garantindo que as implementações sigam rigorosamente os padrões de design e as boas práticas adequadas a cada projeto. É um ótimo jogador de equipe e um engenheiro de software completo, que recomendo fortemente para qualquer desafio de engenharia.",
+        "avatarUrl": "/perfis/italo-jose.jpeg"
+    },
+    {
+        "id": "613955e6-7bda-43f0-a0d7-a8d9d8c29320",
+        "name": "Iuri Veloso Félix",
+        "role": "Engenheiro de Sistemas Multiagentes",
+        "text": "É um enorme prazer recomendar o Ewerton. Trabalhamos juntos no início de nossas carreiras — eu era Gerente de Projetos e ele Consultor — e sua atitude deixou uma impressão duradoura em mim. Duas coisas sempre se destacaram: sua excepcional disposição para ajudar os outros e sua rápida capacidade de aprendizado. Ele absorvia novos conceitos rapidamente e sempre trazia uma energia proativa e colaborativa para nossos projetos. Ele seria uma adição fantástica e confiável a qualquer organização.",
+        "avatarUrl": "/perfis/iuri-felix.jpeg"
+    },
+    {
+        "id": "9c779185-5db0-48ee-8252-eceea7bf5a80",
+        "name": "Thiago Costa",
+        "role": "Engenheiro de Software Sênior",
+        "text": "Tive a oportunidade de trabalhar com o Ewerton há alguns anos, e ainda me lembro dele como alguém confiável, atencioso e fácil de trabalhar junto. É um engenheiro competente, que aborda os problemas com uma mentalidade prática e está sempre disposto a colaborar e ajudar os outros.",
+        "avatarUrl": "/perfis/thiago-costa.jpeg"
+    },
+    {
+        "id": "97f11b70-f611-4f02-b1f6-afd6852d9296",
+        "name": "Allan Winckler Moreira",
+        "role": "Engenheiro de Software Sênior",
+        "text": "Tive o prazer de trabalhar de perto com o Ewerton durante praticamente todo o meu tempo na Lead Up, colaborando com ele em diversos projetos. Ele sempre demonstrou fortes habilidades técnicas, confiabilidade e um genuíno senso de responsabilidade sobre seu trabalho. Ewerton aprende rápido e se adapta bem a novos desafios. Aprecio particularmente seu estilo de comunicação direto e objetivo, além do profissionalismo e do foco que trazia para o nosso dia a dia. Com base na nossa experiência juntos, recomendo com confiança o Ewerton para qualquer equipe que busque um engenheiro de software habilidoso, confiável e comprometido.",
+        "avatarUrl": "/perfis/allan-moreira.jpeg"
+    },
+    {
+        "id": "d9802e95-2f87-4ce5-b8d1-08a4ab5d526c",
+        "name": "Gean Victor Duque de Oliveira",
+        "role": "Desenvolvedor de Software",
+        "text": "Gostei muito de trabalhar com o Ewerton em diversos projetos. Ele é um ótimo Full Stack Developer, com sólida experiência em React, React Native e Node.js. Sempre esteve disposto a ajudar, compartilhar conhecimento e revisar PRs com feedbacks valiosos. Ele naturalmente assumiu responsabilidades de nível sênior e se tornou uma referência técnica para a equipe.",
+        "avatarUrl": "/perfis/gean-oliveira.jpeg"
+    },
+    {
+        "id": "2519fe60-a41b-4085-bc96-aa4566029db6",
+        "name": "Kaio Siqueira",
+        "role": "Engenheiro de Dados",
+        "text": "Tive o prazer de trabalhar com o Ewerton na PoliVagas, uma plataforma baseada em React criada para ajudar estudantes a encontrar e filtrar oportunidades de estágio com mais facilidade. Ele contribuiu fortemente para o front-end, criando uma experiência de usuário intuitiva, integrando a interface com a API e apoiando uma estrutura de aplicação limpa e sustentável. Sua atenção à arquitetura, ao gerenciamento de estado, à performance e à qualidade do código já era evidente durante todo o projeto. Além de sua expertise técnica em React, TypeScript e desenvolvimento front-end moderno, Ewerton é colaborativo, confiável e altamente focado em entregar soluções de valor. Recomendo fortemente para qualquer equipe que busque um Engenheiro de Software ou Tech Lead com sólido julgamento arquitetural e uma forte mentalidade de produto.",
+        "avatarUrl": "/perfis/kaio-siqueira.jpeg"
+    }
+]

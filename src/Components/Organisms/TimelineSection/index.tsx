@@ -1,11 +1,20 @@
 import TimelineCard from "Components/Molecules/TimelineCard";
-import timelineData from "data/timeline.json";
+import type { TimelineItem } from "types/data";
+import type { Dictionary } from "types/dictionary";
 
-export default function TimelineSection() {
+type TimelineSectionProps = {
+    dict: Dictionary;
+    timeline: TimelineItem[];
+};
+
+export default function TimelineSection({
+    dict,
+    timeline
+}: TimelineSectionProps) {
     return (
         <section className="mb-xxlarge">
-            <h2 className="text-center mb-large">Minha Jornada</h2>
-            {timelineData.map((item) => (
+            <h2 className="text-center mb-large">{dict.timeline.title}</h2>
+            {timeline.map((item) => (
                 <TimelineCard
                     key={item.id}
                     year={item.year}

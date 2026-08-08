@@ -8,15 +8,20 @@ import ProjectGrid from "Components/Molecules/ProjectGrid";
 import SearchInput from "Components/Molecules/SearchInput";
 import TechDropdownPicker from "Components/Molecules/TechDropdownPicker";
 import { usePortfolioFilters } from "hooks/usePortfolioFilters";
+import type { Locale } from "types/dictionary";
 import type { Project } from "types/project";
 
 const CATEGORIES = ["Todos", "Mobile", "Web", "Backend"];
 
 type PortfolioCatalogProps = {
     projects: Project[];
+    lang: Locale;
 };
 
-export default function PortfolioCatalog({ projects }: PortfolioCatalogProps) {
+export default function PortfolioCatalog({
+    projects,
+    lang
+}: PortfolioCatalogProps) {
     const [searchTerm, setSearchTerm] = useState("");
     const [activeCategory, setActiveCategory] = useState("Todos");
     const [selectedTechs, setSelectedTechs] = useState<string[]>([]);
@@ -52,7 +57,7 @@ export default function PortfolioCatalog({ projects }: PortfolioCatalogProps) {
             </div>
 
             {filtered.length > 0 ? (
-                <ProjectGrid projects={filtered} />
+                <ProjectGrid projects={filtered} lang={lang} />
             ) : (
                 <EmptyState
                     title="Nenhum projeto encontrado"

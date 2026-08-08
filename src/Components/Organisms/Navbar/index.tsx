@@ -6,23 +6,30 @@ import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
 
 import Logo from "Components/Atoms/Logo";
 import SocialMediaGroup from "Components/Molecules/SocialMediaGroup";
-import profile from "data/profile.json";
 import { useThemeStore, useUIStore } from "store";
+import type { Profile } from "types/data";
+import type { Dictionary, Locale } from "types/dictionary";
 import { cn } from "utils/cn";
 
-const navLinks = [
-    { to: "/", label: "Home" },
-    { to: "/sobre", label: "Sobre Mim" },
-    { to: "/portfolio", label: "Portfólio" },
-    { to: "/formacao", label: "Formação" },
-    { to: "/contato", label: "Contato" }
-];
+type NavbarProps = {
+    lang: Locale;
+    dict: Dictionary;
+    profile: Profile;
+};
 
-export default function Navbar() {
+export default function Navbar({ lang, dict, profile }: NavbarProps) {
     const pathname = usePathname();
     const { isMobileMenuOpen, toggleMobileMenu, closeMobileMenu } =
         useUIStore();
     const { resolvedTheme, toggleTheme } = useThemeStore();
+
+    const navLinks = [
+        { to: `/${lang}`, label: dict.navbar.links.home },
+        { to: `/${lang}/about`, label: dict.navbar.links.about },
+        { to: `/${lang}/portfolio`, label: dict.navbar.links.portfolio },
+        { to: `/${lang}/education`, label: dict.navbar.links.education },
+        { to: `/${lang}/contact`, label: dict.navbar.links.contact }
+    ];
 
     const handleLinkClick = () => {
         if (isMobileMenuOpen) closeMobileMenu();
@@ -32,8 +39,8 @@ export default function Navbar() {
         <button
             type="button"
             onClick={toggleTheme}
-            aria-label="Alternar tema"
-            title="Alternar tema"
+            aria-label={dict.navbar.themeToggle.ariaLabel}
+            title={dict.navbar.themeToggle.title}
             className="text-secondary text-[1.5rem] inline-flex items-center justify-center transition-colors duration-200 hover:text-primary"
         >
             {resolvedTheme === "dark" ? <FaSun /> : <FaMoon />}
@@ -44,17 +51,21 @@ export default function Navbar() {
         <nav className="bg-white h-20 flex justify-center items-center text-small sticky top-0 z-10 shadow-[0_2px_4px_rgba(0,0,0,0.05)]">
             <div className="flex justify-between items-center h-20 w-full max-w-[1120px] px-small">
                 <Link
-                    href="/"
+                    href={`/${lang}`}
                     onClick={handleLinkClick}
                     className="flex items-center gap-xsmall text-secondary text-medium font-bold no-underline [&_img]:h-10"
                 >
-                    <Logo />
+                    <Logo profile={profile} />
                     <span>{profile.shortName}</span>
                 </Link>
 
                 <div
                     role="button"
-                    aria-label={isMobileMenuOpen ? "Fechar menu" : "Abrir menu"}
+                    aria-label={
+                        isMobileMenuOpen
+                            ? dict.navbar.mobileMenu.closeAriaLabel
+                            : dict.navbar.mobileMenu.openAriaLabel
+                    }
                     onClick={toggleMobileMenu}
                     className="hidden max-tablet:block text-[1.8rem] text-secondary cursor-pointer"
                 >
@@ -96,13 +107,13 @@ export default function Navbar() {
 
                     <div className="hidden items-center gap-small max-tablet:flex max-tablet:mt-large">
                         {themeToggle}
-                        <SocialMediaGroup />
+                        <SocialMediaGroup profile={profile} />
                     </div>
                 </ul>
 
                 <div className="flex items-center gap-small max-tablet:hidden">
                     {themeToggle}
-                    <SocialMediaGroup />
+                    <SocialMediaGroup profile={profile} />
                 </div>
             </div>
         </nav>

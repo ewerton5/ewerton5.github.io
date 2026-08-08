@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { type ReactNode } from "react";
 
 import { baseUrl } from "constants/url";
-import profile from "data/profile.json";
+import profile from "data/pt-BR/profile.json";
 
 import Providers from "./Providers";
 

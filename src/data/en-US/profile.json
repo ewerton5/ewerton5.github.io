@@ -1,0 +1,116 @@
+{
+    "shortName": "Ewerton Vieira",
+    "name": "Ewerton Vieira de Silles",
+    "title": "Software Engineer & Tech Lead",
+    "heroSubtitle": {
+        "prefix": "Hi, I'm",
+        "suffix": ". With a track record of 40+ delivered projects, I build high-complexity web and mobile ecosystems and lead development teams focused on performance."
+    },
+    "bio": [
+        [
+            {
+                "text": "My journey is shaped by discipline. My foundation was forged at "
+            },
+            {
+                "text": "Escola Preparatória de Cadetes do Ar (EPCAR)",
+                "bold": true
+            },
+            { "text": " and at " },
+            { "text": "Academia da Força Aérea (AFA)", "bold": true },
+            {
+                "text": ", where I learned early on about resilience, leadership, and decision-making under pressure. I later channeled that same dedication into "
+            },
+            {
+                "text": "Electronics and Computer Engineering at UFRJ",
+                "bold": true
+            },
+            {
+                "text": "."
+            }
+        ],
+        [
+            { "text": "Over the past 7 years", "bold": true },
+            {
+                "text": ", I've taken part in developing and architecting "
+            },
+            { "text": "40+ projects", "bold": true },
+            {
+                "text": " across companies such as Fluxo Consultoria, Lead Up / Coders Squad, and Smartly. I've built everything from urban mobility platforms with real-time tracking via WebSockets and residential IoT ecosystems, to applications handling massive data processing in 100% Offline-First architectures."
+            }
+        ],
+        [
+            { "text": "Today, I work as a " },
+            { "text": "Tech Lead", "bold": true },
+            { "text": " and " },
+            { "text": "Senior Full Stack Developer", "bold": true },
+            {
+                "text": ". My purpose is to use my analytical mindset to modernize legacy code, architect scalable solutions, and lead teams in delivering technology that solves real problems in a simple, efficient, and human way."
+            }
+        ]
+    ],
+    "about": "With a career that unites the discipline and resilience forged in the Brazilian Air Force (AFA) with the analytical rigor of Electronics and Computer Engineering (UFRJ), I've spent over 6 years building high-impact software solutions. I lead technical teams and define scalable architectures, with expertise in React, React Native, Node.js, Offline-First architectures, and real-time systems via WebSockets. My portfolio includes 40+ delivered projects, spanning urban mobility apps and IoT ecosystems to legal systems and fintechs. My purpose is to simplify technology, solving complex problems with clean code, performance, and maximum efficiency.",
+    "email": "ewerton.v50@gmail.com",
+    "phone": "+55 21 99891-0884",
+    "linkedinUrl": "https://www.linkedin.com/in/ewerton5",
+    "githubUrl": "https://github.com/ewerton5",
+    "profilePicture": "https://github.com/ewerton5.png",
+    "location": "Belford Roxo - RJ, Brazil",
+    "experience": [
+        {
+            "id": "bc610db8-18b5-405f-be02-e56e8a2faa1a",
+            "title": "Tech Lead",
+            "company": "Smartly Fabricação de Dispositivos Inteligentes",
+            "period": "2025 - Present",
+            "location": "Curitiba, Paraná, Brazil (Remote)",
+            "description": "Led cross-disciplinary teams (front-end, back-end, and firmware). Eliminated technical debt, drove deep refactoring of legacy code, and migrated state architecture (Redux to Zustand/React Query). Managed IoT routines via MQTT (thermostats, Hot Closets, lighting) and oversaw app store releases (App Store / Play Store). Implemented an English-language daily stand-up culture for the engineering team."
+        },
+        {
+            "id": "a6fde5bf-6bad-4a81-953d-3a2ac1ad7f4d",
+            "title": "Senior Full Stack Developer",
+            "company": "Coders Squad / Lead Up",
+            "period": "Aug 2020 - Feb 2025",
+            "location": "Rio de Janeiro, Brazil",
+            "description": "Developed dozens of scalable applications spanning mobile (React Native) and web (React, Next.js). Architected complex systems such as WebSockets for urban mobility apps (ride-sharing), integrated extensive map and payment APIs, relational and NoSQL databases, and optimized robust applications with Offline-First support (WatermelonDB and SQLite)."
+        },
+        {
+            "id": "95b09ed0-a07d-43e3-8e66-7630232a9dec",
+            "title": "Project Consultant",
+            "company": "Fluxo Consultoria (UFRJ)",
+            "period": "Jun 2019 - Sep 2020",
+            "location": "Rio de Janeiro, Brazil",
+            "description": "Built the first Android and iOS applications for real clients, handling requirements gathering and prototyping. Won 4th place at Hack Rio (Latin America's largest hackathon) with the Learn Sharing app, earning a spot in a startup accelerator program."
+        },
+        {
+            "id": "2f37b4ad-7d1f-4fa4-ab6c-22470547cb72",
+            "title": "Aviator Cadet",
+            "company": "Força Aérea Brasileira (AFA)",
+            "period": "Jan 2017 - Mar 2018",
+            "location": "Pirassununga, São Paulo, Brazil",
+            "description": "Trained as an Aviation Officer. Underwent intensive training in team leadership, pressure management, flight safety, air navigation, and aerodynamics."
+        },
+        {
+            "id": "14803ee3-a9b0-4853-a59c-f6aa10d0e212",
+            "title": "Student",
+            "company": "Força Aérea Brasileira (EPCAR)",
+            "period": "Jan 2014 - Dec 2016",
+            "location": "Barbacena, Minas Gerais, Brazil",
+            "description": "Completed high school integrated with military training, excelling in athletic competitions (high jump/track and field) and strategic discipline."
+        }
+    ],
+    "skills": [
+        "React Native",
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "Zustand / React Query",
+        "Node.js",
+        "Express",
+        "WebSockets",
+        "PostgreSQL",
+        "Firebase / Supabase",
+        "Offline-first (WatermelonDB)",
+        "IoT (MQTT / Smart Home)",
+        "Geolocation (Maps / OCR)"
+    ]
+}

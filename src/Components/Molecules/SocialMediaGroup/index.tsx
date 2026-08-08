@@ -1,9 +1,13 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import SocialLink from "Components/Atoms/SocialLink";
-import profile from "data/profile.json";
+import type { Profile } from "types/data";
 
-export default function SocialMediaGroup() {
+type SocialMediaGroupProps = {
+    profile: Profile;
+};
+
+export default function SocialMediaGroup({ profile }: SocialMediaGroupProps) {
     return (
         <>
             <SocialLink

@@ -85,6 +85,7 @@
     --breakpoint-desktop: 2560px;
 
     /* Custom spacing tokens (px — independent of font-size base) */
+    --spacing-xxxsmall: 3px;
     --spacing-xxsmall: 4px;
     --spacing-xsmall: 8px;
     --spacing-small: 16px;
@@ -94,6 +95,7 @@
     --spacing-xxlarge: 48px;
 
     /* Custom font sizes */
+    --text-xxxsmall: 11px;
     --text-xxsmall: 12px;
     --text-xsmall: 14px;
     --text-small: 16px;
@@ -195,5 +197,43 @@
     .hide-scrollbar {
       -ms-overflow-style: none;
       scrollbar-width: none;
+    }
+
+    /* Thin overlay scrollbar that mimics mobile browsers, forced on desktop too. */
+    .mobile-scrollbar {
+      scrollbar-width: thin;
+      scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+    }
+    .mobile-scrollbar::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    .mobile-scrollbar::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .mobile-scrollbar::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 9999px;
+    }
+    .mobile-scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+
+    /* On devices with a real mouse (hover-capable), keep the thumb hidden
+       until the element is hovered — touch devices keep it always visible,
+       matching native mobile scrollbar behavior. */
+    @media (hover: hover) and (pointer: fine) {
+      .mobile-scrollbar {
+        scrollbar-color: transparent transparent;
+      }
+      .mobile-scrollbar:hover {
+        scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+      }
+      .mobile-scrollbar::-webkit-scrollbar-thumb {
+        background-color: transparent;
+      }
+      .mobile-scrollbar:hover::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
     }
 }

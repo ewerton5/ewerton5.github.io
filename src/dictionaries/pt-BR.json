@@ -1,0 +1,135 @@
+{
+    "navbar": {
+        "links": {
+            "home": "Home",
+            "about": "Sobre Mim",
+            "portfolio": "Portfólio",
+            "education": "Formação",
+            "contact": "Contato"
+        },
+        "themeToggle": {
+            "ariaLabel": "Alternar tema",
+            "title": "Alternar tema"
+        },
+        "mobileMenu": {
+            "openAriaLabel": "Abrir menu",
+            "closeAriaLabel": "Fechar menu"
+        }
+    },
+    "hero": {
+        "title": {
+            "prefix": "Transformando disciplina em",
+            "highlight": "excelência técnica."
+        },
+        "actions": {
+            "viewProjects": "Ver Projetos",
+            "contact": "Entrar em Contato"
+        }
+    },
+    "footer": {
+        "rights": "Todos os direitos reservados."
+    },
+    "contact": {
+        "title": "Vamos Conversar?",
+        "description": "Estou sempre aberto a discutir novos projetos, desafios arquiteturais ou oportunidades de liderança e desenvolvimento. Sinta-se à vontade para entrar em contato através de um dos canais abaixo.",
+        "whatsapp": {
+            "title": "WhatsApp",
+            "secondaryLabel": "Me chame para um papo rápido",
+            "message": "Olá {name}, vi seu portfólio e gostaria de conversar!"
+        },
+        "email": {
+            "title": "E-mail",
+            "secondaryLabel": "Para assuntos mais formais"
+        },
+        "location": {
+            "title": "Localização",
+            "secondaryLabel": "Disponível para atuação Remota"
+        }
+    },
+    "services": {
+        "title": "Minhas Especialidades"
+    },
+    "setup": {
+        "title": "Meu Setup & Ferramentas"
+    },
+    "socialNetworks": {
+        "title": "Minhas Redes",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+    },
+    "testimonials": {
+        "title": "O que dizem sobre mim"
+    },
+    "timeline": {
+        "title": "Minha Jornada"
+    },
+    "formation": {
+        "title": "Formação & Conhecimento",
+        "academic": {
+            "title": "Formação Acadêmica"
+        },
+        "certifications": {
+            "title": "Cursos & Certificações",
+            "viewCredential": "Ver Diploma"
+        },
+        "languages": {
+            "title": "Idiomas"
+        }
+    },
+    "portfolio": {
+        "title": "Meu Portfólio",
+        "subtitle": "Explore os projetos. Filtre por categoria ou busque por tecnologia.",
+        "search": {
+            "placeholder": "Buscar por projeto ou tecnologia..."
+        },
+        "techPicker": {
+            "label": "Tecnologias",
+            "labelWithCount": "Tecnologias ({count})",
+            "searchPlaceholder": "Buscar tecnologia...",
+            "noResults": "Nenhuma tecnologia encontrada",
+            "clearSelection": "Limpar seleção"
+        },
+        "categories": {
+            "all": "Todos",
+            "mobile": "Mobile",
+            "web": "Web",
+            "backend": "Backend"
+        },
+        "emptyState": {
+            "title": "Nenhum projeto encontrado",
+            "description": "Tente ajustar os filtros ou o termo de busca"
+        },
+        "projectHeader": {
+            "backToPortfolio": "Voltar ao Portfólio"
+        },
+        "linksBar": {
+            "web": "Acessar Site",
+            "github": "Ver no GitHub",
+            "android": "Google Play",
+            "ios": "App Store"
+        },
+        "imageCarousel": {
+            "scrollLeftAriaLabel": "Rolar para a esquerda",
+            "scrollRightAriaLabel": "Rolar para a direita",
+            "screenshotAlt": "{platformName} — screenshot {index}"
+        },
+        "lightbox": {
+            "closeAriaLabel": "Fechar tela cheia",
+            "fullscreenAlt": "Imagem em tela cheia"
+        },
+        "platformInfo": {
+            "highlightsTitle": "Aprendizados & Destaques"
+        },
+        "underConstruction": {
+            "description": "O detalhamento deste projeto ainda está sendo preparado. Volte em breve para mais informações."
+        },
+        "metadata": {
+            "notFoundTitle": "Projeto não encontrado | {shortName}",
+            "titleTemplate": "{projectTitle} | Portfólio de {shortName}",
+            "siteName": "{shortName} - Portfólio"
+        }
+    },
+    "about": {
+        "title": "Sobre Mim"
+    }
+}

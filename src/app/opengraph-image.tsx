@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-import profile from "data/profile.json";
+import profile from "data/pt-BR/profile.json";
 
 export const dynamic = "force-static";
 

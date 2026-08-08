@@ -12,10 +12,14 @@ import type { Project } from "types/project";
 
 type ProjectDetailsClientProps = {
     project: Project;
+    backHref: string;
+    backLabel: string;
 };
 
 export default function ProjectDetailsClient({
-    project
+    project,
+    backHref,
+    backLabel
 }: ProjectDetailsClientProps) {
     const [activePlatformIndex, setActivePlatformIndex] = useState(0);
     const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
@@ -35,6 +39,8 @@ export default function ProjectDetailsClient({
                 categories={categories}
                 startDate={startDate}
                 technologies={technologies}
+                backHref={backHref}
+                backLabel={backLabel}
             />
 
             <ProjectLinksBar links={links} />
