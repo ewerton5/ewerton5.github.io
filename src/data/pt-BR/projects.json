@@ -452,11 +452,17 @@
     {
         "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
         "slug": "radio-arquibancada",
-        "title": "Radio Arquibancada",
-        "categories": ["Mobile", "Streaming"],
+        "title": "Rádio Arquibancada",
+        "categories": ["Mobile", "Streaming", "Digital Media"],
         "startDate": "2019-09-11",
-        "shortDescription": "Plataforma de streaming focada no universo do samba (semelhante ao Spotify). Responsável por uma atualização crítica de versão e dependências do framework.",
-        "technologies": ["React Native"],
+        "shortDescription": "Plataforma de streaming focada no universo do samba e carnaval. Fui o responsável pela manutenção de código legado e pela atualização crítica de versão do React Native e de suas bibliotecas nativas de áudio.",
+        "technologies": [
+            "React Native",
+            "Redux",
+            "Firebase",
+            "Track Player",
+            "WordPress API"
+        ],
         "images": {
             "thumbnail": "/projetos/radio-arquibancada/thumb.png"
         },

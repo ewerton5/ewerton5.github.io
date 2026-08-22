@@ -452,11 +452,17 @@
     {
         "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
         "slug": "radio-arquibancada",
-        "title": "Radio Arquibancada",
-        "categories": ["Mobile", "Streaming"],
+        "title": "Rádio Arquibancada",
+        "categories": ["Mobile", "Streaming", "Digital Media"],
         "startDate": "2019-09-11",
-        "shortDescription": "Streaming platform focused on the world of samba (similar to Spotify). Owned a critical version upgrade and framework dependency update.",
-        "technologies": ["React Native"],
+        "shortDescription": "Streaming platform focused on the samba and carnival universe. Responsible for maintaining legacy code and executing a critical version upgrade for React Native and its native audio libraries.",
+        "technologies": [
+            "React Native",
+            "Redux",
+            "Firebase",
+            "Track Player",
+            "WordPress API"
+        ],
         "images": {
             "thumbnail": "/projetos/radio-arquibancada/thumb.png"
         },

@@ -1,0 +1,58 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Rádio Arquibancada is a comprehensive mobile app dedicated to the Samba and Rio Carnival universe. It acts as a centralized media hub, allowing users to consume live radio streaming, podcasts, on-demand music, and read industry news. My role in this project was not building it from scratch, but rather executing rigorous engineering work focused on maintenance and a critical version upgrade of the framework. I was responsible for ensuring the app's stability and longevity by upgrading the React Native core and handling the high complexity of resolving breaking changes in legacy native dependencies, particularly in background audio modules and local data persistence.",
+            "learnings": [
+                "Maintenance and refactoring of legacy code structured with React Class Components and complex asynchronous global state management via Redux.",
+                "Upgrading and stabilizing the background audio engine using react-native-track-player, managing playback queues, and binding native OS media controls.",
+                "Handling network concurrency during streaming and implementing dynamic metadata extraction (such as the current program name) directly from BRLOGIC (Icecast/Shoutcast) servers for the live radio module.",
+                "Offline persistence architecture coupled with the media player: utilizing react-native-fs for physical MP3 file downloads locally, enabling track consumption without internet access.",
+                "Deep integration with the Firebase ecosystem (Auth for social login, Realtime Database/Firestore for saving playlists and favorites, and Storage for media assets) seamlessly connected to the Redux flow.",
+                "External content consumption and sanitization through the WordPress REST API, building custom parsers for raw HTML to natively format and display rich articles and images on the mobile interface."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/radio-arquibancada/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-6.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-7.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-8.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-9.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-10.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

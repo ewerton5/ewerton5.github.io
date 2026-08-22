@@ -1,0 +1,58 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Rádio Arquibancada é um aplicativo mobile completo voltado para o universo do Samba e do Carnaval carioca. Ele atua como um hub centralizado de mídia, permitindo que os usuários consumam streaming de rádio ao vivo, podcasts, músicas sob demanda e leiam notícias do segmento. Minha atuação neste projeto não foi a construção do zero, mas sim um trabalho rigoroso de engenharia focado em manutenção e atualização crítica de versão do framework. Fui responsável por garantir a estabilidade e sobrevida do aplicativo, atualizando o core do React Native e lidando com a alta complexidade de resolver quebras em dependências nativas legadas, especialmente nos módulos de áudio em background e persistência local de dados.",
+            "learnings": [
+                "Manutenção e refatoração de código legado estruturado com React Class Components e gerenciamento de estado global assíncrono via Redux.",
+                "Atualização e estabilização do motor de áudio em background utilizando react-native-track-player, gerenciando a fila de reprodução e amarrando os controles de mídia nativos do sistema operacional.",
+                "Lidar com a concorrência de rede durante o streaming e implementar a extração de metadados dinâmicos (como o nome do programa atual) diretamente de servidores BRLOGIC (Icecast/Shoutcast) para a rádio ao vivo.",
+                "Arquitetura de persistência offline acoplada ao player: uso do react-native-fs para o download físico dos arquivos MP3 localmente, permitindo consumo de faixas sem conexão à internet.",
+                "Integração profunda com o ecossistema Firebase (Auth para login social, Realtime Database/Firestore para salvar playlists e favoritos, e Storage para armazenamento de mídia) integrado ao fluxo do Redux.",
+                "Consumo e higienização de conteúdo externo através da API REST do WordPress, criando lógicas de parseamento de HTML bruto para exibir artigos e imagens formatados nativamente na interface mobile."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/radio-arquibancada/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-6.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-7.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-8.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-9.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/radio-arquibancada/screen-10.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}
