@@ -113,11 +113,12 @@
     "resolutions": {
         "minimatch": "3.1.5",
         "@typescript-eslint/typescript-estree/minimatch": "9.0.9",
-        "brace-expansion": "1.1.14",
+        "brace-expansion": "^1.1.18",
         "picomatch": "2.3.2",
         "d3-color": "3.1.0",
         "yaml": "2.8.3",
-        "postcss": "^8.4.31"
+        "postcss": "^8.4.31",
+        "sharp": "^0.35.3"
     },
     "browserslist": {
         "production": [
