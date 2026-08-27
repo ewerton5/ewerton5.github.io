@@ -1,0 +1,62 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "The Undergrad is a C2C marketplace specifically designed to foster a safe, circular economy ecosystem within academic communities. The app restricts access by validating university email domains, mitigating fraud risks and facilitating intra-campus logistics. My role in this project was focused on the maintenance of a legacy codebase (React Native 0.61.5) and the stabilization of asynchronous architectures. I did not build the solution from scratch, but I was responsible for ensuring the reliability of the sales flow (including image uploads and value masking) and the efficiency of the real-time chat integrated with the Firebase ecosystem.",
+            "learnings": [
+                "Maintenance of legacy React Native code structured predominantly with React Class Components and complex local state management.",
+                "Sustaining restricted B2B/B2C authentication flows, integrating Firebase Auth with API calls (System API) for rigorous validation of university domains.",
+                "Maintaining the trading ecosystem by handling complex forms involving monetary masking and image uploads (cropping and pushing to Firebase Storage).",
+                "Stabilizing synchronous/asynchronous communication architecture: maintaining a real-time chat interface coupled with Firebase Realtime Database and Cloud Firestore.",
+                "Managing fluid navigation interfaces and modals using react-navigation (v4) alongside native interaction libraries like SwipeListView.",
+                "Maintaining local data persistence (session tokens and preferences) using AsyncStorage within a Class Component architecture."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/the-undergrad/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-6.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-7.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-8.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-9.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-10.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/the-undergrad/screen-11.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

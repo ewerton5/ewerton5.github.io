@@ -440,14 +440,19 @@
         "id": "d1f5c6a1-3e4b-4b2a-8c9d-1e2f3a4b5c6d",
         "slug": "the-undergrad",
         "title": "The Undergrad",
-        "categories": ["Mobile", "E-commerce"],
+        "categories": ["Mobile", "E-commerce", "EdTech"],
         "startDate": "2020-01-09",
-        "shortDescription": "Aplicativo de vendas focado em estudantes universitários. Atuei na manutenção do projeto, destacando-se a sustentação de um chat em tempo real via WebSockets.",
-        "technologies": ["React Native", "WebSockets"],
+        "shortDescription": "Marketplace acadêmico focado em economia circular universitária. Atuei na manutenção de código legado e sustentação de integrações complexas, como autenticação restrita e chat em tempo real.",
+        "technologies": [
+            "React Native",
+            "Firebase",
+            "Realtime Database",
+            "AsyncStorage"
+        ],
         "images": {
             "thumbnail": "/projetos/the-undergrad/thumb.png"
         },
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#D8DBDE"
     },
     {
         "id": "a2b3c4d5-e6f7-8a9b-0c1d-2e3f4a5b6c7d",
