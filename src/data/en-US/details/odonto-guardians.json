@@ -1,0 +1,136 @@
+{
+    "links": {
+        "web": "https://odontoguardians.com.br/",
+        "android": "https://play.google.com/store/apps/details?id=com.odontoguardians",
+        "ios": "https://apps.apple.com/us/app/odonto-guardians-app/id1576274050"
+    },
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Odonto Guardians is an app designed for dentists and students, serving as a training and support tool for medical emergencies in dental offices. This project represents a major milestone in my career: it was the first application I planned, architected, and built entirely from scratch as a solo developer. I initially started the project using the managed Expo workflow but successfully ejected it halfway through to Bare React Native CLI to support complex native integrations. I took full end-to-end (E2E) responsibility, driving it all the way to successful deployments on the stores.",
+            "learnings": [
+                "Architectural transition from Managed Expo to Bare React Native (Eject), taking direct control over builds, linking, and native permissions within the iOS and Android folders.",
+                "Scalable global state architecture structured using the 'ducks' pattern, leveraging Redux, Redux-Saga for asynchronous side-effect orchestration, and Redux-Persist for offline storage.",
+                "Deep integration with hardware and OS permissions: utilizing geolocation to map nearby hospitals, accessing the native calendar for medication expiration alerts, and triggering direct emergency calls (193).",
+                "Implementation of a secure native authentication system using the Firebase ecosystem (Auth, Firestore, Storage), supporting Email/Password, Google, Facebook, and Apple Sign-In.",
+                "Development of complex medical calculators (glycemia and blood pressure) and a medical-dental dictionary, translating critical healthcare business rules into software logic."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-1.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-2.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-3.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-4.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-5.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-6.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-7.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-8.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-9.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-10.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-11.webp",
+                    "orientation": "portrait"
+                }
+            ]
+        },
+        {
+            "name": "Web Landing Page",
+            "detailedDescription": "The Odonto Guardians Landing Page serves as the institutional showcase and primary user acquisition (download) channel for the app. Built entirely by me from scratch, this web interface represents my official immersion into UI/UX concepts, as it was my first project developed in close partnership with a professional designer. The goal was to create an immersive, high-impact visual experience—heavily inspired by Apple's product reveal style—utilizing scroll reveals and intense Parallax effects.",
+            "learnings": [
+                "Creation of a highly engaging visual experience in React (Create React App), implementing fluid animations and extensive Parallax effects (via react-parallax) tied to user scrolling.",
+                "Practical and deep introduction to UI/UX concepts through direct collaboration with a professional designer, transforming static mockups into dynamic interactions.",
+                "Development of a complex responsive architecture using react-device-detect for layout branching, serving an effect-rich Single Page Application on Desktop, and performance-optimized routes on Mobile.",
+                "Web state and routing management by connecting react-router-dom to classic Redux (connected-react-router) and orchestrating side-effects with Redux Saga.",
+                "Advanced Webpack build customization (via react-app-rewired) to inject plugins (such as babel-plugin-root-import) maintaining stability without needing to 'eject' the CRA.",
+                "Management of an optimized production deployment pipeline (source map removal) using Netlify for fast, global hosting."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-1.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-2.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-3.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-4.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-5.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-6.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-7.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-8.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-9.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-10.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-11.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-12.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-13.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-14.png",
+                    "orientation": "landscape"
+                }
+            ]
+        }
+    ]
+}

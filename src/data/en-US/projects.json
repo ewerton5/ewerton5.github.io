@@ -424,13 +424,19 @@
         "backgroundColor": "#FFFFFF"
     },
     {
-        "id": "923b7dfb-d8c8-4907-84ce-de6836b600b2",
+        "id": "b7c8d9e0-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
         "slug": "odonto-guardians",
         "title": "Odonto Guardians",
-        "categories": ["Mobile", "Web", "Backend"],
-        "startDate": "2020-02-05",
-        "shortDescription": "Emergency app for dentistry with a map and dosage calculator. My first major app in production. Included a landing page, Firebase Auth, and a Firestore back-end.",
-        "technologies": ["React Native", "Firebase", "Web"],
+        "categories": ["Mobile", "HealthTech", "EdTech"],
+        "startDate": "2021-08-15",
+        "shortDescription": "Support tool for dental emergencies. Built E2E from scratch, starting in Expo and later ejected to Bare React Native to support complex native integrations.",
+        "technologies": [
+            "React Native CLI",
+            "Redux Saga",
+            "Firebase",
+            "Geolocation",
+            "Apple Sign-In"
+        ],
         "images": {
             "thumbnail": "/projetos/odonto-guardians/thumb.png"
         },

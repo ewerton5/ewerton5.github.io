@@ -15,7 +15,7 @@ type ProjectLinksBarProps = {
 };
 
 const BASE_CLASSES =
-    "flex items-center gap-[6px] px-medium py-xsmall text-white rounded-xl text-xsmall font-medium hover:opacity-80 transition-opacity";
+    "flex items-center gap-[6px] px-medium py-xsmall text-[#ffffff] rounded-xl text-xsmall font-medium hover:opacity-80 transition-opacity";
 
 export default function ProjectLinksBar({ links }: ProjectLinksBarProps) {
     if (!links || !Object.values(links).some(Boolean)) return null;

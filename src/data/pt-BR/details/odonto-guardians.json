@@ -1,0 +1,136 @@
+{
+    "links": {
+        "web": "https://odontoguardians.com.br/",
+        "android": "https://play.google.com/store/apps/details?id=com.odontoguardians",
+        "ios": "https://apps.apple.com/us/app/odonto-guardians-app/id1576274050"
+    },
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Odonto Guardians é um aplicativo voltado para cirurgiões-dentistas e estudantes, atuando como ferramenta de treinamento e apoio em emergências médicas no consultório. Este projeto é um marco na minha carreira: foi o primeiro aplicativo que planejei, arquitetei e desenvolvi integralmente do zero, trabalhando de forma autônoma. Iniciei o desenvolvimento utilizando o fluxo gerenciado do Expo, mas realizei o 'eject' do projeto no meio do caminho para o Bare React Native CLI a fim de suportar integrações nativas mais complexas. Assumi a responsabilidade de ponta a ponta (End-to-End) até o deploy bem-sucedido nas lojas.",
+            "learnings": [
+                "Transição arquitetural de Managed Expo para Bare React Native (Eject), assumindo o controle direto sobre builds, links e permissões nativas nas pastas iOS e Android.",
+                "Arquitetura de estado global escalável estruturada no padrão 'ducks', utilizando Redux, Redux-Saga para orquestração de efeitos colaterais assíncronos e Redux-Persist para armazenamento offline.",
+                "Integração profunda de hardware e permissões de SO: uso de geolocalização para mapeamento de hospitais próximos, acesso ao calendário nativo para alertas de vencimento de medicamentos e chamadas de emergência (193).",
+                "Implementação de um sistema de autenticação nativo e seguro utilizando o ecossistema Firebase (Auth, Firestore, Storage), com suporte a login por E-mail/Senha, Google, Facebook e Apple Sign-In.",
+                "Criação de calculadoras médicas (glicemia e pressão arterial) e dicionário médico-odontológico, traduzindo regras de negócio críticas da área da saúde para a lógica de software."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-1.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-2.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-3.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-4.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-5.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-6.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-7.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-8.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-9.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-10.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/mobile/screen-11.webp",
+                    "orientation": "portrait"
+                }
+            ]
+        },
+        {
+            "name": "Landing Page Web",
+            "detailedDescription": "A Landing Page do Odonto Guardians serve como a vitrine institucional e canal primário de aquisição de usuários (downloads) para o aplicativo. Construída inteiramente por mim do zero, esta interface web representa minha imersão oficial nos conceitos de UI/UX, pois foi o meu primeiro projeto desenvolvido em parceria com um designer profissional. O objetivo era criar uma experiência visual imersiva e de alto impacto—inspirada no estilo de apresentação de novos produtos da Apple—utilizando scroll reveals e intensos efeitos de Parallax.",
+            "learnings": [
+                "Criação de uma experiência visual altamente engajadora em React (Create React App), implementando animações fluidas e efeitos de Parallax extensivos (via react-parallax) atrelados ao scroll do usuário.",
+                "Introdução prática e aprofundada a conceitos de UI/UX através da colaboração direta com um designer profissional, transformando mockups estáticos em interações dinâmicas.",
+                "Desenvolvimento de arquitetura responsiva complexa utilizando react-device-detect para realizar branching de layout, servindo uma Single Page Application rica em efeitos no Desktop, e rotas otimizadas para performance no Mobile.",
+                "Gerenciamento de rotas e estado web conectando react-router-dom ao Redux clássico (connected-react-router) e orquestrando side-effects com Redux Saga.",
+                "Customização avançada do build do Webpack (via react-app-rewired) para injetar plugins (como babel-plugin-root-import) mantendo a estabilidade sem a necessidade de 'ejetar' o CRA.",
+                "Gestão do pipeline de deploy de produção otimizado (remoção de source maps) utilizando Netlify para hospedagem rápida e global."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-1.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-2.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-3.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-4.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-5.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-6.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-7.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-8.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-9.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-10.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-11.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-12.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-13.png",
+                    "orientation": "landscape"
+                },
+                {
+                    "url": "/projetos/odonto-guardians/landing-page/screen-14.png",
+                    "orientation": "landscape"
+                }
+            ]
+        }
+    ]
+}
