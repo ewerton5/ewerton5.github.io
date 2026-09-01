@@ -80,6 +80,7 @@ export default function ImageCarousel({
                             src={image.url}
                             alt={`${platformName} — screenshot ${i + 1}`}
                             onClick={() => onImageClick(image.url)}
+                            onLoad={updateScrollState}
                             className="h-full w-auto object-contain rounded-xl shadow-sm hover:shadow-md transition-shadow cursor-pointer"
                         />
                     </div>
