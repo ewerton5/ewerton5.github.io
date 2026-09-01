@@ -45,7 +45,7 @@ export default function LightboxModal({
             <button
                 onClick={onClose}
                 aria-label="Fechar tela cheia"
-                className="absolute top-medium right-medium flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                className="absolute top-medium right-medium flex items-center justify-center w-10 h-10 rounded-full bg-[#00000033] text-white hover:bg-white/20 transition-colors"
             >
                 <FiX size={22} color="#ffffff" />
             </button>
@@ -57,9 +57,9 @@ export default function LightboxModal({
                         goPrev();
                     }}
                     aria-label="Imagem anterior"
-                    className="absolute left-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                    className="absolute left-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-[#00000033] text-white hover:bg-white/20 transition-colors"
                 >
-                    <FiChevronLeft size={22} />
+                    <FiChevronLeft size={22} color="#ffffff" />
                 </button>
             )}
 
@@ -70,9 +70,9 @@ export default function LightboxModal({
                         goNext();
                     }}
                     aria-label="Próxima imagem"
-                    className="absolute right-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                    className="absolute right-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-[#00000033] text-white hover:bg-white/20 transition-colors"
                 >
-                    <FiChevronRight size={22} />
+                    <FiChevronRight size={22} color="#ffffff" />
                 </button>
             )}
 
