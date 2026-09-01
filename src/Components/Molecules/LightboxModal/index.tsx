@@ -30,7 +30,7 @@ export default function LightboxModal({
                 aria-label="Fechar tela cheia"
                 className="absolute top-medium right-medium flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
             >
-                <FiX size={22} />
+                <FiX size={22} color="#ffffff" />
             </button>
             <img
                 src={imageUrl}
