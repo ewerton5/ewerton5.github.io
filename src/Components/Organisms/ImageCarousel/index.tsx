@@ -8,7 +8,7 @@ import type { PlatformDetail } from "types/project";
 type ImageCarouselProps = {
     images: PlatformDetail["images"];
     platformName: string;
-    onImageClick: (url: string) => void;
+    onImageClick: (index: number) => void;
 };
 
 export default function ImageCarousel({
@@ -79,7 +79,7 @@ export default function ImageCarousel({
                         <img
                             src={image.url}
                             alt={`${platformName} — screenshot ${i + 1}`}
-                            onClick={() => onImageClick(image.url)}
+                            onClick={() => onImageClick(i)}
                             onLoad={updateScrollState}
                             className="h-full w-auto object-contain rounded-xl shadow-sm hover:shadow-md transition-shadow cursor-pointer"
                         />

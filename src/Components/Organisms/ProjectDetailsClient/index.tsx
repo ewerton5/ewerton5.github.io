@@ -22,7 +22,7 @@ export default function ProjectDetailsClient({
     backLabel
 }: ProjectDetailsClientProps) {
     const [activePlatformIndex, setActivePlatformIndex] = useState(0);
-    const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
+    const [fullscreenIndex, setFullscreenIndex] = useState<number | null>(null);
 
     const { title, categories, startDate, technologies, links, platforms } =
         project;
@@ -60,13 +60,14 @@ export default function ProjectDetailsClient({
             <ImageCarousel
                 images={activePlatform.images}
                 platformName={activePlatform.name}
-                onImageClick={setFullscreenImage}
+                onImageClick={setFullscreenIndex}
             />
 
-            {fullscreenImage && (
+            {fullscreenIndex !== null && (
                 <LightboxModal
-                    imageUrl={fullscreenImage}
-                    onClose={() => setFullscreenImage(null)}
+                    images={activePlatform.images.map((image) => image.url)}
+                    initialIndex={fullscreenIndex}
+                    onClose={() => setFullscreenIndex(null)}
                 />
             )}
         </div>

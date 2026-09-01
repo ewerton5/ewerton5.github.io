@@ -1,24 +1,41 @@
 "use client";
 
-import { useEffect } from "react";
-import { FiX } from "react-icons/fi";
+import { useCallback, useEffect, useState } from "react";
+import { FiChevronLeft, FiChevronRight, FiX } from "react-icons/fi";
 
 type LightboxModalProps = {
-    imageUrl: string;
+    images: string[];
+    initialIndex: number;
     onClose: () => void;
 };
 
 export default function LightboxModal({
-    imageUrl,
+    images,
+    initialIndex,
     onClose
 }: LightboxModalProps) {
+    const [currentIndex, setCurrentIndex] = useState(initialIndex);
+
+    const canGoPrev = currentIndex > 0;
+    const canGoNext = currentIndex < images.length - 1;
+
+    const goPrev = useCallback(() => {
+        setCurrentIndex((i) => Math.max(0, i - 1));
+    }, []);
+
+    const goNext = useCallback(() => {
+        setCurrentIndex((i) => Math.min(images.length - 1, i + 1));
+    }, [images.length]);
+
     useEffect(() => {
         function onKeyDown(e: KeyboardEvent) {
             if (e.key === "Escape") onClose();
+            if (e.key === "ArrowLeft") goPrev();
+            if (e.key === "ArrowRight") goNext();
         }
         window.addEventListener("keydown", onKeyDown);
         return () => window.removeEventListener("keydown", onKeyDown);
-    }, [onClose]);
+    }, [onClose, goPrev, goNext]);
 
     return (
         <div
@@ -32,8 +49,35 @@ export default function LightboxModal({
             >
                 <FiX size={22} color="#ffffff" />
             </button>
+
+            {canGoPrev && (
+                <button
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        goPrev();
+                    }}
+                    aria-label="Imagem anterior"
+                    className="absolute left-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                >
+                    <FiChevronLeft size={22} />
+                </button>
+            )}
+
+            {canGoNext && (
+                <button
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        goNext();
+                    }}
+                    aria-label="Próxima imagem"
+                    className="absolute right-medium top-1/2 -translate-y-1/2 flex items-center justify-center w-10 h-10 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors"
+                >
+                    <FiChevronRight size={22} />
+                </button>
+            )}
+
             <img
-                src={imageUrl}
+                src={images[currentIndex]}
                 alt="Imagem em tela cheia"
                 onClick={(e) => e.stopPropagation()}
                 className="max-w-full max-h-full object-contain rounded-xl"
