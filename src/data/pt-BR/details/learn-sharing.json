@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Desenvolvido em apenas 3 dias durante o Hack Rio, onde conquistamos o 4º lugar no cluster de Educação. O aplicativo funciona como uma rede social focada na 'Creator Economy' para professores. Os docentes criam perfis e fazem postagens (fotos, vídeos e artigos) para atrair alunos, enquanto os estudantes podem seguir, curtir publicações e buscar por categorias de ensino. O front-end foi construído em dupla utilizando React Native e Expo SDK 37, integrando recursos nativos de câmera e galeria para viabilizar a criação de conteúdo diretamente pelo app.",
+            "learnings": [
+                "Desenvolvimento ágil sob extrema pressão de tempo e privação de sono em um ambiente de hackathon.",
+                "Integração rápida de bibliotecas nativas do ecossistema Expo (expo-camera, expo-image-picker, expo-av) para construir um MVP 100% funcional.",
+                "Implementação de navegação complexa com React Navigation, mesclando rotas Stack e Material Bottom Tabs."
+            ],
+            "images": []
+        }
+    ]
+}

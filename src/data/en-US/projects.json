@@ -414,10 +414,10 @@
         "id": "71115e10-8469-4bcc-83f5-de9d2bb6b1b9",
         "slug": "learn-sharing",
         "title": "Learn Sharing",
-        "categories": ["Mobile"],
+        "categories": ["Mobile", "EdTech", "Social Network"],
         "startDate": "2020-05-24",
-        "shortDescription": "Academic social-network-style app focused on education. Award-winning project (4th place) at Hack Rio.",
-        "technologies": ["React Native", "Hackathon"],
+        "shortDescription": "An EdTech social network MVP connecting teachers and students, built during a 3-day hackathon.",
+        "technologies": ["React Native", "Expo", "Axios", "React Native Paper"],
         "images": {
             "thumbnail": "/projetos/learn-sharing/thumb.png"
         },
@@ -428,7 +428,7 @@
         "slug": "odonto-guardians",
         "title": "Odonto Guardians",
         "categories": ["Mobile", "HealthTech", "EdTech"],
-        "startDate": "2021-08-15",
+        "startDate": "2020-02-05",
         "shortDescription": "Support tool for dental emergencies. Built E2E from scratch, starting in Expo and later ejected to Bare React Native to support complex native integrations.",
         "technologies": [
             "React Native CLI",

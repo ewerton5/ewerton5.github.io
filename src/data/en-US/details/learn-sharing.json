@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Built in just 3 days during Hack Rio, securing 4th place in the Education cluster. The app functions as a 'Creator Economy' social network for educators. Teachers can create profiles and post media (photos, videos, articles) to attract students, while students can follow, like, and search for specific subjects. The frontend was built in a two-person team using React Native and Expo SDK 37, heavily utilizing native camera and gallery integrations to allow fast media uploads and content creation directly from the app.",
+            "learnings": [
+                "Rapid agile development under extreme time constraints and pressure during a 3-day hackathon.",
+                "Fast integration of Expo native libraries (expo-camera, expo-image-picker, expo-av) to deliver a working MVP.",
+                "Managing complex navigation patterns using React Navigation (stack and material bottom tabs)."
+            ],
+            "images": []
+        }
+    ]
+}
