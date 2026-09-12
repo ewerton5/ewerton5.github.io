@@ -400,11 +400,18 @@
     {
         "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
         "slug": "cofarja",
-        "title": "Cofarja (Motorista, Fornecedor, Admin)",
-        "categories": ["Mobile", "Web"],
+        "title": "Cofarja",
+        "categories": ["Mobile", "Web", "Logística", "Geolocalização"],
         "startDate": "2020-08-18",
-        "shortDescription": "Ecossistema (2 apps e 1 SW) para coleta de sucata com rastreamento GPS de frota em tempo real via React Native Maps.",
-        "technologies": ["React Native", "Web", "Mapas/GPS"],
+        "shortDescription": "Ecossistema logístico completo (2 apps e 1 painel Web) para gestão de coletas, focado em rastreamento de frota via GPS e mapas interativos em tempo real.",
+        "technologies": [
+            "React Native",
+            "React.js",
+            "Redux Saga",
+            "Google Maps API",
+            "Docker",
+            "Styled Components"
+        ],
         "images": {
             "thumbnail": "/projetos/cofarja/thumb.png"
         },

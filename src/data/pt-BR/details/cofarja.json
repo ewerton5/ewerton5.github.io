@@ -1,0 +1,37 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=br.com.cofarja.portal&hl=pt_BR"
+    },
+    "platforms": [
+        {
+            "name": "Mobile (App Fornecedor)",
+            "detailedDescription": "Aplicativo em React Native CLI (Bare Workflow) voltado para os clientes da empresa. Permite solicitar troca de caçambas, aceitar contratos digitais e consultar recibos. O destaque é o acompanhamento em tempo real da coleta em mapas interativos, exibindo a posição do caminhão e ocorrências da rota.",
+            "learnings": [
+                "Implementação de mapas e rotas customizadas utilizando react-native-maps e geocoding.",
+                "Gestão de estado robusta com Redux (padrão Ducks) e Redux-Saga para fluxos assíncronos.",
+                "Integração nativa (Bare Workflow) para permissões de localização e push notifications via OneSignal."
+            ],
+            "images": []
+        },
+        {
+            "name": "Mobile (App Motorista)",
+            "detailedDescription": "App de uso interno em React Native CLI para motoristas. Focado em uma máquina de estados de viagens (Em trânsito, Chegou, etc). O maior desafio técnico foi o mapa com Google Directions API, onde implementei um cálculo trigonométrico avançado para rotacionar dinamicamente o ícone do caminhão de acordo com as coordenadas GPS reais do dispositivo.",
+            "learnings": [
+                "Aplicação de trigonometria para rotação dinâmica de elementos de UI no mapa com base no vetor de deslocamento GPS.",
+                "Sincronização de estado de viagem com atualizações de geolocalização em background.",
+                "Integração com apps de navegação externos via react-native-map-link."
+            ],
+            "images": []
+        },
+        {
+            "name": "Web (Painel Admin)",
+            "detailedDescription": "Back-office em React.js para gerenciar todo o ecossistema. Centraliza solicitações, precificação e o agendamento/rastreamento da frota via react-google-maps. Utiliza RBAC (Role-Based Access Control) no lado do cliente para segmentar acessos administrativos e de logística.",
+            "learnings": [
+                "Construção de arquitetura Web com Redux e Redux-Saga, compartilhando os mesmos padrões (Ducks) dos apps mobile.",
+                "Implementação de controle de acesso (RBAC) para proteção de rotas e componentes.",
+                "Conteinerização do front-end com Docker multi-stage build e Nginx."
+            ],
+            "images": []
+        }
+    ]
+}

@@ -400,11 +400,18 @@
     {
         "id": "04e9509f-ea19-4c1c-9d6f-ff7c9dfa2ef8",
         "slug": "cofarja",
-        "title": "Cofarja (Motorista, Fornecedor, Admin)",
-        "categories": ["Mobile", "Web"],
+        "title": "Cofarja",
+        "categories": ["Mobile", "Web", "Logistics", "Geolocation"],
         "startDate": "2020-08-18",
-        "shortDescription": "Ecosystem (2 apps and 1 web system) for scrap metal collection, with real-time fleet GPS tracking via React Native Maps.",
-        "technologies": ["React Native", "Web", "Maps/GPS"],
+        "shortDescription": "Complete logistics ecosystem (2 apps, 1 web panel) for collection management, featuring real-time GPS fleet tracking and interactive maps.",
+        "technologies": [
+            "React Native",
+            "React.js",
+            "Redux Saga",
+            "Google Maps API",
+            "Docker",
+            "Styled Components"
+        ],
         "images": {
             "thumbnail": "/projetos/cofarja/thumb.png"
         },

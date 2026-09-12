@@ -1,0 +1,37 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=br.com.cofarja.portal&hl=pt_BR"
+    },
+    "platforms": [
+        {
+            "name": "Mobile (Client App)",
+            "detailedDescription": "React Native CLI (Bare Workflow) app for the company's clients. Allows users to request scrap bucket exchanges, sign digital contracts, and track collections in real-time on interactive maps showing the truck's exact location.",
+            "learnings": [
+                "Implemented custom maps and routing using react-native-maps and geocoding.",
+                "Built robust state management with Redux (Ducks pattern) and Redux-Saga.",
+                "Managed native configurations for location permissions and OneSignal push notifications."
+            ],
+            "images": []
+        },
+        {
+            "name": "Mobile (Driver App)",
+            "detailedDescription": "Internal React Native CLI app for truck drivers running a trip state machine. The technical highlight was integrating the Google Directions API with a custom trigonometric calculation to dynamically rotate the truck icon on the map based on real-time GPS coordinates.",
+            "learnings": [
+                "Applied advanced trigonometry to dynamically rotate UI map elements based on GPS displacement vectors.",
+                "Synchronized trip state machines with background geolocation updates.",
+                "Integrated external navigation apps via react-native-map-link."
+            ],
+            "images": []
+        },
+        {
+            "name": "Web (Admin Panel)",
+            "detailedDescription": "React.js back-office panel to manage the entire ecosystem, handling collection requests and fleet tracking via react-google-maps. It uses client-side Role-Based Access Control (RBAC) to segment administrative and logistics modules.",
+            "learnings": [
+                "Built a web architecture sharing the same Redux and Redux-Saga patterns (Ducks) as the mobile apps.",
+                "Implemented Role-Based Access Control (RBAC) for route and component gatekeeping.",
+                "Containerized the frontend using Docker multi-stage builds and Nginx."
+            ],
+            "images": []
+        }
+    ]
+}
