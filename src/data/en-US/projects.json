@@ -362,10 +362,17 @@
         "id": "9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
         "slug": "digipay",
         "title": "Digipay",
-        "categories": ["Web", "Fintech"],
+        "categories": ["Web", "FinTech", "B2B", "Billing"],
         "startDate": "2020-12-22",
-        "shortDescription": "System focused on the financial sector with payment support and PIX integration. Owned the Front-end/Back-end integration and bug mitigation.",
-        "technologies": ["React"],
+        "shortDescription": "B2B billing management web platform. Worked within a team focusing on UI-to-API integrations for financial data and payment flows.",
+        "technologies": [
+            "React",
+            "Redux Saga",
+            "Material-UI",
+            "Styled Components",
+            "Highcharts",
+            "Tecnospeed"
+        ],
         "images": {
             "thumbnail": "/projetos/digipay/thumb.png"
         },

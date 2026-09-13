@@ -362,10 +362,17 @@
         "id": "9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d",
         "slug": "digipay",
         "title": "Digipay",
-        "categories": ["Web", "Fintech"],
+        "categories": ["Web", "FinTech", "B2B", "Billing"],
         "startDate": "2020-12-22",
-        "shortDescription": "Sistema focado no setor financeiro com suporte a pagamentos e integração PIX. Responsável pela integração entre Front-end e Back-end e mitigação de bugs.",
-        "technologies": ["React"],
+        "shortDescription": "Plataforma web B2B de gestão de cobranças. Atuação em equipe focada na integração de UI com APIs financeiras e estabilização de rotas de pagamentos.",
+        "technologies": [
+            "React",
+            "Redux Saga",
+            "Material-UI",
+            "Styled Components",
+            "Highcharts",
+            "Tecnospeed"
+        ],
         "images": {
             "thumbnail": "/projetos/digipay/thumb.png"
         },

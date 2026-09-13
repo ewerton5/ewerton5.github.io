@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "A FinTech receivables management platform allowing merchants to issue charges, view bank statements, and manage accounts. I worked as a frontend developer within a multidisciplinary team, focusing on integrating React and Material-UI screens with RESTful APIs. My key contributions involved connecting financial data to interactive dashboards (Highcharts), stabilizing billing and invoicing flows (via Tecnospeed integration), and handling complex global state management using the Ducks pattern with Redux-Saga and reduxsauce.",
+            "learnings": [
+                "Securely mapping and integrating complex financial data into interactive charts and dashboards.",
+                "Maintaining strict global state management patterns (Ducks pattern) within a large, shared codebase.",
+                "Identifying and mitigating bugs in critical business flows, such as charge issuance and bank statement generation."
+            ],
+            "images": []
+        }
+    ]
+}

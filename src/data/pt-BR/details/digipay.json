@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "Plataforma FinTech de gestão de recebíveis que permite a comerciantes emitir cobranças, visualizar extratos bancários e gerenciar contas. Atuei como desenvolvedor front-end em uma equipe multidisciplinar, sendo responsável por conectar as interfaces criadas em React e Material-UI com as APIs RESTful do back-end. Minhas principais entregas envolveram a integração de dados financeiros aos dashboards gráficos (Highcharts), fluxos de emissão de boletos (via integração Tecnospeed) e a manutenção de gerenciamento de estado global utilizando o padrão Ducks com Redux-Saga e reduxsauce.",
+            "learnings": [
+                "Mapeamento e integração segura de dados financeiros complexos em dashboards interativos e gráficos de resultados.",
+                "Manutenção de padrões rigorosos de gerenciamento de estado (Ducks pattern) em uma base de código compartilhada por vários desenvolvedores.",
+                "Identificação e mitigação de bugs em fluxos críticos de negócio, como emissão de títulos e conciliação de extratos bancários."
+            ],
+            "images": []
+        }
+    ]
+}
