@@ -1,0 +1,17 @@
+{
+    "links": {
+        "ios": "https://apps.apple.com/us/app/atacapet/id1604401799"
+    },
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "A B2B mobile application for pet product distributors, engineered as a white-label SaaS product. The core technical achievement was developing a rendering engine where tab bar menus, login requirements, logos, and color schemes are remotely driven by the backend API (Server-Driven UI). This architecture allowed a single app binary to serve multiple franchisees. The application also features advanced catalog navigation, multi-step checkout flows, recurring purchase lists, and camera integration for quick QR Code ordering.",
+            "learnings": [
+                "Architecting a highly scalable and customizable mobile solution using dynamic theme and route injection based on API payloads.",
+                "Building complex multi-step forms (wizards) with asynchronous regional validations.",
+                "Advanced handling of navigation logic coupled with side effects for programmatic screen redirects during async success or error flows."
+            ],
+            "images": []
+        }
+    ]
+}

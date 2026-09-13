@@ -388,10 +388,16 @@
         "id": "e1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
         "slug": "ataca-pet",
         "title": "Ataca Pet",
-        "categories": ["Mobile", "E-commerce"],
+        "categories": ["Mobile", "E-commerce", "B2B", "White-label"],
         "startDate": "2020-10-08",
-        "shortDescription": "White-label e-commerce platform built from scratch for the pet industry, structured with customizable features for different franchises.",
-        "technologies": ["React Native"],
+        "shortDescription": "White-label B2B e-commerce platform built from scratch, featuring a Server-Driven UI architecture designed for pet industry franchises.",
+        "technologies": [
+            "React Native",
+            "Redux Saga",
+            "Styled Components",
+            "Formik",
+            "QR Scanner"
+        ],
         "images": {
             "thumbnail": "/projetos/ataca-pet/thumb.png"
         },

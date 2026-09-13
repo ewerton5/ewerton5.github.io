@@ -1,0 +1,17 @@
+{
+    "links": {
+        "ios": "https://apps.apple.com/us/app/atacapet/id1604401799"
+    },
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Aplicativo mobile B2B para distribuidores de produtos pet, estruturado como um produto SaaS white-label. A maior complexidade do projeto foi o desenvolvimento de um motor de renderização onde menus, exigências de login, logos e esquemas de cores são ditados remotamente pela API (Server-Driven UI), permitindo que o mesmo binário de aplicativo atenda a múltiplas franquias. O ecossistema também conta com navegação avançada de catálogo, fluxos de checkout em múltiplas etapas (wizards), listas de compra recorrentes e integração de câmera para compras rápidas via QR Code.",
+            "learnings": [
+                "Desenvolvimento de arquitetura mobile altamente escalável e customizável, utilizando injeção dinâmica de temas e rotas baseada em respostas da API.",
+                "Construção de formulários complexos e multi-step (wizards) integrados a validações regionais assíncronas (CPF, CNPJ e CEP).",
+                "Acoplamento avançado do React Navigation com a camada de efeitos colaterais para redirecionamentos programáticos durante fluxos de sucesso ou falha."
+            ],
+            "images": []
+        }
+    ]
+}
