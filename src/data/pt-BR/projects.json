@@ -323,10 +323,16 @@
         "id": "3be92f10-b949-4374-83e3-5ecc3f6ddca9",
         "slug": "desbank",
         "title": "Desbank",
-        "categories": ["Mobile"],
+        "categories": ["Mobile", "FinTech", "Banco Digital"],
         "startDate": "2021-06-09",
-        "shortDescription": "App para banco digital/Fintech com integrações simulando rotinas bancárias do Itaú (pagamentos com cartão, PIX, e saldos).",
-        "technologies": ["React Native", "Fintech", "Pagamentos"],
+        "shortDescription": "Aplicativo mobile para banco digital completo (PF e PJ). Conta com pagamentos PIX, leitura de boletos, biometria e integrações com a API do banco Itaú.",
+        "technologies": [
+            "React Native",
+            "TypeScript",
+            "Redux Saga",
+            "Biometria",
+            "Styled Components"
+        ],
         "images": {
             "thumbnail": "/projetos/desbank/thumb.png"
         },

@@ -1,0 +1,71 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "A robust digital banking application built with React Native CLI (Bare Workflow) and TypeScript, supporting both personal and corporate (B2B/B2C) accounts. The system features a comprehensive onboarding process, biometric authentication (Face ID/Touch ID) with multi-account support, and essential banking operations such as PIX, transfers, barcode scanning for bill payments, and cash flow management. The project was developed collaboratively, splitting the integration of dozens of screens with another developer, and consuming a third-party backend powered by the Itaú bank API.",
+            "learnings": [
+                "Collaborative teamwork and parallel development on a large-scale mobile application, mastering Git version control and conflict resolution in a fast-paced environment.",
+                "Deep integration of advanced native mobile features, including biometric authentication (react-native-keychain) and camera-based barcode scanning.",
+                "Building a scalable foundation using a feature-based folder organization (Screaming Architecture) combined with business logic isolated in Redux-Saga."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/desbank/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-6.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-7.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-8.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-9.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-10.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-11.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-12.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-13.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/desbank/screen-14.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}
