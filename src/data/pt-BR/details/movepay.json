@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Aplicativo mobile desenvolvido inteiramente do zero em um prazo recorde de 11 dias. O app funciona como um terminal de ponto de venda (POS) de bolso, permitindo que os usuários realizem cobranças e recebimentos. O fluxo central simula uma maquininha de cartão, contando com tokenização nativa via Pagar.me, leitura de códigos via câmera e digitação manual em múltiplas etapas. A arquitetura foi estruturada em Bare Workflow (React Native CLI), contando com um onboarding rigoroso para separar contas Pessoa Física (CPF) e Jurídica (CNPJ).",
+            "learnings": [
+                "Capacidade de entrega ágil extrema, focando no essencial para arquitetar e finalizar o MVP de um aplicativo financeiro nativo em apenas 11 dias.",
+                "Integração nativa de hardware (câmera) e gateways de tokenização (Pagar.me) para estruturar fluxos de recebimento estilo Point of Sale (POS).",
+                "Reaproveitamento inteligente de estruturas lógicas e componentes de UI para acelerar a validação e entrega do produto sem sacrificar a segurança financeira."
+            ],
+            "images": []
+        }
+    ]
+}

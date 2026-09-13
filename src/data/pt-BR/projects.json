@@ -336,10 +336,16 @@
         "id": "d26961af-0c99-4931-bfb8-e4c27b05059e",
         "slug": "movepay",
         "title": "Movepay",
-        "categories": ["Mobile", "Web"],
+        "categories": ["Mobile", "Web", "FinTech", "Pagamentos"],
         "startDate": "2021-05-04",
-        "shortDescription": "Aplicação App e Web focadas em carteira digital e pagamentos peer-to-peer integrando diversos métodos de checkout.",
-        "technologies": ["React Native", "React", "Fintech"],
+        "shortDescription": "Ecossistema de carteira digital e pagamentos (App e Web). Destaque para o app mobile construído do zero em 11 dias, atuando como um terminal POS (maquininha) de bolso.",
+        "technologies": [
+            "React Native",
+            "React",
+            "Redux Saga",
+            "Pagar.me",
+            "Styled Components"
+        ],
         "images": {
             "thumbnail": "/projetos/movepay/thumb.png"
         },

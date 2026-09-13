@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "A mobile application built entirely from scratch in a record time of just 11 days. The app functions as a pocket Point of Sale (POS) terminal, allowing users to issue charges and receive payments. The core flow simulates a credit card machine, featuring native tokenization via Pagar.me, camera-based code scanning, and manual multi-step entry. The architecture was structured using the Bare Workflow (React Native CLI) and includes a strict onboarding process accommodating both individual (CPF) and corporate (CNPJ) accounts.",
+            "learnings": [
+                "Extreme agile delivery capability, focusing on core requirements to architect and finalize a native financial app MVP in just 11 days.",
+                "Native hardware integration (camera) and tokenization gateways (Pagar.me) to build robust Point of Sale (POS) receiving flows.",
+                "Smart reuse of logical structures and UI components to accelerate product validation and delivery without sacrificing financial security standards."
+            ],
+            "images": []
+        }
+    ]
+}
