@@ -1,0 +1,10 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "High-demand inspection application designed to process and store up to 40,000 photos per session. Rewrote it from scratch in React Native, implementing an advanced Offline-First architecture via WatermelonDB to ensure high performance and asynchronous sync with a legacy API.",
+            "learnings": [],
+            "images": []
+        }
+    ]
+}

@@ -1,46 +1,131 @@
-# Getting Started with Create React App
+# Ewerton Vieira — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal website built with Next.js, showcasing my projects, experience, and contact information. Supports multiple languages (pt-BR and en-US) and light/dark theme.
+
+## Installation
+
+Before cloning the project, check your Node.js version using the `node -v` command in the terminal. Also make sure you have Yarn installed. If you don't, install it with:
+
+```bash
+npm install -g yarn
+```
+
+### Steps to Clone the Repository
+
+1. In the top-right corner of the repository, select **Code** and click **SSH** or **HTTPS**.
+2. Then, in the folder where you want to save the project, open a terminal and type:
+
+- Via HTTPS:
+
+```bash
+git clone https://github.com/ewerton5/ewerton5.github.io.git
+```
+
+- Via SSH:
+
+```bash
+git clone git@github.com:ewerton5/ewerton5.github.io.git
+```
+
+3. After cloning, go into the project folder:
+
+```bash
+cd ewerton5.github.io
+```
+
+4. Install the project dependencies:
+
+```bash
+yarn
+```
+
+### Starting the Project
+
+To start the development server, run:
+
+```bash
+yarn dev
+```
+
+The project will be available at `http://localhost:3000`.
+
+## Project Structure
+
+```
+src/
+├── app/              # Next.js routes (App Router), including i18n support via [lang]
+├── Components/       # Reusable UI components
+├── data/             # Site content (projects, experience, timeline, testimonials, etc.) by language
+├── dictionaries/     # Translations (pt-BR and en-US)
+├── hooks/            # Custom hooks
+├── store/            # Global state (Zustand)
+├── styles/           # Global styles (Tailwind CSS)
+├── types/            # TypeScript types
+└── utils/            # Utility functions
+```
+
+To add or edit a portfolio project, update the corresponding files in `src/data/pt-BR` and `src/data/en-US` (including the `details` folder), keeping the same structure between both languages.
+
+## Best Practices Before Committing
+
+1. **Husky**: Make sure Husky is set up to manage Git hooks. Run the command below to prepare Husky:
+
+```bash
+yarn prepare
+```
+
+2. **Lint-Staged**: To check whether your changes follow the project's standards, you can run the command below, which checks for ESLint and TypeScript errors simultaneously:
+
+```bash
+yarn lint-staged
+```
+
+3. **ESLint**: If you want to list and automatically fix ESLint errors, use the command:
+
+```bash
+yarn lint
+```
+
+4. **TypeScript**: If you want to list TypeScript errors, use the command:
+
+```bash
+yarn type-check
+```
+
+5. **Commitlint**: Use the standard Commitlint convention for commit messages. Examples of valid messages:
+
+- `build: adds or updates files related to the project build`
+- `chore: updates build tasks or auxiliary tools`
+- `ci: adds or modifies continuous integration files`
+- `docs: updates or creates documentation`
+- `feat: adds new functionality`
+- `fix: fixes a bug in component X`
+- `perf: improves code performance`
+- `refactor: refactors code without changing functionality`
+- `revert: reverts previous changes`
+- `style: adjusts code formatting or style (without changing logic)`
+- `test: adds or updates tests`
 
 ## Available Scripts
 
-In the project directory, you can run:
+| Command            | Description                                 |
+|--------------------|---------------------------------------------|
+| `yarn dev`         | Starts the development server with Next.js  |
+| `yarn build`       | Generates the production build              |
+| `yarn start`       | Starts the server with the production build |
+| `yarn lint`        | Runs ESLint across the whole project        |
+| `yarn type-check`  | Checks for typing errors with TypeScript    |
+| `yarn lint-staged` | Runs lint and type checks on staged files   |
+| `yarn prepare`     | Sets up Git hooks via Husky                 |
 
-### `npm start`
+## Main Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Next.js](https://nextjs.org/) + [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Zustand](https://github.com/pmndrs/zustand) for state management
+- [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) for forms and validation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contact
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have any questions, feel free to reach out to me, the engineer responsible for this project.

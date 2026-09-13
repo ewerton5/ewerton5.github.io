@@ -1,0 +1,10 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Aplicativo de vistoria de alta demanda projetado para processar e armazenar até 40.000 fotos por sessão. Reescrito do zero em React Native com implementação avançada de arquitetura Offline-First via WatermelonDB, garantindo alta performance e sincronização assíncrona com API legada.",
+            "learnings": [],
+            "images": []
+        }
+    ]
+}
