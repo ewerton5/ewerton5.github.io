@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Aplicativo construído inteiramente do zero, atuando como desenvolvedor único (solo developer) em React Native CLI (Bare Workflow). O app funciona como um backoffice para artesãos vinculados a um programa de fomento municipal. A plataforma permite o cadastro completo do artesão (incluindo dados bancários e número de registro PAB/CAR), catalogação de produtos com upload de fotos e especificações técnicas (material, medidas, peso) e o acompanhamento do status de curadoria (em análise, aprovado, reprovado, vendido). A tela inicial conta com um dashboard financeiro resumindo as vendas e o impacto do negócio.",
+            "learnings": [
+                "Desenvolvimento de ponta a ponta (Full Ownership) de um aplicativo Bare Workflow, assumindo total controle sobre a arquitetura e as configurações nativas de iOS e Android.",
+                "Estruturação de formulários extensos e multi-etapas (wizards) com Formik e Yup, garantindo a integridade de dados complexos de cadastro e fichas técnicas.",
+                "Implementação de um pipeline de upload de mídia integrado a uma máquina de estados de curadoria, lidando com permissões de hardware e processamento de imagens (câmera e galeria)."
+            ],
+            "images": []
+        }
+    ]
+}

@@ -349,10 +349,16 @@
         "id": "f7a8b9c0-d1e2-f3a4-b5c6-d7e8f9a0b1c2",
         "slug": "casa-do-artesao",
         "title": "Casa do Artesão",
-        "categories": ["Mobile", "E-commerce"],
+        "categories": ["Mobile", "Backoffice", "B2B", "E-commerce"],
         "startDate": "2021-03-24",
-        "shortDescription": "Aplicativo mobile desenvolvido do zero e estruturado como um e-commerce para atender diretamente as necessidades do nicho de artesãos.",
-        "technologies": ["React Native"],
+        "shortDescription": "Aplicativo mobile de backoffice construído do zero (solo developer) para artesãos gerenciarem negócios, portfólios e fluxos de curadoria de produtos.",
+        "technologies": [
+            "React Native",
+            "Redux Saga",
+            "Styled Components",
+            "Formik",
+            "OneSignal"
+        ],
         "images": {
             "thumbnail": "/projetos/casa-do-artesao/thumb.png"
         },

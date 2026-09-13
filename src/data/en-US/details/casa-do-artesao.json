@@ -1,0 +1,14 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "An application built entirely from scratch as a solo developer using React Native CLI (Bare Workflow). The app serves as a backoffice for artisans linked to a municipal development program. The platform enables comprehensive artisan registration (including bank details and official ID numbers), product cataloging with photo uploads and technical specifications (materials, measurements, weight), and tracking the curation status (in review, approved, rejected, sold). The home screen features a financial dashboard summarizing sales and business impact.",
+            "learnings": [
+                "End-to-end development (Full Ownership) of a Bare Workflow mobile app, taking complete responsibility for the architecture and native iOS/Android configurations.",
+                "Structuring extensive, multi-step forms (wizards) with Formik and Yup, ensuring data integrity for complex inputs like technical specs and bank details.",
+                "Implementing a media upload pipeline integrated into a curation state machine, handling hardware permissions and image processing (camera and gallery) directly from the device."
+            ],
+            "images": []
+        }
+    ]
+}
