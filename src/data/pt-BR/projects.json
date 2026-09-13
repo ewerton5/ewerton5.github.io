@@ -375,10 +375,16 @@
         "id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
         "slug": "toda-vida",
         "title": "Toda Vida",
-        "categories": ["Web", "Health"],
+        "categories": ["Web", "HealthTech", "Telemedicine"],
         "startDate": "2020-11-14",
-        "shortDescription": "Sistema web projetado para o segmento de saúde e corpo médico. A atuação envolveu auditoria rápida, sustentação de código e correções assertivas de bugs de UI.",
-        "technologies": ["React"],
+        "shortDescription": "Web platform for medical appointments. Focused on frontend-to-API integrations and ongoing code maintenance within a large team.",
+        "technologies": [
+            "React",
+            "Redux Toolkit",
+            "Material UI",
+            "Formik",
+            "Pagar.me"
+        ],
         "images": {
             "thumbnail": "/projetos/toda-vida/thumb.png"
         },

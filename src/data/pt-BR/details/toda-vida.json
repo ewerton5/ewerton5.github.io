@@ -1,0 +1,17 @@
+{
+    "links": {
+        "web": "https://todavida.com.br/"
+    },
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "Uma plataforma de telemedicina e agendamento conectando pacientes, médicos e secretárias. Minha atuação neste projeto consistiu em assumir uma base de código já em andamento dentro de uma equipe maior (squads de web, mobile e backend). Fui responsável por realizar integrações cirúrgicas das telas em React (Material UI) com as APIs RESTful do backend. Trabalhei diretamente na conexão de formulários, listas de agendamento e mapeamento de dados do paciente, lidando com um ecossistema legado que misturava Redux-Saga e Context API.",
+            "learnings": [
+                "Capacidade de rápida adaptação em bases de código legadas e extensas, lidando com padrões arquiteturais estabelecidos e dívidas técnicas.",
+                "Trabalho colaborativo e sincronização de entregas em um ambiente com múltiplos desenvolvedores.",
+                "Resolução de bugs complexos de UI e integração de fluxos assíncronos de pagamentos e agendamentos médicos."
+            ],
+            "images": []
+        }
+    ]
+}

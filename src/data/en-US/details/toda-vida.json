@@ -1,0 +1,17 @@
+{
+    "links": {
+        "web": "https://todavida.com.br/"
+    },
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "A telemedicine and medical appointment platform connecting patients, doctors, and secretaries. My role in this project was to step into an ongoing codebase within a larger team environment (web, mobile, and backend squads). I was responsible for surgically integrating existing React screens (built with Material UI) with the backend RESTful APIs. I worked directly on connecting forms, scheduling lists, and mapping patient data, navigating a legacy ecosystem that mixed Redux-Saga and the Context API.",
+            "learnings": [
+                "Ability to quickly adapt to extensive, existing codebases, managing established architectural patterns and technical debt.",
+                "Collaborative teamwork and synchronization of deliverables in a multi-developer environment.",
+                "Resolving complex UI bugs and integrating asynchronous flows for medical scheduling and payments."
+            ],
+            "images": []
+        }
+    ]
+}
