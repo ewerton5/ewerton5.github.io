@@ -418,16 +418,16 @@
     {
         "id": "e1a2b3c4-d5e6-f7a8-b9c0-d1e2f3a4b5c6",
         "slug": "ataca-pet",
-        "title": "Ataca Pet",
+        "title": "BWBS B2B Engine (Ataca Pet)",
         "categories": ["Mobile", "E-commerce", "B2B", "White-label"],
         "startDate": "2020-10-08",
-        "shortDescription": "Plataforma de e-commerce B2B no modelo white-label (SaaS) desenvolvida do zero, com arquitetura Server-Driven UI para franquias do segmento pet.",
+        "shortDescription": "Motor mobile B2B white-label desenvolvido para a BWBS Tecnologia. Utiliza Server-Driven UI para gerar apps customizados para múltiplos atacadistas integrados a ERPs.",
         "technologies": [
             "React Native",
             "Redux Saga",
             "Styled Components",
             "Formik",
-            "QR Scanner"
+            "Integração ERP"
         ],
         "images": {
             "thumbnail": "/projetos/ataca-pet/thumb.png"

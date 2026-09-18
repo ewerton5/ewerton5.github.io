@@ -5,11 +5,11 @@
     "platforms": [
         {
             "name": "Mobile",
-            "detailedDescription": "A B2B mobile application for pet product distributors, engineered as a white-label SaaS product. The core technical achievement was developing a rendering engine where tab bar menus, login requirements, logos, and color schemes are remotely driven by the backend API (Server-Driven UI). This architecture allowed a single app binary to serve multiple franchisees. The application also features advanced catalog navigation, multi-step checkout flows, recurring purchase lists, and camera integration for quick QR Code ordering.",
+            "detailedDescription": "A B2B mobile application architected as a white-label SaaS product for BWBS Tecnologia. Built from scratch, this codebase serves as a generic wholesale e-commerce engine, allowing the company to generate custom applications for multiple distributors (with 'Ataca Pet' being one of the major clients). The technical core is driven by Server-Driven UI: tab bar menus, authentication requirements, branding, and features are injected remotely via API payloads. The ecosystem deeply integrates with external ERPs (like KDT and Syscom7) to synchronize inventory, handle segmented pricing tables by region/client, fetch invoices/billing slips, and enable quick reordering via barcode scanning.",
             "learnings": [
-                "Architecting a highly scalable and customizable mobile solution using dynamic theme and route injection based on API payloads.",
-                "Building complex multi-step forms (wizards) with asynchronous regional validations.",
-                "Advanced handling of navigation logic coupled with side effects for programmatic screen redirects during async success or error flows."
+                "Architecting a scalable, multi-tenant mobile engine (White-label), designing a single React Native codebase capable of visually and functionally adapting to different enterprise clients.",
+                "Integrating complex B2B business rules on the client-side, managing dynamic pricing tiers, credit limits, and strict synchronization with legacy ERP systems.",
+                "Mastering advanced asynchronous flows by coupling React Navigation with Redux-Saga for programmatic redirects and dynamic route injection based on remote configurations."
             ],
             "images": []
         }
