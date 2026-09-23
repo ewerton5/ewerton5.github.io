@@ -1,0 +1,10 @@
+{
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "CRM e gerenciador de tickets Web + Back-end (Node). Plataforma de atendimento a clientes integrando fluxogramas visuais drag-and-drop de automação pré-IA e múltiplos canais de comunicação.",
+            "learnings": [],
+            "images": []
+        }
+    ]
+}

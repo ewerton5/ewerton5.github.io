@@ -1,0 +1,10 @@
+{
+    "platforms": [
+        {
+            "name": "Web",
+            "detailedDescription": "Web CRM and ticket management platform + Back-end (Node). Customer service platform integrating drag-and-drop visual flowcharts for pre-AI automation and multiple communication channels.",
+            "learnings": [],
+            "images": []
+        }
+    ]
+}
