@@ -1,0 +1,39 @@
+{
+    "platforms": [
+        {
+            "name": "Backend & AI Automation",
+            "detailedDescription": "Data pipeline focused on affiliate marketing automation. The system orchestrates web scraping from platforms like Mercado Livre and Shopee, utilizing LLMs to analyze products and automatically write contextualized promotional copy. It then generates affiliate links and triggers the Evolution API to execute broadcasts to specific WhatsApp groups, strictly segmented by product categories.",
+            "learnings": [
+                "Integration and orchestration of LLMs for mass copywriting generation within n8n workflows.",
+                "Implementation of PostgreSQL databases for reliable tracking and logging of broadcast histories.",
+                "Performance optimization and request traffic control using Redis as a caching layer."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/economyx/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-6.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

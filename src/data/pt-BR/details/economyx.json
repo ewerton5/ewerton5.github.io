@@ -1,0 +1,39 @@
+{
+    "platforms": [
+        {
+            "name": "Backend & Automação de IA",
+            "detailedDescription": "Pipeline de dados focado em automação de marketing de afiliados. O sistema orquestra web scraping de plataformas como Mercado Livre e Shopee, e utiliza LLMs para analisar os produtos e redigir automaticamente textos promocionais contextualizados. Em seguida, gera links de afiliados e aciona a Evolution API para realizar disparos em grupos específicos do WhatsApp, segmentados por categorias de produtos.",
+            "learnings": [
+                "Integração e orquestração de LLMs para tarefas de copywriting em massa utilizando n8n.",
+                "Implementação de banco de dados PostgreSQL para registro confiável de todo o histórico de disparos.",
+                "Otimização de performance e controle de tráfego de requisições utilizando Redis como camada de cache."
+            ],
+            "images": [
+                {
+                    "url": "/projetos/economyx/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projetos/economyx/screen-6.png",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

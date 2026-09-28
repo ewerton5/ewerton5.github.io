@@ -1,5 +1,30 @@
 [
     {
+        "id": "dc48c895-d34c-403b-b50e-7e3149e86fa0",
+        "slug": "economyx",
+        "title": "Economyx",
+        "categories": [
+            "Backend",
+            "Artificial Intelligence",
+            "Automation",
+            "Data"
+        ],
+        "startDate": "2025-12-22",
+        "shortDescription": "AI agent and automation pipeline for e-commerce web scraping, dynamic affiliate link generation, and segmented WhatsApp broadcasting via n8n.",
+        "technologies": [
+            "n8n",
+            "Evolution API",
+            "PostgreSQL",
+            "Redis",
+            "LLMs",
+            "Web Scraping"
+        ],
+        "images": {
+            "thumbnail": "/projetos/economyx/thumb.png"
+        },
+        "backgroundColor": "#0F0F0F"
+    },
+    {
         "id": "ce64c18a-a016-465d-9d14-e41f06a02551",
         "slug": "hotfloor",
         "title": "Hotfloor",
