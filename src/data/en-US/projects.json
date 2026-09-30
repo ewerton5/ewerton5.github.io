@@ -20,7 +20,7 @@
             "Web Scraping"
         ],
         "images": {
-            "thumbnail": "/projetos/economyx/thumb.png"
+            "thumbnail": "/projects/economyx/thumb.png"
         },
         "backgroundColor": "#0F0F0F"
     },
@@ -33,7 +33,7 @@
         "shortDescription": "Thermal automation and IoT application (Hotfloor). Led the technical rescue and modernization of a legacy project burdened by high technical debt. Drove a deep structural refactor, replacing rigid logic with Zustand and React Query, and implemented robust validation with Zod and React Hook Form. Engineered MQTT communication focused on thermostats and Hot Closets.",
         "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
         "images": {
-            "thumbnail": "/projetos/hotfloor/thumb.png"
+            "thumbnail": "/projects/hotfloor/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -52,7 +52,7 @@
             "Geolocation"
         ],
         "images": {
-            "thumbnail": "/projetos/to-na-pista/thumb.png"
+            "thumbnail": "/projects/to-na-pista/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -65,7 +65,7 @@
         "shortDescription": "Robust educational platform built end-to-end. Features a complex user hierarchy (teachers, principals, students) and real-time task management.",
         "technologies": ["FlutterFlow", "Supabase"],
         "images": {
-            "thumbnail": "/projetos/medway/thumb.png"
+            "thumbnail": "/projects/medway/thumb.png"
         },
         "backgroundColor": "#18191C"
     },
@@ -78,7 +78,7 @@
         "shortDescription": "Application for the real estate inspection niche. Drove deep legacy code maintenance, resolved performance bottlenecks, and fixed critical bugs.",
         "technologies": ["FlutterFlow"],
         "images": {
-            "thumbnail": "/projetos/reatop/thumb.png"
+            "thumbnail": "/projects/reatop/thumb.png"
         },
         "backgroundColor": "#0FA0CE"
     },
@@ -96,7 +96,7 @@
             "Performance"
         ],
         "images": {
-            "thumbnail": "/projetos/rio-vistorias/thumb.png"
+            "thumbnail": "/projects/rio-vistorias/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -109,7 +109,7 @@
         "shortDescription": "Inspection application delivered in a record 24-hour turnaround, with back-end integration via Supabase and local architecture via SQLite.",
         "technologies": ["FlutterFlow", "SQLite", "Supabase"],
         "images": {
-            "thumbnail": "/projetos/vibra/thumb.png"
+            "thumbnail": "/projects/vibra/thumb.png"
         },
         "backgroundColor": "#0B411F"
     },
@@ -122,7 +122,7 @@
         "shortDescription": "Robust payments and e-commerce platform. Served as Tech Lead, managing junior teams and implementing critical back-end API integrations (Reportana, UTMIFY, Notazz).",
         "technologies": ["React", "Node.js", "Express"],
         "images": {
-            "thumbnail": "/projetos/ozires/thumb.png"
+            "thumbnail": "/projects/ozires/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -135,7 +135,7 @@
         "shortDescription": "B2B application built from scratch for the optical retail sector, focused on product management, prescription tracking, and eyewear inventory control.",
         "technologies": ["FlutterFlow"],
         "images": {
-            "thumbnail": "/projetos/spherica/thumb.png"
+            "thumbnail": "/projects/spherica/thumb.png"
         },
         "backgroundColor": "#F6F6F6"
     },
@@ -153,7 +153,7 @@
             "Cloud Functions"
         ],
         "images": {
-            "thumbnail": "/projetos/paa-advogados/thumb.png"
+            "thumbnail": "/projects/paa-advogados/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -166,7 +166,7 @@
         "shortDescription": "Web application built from scratch using visual frameworks. The project covered the architectural foundation phases before being put on hold.",
         "technologies": ["FlutterFlow"],
         "images": {
-            "thumbnail": "/projetos/copyreveal/thumb.png"
+            "thumbnail": "/projects/copyreveal/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -192,7 +192,7 @@
         "shortDescription": "Utility app embedded in a portable label printer, using a text-based bridge (a functional technical workaround) to communicate without an SDK.",
         "technologies": ["FlutterFlow", "Hardware Integration"],
         "images": {
-            "thumbnail": "/projetos/miruna/thumb.png"
+            "thumbnail": "/projects/miruna/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -205,7 +205,7 @@
         "shortDescription": "Niche social network built in FlutterFlow with real-time chat integrated with Firebase.",
         "technologies": ["FlutterFlow", "Firebase", "Social Network"],
         "images": {
-            "thumbnail": "/projetos/procac/thumb.png"
+            "thumbnail": "/projects/procac/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -218,7 +218,7 @@
         "shortDescription": "UFRJ web system designed to automatically aggregate internship and job opportunities for students.",
         "technologies": ["Web", "Integration"],
         "images": {
-            "thumbnail": "/projetos/poli-vagas/thumb.png"
+            "thumbnail": "/projects/poli-vagas/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -236,7 +236,7 @@
             "Detox"
         ],
         "images": {
-            "thumbnail": "/projetos/skys-the-limit/thumb.png"
+            "thumbnail": "/projects/skys-the-limit/thumb.png"
         },
         "backgroundColor": "#181815"
     },
@@ -249,7 +249,7 @@
         "shortDescription": "Parking lot management system embedded natively on Smart POS devices (Stone). Features instant license plate recognition via camera (OCR), thermal printing, and direct payment integration. The architecture ensures robust synchronization with a legacy MySQL database through a Node.js back-end.",
         "technologies": ["Smart POS", "OCR", "Node.js", "Stone Integration"],
         "images": {
-            "thumbnail": "/projetos/megapark/thumb.png"
+            "thumbnail": "/projects/megapark/thumb.png"
         },
         "backgroundColor": "#0264D9"
     },
@@ -262,7 +262,7 @@
         "shortDescription": "Streaming application with a Netflix-inspired interface and navigation architecture. Focused on technical maintenance and stability.",
         "technologies": ["React Native"],
         "images": {
-            "thumbnail": "/projetos/mginx/thumb.png"
+            "thumbnail": "/projects/mginx/thumb.png"
         },
         "backgroundColor": "#000000"
     },
@@ -275,7 +275,7 @@
         "shortDescription": "Corporate application within the mobile ecosystem, with targeted code maintenance and stability improvements in React Native.",
         "technologies": ["React Native"],
         "images": {
-            "thumbnail": "/projetos/reckitt/thumb.png"
+            "thumbnail": "/projects/reckitt/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -288,7 +288,7 @@
         "shortDescription": "Full migration of a responsive e-commerce site to a native mobile application using the client's existing API.",
         "technologies": ["React Native", "E-commerce"],
         "images": {
-            "thumbnail": "/projetos/offstore/thumb.png"
+            "thumbnail": "/projects/offstore/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -301,7 +301,7 @@
         "shortDescription": "Residential automation and IoT ecosystem (Smartly). Built the application from scratch with a scalable architecture and clean code, using Redux for global state management. Engineered direct firmware integration via the MQTT protocol for complete environment control, spanning thermostats, lighting, blinds, audio, and control panels.",
         "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
         "images": {
-            "thumbnail": "/projetos/smartly/thumb.png"
+            "thumbnail": "/projects/smartly/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -314,7 +314,7 @@
         "shortDescription": "Social network focused on a community of mothers, with native chat via WebSockets (group and private).",
         "technologies": ["React Native", "WebSockets"],
         "images": {
-            "thumbnail": "/projetos/mami/thumb.png"
+            "thumbnail": "/projects/mami/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -327,7 +327,7 @@
         "shortDescription": "Dynamic inspection app with API-generated forms and an Offline-First architecture built natively without external global libraries, alongside the Vistomobi Vistoriador web platform.",
         "technologies": ["React Native", "Offline-First", "Web"],
         "images": {
-            "thumbnail": "/projetos/vistomobi/thumb.png"
+            "thumbnail": "/projects/vistomobi/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -340,7 +340,7 @@
         "shortDescription": "100% offline configuration app for Intelbras alarm control panels, with deep JSON file reading and writing via a local USB connection to the phone.",
         "technologies": ["React Native", "Offline", "File System (FS)"],
         "images": {
-            "thumbnail": "/projetos/livecom-intelbras/thumb.png"
+            "thumbnail": "/projects/livecom-intelbras/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -359,7 +359,7 @@
             "Styled Components"
         ],
         "images": {
-            "thumbnail": "/projetos/desbank/thumb.png"
+            "thumbnail": "/projects/desbank/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -378,7 +378,7 @@
             "Styled Components"
         ],
         "images": {
-            "thumbnail": "/projetos/movepay/thumb.png"
+            "thumbnail": "/projects/movepay/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -397,7 +397,7 @@
             "OneSignal"
         ],
         "images": {
-            "thumbnail": "/projetos/casa-do-artesao/thumb.png"
+            "thumbnail": "/projects/casa-do-artesao/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -417,7 +417,7 @@
             "Tecnospeed"
         ],
         "images": {
-            "thumbnail": "/projetos/digipay/thumb.png"
+            "thumbnail": "/projects/digipay/thumb.png"
         },
         "backgroundColor": "#F0F0F0"
     },
@@ -436,7 +436,7 @@
             "Pagar.me"
         ],
         "images": {
-            "thumbnail": "/projetos/toda-vida/thumb.png"
+            "thumbnail": "/projects/toda-vida/thumb.png"
         },
         "backgroundColor": "#44B9B5"
     },
@@ -455,7 +455,7 @@
             "ERP Integration"
         ],
         "images": {
-            "thumbnail": "/projetos/ataca-pet/thumb.png"
+            "thumbnail": "/projects/ataca-pet/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -475,7 +475,7 @@
             "Styled Components"
         ],
         "images": {
-            "thumbnail": "/projetos/cofarja/thumb.png"
+            "thumbnail": "/projects/cofarja/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -488,7 +488,7 @@
         "shortDescription": "An EdTech social network MVP connecting teachers and students, built during a 3-day hackathon.",
         "technologies": ["React Native", "Expo", "Axios", "React Native Paper"],
         "images": {
-            "thumbnail": "/projetos/learn-sharing/thumb.png"
+            "thumbnail": "/projects/learn-sharing/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -507,7 +507,7 @@
             "Apple Sign-In"
         ],
         "images": {
-            "thumbnail": "/projetos/odonto-guardians/thumb.png"
+            "thumbnail": "/projects/odonto-guardians/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
@@ -525,7 +525,7 @@
             "AsyncStorage"
         ],
         "images": {
-            "thumbnail": "/projetos/the-undergrad/thumb.png"
+            "thumbnail": "/projects/the-undergrad/thumb.png"
         },
         "backgroundColor": "#D8DBDE"
     },
@@ -544,7 +544,7 @@
             "WordPress API"
         ],
         "images": {
-            "thumbnail": "/projetos/radio-arquibancada/thumb.png"
+            "thumbnail": "/projects/radio-arquibancada/thumb.png"
         },
         "backgroundColor": "#2A4C62"
     },
@@ -557,7 +557,7 @@
         "shortDescription": "Executive dashboard and corporate operations hub (mini-ERP). Centralized real-time KPIs (NPS and revenue), schedule management, and physical access control via smart QR code scanning.",
         "technologies": ["React Native", "Expo", "Redux", "OAuth", "UX/UI"],
         "images": {
-            "thumbnail": "/projetos/app-fluxo/thumb.png"
+            "thumbnail": "/projects/app-fluxo/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     }

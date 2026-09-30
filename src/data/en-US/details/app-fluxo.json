@@ -12,12 +12,30 @@
                 "Engineered a standardized global error-handling system (ShowError) for API failures or missing hardware permissions, and enforced rigorous layout constants for fluid responsiveness across screen sizes."
             ],
             "images": [
-                { "url": "/projetos/app-fluxo/screen-1.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-2.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-3.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-4.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-5.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-6.png", "orientation": "portrait" }
+                {
+                    "url": "/projects/app-fluxo/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-6.png",
+                    "orientation": "portrait"
+                }
             ]
         }
     ]

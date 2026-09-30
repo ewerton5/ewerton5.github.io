@@ -12,12 +12,30 @@
                 "Criação de um sistema de tratamento de erros global (ShowError) padronizado para falhas de API ou falta de permissões de hardware, além do uso rigoroso de constantes de layout para responsividade fluida em diferentes tamanhos de tela."
             ],
             "images": [
-                { "url": "/projetos/app-fluxo/screen-1.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-2.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-3.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-4.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-5.png", "orientation": "portrait" },
-                { "url": "/projetos/app-fluxo/screen-6.png", "orientation": "portrait" }
+                {
+                    "url": "/projects/app-fluxo/screen-1.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-2.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-3.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-4.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-5.png",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/app-fluxo/screen-6.png",
+                    "orientation": "portrait"
+                }
             ]
         }
     ]

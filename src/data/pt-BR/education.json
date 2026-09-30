@@ -6,7 +6,7 @@
             "degree": "Engenharia Eletrônica e de Computação",
             "period": "2019 - 2025",
             "description": "Formação densa em engenharia de software e hardware. Destaque em disciplinas de Algoritmos e Estruturas de Dados, Inteligência Artificial, Banco de Dados, Processamento de Sinais, Sistemas Operacionais, Comunicações e Controle Multivariável.",
-            "credentialUrl": "/certificados/Certificado Ensino Superior UFRJ.pdf"
+            "credentialUrl": "/certifications/Certificado Ensino Superior UFRJ.pdf"
         },
         {
             "id": "b1adf338-c8bd-4b95-bd8e-0e481be08df3",
@@ -21,7 +21,7 @@
             "degree": "Ensino Médio e Formação Militar",
             "period": "2014 - 2016",
             "description": "Admissão mediante concurso público de alta concorrência. Formação de base sólida em exatas, introdução à programação e forte condicionamento físico militar.",
-            "credentialUrl": "/certificados/Certificado Ensino Médio Epcar.pdf"
+            "credentialUrl": "/certifications/Certificado Ensino Médio Epcar.pdf"
         },
         {
             "id": "a8aecd16-0422-4226-b61c-dcdeb7567b75",
@@ -29,7 +29,7 @@
             "degree": "Ensino Médio (Certificação via ENEM)",
             "period": "2016",
             "description": "Certificação de Ensino Médio obtida através de excelente pontuação no ENEM.",
-            "credentialUrl": "/certificados/Certificado Ensino Médio IFRJ.pdf"
+            "credentialUrl": "/certifications/Certificado Ensino Médio IFRJ.pdf"
         },
         {
             "id": "e8935cff-7863-4d19-b09b-d0e9c8a8ef0a",
@@ -37,7 +37,7 @@
             "degree": "Ensino Médio",
             "period": "2011 - 2013",
             "description": "Formação de ensino médio anterior ao ingresso na EPCAR.",
-            "credentialUrl": "/certificados/Certificado Ensino Médio CEBJA.pdf"
+            "credentialUrl": "/certifications/Certificado Ensino Médio CEBJA.pdf"
         }
     ],
     "certifications": [
@@ -46,140 +46,140 @@
             "title": "Cursos de Windows, Word, Excel, Power Point e Internet",
             "platform": "Opção Informática",
             "year": "2007",
-            "credentialUrl": "/certificados/Certificado Windows Opção informática.pdf"
+            "credentialUrl": "/certifications/Certificado Windows Opção informática.pdf"
         },
         {
             "id": "91401897-2839-43db-9937-083082ee31ea",
             "title": "Curso de Treinamento Profissionalizante",
             "platform": "S.O.S.",
             "year": "2009",
-            "credentialUrl": "/certificados/Certificado Treinamento Profissionalizante SOS.pdf"
+            "credentialUrl": "/certifications/Certificado Treinamento Profissionalizante SOS.pdf"
         },
         {
             "id": "ae7ad3ee-d9e0-4e76-8333-53bd5b2489a8",
             "title": "Curso de Montagem e Manutenção de Microprocessadores",
             "platform": "Poligon",
             "year": "2009",
-            "credentialUrl": "/certificados/Certificado Montagem e Manutenção de Microprocessadores Poligon.pdf"
+            "credentialUrl": "/certifications/Certificado Montagem e Manutenção de Microprocessadores Poligon.pdf"
         },
         {
             "id": "f047a9c2-a559-45d7-b0b8-36cd3e0ec2d9",
             "title": "Curso de Lógica de Programação",
             "platform": "Softblue",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Lógica de Programação Softblue.pdf"
+            "credentialUrl": "/certifications/Certificado Lógica de Programação Softblue.pdf"
         },
         {
             "id": "3094cae1-6ca0-48bb-97d6-fdbe7093e6fe",
             "title": "Curso de Algoritmo",
             "platform": "Curso em Vídeo",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Algorítimo Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado Algorítimo Curso em Vídeo.pdf"
         },
         {
             "id": "d671ceb6-0528-45c0-9fa0-80b47879a0a4",
             "title": "Curso de HTML5",
             "platform": "Curso em Vídeo",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Html5 Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado Html5 Curso em Vídeo.pdf"
         },
         {
             "id": "11406f88-908f-4be1-a9ec-f791036e3369",
             "title": "Curso de Introdução ao PHP",
             "platform": "iPED",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado PHP iPED.pdf"
+            "credentialUrl": "/certifications/Certificado PHP iPED.pdf"
         },
         {
             "id": "9a29e0ec-7797-4b77-91a0-e8e9215e1058",
             "title": "Curso de PHP",
             "platform": "Curso em Vídeo",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado PHP Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado PHP Curso em Vídeo.pdf"
         },
         {
             "id": "228ee039-f49d-4cf0-9edc-679c4d471602",
             "title": "Curso de Introdução ao Python Básico",
             "platform": "iPED",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Python iPED.pdf"
+            "credentialUrl": "/certifications/Certificado Python iPED.pdf"
         },
         {
             "id": "822bf782-956c-4775-a1f6-8b6816ee8b2d",
             "title": "Curso de Python 3",
             "platform": "Curso em Vídeo",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Python Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado Python Curso em Vídeo.pdf"
         },
         {
             "id": "026d1433-9a68-4718-847b-1892afd2fcbd",
             "title": "Curso de Java: Vetores",
             "platform": "iPED",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado Java iPED.pdf"
+            "credentialUrl": "/certifications/Certificado Java iPED.pdf"
         },
         {
             "id": "20627c21-5dc1-4388-8045-4f933fe66a69",
             "title": "Curso de MySQL: Introdução ao Banco de Dados",
             "platform": "iPED",
             "year": "2018",
-            "credentialUrl": "/certificados/Certificado MySQL iPED.pdf"
+            "credentialUrl": "/certifications/Certificado MySQL iPED.pdf"
         },
         {
             "id": "0c7e6783-a57e-4d4a-88cb-6f4eb864ade7",
             "title": "Curso de Java",
             "platform": "Curso em Vídeo",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado Java Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado Java Curso em Vídeo.pdf"
         },
         {
             "id": "d0f7c074-ce15-4ade-bd09-514a77d5522f",
             "title": "Curso de Programação Orientada a Objeto em Java",
             "platform": "Curso em Vídeo",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado POO Java Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado POO Java Curso em Vídeo.pdf"
         },
         {
             "id": "3db78f7a-c664-4fda-92fa-40e7a7ddd1ec",
             "title": "Curso de Programação Orientada a Objeto em PHP",
             "platform": "Curso em Vídeo",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado POO PHP Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado POO PHP Curso em Vídeo.pdf"
         },
         {
             "id": "4c44d1a4-f07c-4d8d-9e59-7df3ebfc89d7",
             "title": "Curso de MySQL",
             "platform": "Curso em Vídeo",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado MySQL Curso em Vídeo.pdf"
+            "credentialUrl": "/certifications/Certificado MySQL Curso em Vídeo.pdf"
         },
         {
             "id": "7188e062-2c0b-41a5-8888-62967e5b212e",
             "title": "Curso de Dreamweaver CS6: Introdução",
             "platform": "iPED",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado Dreamweaver CS6 introdução iPED.pdf"
+            "credentialUrl": "/certifications/Certificado Dreamweaver CS6 introdução iPED.pdf"
         },
         {
             "id": "ef88627e-061e-4078-be34-381dbe06455a",
             "title": "Curso de Introdução ao Dreamweaver com PHP e MySQL",
             "platform": "iPED",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado Introdução ao Dreamweaver CS6 com PHP e MySQL iPED.pdf"
+            "credentialUrl": "/certifications/Certificado Introdução ao Dreamweaver CS6 com PHP e MySQL iPED.pdf"
         },
         {
             "id": "3db5292c-3da2-4c16-819f-892254edfc25",
             "title": "Curso de Desenvolvimento de Games para Android - Básico: Personagens",
             "platform": "iPED",
             "year": "2019",
-            "credentialUrl": "/certificados/Certificado Desenvolvimento de Games para Android iPED.pdf"
+            "credentialUrl": "/certifications/Certificado Desenvolvimento de Games para Android iPED.pdf"
         },
         {
             "id": "3d7a667c-6a50-4e2a-8d03-faca9414af36",
             "title": "Informática para Educação LIpE",
             "platform": "LIpE",
             "year": "2022",
-            "credentialUrl": "/certificados/Certificado LIpE.pdf"
+            "credentialUrl": "/certifications/Certificado LIpE.pdf"
         }
     ],
     "languages": [
