@@ -1,0 +1,21 @@
+{
+    "links": {
+        "web": "https://app.skysthelimit.org/sign-in",
+        "android": "https://play.google.com/store/apps/details?id=org.skysthelimit.stl",
+        "ios": "https://apps.apple.com/br/app/skys-the-limit-mentorship/id6448298970"
+    },
+    "platforms": [
+        {
+            "name": "App Multiplataforma (iOS/Android) & PWA Web",
+            "detailedDescription": "Sky's The Limit (STL) é uma comunidade digital baseada na Califórnia, operando como uma rede social e aceleradora sem fins lucrativos que conecta empreendedores em fase inicial com mentores voluntários e oportunidades de subsídios financeiros. Fui o Arquiteto Front-end principal responsável por desenhar e inicializar toda a fundação técnica do projeto. O maior trunfo de engenharia foi a adoção da arquitetura 'Single Codebase' através do react-native-web e Webpack 5, permitindo que o mesmo código React Native gerasse simultaneamente o aplicativo para iOS, o aplicativo para Android e o sistema Web (como o modelo arquitetural do Twitter). Atuei não apenas na estruturação técnica avançada (Twilio, Apollo/GraphQL, E2E), mas também no gerenciamento e contenção de débitos técnicos gerados pela expansão acelerada para uma equipe de desenvolvimento terceirizada multinacional.",
+            "learnings": [
+                "Arquitetura Universal (React Native Web): Domínio do compartilhamento de código absoluto, adaptando componentes, rotas e bundlers (Webpack) para que a base em React Native fosse compilada de forma idêntica e performática para ambientes Web e Mobile simultaneamente.",
+                "Integração WebRTC e Chat (Twilio): Implementação complexa de salas de videoconferência e chat em tempo real utilizando os SDKs da Twilio, lidando com permissões nativas e sincronização de estado.",
+                "Estratégia Rigorosa de Testes E2E: Configuração e escrita de testes de ponta a ponta (End-to-End) em dois ecossistemas distintos: Cypress para a versão web da aplicação e Detox para a simulação de fluxos críticos nos binários de iOS e Android.",
+                "Gestão de Dados Avançada com GraphQL: Estruturação do consumo de APIs baseadas em grafos através do Apollo Client, utilizando queries locais, mutations otimistas e subscriptions (via graphql-ws) para recursos em tempo real.",
+                "Governança de Código em Equipes Globais: Experiência prática (e desafiadora) de atuar como guardião da arquitetura inicial em um ecossistema com múltiplos desenvolvedores offshore, exigindo revisões constantes e adaptação aos gargalos impostos pela escalabilidade técnica e humana."
+            ],
+            "images": []
+        }
+    ]
+}

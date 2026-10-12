@@ -228,10 +228,11 @@
         "title": "Sky's The Limit",
         "categories": ["Mobile", "Web"],
         "startDate": "2023-02-13",
-        "shortDescription": "Multi-platform social network for entrepreneurs built in React Native Web. Features advanced capabilities such as video calls (Twilio), real-time chat via WebSockets, and rigorous automated testing using Cypress (Web) and Detox (Mobile).",
+        "shortDescription": "Social network for entrepreneurs developed under a unified architecture (Single Codebase) with React Native Web, deployed simultaneously to iOS, Android, and Web.",
         "technologies": [
             "React Native Web",
             "Twilio / WebRTC",
+            "GraphQL",
             "Cypress",
             "Detox"
         ],
