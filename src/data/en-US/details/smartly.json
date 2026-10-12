@@ -1,0 +1,20 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.smartlybrasil&hl=pt_BR",
+        "ios": "https://apps.apple.com/br/app/smartly-brasil/id6751970755"
+    },
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Smartly is the core home automation ecosystem for Smartly Brasil, deeply integrated with the Hotfloor product line. I built the foundation of this application almost entirely from scratch, designing it to be the universal remote for the smart home. It enables real-time provisioning, monitoring, and control of IoT thermostats, lighting, locks, and various actuators. Due to severe structural deficiencies in the backend during this initial phase, the app's architecture had to be exceptionally resilient, requiring deep workarounds and robust frontend logic (using Redux and Redux-Saga) to bypass API failures. The project also featured targeted mentorship from a senior developer for the initial structuring of MQTT communication and the creation of complex animations, significantly elevating my technical level and permanently altering my career trajectory.",
+            "learnings": [
+                "IoT Integration & Hardware Provisioning: Mastered complex workflows for adding physical devices to local networks, utilizing smart config protocols like ESP-Touch and direct Access Point connections (192.168.4.1).",
+                "Real-Time Communication via MQTT: Implemented AWS IoT Core (via Amplify PubSub) for topic subscription and bidirectional Device Shadow synchronization, orchestrating instant hardware updates directly into the global state (Redux).",
+                "Advanced UI/UX Engineering & Animations: Created highly interactive hardware control interfaces, including the development of custom circular sliders (using react-native-reanimated 2) for thermostats and dimmers.",
+                "Frontend Resilience & Fault Tolerance: Architected complex solutions to compensate for an unstable backend, ensuring the end-user experienced a fluid smart home environment without bottlenecks or interruptions.",
+                "Serverless Security & Authentication: Integrated AWS Cognito via AWS Amplify for comprehensive and secure management of the authentication lifecycle (login, registration, recovery)."
+            ],
+            "images": []
+        }
+    ]
+}

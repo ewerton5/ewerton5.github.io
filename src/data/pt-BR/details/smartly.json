@@ -1,0 +1,20 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.smartlybrasil&hl=pt_BR",
+        "ios": "https://apps.apple.com/br/app/smartly-brasil/id6751970755"
+    },
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Smartly é o ecossistema central de automação residencial da Smartly Brasil, fortemente integrado à linha Hotfloor. Construí a fundação deste aplicativo quase em sua totalidade a partir do zero, projetando-o para ser o controle universal da casa inteligente. Ele permite o provisionamento, monitoramento e controle em tempo real de termostatos, iluminação, fechaduras e variados atuadores IoT. Devido a graves deficiências estruturais no backend durante essa fase inicial, a arquitetura do aplicativo precisou ser excepcionalmente resiliente, exigindo workarounds profundos e lógicas robustas no frontend (utilizando Redux e Redux-Saga) para contornar falhas da API. O projeto também contou com a mentoria pontual de um desenvolvedor sênior para a estruturação inicial da comunicação MQTT e criação de animações complexas, elevando meu nível técnico e mudando definitivamente o rumo da minha carreira.",
+            "learnings": [
+                "Integração IoT e Provisionamento de Hardware: Domínio de fluxos complexos de adição de dispositivos físicos à rede, utilizando protocolos de smart config como ESP-Touch e conexão direta via Access Point (192.168.4.1).",
+                "Comunicação em Tempo Real via MQTT: Implementação do AWS IoT Core (via Amplify PubSub) para assinatura de tópicos e sincronização bidirecional de Device Shadows, orquestrando as atualizações instantâneas de hardware direto no estado global (Redux).",
+                "Engenharia de UI/UX Avançada e Animações: Criação de interfaces de controle de hardware altamente interativas, incluindo o desenvolvimento de sliders circulares customizados (com react-native-reanimated 2) para termostatos e dimmers.",
+                "Resiliência e Tolerância a Falhas no Frontend: Arquitetura de soluções complexas para suprir deficiências de um backend instável, garantindo que o usuário final tivesse uma experiência fluida de casa inteligente sem gargalos ou interrupções.",
+                "Segurança e Autenticação Serverless: Integração com AWS Cognito via AWS Amplify para o gerenciamento completo e seguro do ciclo de vida de autenticação (login, cadastro, recuperação)."
+            ],
+            "images": []
+        }
+    ]
+}

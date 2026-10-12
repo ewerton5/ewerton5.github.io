@@ -298,8 +298,14 @@
         "title": "Smartly",
         "categories": ["Mobile"],
         "startDate": "2022-02-07",
-        "shortDescription": "Residential automation and IoT ecosystem (Smartly). Built the application from scratch with a scalable architecture and clean code, using Redux for global state management. Engineered direct firmware integration via the MQTT protocol for complete environment control, spanning thermostats, lighting, blinds, audio, and control panels.",
-        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
+        "shortDescription": "IoT and home automation ecosystem (Smartly). App built from scratch with direct firmware integration via MQTT protocol for real-time environment control.",
+        "technologies": [
+            "React Native",
+            "IoT",
+            "MQTT",
+            "ESP-Touch",
+            "AWS Cognito"
+        ],
         "images": {
             "thumbnail": "/projects/smartly/thumb.png"
         },

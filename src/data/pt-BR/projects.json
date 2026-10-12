@@ -298,8 +298,14 @@
         "title": "Smartly",
         "categories": ["Mobile"],
         "startDate": "2022-02-07",
-        "shortDescription": "Ecossistema de automação residencial e IoT (Smartly). Aplicativo construído do zero com arquitetura escalável e código limpo, utilizando Redux para o gerenciamento de estado global. Integração direta com firmwares via protocolo MQTT para o controle completo de ambientes, abrangendo termostatos, iluminação, persianas, áudio e painéis de controle.",
-        "technologies": ["IoT", "MQTT", "ESP-Touch", "React Native"],
+        "shortDescription": "Ecossistema de automação residencial e IoT (Smartly). Aplicativo construído do zero com integração direta a firmwares via protocolo MQTT para controle em tempo real de ambientes.",
+        "technologies": [
+            "React Native",
+            "IoT",
+            "MQTT",
+            "ESP-Touch",
+            "AWS Cognito"
+        ],
         "images": {
             "thumbnail": "/projects/smartly/thumb.png"
         },
