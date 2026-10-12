@@ -1,0 +1,26 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App (Smart POS)",
+            "detailedDescription": "MegaPark Mobile is an operational application built from scratch to run natively inside Stone Smart POS terminals (Android devices). Designed to automate the parking management for the MegaSysPark network, the app covers everything from vehicle entry (with instant license plate reading via OCR) to exit, cash flow management, payments (Credit/Pix), and management patio reports. I took on the monumental challenge of unifying conventional software processes with deep hardware integrations, dealing with native SDKs for financial transactions and thermal printing (receipts generated via HTML templates sent directly to the device's printer). Although currently in 'standby' mode by the client (in an endless loop of SDK updates), it stands as one of the most comprehensive hybrid integration projects of my career.",
+            "learnings": [
+                "Hybrid Software & Hardware Engineering: Embedded development on Stone Smart POS (Android) terminals, mastering native SDK integrations (react-native-stone-smart-pos) for complex financial transactions and low-level thermal printing.",
+                "Computer Vision in the Frontend (OCR): Orchestrated a native camera implementation (with a custom patch) integrated with the Plate Recognizer API for automatic extraction and validation of vehicle license plate characters (LPR).",
+                "Dynamic Document Generation (HTML to Print): Structuring and rendering financial receipt layouts using HTML markup, parsed at runtime and dispatched directly to the machine's print drivers.",
+                "Continuous Upgrade Orchestration: Managing and modernizing a long-lifecycle project (4 years), executing complex React Native upgrades and third-party SDK adaptations to keep the codebase healthy and compilable."
+            ],
+            "images": []
+        },
+        {
+            "name": "Backend REST API",
+            "detailedDescription": "The MegaPark backend was my first major foray into structured server-side engineering. The core requirement was to build a modern Node.js REST API (Express + TypeORM) that was strictly required to connect to a massive, archaic legacy MySQL (5.7) database from a pre-existing desktop system—consisting of over 100 tables with outdated naming conventions. Furthermore, I had to implement dense tariff business rules, integrate toll payment APIs (Sem Parar, Veloe, ConectCar), and eventually take over the entire codebase when another developer abandoned the project. This forced me to debug fragile implementations (such as global Axios header concurrency issues) and apply structural refactorings in real-time.",
+            "learnings": [
+                "Legacy Database Integration & Modernization: Aggressive strategies for mapping old data to modern stacks (Node/TypeORM), extracting and rebuilding schemas via typeorm-model-generator without affecting parallel production systems.",
+                "Server-Side Development (Node.js): Built a layered architecture (Routes, Middlewares, Controllers, Repositories, Models), implementing security via JWT Auth and modeling highly complex business rules (dynamic tariff calculations).",
+                "Concurrency Resolution & Technical Debt: Advanced ability to inherit problematic third-party code, identifying and fixing memory leaks and request isolation failures (e.g., global header overwrites in simultaneous concurrent calls).",
+                "Multi-Provider Gateway Management: Synchronous orchestration with the country's most popular vehicular gateway ecosystems (Sem Parar, Veloe, and ConectCar), securely isolating keys and credentials."
+            ],
+            "images": []
+        }
+    ]
+}

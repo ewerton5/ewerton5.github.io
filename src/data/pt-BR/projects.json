@@ -243,11 +243,18 @@
     {
         "id": "7cda879e-4cad-4ace-bb8b-023680e6e2f2",
         "slug": "megapark",
-        "title": "Megapark",
+        "title": "MegaPark",
         "categories": ["Mobile", "Backend"],
         "startDate": "2022-11-17",
-        "shortDescription": "Sistema de gestão de pátio embarcado nativamente em Smart POS (Stone). Apresenta leitura instantânea de placas via câmera (OCR), impressão térmica e integração direta de pagamentos. A arquitetura contempla a sincronização robusta com um banco de dados MySQL legado através de um back-end estruturado em Node.js.",
-        "technologies": ["Smart POS", "OCR", "Node.js", "Integração Stone"],
+        "shortDescription": "Sistema de gestão de pátio embarcado nativamente em maquininhas Smart POS (Stone), com impressão térmica e OCR. Conta com backend Node.js integrado a banco MySQL legado.",
+        "technologies": [
+            "React Native",
+            "Node.js",
+            "Stone Smart POS SDK",
+            "OCR (Plate Recognizer)",
+            "TypeORM",
+            "MySQL"
+        ],
         "images": {
             "thumbnail": "/projects/megapark/thumb.png"
         },

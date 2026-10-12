@@ -1,0 +1,26 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile (Smart POS)",
+            "detailedDescription": "O MegaPark Mobile é um aplicativo operacional construído do zero para rodar nativamente dentro de terminais Smart POS da Stone (maquininhas Android). Projetado para automatizar a gestão de estacionamentos da rede MegaSysPark, o aplicativo cobre desde a entrada do veículo (com leitura instantânea de placas via OCR) até a saída, gestão de fluxo de caixa, pagamentos (Cartão/Pix) e relatórios gerenciais de pátio. Assumi o desafio monumental de unificar processos de software convencionais com integrações de hardware profundo, lidando com SDKs nativos de transação financeira e impressão térmica por filipetas (comprovantes gerados via templates HTML diretos para a impressora do dispositivo). Apesar de estar em modo 'standby' pelo cliente (em eterna fase de atualizações de SDK), é um dos projetos mais completos de integração híbrida da minha carreira.",
+            "learnings": [
+                "Engenharia Híbrida de Software e Hardware: Desenvolvimento embarcado em terminais Smart POS da Stone (Android), dominando as integrações da SDK nativa (react-native-stone-smart-pos) para transações financeiras e impressão térmica.",
+                "Visão Computacional no Front-end (OCR): Orquestração de câmera nativa (com patch próprio) integrada à API do Plate Recognizer para extração automática e validação de caracteres alfanuméricos de placas de veículos (LPR).",
+                "Geração Dinâmica de Documentos (HTML to Print): Estruturação e renderização de layouts de comprovantes financeiros utilizando marcação HTML parseada em tempo de execução para envio aos drivers de impressão da máquina.",
+                "Orquestração de Atualizações Contínuas: Gerenciamento e modernização de um projeto de longo ciclo de vida (4 anos), realizando upgrades complexos do React Native e adaptações nas SDKs de terceiros para manter a base de código saudável e compilável."
+            ],
+            "images": []
+        },
+        {
+            "name": "Backend REST API",
+            "detailedDescription": "O backend do MegaPark foi a minha primeira grande incursão em engenharia server-side estruturada. O requisito principal era construir uma API REST Node.js (Express + TypeORM) moderna que precisava, obrigatoriamente, se conectar a um banco de dados MySQL (5.7) legado gigantesco de um sistema desktop pré-existente—composto por mais de 100 tabelas com nomenclaturas arcaicas. Além disso, precisei implementar regras de negócios tarifárias densas, integrar APIs de pagamentos de pedágio (Sem Parar, Veloe, ConectCar) e assumir posteriormente a base de código inteira quando outro desenvolvedor abandonou o projeto, o que me forçou a debugar implementações frágeis (como concorrência de headers globais no Axios) e aplicar refatorações estruturais em tempo real.",
+            "learnings": [
+                "Integração e Modernização de Bancos Legados: Estratégias agressivas de mapeamento de dados antigos para stacks modernos (Node/TypeORM), extraindo e reconstruindo os schemas através do typeorm-model-generator sem afetar a produção do sistema paralelo.",
+                "Desenvolvimento Server-Side (Node.js): Arquitetura baseada em camadas (Routes, Middlewares, Controllers, Repositories, Models), implementando segurança via JWT Auth e modelagem robusta de regras de negócio altamente complexas (cálculo tarifário dinâmico).",
+                "Resolução de Concorrência e Debt Técnico: Capacidade avançada de assumir código alheio problemático, identificando e corrigindo leaks de memória e falhas de isolamento de requisições (ex: sobrescrita global de headers em chamadas simultâneas).",
+                "Gerenciamento de Múltiplos Provedores Terceirizados: Orquestração síncrona com os ecossistemas de gateways veiculares mais populares do país (Sem Parar, Veloe e ConectCar), isolando chaves e credenciais."
+            ],
+            "images": []
+        }
+    ]
+}

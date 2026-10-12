@@ -246,8 +246,15 @@
         "title": "Megapark",
         "categories": ["Mobile", "Backend"],
         "startDate": "2022-11-17",
-        "shortDescription": "Parking lot management system embedded natively on Smart POS devices (Stone). Features instant license plate recognition via camera (OCR), thermal printing, and direct payment integration. The architecture ensures robust synchronization with a legacy MySQL database through a Node.js back-end.",
-        "technologies": ["Smart POS", "OCR", "Node.js", "Stone Integration"],
+        "shortDescription": "Parking management system natively embedded in Smart POS terminals (Stone) with thermal printing and OCR. Features a Node.js backend integrated with a legacy MySQL database.",
+        "technologies": [
+            "React Native",
+            "Node.js",
+            "Stone Smart POS SDK",
+            "OCR (Plate Recognizer)",
+            "TypeORM",
+            "MySQL"
+        ],
         "images": {
             "thumbnail": "/projects/megapark/thumb.png"
         },
