@@ -259,8 +259,8 @@
         "title": "Mginx",
         "categories": ["Mobile", "Streaming"],
         "startDate": "2022-10-31",
-        "shortDescription": "Aplicativo de streaming com interface e arquitetura de navegação inspiradas na Netflix. Atuação focada em manutenção técnica e estabilidade.",
-        "technologies": ["React Native"],
+        "shortDescription": "Aplicativo de streaming VOD (estilo Netflix) focado em consumo de mídia intensa, com player customizado e múltiplos perfis.",
+        "technologies": ["React Native", "Video Streaming", "Redux Saga"],
         "images": {
             "thumbnail": "/projects/mginx/thumb.png"
         },

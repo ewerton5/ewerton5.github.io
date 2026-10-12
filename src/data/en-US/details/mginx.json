@@ -1,0 +1,15 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "MGINX is a video-on-demand (VOD) streaming application designed with an interface and navigation architecture heavily inspired by Netflix. I took over the engineering of this project in its final development stages after the original developer left. The main challenge was stabilizing the inherited codebase, which presented some architectural inconsistencies, and ensuring the functional delivery of vital streaming tools. The app features comprehensive multi-profile management (including kids' profiles), a custom video player, and real-time management of viewing history ('Continue watching'). Although the application never reached a final production environment, working on this solution consolidated my ability to handle fluid media consumption within the native ecosystem.",
+            "learnings": [
+                "Advanced Media Handling (VOD): Deep implementation and control of native video players using react-native-video, orchestrating the dynamic selection of streaming resolutions, seasons, episodes, and audio track switching.",
+                "Dynamic UI and Orientation Control: Runtime management of screen orientation—locking the interface to 'portrait' during catalog navigation and seamlessly forcing 'landscape' upon entering the video player (via react-native-orientation-locker).",
+                "Critical Code Takeover: Practical ability to take over a legacy codebase in its final stretch, identify loose ends (such as the lack of real BaseUrl integration in the auth flow), and focus on stabilizing the primary workflows.",
+                "Server-Side State Synchronization: Orchestrating Redux Saga to sync classic streaming metadata in the background, such as tracking elapsed time for the 'Continue watching' feature and updating the 'My List' array."
+            ],
+            "images": []
+        }
+    ]
+}

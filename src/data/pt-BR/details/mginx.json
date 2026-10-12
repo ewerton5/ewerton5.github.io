@@ -1,0 +1,15 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O MGINX é um aplicativo de streaming de vídeo sob demanda (VOD), projetado com uma interface e arquitetura de navegação fortemente inspiradas na Netflix. Assumi a engenharia deste projeto já na reta final de desenvolvimento, após a saída do desenvolvedor original. O principal desafio foi estabilizar a base de código herdada, que apresentava inconsistências arquiteturais, e garantir a entrega funcional das ferramentas vitais de streaming. O aplicativo possui gestão completa de múltiplos perfis (incluindo perfis infantis), player de vídeo customizado e gerenciamento em tempo real do histórico de visualização ('Continuar assistindo'). Apesar de o aplicativo não ter chegado ao ambiente de produção final, atuar nesta solução consolidou minha habilidade de manipulação de mídia fluida no ecossistema nativo.",
+            "learnings": [
+                "Manipulação Avançada de Mídia (VOD): Implementação e controle profundo de players de vídeo nativos utilizando react-native-video, orquestrando a seleção dinâmica de resoluções de streaming, temporadas, episódios e alternância de faixas de áudio.",
+                "Controle de Orientação e UI Dinâmica: Gerenciamento em tempo de execução da orientação da tela—travando a interface em 'retrato' durante a navegação pelo catálogo e forçando o 'paisagem' de forma fluida ao entrar no player (via react-native-orientation-locker).",
+                "Assunção Crítica de Código: Habilidade prática de assumir uma base de código legada na reta final, identificar pontas soltas (como ausência de integração real da BaseUrl no auth flow) e focar na estabilização dos fluxos primários.",
+                "Sincronização de Estado Server-Side: Orquestração do Redux Saga para sincronizar os metadados clássicos de streaming em background, como o registro de tempo percorrido para o 'Continuar assistindo' e atualizações da 'Minha Lista'."
+            ],
+            "images": []
+        }
+    ]
+}
