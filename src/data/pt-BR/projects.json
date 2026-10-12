@@ -333,14 +333,20 @@
     },
     {
         "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
-        "slug": "livecom-intelbras",
-        "title": "Livecom Intelbras",
+        "slug": "programador-cie",
+        "title": "Programador CIE (Intelbras)",
         "categories": ["Mobile"],
         "startDate": "2021-07-16",
-        "shortDescription": "App de configuração 100% offline para centrais de alarme da Intelbras com leitura e escrita profunda de arquivos JSON via conexão USB local no celular.",
-        "technologies": ["React Native", "Offline", "File System (FS)"],
+        "shortDescription": "App de configuração 100% offline para centrais de alarme de incêndio da Intelbras. Permite a configuração profunda de hardware e exportação de arquivos via USB local.",
+        "technologies": [
+            "React Native",
+            "Offline-First",
+            "File System (RNFS)",
+            "Redux Saga",
+            "TypeScript"
+        ],
         "images": {
-            "thumbnail": "/projects/livecom-intelbras/thumb.png"
+            "thumbnail": "/projects/programador-cie/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },

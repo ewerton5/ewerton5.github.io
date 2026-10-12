@@ -1,0 +1,36 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=br.com.intelbras.appprogramadorcie&hl=pt_BR",
+        "ios": "https://apps.apple.com/br/app/programador-cie/id1608174123"
+    },
+    "platforms": [
+        {
+            "name": "Mobile",
+            "detailedDescription": "Developed for the technology giant Intelbras, Programador CIE is a mobile application focused on industrial hardware communication. It serves as a field engineering tool for technicians installing addressable fire alarm systems (CIE 1125, 1250, and 2500). The primary architectural challenge was building a 100% offline system capable of managing a massive and complex state tree (zones, devices, loops, and automation rules across multiple panels). All configuration is parameterized on the mobile device and exported directly into a custom file format (.cie), which the technician seamlessly installs via a physical USB connection into the alarm panel on-site.",
+            "learnings": [
+                "Deep Mobile File System Manipulation (I/O): Mastered native reading, parsing, and writing of physical files using RNFS, ensuring the final generated JSON was perfectly formatted and validated for external hardware integration.",
+                "Massive Offline State Architecture: Orchestrated a massive in-memory state tree using Redux and Redux-Saga without performance degradation, managing complex states where persistence relied entirely on physical file generation rather than standard local databases.",
+                "Translating Hardware Logic to UI/UX: Converted strict security engineering rules (panel interconnection, dual-input, and delayed-output conditions) into intuitive, reactive mobile forms with robust asynchronous validation (Formik/Yup).",
+                "Mission-Critical Enterprise Integration: High-responsibility software engineering applied to the industrial sector, guaranteeing absolute data integrity vital for the operation of large-scale fire prevention systems."
+            ],
+            "images": [
+                {
+                    "url": "/projects/programador-cie/screen-1.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/programador-cie/screen-2.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/programador-cie/screen-3.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/programador-cie/screen-4.webp",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

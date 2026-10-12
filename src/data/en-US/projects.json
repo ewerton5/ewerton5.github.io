@@ -333,14 +333,20 @@
     },
     {
         "id": "3f5ce5a2-59c7-46fd-8b61-0c14215c35a6",
-        "slug": "livecom-intelbras",
-        "title": "Livecom Intelbras",
+        "slug": "programador-cie",
+        "title": "Programador CIE (Intelbras)",
         "categories": ["Mobile"],
         "startDate": "2021-07-16",
-        "shortDescription": "100% offline configuration app for Intelbras alarm control panels, with deep JSON file reading and writing via a local USB connection to the phone.",
-        "technologies": ["React Native", "Offline", "File System (FS)"],
+        "shortDescription": "100% offline configuration app for Intelbras fire alarm systems. Enables deep hardware configuration and file export via local USB connection.",
+        "technologies": [
+            "React Native",
+            "Offline-First",
+            "File System (RNFS)",
+            "Redux Saga",
+            "TypeScript"
+        ],
         "images": {
-            "thumbnail": "/projects/livecom-intelbras/thumb.png"
+            "thumbnail": "/projects/programador-cie/thumb.png"
         },
         "backgroundColor": "#FFFFFF"
     },
