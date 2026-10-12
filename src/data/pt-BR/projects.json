@@ -324,8 +324,14 @@
         "title": "Vistomobi",
         "categories": ["Mobile", "Web"],
         "startDate": "2021-09-15",
-        "shortDescription": "App de vistoria dinâmica com formulários gerados através da API e funcionamento Offline-First desenvolvido nativamente sem uso de libs globais externas, além do Vistomobi Vistoriador (Web).",
-        "technologies": ["React Native", "Offline-First", "Web"],
+        "shortDescription": "Plataforma de vistorias em campo. Inclui app Mobile com arquitetura offline-first otimizada de alta performance e painel Web administrativo com formulários dinâmicos complexos.",
+        "technologies": [
+            "React Native",
+            "React",
+            "Context API",
+            "Offline-First",
+            "Zustand"
+        ],
         "images": {
             "thumbnail": "/projects/vistomobi/thumb.png"
         },

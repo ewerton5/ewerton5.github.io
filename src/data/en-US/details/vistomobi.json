@@ -1,0 +1,30 @@
+{
+    "links": {
+        "web": "https://portal.vistomobi.com.br/",
+        "android": "https://play.google.com/store/apps/details?id=br.com.vistomobiapp&hl=pt_BR",
+        "ios": "https://apps.apple.com/br/app/vistomobi/id6478921256"
+    },
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "VistoMobi is an application focused on field inspections and checklists. I architected and developed this project end-to-end (E2E), facing a strict client requirement: the prohibition of third-party global state managers (like Redux or MobX). To ensure a robust Offline-First application, I implemented the state natively via the Context API. Due to the massive payload of checklist data, the app initially suffered from severe lag and event loop bottlenecks. My solution was to engineer an optimized local storage system where the giant JSON was saved as a single string and parsed on-demand via specific keys (chunks) within isolated contexts. This bypassed useState overload and completely restored the app's blazing-fast performance.",
+            "learnings": [
+                "Performance Engineering & Native State: Built a highly performant state management system purely using the Context API, overcoming severe re-rendering bottlenecks on massive data trees.",
+                "Optimized Offline Data Architecture: Developed a chunking and on-demand parsing algorithm for giant JSON strings, aggressively optimizing memory consumption and disk I/O on the mobile device.",
+                "Dynamic UI Rendering: Constructed a rendering engine capable of parsing arbitrary JSON structures from the API (over 10 question types, including media capture, file attachments, and digital signatures) and generating the corresponding screens at runtime.",
+                "Hybrid Hardware Integration: Orchestrated native geolocation for on-site presence confirmation (check-in), maps integration, local document capturing, and an on-screen signature canvas."
+            ],
+            "images": []
+        },
+        {
+            "name": "Web App (Admin Panel)",
+            "detailedDescription": "VistoMobi Web is the platform's administrative panel, used by managers to schedule inspections, create checklist templates, and issue reports. I worked on this project in collaboration with another frontend developer. Given my deep understanding of the business rules and data structures acquired while building the mobile app, I took responsibility for architecting and developing the web interface's most complex module: the dynamic forms for inspection reports. The checklists returned from the API with unpredictable typologies and ordering, demanding a highly flexible and fault-tolerant frontend.",
+            "learnings": [
+                "Business Logic Reusability: Successfully ported the massive dynamic form rendering logic from the React Native ecosystem over to React Web, ensuring stability across platforms.",
+                "Modern State Management: Utilized Zustand for the panel's global state (split across multiple slices) paired with React Hook Form to handle and validate dozens of asynchronous inputs.",
+                "Complex Modular Interfaces: Built reactive administration dashboards using styled-components, managing background modals, contextual routing, and rich-text editing integrations."
+            ],
+            "images": []
+        }
+    ]
+}

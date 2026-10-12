@@ -1,0 +1,30 @@
+{
+    "links": {
+        "web": "https://portal.vistomobi.com.br/",
+        "android": "https://play.google.com/store/apps/details?id=br.com.vistomobiapp&hl=pt_BR",
+        "ios": "https://apps.apple.com/br/app/vistomobi/id6478921256"
+    },
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O VistoMobi é um aplicativo focado em vistorias e inspeções em campo. Desenvolvi a arquitetura deste projeto de ponta a ponta (E2E) enfrentando um forte requisito do cliente: a proibição do uso de gerenciadores de estado globais de terceiros (como Redux ou MobX). Para garantir o funcionamento Offline-First de um aplicativo robusto, implementei o estado nativamente via Context API. Como a quantidade de dados dos checklists era gigantesca, a aplicação sofreu com lentidão e gargalos no event loop. Minha solução foi criar um sistema de armazenamento local otimizado onde o JSON massivo era salvo como uma única string e parseado sob demanda através de chaves (blocos) em contextos específicos, evitando sobrecarregar os useStates e restaurando a velocidade e fluidez originais do aplicativo.",
+            "learnings": [
+                "Engenharia de Performance e Estado Nativo: Criação de um sistema de gerenciamento de estado complexo e de alta performance utilizando puramente a Context API, superando severas limitações de re-renderização em árvores de dados massivas.",
+                "Arquitetura de Dados Offline Otimizada: Desenvolvimento de um algoritmo de armazenamento e parseamento em blocos (chunking) para ler strings JSON gigantes, otimizando agressivamente o consumo de memória e I/O no dispositivo móvel.",
+                "Renderização Dinâmica de UI: Construção de uma engine de UI capaz de interpretar estruturas JSON arbitrárias da API (mais de 10 tipos de questões, incluindo captura de mídia, anexos e assinaturas digitais) e gerar as telas correspondentes em tempo de execução.",
+                "Integração Híbrida de Hardware: Orquestração de geolocalização nativa para confirmação de presença no local (check-in), integração com mapas, captura de documentos locais e implementação de um canvas de assinatura em tela."
+            ],
+            "images": []
+        },
+        {
+            "name": "App Web (Painel Admin)",
+            "detailedDescription": "O VistoMobi Web é o painel administrativo da plataforma, utilizado por gestores para agendar vistorias, criar modelos de checklists e emitir laudos. Atuei neste projeto em colaboração com outro desenvolvedor frontend. Devido ao meu domínio profundo das regras de negócio e da estrutura de dados adquiridos na construção do app mobile, assumi a responsabilidade de arquitetar e desenvolver o módulo mais complexo da interface web: a exibição e manipulação das vistorias e seus relatórios (formulários dinâmicos). Os checklists retornavam da API com tipologias e ordenações dinâmicas, exigindo um front-end altamente flexível e tolerante a falhas estruturais.",
+            "learnings": [
+                "Reaproveitamento de Engine de Negócio: Transposição bem-sucedida da lógica de formulários dinâmicos massivos do ecossistema React Native para o React Web, mantendo a estabilidade na renderização.",
+                "Gerenciamento de Estado Moderno: Utilização do Zustand para o estado global do painel (distribuído em múltiplos slices) em conjunto com React Hook Form para manipulação e validação de dezenas de inputs assíncronos.",
+                "Interfaces Modulares Complexas: Construção de painéis de administração reativos utilizando styled-components, lidando com manipulação de modais em background e edição de texto rico (Jodit)."
+            ],
+            "images": []
+        }
+    ]
+}
