@@ -1,0 +1,36 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.nex_digital.clube_reckitt_app",
+        "ios": "https://apps.apple.com/br/app/clube-reckitt-app/id6450756582"
+    },
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Clube Reckitt (antigo Clube RB) é o programa oficial de relacionamento e incentivo da multinacional Reckitt, voltado para equipes comerciais e promotores de vendas. Através do aplicativo, os promotores registram a exposição de produtos nas lojas enviando fotos que são convertidas em pontos para resgate em um catálogo de prêmios. Este projeto marcou a minha primeira experiência assumindo a manutenção ativa de um aplicativo corporativo já escalado em produção. Meu papel não foi arquitetar o sistema do zero, mas sim atuar cirurgicamente na correção de bugs críticos, no refinamento de fluxos de estado e na implementação de novas regras de negócio para as campanhas sazonais, utilizando instâncias de homologação para garantir estabilidade absoluta antes dos deploys oficiais.",
+            "learnings": [
+                "Manutenção de Software em Produção: Transição da mentalidade de 'criação de projetos greenfield' para a sustentação e evolução de um ecossistema legado já operado por milhares de usuários em campo.",
+                "Orquestração de Múltiplas APIs: Gerenciamento do fluxo de autenticação e consumo de dados utilizando endpoints distribuídos em diferentes microserviços hospedados no Azure App Service (API principal e API de Catálogo separadas).",
+                "Persistência Híbrida: Manipulação avançada do estado global com Redux e Redux-Saga, aliado ao uso de banco de dados local (Realm DB) para armazenar histórico de envios e esquemas de campanhas offline.",
+                "Refinamento de Código e Debugging: Navegação investigativa em uma base de código de terceiros, identificando anti-patterns (como vazamento de payloads sensíveis em console) e aplicando correções estruturais sem causar regressões."
+            ],
+            "images": [
+                {
+                    "url": "/projects/reckitt/screen-1.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-2.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-3.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-4.webp",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}

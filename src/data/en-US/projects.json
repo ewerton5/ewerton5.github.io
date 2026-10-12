@@ -269,11 +269,16 @@
     {
         "id": "f1e2d3c4-b5a6-9f8e-7d6c-5b4a3f2e1d0c",
         "slug": "reckitt",
-        "title": "Reckitt",
+        "title": "Clube Reckitt",
         "categories": ["Mobile"],
         "startDate": "2022-07-27",
-        "shortDescription": "Corporate application within the mobile ecosystem, with targeted code maintenance and stability improvements in React Native.",
-        "technologies": ["React Native"],
+        "shortDescription": "Corporate incentive and relationship app for Reckitt. Focused on sustainable maintenance, production bug fixing, and business rule evolution.",
+        "technologies": [
+            "React Native",
+            "Redux Saga",
+            "Realm DB",
+            "Azure App Service"
+        ],
         "images": {
             "thumbnail": "/projects/reckitt/thumb.png"
         },

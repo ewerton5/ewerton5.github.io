@@ -1,0 +1,36 @@
+{
+    "links": {
+        "android": "https://play.google.com/store/apps/details?id=com.nex_digital.clube_reckitt_app",
+        "ios": "https://apps.apple.com/br/app/clube-reckitt-app/id6450756582"
+    },
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Clube Reckitt (formerly Clube RB) is the official relationship and incentive program of the multinational company Reckitt, aimed at commercial teams and field promoters. Through the app, promoters record product exposure in stores by sending photos that are converted into points for a rewards catalog. This project marked my first experience taking over the active maintenance of a corporate application already scaled in production. My role was not to build the system from scratch, but rather to act surgically in fixing critical bugs, refining state flows, and implementing new business rules for seasonal campaigns, utilizing staging instances to ensure absolute stability before official deployments.",
+            "learnings": [
+                "Production Software Maintenance: Transitioning from a 'greenfield creation' mindset to sustaining and evolving a legacy ecosystem already operated by thousands of field users.",
+                "Multiple API Orchestration: Managing authentication flows and data consumption using endpoints distributed across different microservices hosted on Azure App Service (separated Main API and Catalog API).",
+                "Hybrid Persistence: Advanced manipulation of global state with Redux and Redux-Saga, combined with a local database (Realm DB) to store submission history and offline campaign schemas.",
+                "Code Refinement and Debugging: Investigative navigation through a third-party codebase, identifying anti-patterns (such as sensitive payloads leaking in logs) and applying structural fixes without causing regressions."
+            ],
+            "images": [
+                {
+                    "url": "/projects/reckitt/screen-1.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-2.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-3.webp",
+                    "orientation": "portrait"
+                },
+                {
+                    "url": "/projects/reckitt/screen-4.webp",
+                    "orientation": "portrait"
+                }
+            ]
+        }
+    ]
+}
