@@ -1,0 +1,15 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Mami é um aplicativo de rede social projetado para ajudar mães, gestantes e cuidadores a formarem redes de apoio. O ecossistema é dividido em 'Vilas' (grupos privados com chat em tempo real) e 'Grupos' (comunidades focadas em feed de posts). Assumi este projeto após outro desenvolvedor entregar uma base extremamente precária nos fluxos de autenticação e onboarding. Refiz completamente as telas de cadastro, login e recuperação de senha, e então construí todo o restante da aplicação do zero. O maior marco técnico foi a implementação do chat em tempo real utilizando WebSockets (Socket.io) e react-native-gifted-chat. Embora o projeto, infelizmente, não tenha chegado ao ambiente de produção por decisões de negócio, foi a minha primeira experiência arquitetando e construindo as engrenagens de uma rede social completa.",
+            "learnings": [
+                "Engenharia de Tempo Real (WebSockets): Implementação e orquestração de chat em tempo real usando Socket.io e react-native-gifted-chat (modificado internamente via patch-package), lidando com conexões, desconexões e atualização instantânea de UI sem gargalos de performance.",
+                "Refatoração Crítica e Assunção de Código: Habilidade de assumir uma base de código mal estruturada, refazer fluxos críticos de onboarding multifásico sem quebrar o ecossistema existente, e ditar um novo padrão de qualidade e tipagem (TypeScript) para o projeto.",
+                "Desenvolvimento de Features Sociais Complexas: Construção de arquiteturas clássicas de redes sociais, incluindo feeds de postagens, sistemas de curtidas, paginação profunda de APIs, denúncias de moderação (reports) e gestão de permissões de usuários (Vilas secretas vs. Grupos públicos).",
+                "Gerenciamento de Estado Avançado: Orquestração de uma árvore Redux complexa (padrão ducks) contendo dados unificados de usuários, vilas, grupos, posts e notificações, garantindo persistência seletiva apenas de dados vitais (autenticação)."
+            ],
+            "images": []
+        }
+    ]
+}

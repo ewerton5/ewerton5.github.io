@@ -311,8 +311,13 @@
         "title": "Mami",
         "categories": ["Mobile"],
         "startDate": "2021-10-15",
-        "shortDescription": "Social network focused on a community of mothers, with native chat via WebSockets (group and private).",
-        "technologies": ["React Native", "WebSockets"],
+        "shortDescription": "Complete social network focused on the motherhood community. Features a post feed, group management, and native real-time chat via WebSockets.",
+        "technologies": [
+            "React Native",
+            "WebSockets",
+            "Socket.io",
+            "Redux Saga"
+        ],
         "images": {
             "thumbnail": "/projects/mami/thumb.png"
         },

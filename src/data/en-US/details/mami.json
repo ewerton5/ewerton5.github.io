@@ -1,0 +1,15 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Mami is a social networking app designed to help mothers, pregnant women, and caregivers build support networks. The ecosystem is divided into 'Villages' (private groups with real-time chat) and 'Groups' (communities focused on post feeds). I took over this project after another developer delivered a very poor foundation in the authentication and onboarding flows. I completely rebuilt the signup, login, and password recovery screens, and then built the rest of the application from scratch. The main technical highlight was the native real-time chat implementation using WebSockets (Socket.io) and react-native-gifted-chat. Although the project unfortunately didn't reach production due to business decisions, it was my first experience architecting and building the core engine of a complete social network.",
+            "learnings": [
+                "Real-Time Engineering (WebSockets): Implementation and orchestration of real-time chat using Socket.io and react-native-gifted-chat (modified internally via patch-package), handling connections, disconnections, and instant UI updates without performance bottlenecks.",
+                "Critical Refactoring and Code Takeover: Ability to take over a poorly structured codebase, rebuild critical multi-phase onboarding flows without breaking the existing ecosystem, and establish a new quality and typing standard (TypeScript) for the project.",
+                "Complex Social Feature Development: Building classic social network architectures, including post feeds, like systems, deep API pagination, moderation reports, and user permission management (secret Villages vs. public Groups).",
+                "Advanced State Management: Orchestrating a complex Redux tree (ducks pattern) containing unified data for users, villages, groups, posts, and notifications, ensuring selective persistence only for vital data (authentication)."
+            ],
+            "images": []
+        }
+    ]
+}

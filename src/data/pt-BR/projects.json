@@ -311,8 +311,13 @@
         "title": "Mami",
         "categories": ["Mobile"],
         "startDate": "2021-10-15",
-        "shortDescription": "Rede social focada em comunidade de mães com chat nativo em WebSockets (grupos e privado).",
-        "technologies": ["React Native", "WebSockets"],
+        "shortDescription": "Rede social completa focada na comunidade de mães. Possui feed de postagens, gestão de grupos e chat nativo em tempo real via WebSockets.",
+        "technologies": [
+            "React Native",
+            "WebSockets",
+            "Socket.io",
+            "Redux Saga"
+        ],
         "images": {
             "thumbnail": "/projects/mami/thumb.png"
         },
