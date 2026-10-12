@@ -1,0 +1,16 @@
+{
+    "platforms": [
+        {
+            "name": "Mobile App",
+            "detailedDescription": "Offstore is an application designed to empower small retailers by allowing them to create and manage complete online catalogs and virtual stores straight from their phones (freemium model). The major challenge of this project was building the native app based on an existing responsive web platform without any API documentation provided by the backend team. To make development possible, I performed comprehensive reverse engineering on the web application's endpoints using browser DevTools. Additionally, this was the project where I consolidated the management of multiple environments (Staging and Production) and implemented a strong defensive frontend architecture to sanitize data and mitigate severe anti-patterns inherited from the legacy backend.",
+            "learnings": [
+                "API Reverse Engineering: Mapping and structuring payloads, headers, and REST routes by inspecting network traffic, completely bypassing the lack of technical documentation (Swagger/Postman).",
+                "Defensive Frontend Architecture: Creating strict handling mechanisms in the request layer (Axios/Redux Saga) to circumvent severe legacy backend anti-patterns, such as plaintext passwords leaking in HTTP login responses.",
+                "Environment Orchestration: Managing environment variables for dynamic and secure switching between Staging and Production instances within the native mobile ecosystem.",
+                "Payment Integrations and Subscriptions: Implementing the Stripe gateway (@stripe/stripe-react-native) for native management of 'Pro' plan subscriptions, handling the retailer's freemium lifecycle.",
+                "Scaled E-commerce State Management: Advanced structuring in Redux/Redux-Saga (ducks pattern) branched into 14 distinct domains, orchestrating logistics integrations (Correios), payments (Mercado Pago), and real-time storefront theme customization."
+            ],
+            "images": []
+        }
+    ]
+}

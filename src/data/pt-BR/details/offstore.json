@@ -1,0 +1,16 @@
+{
+    "platforms": [
+        {
+            "name": "App Mobile",
+            "detailedDescription": "O Offstore é um aplicativo projetado para capacitar pequenos lojistas, permitindo a criação e administração completa de catálogos online e lojas virtuais direto do celular (modelo freemium). O grande desafio deste projeto foi construir o aplicativo nativo a partir de uma plataforma web responsiva existente, sem qualquer documentação de API fornecida pela equipe de backend. Para viabilizar o desenvolvimento, executei engenharia reversa completa nos endpoints da aplicação web utilizando as ferramentas de desenvolvedor (DevTools) do navegador. Além disso, foi o projeto onde consolidei o uso de múltiplos ambientes (Homologação e Produção) e precisei implementar uma forte arquitetura defensiva no front-end para higienizar dados e mitigar graves anti-patterns herdados do backend original.",
+            "learnings": [
+                "Engenharia Reversa de APIs: Mapeamento e estruturação de payloads, headers e rotas REST através da inspeção de tráfego de rede, suprindo a ausência total de documentação técnica (Swagger/Postman).",
+                "Arquitetura Defensiva no Front-end: Criação de tratativas rigorosas na camada de requisição (Axios/Redux Saga) para contornar anti-patterns severos do backend legado, como o vazamento de senhas em texto plano nas respostas HTTP de login.",
+                "Orquestração de Ambientes: Gerenciamento de variáveis de ambiente para chaveamento dinâmico e seguro entre instâncias de Homologação (Staging) e Produção no ecossistema mobile nativo.",
+                "Integrações de Pagamento e Assinaturas: Implementação do gateway Stripe (@stripe/stripe-react-native) para a gestão nativa de assinaturas do plano 'Pro', lidando com o ciclo de vida freemium do lojista.",
+                "Gerenciamento de Estado Escalonado para E-commerce: Estruturação avançada no Redux/Redux-Saga (padrão ducks) ramificada em 14 domínios distintos, orquestrando integrações logísticas (Correios), pagamentos (Mercado Pago) e customização em tempo real de temas da loja."
+            ],
+            "images": []
+        }
+    ]
+}

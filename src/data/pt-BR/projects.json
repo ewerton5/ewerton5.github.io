@@ -285,8 +285,8 @@
         "title": "Offstore",
         "categories": ["Mobile"],
         "startDate": "2022-05-13",
-        "shortDescription": "Migração completa de e-commerce responsivo para aplicativo mobile nativo utilizando API de clientes.",
-        "technologies": ["React Native", "E-commerce"],
+        "shortDescription": "Migração completa de um painel de e-commerce web para um aplicativo mobile nativo. Envolveu engenharia reversa de API e gerenciamento complexo de estado.",
+        "technologies": ["React Native", "E-commerce", "Stripe", "Redux Saga"],
         "images": {
             "thumbnail": "/projects/offstore/thumb.png"
         },
