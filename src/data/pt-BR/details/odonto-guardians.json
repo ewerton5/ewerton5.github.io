@@ -12,7 +12,6 @@
                 "Transição arquitetural de Managed Expo para Bare React Native (Eject), assumindo o controle direto sobre builds, links e permissões nativas nas pastas iOS e Android.",
                 "Arquitetura de estado global escalável estruturada no padrão 'ducks', utilizando Redux, Redux-Saga para orquestração de efeitos colaterais assíncronos e Redux-Persist para armazenamento offline.",
                 "Integração profunda de hardware e permissões de SO: uso de geolocalização para mapeamento de hospitais próximos, acesso ao calendário nativo para alertas de vencimento de medicamentos e chamadas de emergência (193).",
-                "Implementação de um sistema de autenticação nativo e seguro utilizando o ecossistema Firebase (Auth, Firestore, Storage), com suporte a login por E-mail/Senha, Google, Facebook e Apple Sign-In.",
                 "Criação de calculadoras médicas (glicemia e pressão arterial) e dicionário médico-odontológico, traduzindo regras de negócio críticas da área da saúde para a lógica de software."
             ],
             "images": [
@@ -131,6 +130,17 @@
                     "orientation": "landscape"
                 }
             ]
+        },
+        {
+            "name": "Backend / BaaS",
+            "detailedDescription": "Embora o projeto não utilizasse um servidor com código dedicado (como Node.js) ou Cloud Functions, a arquitetura de infraestrutura foi planejada e executada integralmente através do conceito de Backend as a Service (BaaS) utilizando o Firebase. Esta camada foi essencial para sustentar todo o ecossistema do aplicativo de forma serverless, garantindo alta disponibilidade para os dados médicos e segurança nos fluxos de autenticação nativa.",
+            "learnings": [
+                "Modelagem de banco de dados NoSQL direto no Firestore, projetando coleções e documentos otimizados para serem consultados de forma performática diretamente pelo cliente (React Native).",
+                "Implementação completa do sistema de autenticação utilizando o Firebase Auth, contemplando múltiplos provedores de identidade (E-mail/Senha, Google, Facebook e Apple Sign-In).",
+                "Navegação por consoles de desenvolvedores terceiros, configurando certificados, permissões e chaves de API no Apple Developer Portal e no Facebook Developer para viabilizar os logins sociais.",
+                "Gerenciamento de armazenamento em nuvem configurando o Firebase Storage para uploads de avatares dos usuários, com estruturação de buckets."
+            ],
+            "images": []
         }
     ]
 }

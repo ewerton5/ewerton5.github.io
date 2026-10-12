@@ -7,13 +7,12 @@
     "platforms": [
         {
             "name": "Mobile App",
-            "detailedDescription": "Odonto Guardians is an app designed for dentists and students, serving as a training and support tool for medical emergencies in dental offices. This project represents a major milestone in my career: it was the first application I planned, architected, and built entirely from scratch as a solo developer. I initially started the project using the managed Expo workflow but successfully ejected it halfway through to Bare React Native CLI to support complex native integrations. I took full end-to-end (E2E) responsibility, driving it all the way to successful deployments on the stores.",
+            "detailedDescription": "Odonto Guardians is an application aimed at dental surgeons and students, acting as a training and support tool for medical emergencies in the clinic. This project is a milestone in my career: it was the first application I planned, architected, and developed entirely from scratch, working autonomously. I started development using the Managed Expo workflow but 'ejected' the project halfway through to Bare React Native CLI to support more complex native integrations. I took End-to-End responsibility right up to the successful deployment in the app stores.",
             "learnings": [
                 "Architectural transition from Managed Expo to Bare React Native (Eject), taking direct control over builds, linking, and native permissions within the iOS and Android folders.",
-                "Scalable global state architecture structured using the 'ducks' pattern, leveraging Redux, Redux-Saga for asynchronous side-effect orchestration, and Redux-Persist for offline storage.",
-                "Deep integration with hardware and OS permissions: utilizing geolocation to map nearby hospitals, accessing the native calendar for medication expiration alerts, and triggering direct emergency calls (193).",
-                "Implementation of a secure native authentication system using the Firebase ecosystem (Auth, Firestore, Storage), supporting Email/Password, Google, Facebook, and Apple Sign-In.",
-                "Development of complex medical calculators (glycemia and blood pressure) and a medical-dental dictionary, translating critical healthcare business rules into software logic."
+                "Scalable global state architecture structured in the 'ducks' pattern, utilizing Redux, Redux-Saga for orchestrating asynchronous side effects, and Redux-Persist for offline storage.",
+                "Deep hardware integration and OS permissions: geolocation for mapping nearby hospitals, native calendar access for medication expiration alerts, and emergency calls (193).",
+                "Creation of medical calculators (blood glucose and blood pressure) and a medical-dental dictionary, translating critical healthcare business rules into software logic."
             ],
             "images": [
                 {
@@ -64,14 +63,14 @@
         },
         {
             "name": "Web Landing Page",
-            "detailedDescription": "The Odonto Guardians Landing Page serves as the institutional showcase and primary user acquisition (download) channel for the app. Built entirely by me from scratch, this web interface represents my official immersion into UI/UX concepts, as it was my first project developed in close partnership with a professional designer. The goal was to create an immersive, high-impact visual experience—heavily inspired by Apple's product reveal style—utilizing scroll reveals and intense Parallax effects.",
+            "detailedDescription": "The Odonto Guardians Landing Page serves as the institutional showcase and primary user acquisition (downloads) channel for the app. Built entirely by me from scratch, this web interface represents my official immersion into UI/UX concepts, as it was my first project developed in partnership with a professional designer. The goal was to create an immersive, high-impact visual experience—inspired by Apple's new product presentation style—using scroll reveals and intense Parallax effects.",
             "learnings": [
-                "Creation of a highly engaging visual experience in React (Create React App), implementing fluid animations and extensive Parallax effects (via react-parallax) tied to user scrolling.",
-                "Practical and deep introduction to UI/UX concepts through direct collaboration with a professional designer, transforming static mockups into dynamic interactions.",
-                "Development of a complex responsive architecture using react-device-detect for layout branching, serving an effect-rich Single Page Application on Desktop, and performance-optimized routes on Mobile.",
-                "Web state and routing management by connecting react-router-dom to classic Redux (connected-react-router) and orchestrating side-effects with Redux Saga.",
-                "Advanced Webpack build customization (via react-app-rewired) to inject plugins (such as babel-plugin-root-import) maintaining stability without needing to 'eject' the CRA.",
-                "Management of an optimized production deployment pipeline (source map removal) using Netlify for fast, global hosting."
+                "Creating a highly engaging visual experience in React (Create React App), implementing fluid animations and extensive Parallax effects (via react-parallax) tied to user scroll.",
+                "Practical and in-depth introduction to UI/UX concepts through direct collaboration with a professional designer, transforming static mockups into dynamic interactions.",
+                "Development of complex responsive architecture using react-device-detect to branch layouts, serving an effects-rich Single Page Application on Desktop, and performance-optimized routes on Mobile.",
+                "Managing web routes and state by connecting react-router-dom to classic Redux (connected-react-router) and orchestrating side-effects with Redux Saga.",
+                "Advanced customization of the Webpack build (via react-app-rewired) to inject plugins (like babel-plugin-root-import) maintaining stability without needing to 'eject' CRA.",
+                "Optimized production deployment pipeline management (source maps removal) using Netlify for fast, global hosting."
             ],
             "images": [
                 {
@@ -131,6 +130,17 @@
                     "orientation": "landscape"
                 }
             ]
+        },
+        {
+            "name": "Backend / BaaS",
+            "detailedDescription": "Although the project did not use a dedicated coded server (like Node.js) or Cloud Functions, the infrastructure architecture was entirely planned and executed using the Backend as a Service (BaaS) concept via Firebase. This layer was essential to sustain the entire application ecosystem in a serverless manner, ensuring high availability for medical data and security in native authentication flows.",
+            "learnings": [
+                "Direct NoSQL database modeling in Firestore, designing collections and documents optimized to be queried performantly straight from the client (React Native).",
+                "Complete implementation of the authentication system using Firebase Auth, covering multiple identity providers (Email/Password, Google, Facebook, and Apple Sign-In).",
+                "Navigating third-party developer consoles, configuring certificates, permissions, and API keys in the Apple Developer Portal and Facebook Developer to enable social logins.",
+                "Cloud storage management by configuring Firebase Storage for user avatar uploads, structuring data buckets securely."
+            ],
+            "images": []
         }
     ]
 }
