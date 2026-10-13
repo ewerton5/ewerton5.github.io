@@ -1,0 +1,18 @@
+{
+    "links": {
+        "github": "https://github.com/poli-vagas/web"
+    },
+    "platforms": [
+        {
+            "name": "Web App",
+            "detailedDescription": "Poli Vagas began as an integrated university project aimed at centralizing job and internship opportunities for students at the UFRJ Polytechnic School. I acted as the sole frontend developer and UI/UX designer on the team, creating the entire visual identity from scratch. I built the interface in React and TypeScript, developing a robust cross-filtering and pagination system so students could find specific vacancies (by course, workload, benefits, and salary). I also implemented the subscription logic for email notifications based on user search profiles. To ensure seamless delivery, I structured the application with an optimized Docker build and automated the deployment pipeline (CI/CD) directly using GitHub Actions.",
+            "learnings": [
+                "Global State Architecture (Zustand): Modeled and split the store into multiple domain slices, adopting a modern and streamlined approach to manage data in the React ecosystem without Redux boilerplate.",
+                "UI/UX Design and Componentization: Autonomously designed the platform's entire layout and built a library of reusable, responsive components using styled-components, SASS, and React Select.",
+                "Complex Filter Management: Implemented advanced frontend search logic, cross-referencing multiple simultaneous parameters and dynamic arrays combined with an HTTP request caching system (axios-cache-adapter).",
+                "Infrastructure and CI/CD: Configured multi-stage Docker builds (Node + Nginx) with routing fallback for Single Page Applications (SPA), along with automating the publication flow of dockerized images using GitHub Actions and the GitHub Container Registry (GHCR)."
+            ],
+            "images": []
+        }
+    ]
+}

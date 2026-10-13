@@ -1,0 +1,18 @@
+{
+    "links": {
+        "github": "https://github.com/poli-vagas/web"
+    },
+    "platforms": [
+        {
+            "name": "App Web",
+            "detailedDescription": "O Poli Vagas nasceu como um projeto integrado universitário com o objetivo de centralizar as oportunidades de emprego e estágio para os alunos da Escola Politécnica da UFRJ. Atuei como o único desenvolvedor front-end e designer de UI/UX da equipe, criando todo o visual do zero. Construí a interface em React e TypeScript, desenvolvendo um sistema robusto de filtros cruzados e paginação para que os alunos encontrassem vagas específicas (por curso, carga horária, benefícios e salário). Também implementei a lógica de inscrição para notificações por e-mail baseadas no perfil de busca. Para garantir a entrega, estruturei a aplicação com um build otimizado em Docker e automatizei o pipeline de deploy (CI/CD) diretamente no GitHub Actions.",
+            "learnings": [
+                "Arquitetura de Estado Global (Zustand): Modelagem e divisão da store em múltiplos slices por domínio, adotando uma abordagem moderna e enxuta para gerenciar dados no ecossistema React sem o boilerplate do Redux.",
+                "Design de UI/UX e Componentização: Criação autônoma do layout completo da plataforma e construção de uma biblioteca de componentes reutilizáveis e responsivos utilizando styled-components, SASS e React Select.",
+                "Gerenciamento de Filtros Complexos: Implementação de lógicas avançadas de busca no front-end, cruzando múltiplos parâmetros e arrays dinâmicos simultâneos combinados com um sistema de cache de requisições HTTP (axios-cache-adapter).",
+                "Infraestrutura e CI/CD: Configuração de Docker multi-stage (Node + Nginx) com fallback para Single Page Applications (SPA), além de automação do fluxo de publicação de imagens dockerizadas utilizando GitHub Actions e o GitHub Container Registry (GHCR)."
+            ],
+            "images": []
+        }
+    ]
+}

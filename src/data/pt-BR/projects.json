@@ -215,8 +215,14 @@
         "title": "Poli Vagas",
         "categories": ["Web"],
         "startDate": "2023-05-30",
-        "shortDescription": "Sistema web da UFRJ projetado para agregar automaticamente oportunidades de estágio e emprego aos estudantes.",
-        "technologies": ["Web", "Integração"],
+        "shortDescription": "Plataforma web agregadora de vagas de estágio e emprego para alunos da UFRJ, com sistema avançado de filtros dinâmicos e notificações.",
+        "technologies": [
+            "React",
+            "TypeScript",
+            "Zustand",
+            "Docker",
+            "GitHub Actions"
+        ],
         "images": {
             "thumbnail": "/projects/poli-vagas/thumb.png"
         },

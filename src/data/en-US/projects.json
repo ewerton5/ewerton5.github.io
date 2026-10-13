@@ -215,8 +215,14 @@
         "title": "Poli Vagas",
         "categories": ["Web"],
         "startDate": "2023-05-30",
-        "shortDescription": "UFRJ web system designed to automatically aggregate internship and job opportunities for students.",
-        "technologies": ["Web", "Integration"],
+        "shortDescription": "Web platform aggregating internship and job opportunities for UFRJ students, featuring an advanced dynamic filtering and notification system.",
+        "technologies": [
+            "React",
+            "TypeScript",
+            "Zustand",
+            "Docker",
+            "GitHub Actions"
+        ],
         "images": {
             "thumbnail": "/projects/poli-vagas/thumb.png"
         },
