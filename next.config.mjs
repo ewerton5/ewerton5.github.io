@@ -1,3 +1,5 @@
+import path from "node:path";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // In `next dev`, `output: "export"` makes the dev server enforce the
@@ -10,6 +12,14 @@ const nextConfig = {
     output: process.env.NODE_ENV === "production" ? "export" : undefined,
     eslint: {
         ignoreDuringBuilds: true
+    },
+    // JSON data lives in public/data so it is also served as static files
+    // (fetchable at /data/...). The tsconfig `paths` entry covers static
+    // imports; dynamic template imports (`data/${locale}/...`) need the
+    // webpack alias.
+    webpack: (config) => {
+        config.resolve.alias.data = path.resolve("public/data");
+        return config;
     }
 };
 
